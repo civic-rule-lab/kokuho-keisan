@@ -1,89 +1,164 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>茅ヶ崎市 国保計算ツール</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>茅ヶ崎市 国保計算ツール</title>
 
-<style>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f3f3f3;
+      color: #222;
+    }
 
-body{
-font-family:sans-serif;
-margin:0;
-padding:20px;
-background:#f5f5f5;
-}
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #f7f7f7;
+      padding: 24px 20px 28px;
+      border-radius: 18px;
+      box-sizing: border-box;
+    }
 
-.wrap{
-max-width:700px;
-margin:auto;
-background:white;
-padding:24px;
-border-radius:10px;
-}
+    h1 {
+      font-size: 28px;
+      line-height: 1.4;
+      margin: 0 0 6px 0;
+      font-weight: 700;
+    }
 
-h1{
-font-size:28px;
-margin-bottom:4px;
-}
+    .subtitle {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 28px;
+    }
 
-.subtitle{
-font-size:14px;
-color:#666;
-margin-bottom:24px;
-}
+    label {
+      display: block;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 22px;
+      margin-bottom: 8px;
+    }
 
-label{
-display:block;
-margin-top:14px;
-}
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 14px 12px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #fff;
+    }
 
-input{
-width:100%;
-padding:8px;
-margin-top:6px;
-}
+    button {
+      width: 100%;
+      margin-top: 28px;
+      padding: 16px 12px;
+      font-size: 18px;
+      border: none;
+      border-radius: 999px;
+      background: #dcdcdc;
+      color: #222;
+      cursor: pointer;
+    }
 
-button{
-margin-top:20px;
-padding:10px;
-width:100%;
-}
+    button:active {
+      opacity: 0.9;
+    }
 
-</style>
+    .result-title {
+      margin-top: 34px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    #result {
+      margin-top: 14px;
+      padding: 16px;
+      background: #fff;
+      border-radius: 10px;
+      min-height: 28px;
+      line-height: 1.7;
+      box-sizing: border-box;
+    }
+
+    .note {
+      margin-top: 22px;
+      font-size: 13px;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    .portal-link {
+      display: inline-block;
+      margin-top: 18px;
+      font-size: 14px;
+      color: #0b57d0;
+      text-decoration: none;
+    }
+
+    .portal-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="wrap">
+  <div class="wrap">
+    <h1>茅ヶ崎市 国保計算ツール</h1>
+    <div class="subtitle">（国民健康保険料）</div>
 
-<h1>茅ヶ崎市 国保計算ツール</h1>
-<div class="subtitle">（国民健康保険料）</div>
+    <label for="income">前年所得</label>
+    <input id="income" type="number" placeholder="例：3000000">
 
-<label>
-前年所得
-<input type="number">
-</label>
+    <label for="family">世帯人数</label>
+    <input id="family" type="number" placeholder="例：3">
 
-<label>
-世帯人数
-<input type="number">
-</label>
+    <label for="care">介護保険人数（40〜64歳）</label>
+    <input id="care" type="number" placeholder="例：2">
 
-  <label>
-介護保険人数（40〜64歳）
-<input id="care" type="number">
-</label>
-  
-<button>
-計算する
-</button>
+    <button onclick="calc()">計算する</button>
 
-<div style="margin-top:20px;">
-計算結果
-</div>
+    <div class="result-title">計算結果</div>
+    <div id="result">ここに結果が表示されます</div>
 
-</div>
+    <div class="note">
+      ※このページは表示確認用のテスト版です。<br>
+      ※現在の計算は仮のテスト計算で、正式な茅ヶ崎市の計算式ではありません。<br>
+      ※実際の保険料は世帯構成や軽減制度により異なる場合があります。
+    </div>
+
+    <a class="portal-link" href="#" onclick="return false;">茅ヶ崎市の制度ポータルを見る</a>
+  </div>
+
+  <script>
+    function calc() {
+      const income = Number(document.getElementById("income").value);
+      const family = Number(document.getElementById("family").value);
+      const care = Number(document.getElementById("care").value);
+
+      if (!income) {
+        document.getElementById("result").innerText = "前年所得を入力してください";
+        return;
+      }
+
+      const familyCount = family || 0;
+      const careCount = care || 0;
+
+      const testAmount =
+        Math.floor(income * 0.1) +
+        (familyCount * 10000) +
+        (careCount * 5000);
+
+      document.getElementById("result").innerHTML =
+        "テスト計算結果：<strong>" + testAmount.toLocaleString() + "円</strong><br>" +
+        "（前年所得×10％ ＋ 世帯人数×10,000円 ＋ 介護保険人数×5,000円）";
+    }
+  </script>
 
 </body>
 </html>
