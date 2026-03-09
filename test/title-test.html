@@ -2,34 +2,83 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>タイトルテスト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>茅ヶ崎市 国保計算ツール</title>
 
 <style>
 
 body{
 font-family:sans-serif;
-padding:40px;
+margin:0;
+padding:20px;
+background:#f5f5f5;
+}
+
+.wrap{
+max-width:700px;
+margin:auto;
+background:white;
+padding:24px;
+border-radius:10px;
 }
 
 h1{
-font-size:32px;
+font-size:28px;
 margin-bottom:4px;
 }
 
 .subtitle{
 font-size:14px;
 color:#666;
+margin-bottom:24px;
+}
+
+label{
+display:block;
+margin-top:14px;
+}
+
+input{
+width:100%;
+padding:8px;
+margin-top:6px;
+}
+
+button{
+margin-top:20px;
+padding:10px;
+width:100%;
 }
 
 </style>
-
 </head>
 
 <body>
 
+<div class="wrap">
+
 <h1>茅ヶ崎市 国保計算ツール</h1>
 <div class="subtitle">（国民健康保険料）</div>
 
-</body>
+<label>
+前年所得
+<input type="number">
+</label>
 
+<label>
+世帯人数
+<input type="number">
+</label>
+
+<button>
+計算する
+</button>
+
+<div style="margin-top:20px;">
+計算結果
+</div>
+
+</div>
+
+</body>
 </html>
