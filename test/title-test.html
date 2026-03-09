@@ -9,121 +9,129 @@
 <style>
 
 body{
-  font-family:sans-serif;
-  margin:0;
-  padding:20px;
-  background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
-  color:#222;
+font-family:sans-serif;
+margin:0;
+padding:20px;
+background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
+color:#222;
 }
 
 .wrap{
-  max-width:720px;
-  margin:0 auto;
-  background:#ffffff;
-  padding:24px 20px 28px;
-  border-radius:18px;
-  border:1px solid #e5e7eb;
-  box-shadow:0 10px 30px rgba(0,0,0,0.05);
-  box-sizing:border-box;
+max-width:720px;
+margin:0 auto;
+background:#ffffff;
+padding:24px 20px 28px;
+border-radius:18px;
+border:1px solid #e5e7eb;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+box-sizing:border-box;
 }
 
 h1{
-  font-size:28px;
-  margin:0 0 6px 0;
-  font-weight:700;
+font-size:28px;
+margin:0 0 6px 0;
+font-weight:700;
 }
 
 .subtitle{
-  font-size:14px;
-  color:#6b7280;
-  margin-bottom:28px;
+font-size:14px;
+color:#6b7280;
+margin-bottom:28px;
 }
 
 label{
-  display:block;
-  font-size:15px;
-  font-weight:700;
-  margin-top:22px;
-  margin-bottom:8px;
+display:block;
+font-size:15px;
+font-weight:700;
+margin-top:22px;
+margin-bottom:8px;
 }
 
 input{
-  width:100%;
-  padding:14px 12px;
-  font-size:16px;
-  border:2px solid #cbd5e1;
-  border-radius:12px;
-  background:#ffffff;
-  box-sizing:border-box;
+width:100%;
+padding:14px 12px;
+
+font-size:20px;
+font-weight:600;
+
+border:2px solid #cbd5e1;
+border-radius:12px;
+background:#ffffff;
+
+box-sizing:border-box;
 }
 
 input:focus{
-  outline:none;
-  border-color:#2563eb;
-  box-shadow:0 0 0 3px rgba(37,99,235,0.15);
+outline:none;
+border-color:#2563eb;
+box-shadow:0 0 0 3px rgba(37,99,235,0.15);
+}
+
+input::placeholder{
+color:#9ca3af;
+font-size:16px;
+font-weight:400;
 }
 
 button{
-  width:100%;
-  margin-top:28px;
-  padding:16px;
-  font-size:18px;
-  font-weight:700;
-  border:none;
-  border-radius:999px;
-  background:#1d4ed8;
-  color:#ffffff;
-  cursor:pointer;
-  box-shadow:0 6px 16px rgba(0,0,0,0.15);
+width:100%;
+margin-top:28px;
+padding:16px;
+font-size:18px;
+font-weight:700;
+border:none;
+border-radius:999px;
+background:#1d4ed8;
+color:#ffffff;
+cursor:pointer;
+box-shadow:0 6px 16px rgba(0,0,0,0.15);
 }
 
 .result-title{
-  margin-top:34px;
-  font-size:18px;
-  font-weight:700;
+margin-top:34px;
+font-size:18px;
+font-weight:700;
 }
 
 #result{
-  margin-top:14px;
-  padding:16px;
-  background:#f8fafc;
-  border:2px solid #e5e7eb;
-  border-radius:12px;
-  min-height:28px;
-  line-height:1.8;
+margin-top:14px;
+padding:16px;
+background:#f8fafc;
+border:2px solid #e5e7eb;
+border-radius:12px;
+min-height:28px;
+line-height:1.8;
 }
 
 .total{
-  font-size:32px;
-  font-weight:800;
+font-size:36px;
+font-weight:800;
 }
 
 .link-box{
-  margin-top:18px;
-  font-size:14px;
-  color:#374151;
+margin-top:18px;
+font-size:14px;
 }
 
 .link-box a{
-  color:#2563eb;
-  font-weight:600;
-  text-decoration:none;
+color:#2563eb;
+font-weight:600;
+text-decoration:none;
 }
 
 .link-box a:hover{
-  text-decoration:underline;
+text-decoration:underline;
 }
 
 .note{
-  margin-top:18px;
-  font-size:13px;
-  line-height:1.8;
-  color:#6b7280;
+margin-top:18px;
+font-size:13px;
+line-height:1.8;
+color:#6b7280;
 }
 
 </style>
 </head>
-
 
 <body>
 
@@ -133,7 +141,7 @@ button{
 <div class="subtitle">（国民健康保険料）</div>
 
 <label>前年所得</label>
-<input id="income" type="number" placeholder="例：3000000">
+<input id="income" type="text" placeholder="例：3,000,000" oninput="formatNumber(this)">
 
 <label>世帯人数</label>
 <input id="family" type="number" placeholder="例：3">
@@ -149,28 +157,38 @@ button{
 ここに結果が表示されます
 </div>
 
-
 <div class="link-box">
 個人事業主の方など、所得で計算したい方は  
 <a href="#" onclick="return false;">こちら</a>
 </div>
 
-
 <div class="note">
 ※このページは表示確認用の簡易計算版です。<br>
-※現在の計算は仮のテスト計算です。<br>
-※実際の保険料は自治体の制度により異なります。
+※軽減制度・未就学児軽減などはまだ反映していません。<br>
+※実際の保険料は自治体の通知をご確認ください。
 </div>
 
 </div>
-
-
 
 <script>
 
+
+function formatNumber(input){
+
+let value = input.value.replace(/,/g,"");
+
+if(!isNaN(value) && value !== ""){
+input.value = Number(value).toLocaleString();
+}
+
+}
+
+
 function calc(){
 
-const income = Number(document.getElementById("income").value);
+let income = document.getElementById("income").value.replace(/,/g,"");
+income = Number(income);
+
 const family = Number(document.getElementById("family").value);
 const care = Number(document.getElementById("care").value);
 
@@ -181,6 +199,11 @@ return;
 
 const familyCount = family || 0;
 const careCount = care || 0;
+
+
+/* 基礎控除 */
+
+let taxable = Math.max(0, income - 430000);
 
 
 /* 茅ヶ崎市簡易料率 */
@@ -203,23 +226,21 @@ const careLimit = 170000;
 
 
 const medical = Math.min(
-Math.floor(income * medicalRate) +
+Math.floor(taxable * medicalRate) +
 (familyCount * medicalPerCapita) +
 medicalHousehold,
 medicalLimit
 );
 
-
 const support = Math.min(
-Math.floor(income * supportRate) +
+Math.floor(taxable * supportRate) +
 (familyCount * supportPerCapita) +
 supportHousehold,
 supportLimit
 );
 
-
 const careFee = Math.min(
-Math.floor(income * careRate) +
+Math.floor(taxable * careRate) +
 (careCount * carePerCapita) +
 careHousehold,
 careLimit
@@ -227,6 +248,7 @@ careLimit
 
 
 const total = medical + support + careFee;
+
 const monthly = Math.round(total / 12);
 
 
