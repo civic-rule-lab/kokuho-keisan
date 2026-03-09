@@ -7,129 +7,219 @@
 <title>茅ヶ崎市 国保計算ツール</title>
 
 <style>
-
 body{
-font-family:sans-serif;
-margin:0;
-padding:20px;
-background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
-color:#222;
+  font-family:sans-serif;
+  margin:0;
+  padding:20px;
+  background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
+  color:#222;
 }
 
 .wrap{
-max-width:720px;
-margin:0 auto;
-background:#ffffff;
-padding:24px 20px 28px;
-border-radius:18px;
-border:1px solid #e5e7eb;
-box-shadow:0 10px 30px rgba(0,0,0,0.05);
-box-sizing:border-box;
+  max-width:720px;
+  margin:0 auto;
+  background:#ffffff;
+  padding:24px 20px 28px;
+  border-radius:18px;
+  border:1px solid #e5e7eb;
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+  box-sizing:border-box;
 }
 
 h1{
-font-size:28px;
-margin:0 0 6px 0;
-font-weight:700;
+  font-size:28px;
+  margin:0 0 6px 0;
+  font-weight:700;
+  line-height:1.4;
+  color:#0f172a;
 }
 
 .subtitle{
-font-size:14px;
-color:#6b7280;
-margin-bottom:28px;
+  font-size:14px;
+  color:#6b7280;
+  margin-bottom:28px;
 }
 
 label{
-display:block;
-font-size:15px;
-font-weight:700;
-margin-top:22px;
-margin-bottom:8px;
+  display:block;
+  font-size:15px;
+  font-weight:700;
+  margin-top:22px;
+  margin-bottom:8px;
+  color:#111827;
 }
 
 input{
-width:100%;
-padding:14px 12px;
-
-font-size:20px;
-font-weight:600;
-
-border:2px solid #cbd5e1;
-border-radius:12px;
-background:#ffffff;
-
-box-sizing:border-box;
+  width:100%;
+  padding:14px 12px;
+  font-size:22px;
+  font-weight:500;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  border:2px solid #cbd5e1;
+  border-radius:12px;
+  background:#ffffff;
+  color:#0f172a;
+  box-sizing:border-box;
 }
 
 input:focus{
-outline:none;
-border-color:#2563eb;
-box-shadow:0 0 0 3px rgba(37,99,235,0.15);
+  outline:none;
+  border-color:#2563eb;
+  box-shadow:0 0 0 3px rgba(37,99,235,0.15);
 }
 
 input::placeholder{
-color:#9ca3af;
-font-size:16px;
-font-weight:400;
+  color:#9ca3af;
+  font-size:22px;
+  font-weight:400;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
 
 button{
-width:100%;
-margin-top:28px;
-padding:16px;
-font-size:18px;
-font-weight:700;
-border:none;
-border-radius:999px;
-background:#1d4ed8;
-color:#ffffff;
-cursor:pointer;
-box-shadow:0 6px 16px rgba(0,0,0,0.15);
+  width:100%;
+  margin-top:28px;
+  padding:16px;
+  font-size:18px;
+  font-weight:700;
+  border:none;
+  border-radius:999px;
+  background:#1d4ed8;
+  color:#ffffff;
+  cursor:pointer;
+  box-shadow:0 6px 16px rgba(0,0,0,0.15);
+}
+
+button:hover{
+  background:#1e40af;
+}
+
+button:active{
+  transform:translateY(1px);
 }
 
 .result-title{
-margin-top:34px;
-font-size:18px;
-font-weight:700;
+  margin-top:34px;
+  font-size:18px;
+  font-weight:700;
+  color:#111827;
 }
 
 #result{
-margin-top:14px;
-padding:16px;
-background:#f8fafc;
-border:2px solid #e5e7eb;
-border-radius:12px;
-min-height:28px;
-line-height:1.8;
+  margin-top:14px;
+  padding:18px 16px;
+  background:#f8fafc;
+  border:2px solid #e5e7eb;
+  border-radius:14px;
+  min-height:28px;
+  line-height:1.8;
+  color:#111827;
+  box-sizing:border-box;
+}
+
+.result-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:12px;
+  margin-bottom:8px;
+}
+
+.result-label{
+  font-size:17px;
+  color:#374151;
+  flex:1;
+}
+
+.amount{
+  font-size:20px;
+  font-weight:700;
+  color:#0f172a;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  text-align:right;
+  white-space:nowrap;
+}
+
+.divider{
+  margin:16px 0;
+  border-top:2px solid #e5e7eb;
+}
+
+.total-title{
+  font-size:18px;
+  font-weight:700;
+  color:#111827;
+  margin-bottom:8px;
 }
 
 .total{
-font-size:36px;
-font-weight:800;
+  display:block;
+  font-size:40px;
+  font-weight:800;
+  line-height:1.2;
+  color:#0f172a;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  margin-bottom:8px;
+}
+
+.monthly{
+  font-size:16px;
+  font-weight:600;
+  color:#475569;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+
+.section-title{
+  margin-top:20px;
+  margin-bottom:10px;
+  font-size:16px;
+  font-weight:700;
+  color:#111827;
+}
+
+.percent-box{
+  margin-top:8px;
+  padding:14px;
+  background:#ffffff;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+}
+
+.percent-item{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:8px;
+  font-size:14px;
+  color:#374151;
+}
+
+.percent-item:last-child{
+  margin-bottom:0;
 }
 
 .link-box{
-margin-top:18px;
-font-size:14px;
+  margin-top:18px;
+  font-size:14px;
+  line-height:1.7;
+  color:#374151;
 }
 
 .link-box a{
-color:#2563eb;
-font-weight:600;
-text-decoration:none;
+  color:#2563eb;
+  font-weight:600;
+  text-decoration:none;
 }
 
 .link-box a:hover{
-text-decoration:underline;
+  text-decoration:underline;
 }
 
 .note{
-margin-top:18px;
-font-size:13px;
-line-height:1.8;
-color:#6b7280;
+  margin-top:18px;
+  font-size:13px;
+  line-height:1.8;
+  color:#6b7280;
 }
-
 </style>
 </head>
 
@@ -137,135 +227,157 @@ color:#6b7280;
 
 <div class="wrap">
 
-<h1>茅ヶ崎市 国保計算ツール</h1>
-<div class="subtitle">（国民健康保険料）</div>
+  <h1>茅ヶ崎市 国保計算ツール</h1>
+  <div class="subtitle">（国民健康保険料）</div>
 
-<label>前年所得</label>
-<input id="income" type="text" placeholder="例：3,000,000" oninput="formatNumber(this)">
+  <label for="income">前年所得</label>
+  <input id="income" type="text" inputmode="numeric" placeholder="例：3,000,000" onblur="formatNumber(this)">
 
-<label>世帯人数</label>
-<input id="family" type="number" placeholder="例：3">
+  <label for="family">世帯人数</label>
+  <input id="family" type="number" placeholder="例：3">
 
-<label>介護保険人数（40〜64歳）</label>
-<input id="care" type="number" placeholder="例：1">
+  <label for="care">介護保険人数（40〜64歳）</label>
+  <input id="care" type="number" placeholder="例：1">
 
-<button onclick="calc()">計算する</button>
+  <button onclick="calc()">計算する</button>
 
-<div class="result-title">計算結果</div>
+  <div class="result-title">計算結果</div>
 
-<div id="result">
-ここに結果が表示されます
-</div>
+  <div id="result">
+    ここに結果が表示されます
+  </div>
 
-<div class="link-box">
-個人事業主の方など、所得で計算したい方は  
-<a href="#" onclick="return false;">こちら</a>
-</div>
+  <div class="link-box">
+    個人事業主の方など、所得で計算したい方は
+    <a href="#" onclick="return false;">こちら</a>
+  </div>
 
-<div class="note">
-※このページは表示確認用の簡易計算版です。<br>
-※軽減制度・未就学児軽減などはまだ反映していません。<br>
-※実際の保険料は自治体の通知をご確認ください。
-</div>
+  <div class="note">
+    ※このページは茅ヶ崎市向けの簡易計算版です。<br>
+    ※基礎控除43万円を差し引いた簡易計算です。<br>
+    ※軽減制度・未就学児軽減・月割り・正式な所得判定はまだ反映していません。<br>
+    ※実際の保険料は自治体の通知や公式案内でご確認ください。
+  </div>
 
 </div>
 
 <script>
-
-
 function formatNumber(input){
+  let value = input.value.replace(/,/g, "").replace(/[^\d]/g, "");
 
-let value = input.value.replace(/,/g,"");
+  if(value === ""){
+    input.value = "";
+    return;
+  }
 
-if(!isNaN(value) && value !== ""){
-input.value = Number(value).toLocaleString();
+  input.value = Number(value).toLocaleString();
 }
 
+function yen(value){
+  return value.toLocaleString() + "円";
 }
 
+function percent(value, total){
+  if(total <= 0) return "0.0%";
+  return ((value / total) * 100).toFixed(1) + "%";
+}
 
 function calc(){
+  let income = document.getElementById("income").value.replace(/,/g, "");
+  income = Number(income);
 
-let income = document.getElementById("income").value.replace(/,/g,"");
-income = Number(income);
+  const family = Number(document.getElementById("family").value);
+  const care = Number(document.getElementById("care").value);
 
-const family = Number(document.getElementById("family").value);
-const care = Number(document.getElementById("care").value);
+  if(!income && income !== 0){
+    document.getElementById("result").innerText = "前年所得を入力してください";
+    return;
+  }
 
-if(!income && income !== 0){
-document.getElementById("result").innerText = "前年所得を入力してください";
-return;
+  const familyCount = family || 0;
+  const careCount = care || 0;
+
+  // 基礎控除
+  const taxable = Math.max(0, income - 430000);
+
+  // 茅ヶ崎市 簡易料率
+  const medicalRate = 0.0666;
+  const supportRate = 0.0277;
+  const careRate = 0.0262;
+
+  const medicalPerCapita = 22432;
+  const supportPerCapita = 9231;
+  const carePerCapita = 9485;
+
+  const medicalHousehold = 27755;
+  const supportHousehold = 11421;
+  const careHousehold = 8789;
+
+  const medicalLimit = 660000;
+  const supportLimit = 260000;
+  const careLimit = 170000;
+
+  const medicalRaw =
+    Math.floor(taxable * medicalRate) +
+    (familyCount * medicalPerCapita) +
+    medicalHousehold;
+
+  const supportRaw =
+    Math.floor(taxable * supportRate) +
+    (familyCount * supportPerCapita) +
+    supportHousehold;
+
+  const careRaw =
+    Math.floor(taxable * careRate) +
+    (careCount * carePerCapita) +
+    careHousehold;
+
+  const medical = Math.min(medicalRaw, medicalLimit);
+  const support = Math.min(supportRaw, supportLimit);
+  const careFee = Math.min(careRaw, careLimit);
+
+  const total = medical + support + careFee;
+  const monthly = Math.round(total / 12);
+
+  document.getElementById("result").innerHTML = `
+    <div class="result-row">
+      <div class="result-label">医療分</div>
+      <div class="amount">${yen(medical)}</div>
+    </div>
+
+    <div class="result-row">
+      <div class="result-label">後期支援金分</div>
+      <div class="amount">${yen(support)}</div>
+    </div>
+
+    <div class="result-row">
+      <div class="result-label">介護分</div>
+      <div class="amount">${yen(careFee)}</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="total-title">年間保険料合計</div>
+    <span class="total">${total.toLocaleString()}円</span>
+    <div class="monthly">月額目安：${yen(monthly)}</div>
+
+    <div class="section-title">構成割合</div>
+    <div class="percent-box">
+      <div class="percent-item">
+        <span>医療分の割合</span>
+        <strong>${percent(medical, total)}</strong>
+      </div>
+      <div class="percent-item">
+        <span>後期支援金分の割合</span>
+        <strong>${percent(support, total)}</strong>
+      </div>
+      <div class="percent-item">
+        <span>介護分の割合</span>
+        <strong>${percent(careFee, total)}</strong>
+      </div>
+    </div>
+  `;
 }
-
-const familyCount = family || 0;
-const careCount = care || 0;
-
-
-/* 基礎控除 */
-
-let taxable = Math.max(0, income - 430000);
-
-
-/* 茅ヶ崎市簡易料率 */
-
-const medicalRate = 0.0666;
-const supportRate = 0.0277;
-const careRate = 0.0262;
-
-const medicalPerCapita = 22432;
-const supportPerCapita = 9231;
-const carePerCapita = 9485;
-
-const medicalHousehold = 27755;
-const supportHousehold = 11421;
-const careHousehold = 8789;
-
-const medicalLimit = 660000;
-const supportLimit = 260000;
-const careLimit = 170000;
-
-
-const medical = Math.min(
-Math.floor(taxable * medicalRate) +
-(familyCount * medicalPerCapita) +
-medicalHousehold,
-medicalLimit
-);
-
-const support = Math.min(
-Math.floor(taxable * supportRate) +
-(familyCount * supportPerCapita) +
-supportHousehold,
-supportLimit
-);
-
-const careFee = Math.min(
-Math.floor(taxable * careRate) +
-(careCount * carePerCapita) +
-careHousehold,
-careLimit
-);
-
-
-const total = medical + support + careFee;
-
-const monthly = Math.round(total / 12);
-
-
-document.getElementById("result").innerHTML =
-`
-医療分： ${medical.toLocaleString()}円<br>
-後期支援金分： ${support.toLocaleString()}円<br>
-介護分： ${careFee.toLocaleString()}円<br><br>
-
-年間保険料合計<br>
-<span class="total">${total.toLocaleString()}円</span><br>
-
-月額目安： ${monthly.toLocaleString()}円
-`;
-
-}
-
 </script>
 
 </body>
