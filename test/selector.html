@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Civic Exchange｜自治体制度ポータル</title>
+
+<style>
+body{
+  font-family:sans-serif;
+  margin:0;
+  padding:20px;
+  background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
+  color:#222;
+}
+
+.wrap{
+  max-width:720px;
+  margin:0 auto;
+  background:#ffffff;
+  padding:24px 20px 28px;
+  border-radius:18px;
+  border:1px solid #e5e7eb;
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+  box-sizing:border-box;
+}
+
+h1{
+  font-size:28px;
+  margin:0 0 6px 0;
+  font-weight:700;
+  line-height:1.4;
+  color:#0f172a;
+}
+
+.subtitle{
+  font-size:14px;
+  color:#6b7280;
+  margin-bottom:24px;
+}
+
+.lead{
+  font-size:14px;
+  line-height:1.8;
+  color:#475569;
+  margin-bottom:20px;
+}
+
+label{
+  display:block;
+  font-size:15px;
+  font-weight:700;
+  margin-top:22px;
+  margin-bottom:8px;
+  color:#111827;
+}
+
+select{
+  width:100%;
+  padding:14px 12px;
+  font-size:18px;
+  font-weight:500;
+  border:2px solid #cbd5e1;
+  border-radius:12px;
+  background:#ffffff;
+  color:#0f172a;
+  box-sizing:border-box;
+}
+
+select:focus{
+  outline:none;
+  border-color:#2563eb;
+  box-shadow:0 0 0 3px rgba(37,99,235,0.15);
+}
+
+button{
+  width:100%;
+  margin-top:28px;
+  padding:16px;
+  font-size:18px;
+  font-weight:700;
+  border:none;
+  border-radius:999px;
+  background:#1d4ed8;
+  color:#ffffff;
+  cursor:pointer;
+  box-shadow:0 6px 16px rgba(0,0,0,0.15);
+}
+
+button:hover{
+  background:#1e40af;
+}
+
+.links{
+  margin-top:22px;
+  padding:14px;
+  background:#f8fafc;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+}
+
+.links-title{
+  font-size:15px;
+  font-weight:700;
+  color:#111827;
+  margin-bottom:10px;
+}
+
+.links a{
+  display:block;
+  margin-top:8px;
+  color:#2563eb;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.links a:hover{
+  text-decoration:underline;
+}
+
+.note{
+  margin-top:18px;
+  font-size:13px;
+  line-height:1.8;
+  color:#6b7280;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <h1>Civic Exchange</h1>
+  <div class="subtitle">自治体制度ポータル</div>
+
+  <div class="lead">
+    都道府県・自治体・制度を選んで、各制度ページへ移動できます。<br>
+    今後、1741自治体に対応するための入口ページです。
+  </div>
+
+  <label for="prefecture">都道府県を選択</label>
+  <select id="prefecture">
+    <option value="kanagawa">神奈川県</option>
+  </select>
+
+  <label for="municipality">自治体を選択</label>
+  <select id="municipality">
+    <option value="chigasaki">茅ヶ崎市</option>
+  </select>
+
+  <label for="system">制度を選択</label>
+  <select id="system">
+    <option value="kokuho">国民健康保険</option>
+  </select>
+
+  <button onclick="goPage()">この制度ページを開く</button>
+
+  <div class="links">
+    <div class="links-title">茅ヶ崎市 国保ページ</div>
+    <a href="./title-test.html">かんたん計算ページを開く</a>
+    <a href="./kokuho-income.html">所得ベース計算ページを開く</a>
+  </div>
+
+  <div class="note">
+    ※現在はテスト版のため、神奈川県・茅ヶ崎市・国民健康保険のみ対応しています。<br>
+    ※今後、自治体と制度を順次追加予定です。
+  </div>
+
+</div>
+
+<script>
+function goPage(){
+  const prefecture = document.getElementById("prefecture").value;
+  const municipality = document.getElementById("municipality").value;
+  const system = document.getElementById("system").value;
+
+  if(prefecture === "kanagawa" && municipality === "chigasaki" && system === "kokuho"){
+    window.location.href = "./title-test.html";
+  }
+}
+</script>
+
+</body>
+</html>
