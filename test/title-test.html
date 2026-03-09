@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>茅ヶ崎市 国保計算ツール</title>
+<title>国民健康保険料計算｜茅ヶ崎市 国保計算ツール</title>
 
 <style>
 body{
@@ -197,6 +197,34 @@ button:active{
   margin-bottom:0;
 }
 
+.reduction-box{
+  margin-top:16px;
+  padding:14px;
+  background:#eff6ff;
+  border:1px solid #bfdbfe;
+  border-radius:12px;
+}
+
+.reduction-title{
+  font-size:15px;
+  font-weight:700;
+  color:#1d4ed8;
+  margin-bottom:8px;
+}
+
+.reduction-main{
+  font-size:18px;
+  font-weight:800;
+  color:#0f172a;
+  margin-bottom:6px;
+}
+
+.reduction-sub{
+  font-size:13px;
+  line-height:1.8;
+  color:#475569;
+}
+
 .link-box{
   margin-top:18px;
   font-size:14px;
@@ -228,13 +256,16 @@ button:active{
 <div class="wrap">
 
   <h1>茅ヶ崎市 国保計算ツール</h1>
-  <div class="subtitle">（国民健康保険料）</div>
+  <div class="subtitle">（国民健康保険料シミュレーション）</div>
 
   <label for="income">前年所得</label>
   <input id="income" type="text" inputmode="numeric" placeholder="例：3,000,000" onblur="formatNumber(this)">
 
   <label for="family">世帯人数</label>
   <input id="family" type="number" placeholder="例：3">
+
+  <label for="preschool">未就学児人数（0〜6歳）</label>
+  <input id="preschool" type="number" placeholder="例：1">
 
   <label for="care">介護保険人数（40〜64歳）</label>
   <input id="care" type="number" placeholder="例：1">
@@ -255,7 +286,9 @@ button:active{
   <div class="note">
     ※このページは茅ヶ崎市向けの簡易計算版です。<br>
     ※基礎控除43万円を差し引いた簡易計算です。<br>
-    ※軽減制度・未就学児軽減・月割り・正式な所得判定はまだ反映していません。<br>
+    ※軽減判定はA版の目安判定です。正式な判定ではありません。<br>
+    ※未就学児軽減は均等割のみを対象に簡易反映しています。<br>
+    ※給与所得者等の数、月割り、正式な所得判定などはまだ反映していません。<br>
     ※実際の保険料は自治体の通知や公式案内でご確認ください。
   </div>
 
@@ -264,12 +297,10 @@ button:active{
 <script>
 function formatNumber(input){
   let value = input.value.replace(/,/g, "").replace(/[^\d]/g, "");
-
   if(value === ""){
     input.value = "";
     return;
   }
-
   input.value = Number(value).toLocaleString();
 }
 
@@ -282,25 +313,40 @@ function percent(value, total){
   return ((value / total) * 100).toFixed(1) + "%";
 }
 
+// A版：世帯人数と前年所得だけでみる簡易判定
+function getReductionLevel(totalIncome, familyCount){
+  const limit7 = 430000;
+  const limit5 = 430000 + (305000 * familyCount);
+  const limit2 = 430000 + (560000 * familyCount);
+
+  if(totalIncome <= limit7){
+    return { rate: 0.7, label: "7割軽減の可能性" };
+  }
+  if(totalIncome <= limit5){
+    return { rate: 0.5, label: "5割軽減の可能性" };
+  }
+  if(totalIncome <= limit2){
+    return { rate: 0.2, label: "2割軽減の可能性" };
+  }
+  return { rate: 0, label: "軽減なしの可能性" };
+}
+
 function calc(){
   let income = document.getElementById("income").value.replace(/,/g, "");
   income = Number(income);
 
-  const family = Number(document.getElementById("family").value);
-  const care = Number(document.getElementById("care").value);
+  const family = Number(document.getElementById("family").value) || 0;
+  const preschool = Number(document.getElementById("preschool").value) || 0;
+  const care = Number(document.getElementById("care").value) || 0;
 
   if(!income && income !== 0){
     document.getElementById("result").innerText = "前年所得を入力してください";
     return;
   }
 
-  const familyCount = family || 0;
-  const careCount = care || 0;
-
-  // 基礎控除
   const taxable = Math.max(0, income - 430000);
 
-  // 茅ヶ崎市 簡易料率
+  // 茅ヶ崎市 令和7年度料率（簡易反映）
   const medicalRate = 0.0666;
   const supportRate = 0.0277;
   const careRate = 0.0262;
@@ -317,20 +363,48 @@ function calc(){
   const supportLimit = 260000;
   const careLimit = 170000;
 
+  // 軽減判定（A版）
+  const reduction = getReductionLevel(income, family);
+
+  // 未就学児軽減前に、均等割・平等割へ7/5/2割軽減を適用
+  const reductionFactor = 1 - reduction.rate;
+
+  const medicalPerCapitaReduced = medicalPerCapita * reductionFactor;
+  const supportPerCapitaReduced = supportPerCapita * reductionFactor;
+  const carePerCapitaReduced = carePerCapita * reductionFactor;
+
+  const medicalHouseholdReduced = medicalHousehold * reductionFactor;
+  const supportHouseholdReduced = supportHousehold * reductionFactor;
+  const careHouseholdReduced = careHousehold * reductionFactor;
+
+  // 未就学児軽減：均等割のみ、軽減後の均等割からさらに50%減
+  const nonPreschoolCount = Math.max(0, family - preschool);
+
+  const medicalPerCapitaTotal =
+    (nonPreschoolCount * medicalPerCapitaReduced) +
+    (preschool * medicalPerCapitaReduced * 0.5);
+
+  const supportPerCapitaTotal =
+    (nonPreschoolCount * supportPerCapitaReduced) +
+    (preschool * supportPerCapitaReduced * 0.5);
+
+  // 介護分は未就学児対象外
+  const carePerCapitaTotal = care * carePerCapitaReduced;
+
   const medicalRaw =
     Math.floor(taxable * medicalRate) +
-    (familyCount * medicalPerCapita) +
-    medicalHousehold;
+    Math.round(medicalPerCapitaTotal) +
+    Math.round(medicalHouseholdReduced);
 
   const supportRaw =
     Math.floor(taxable * supportRate) +
-    (familyCount * supportPerCapita) +
-    supportHousehold;
+    Math.round(supportPerCapitaTotal) +
+    Math.round(supportHouseholdReduced);
 
   const careRaw =
     Math.floor(taxable * careRate) +
-    (careCount * carePerCapita) +
-    careHousehold;
+    Math.round(carePerCapitaTotal) +
+    Math.round(careHouseholdReduced);
 
   const medical = Math.min(medicalRaw, medicalLimit);
   const support = Math.min(supportRaw, supportLimit);
@@ -374,6 +448,15 @@ function calc(){
       <div class="percent-item">
         <span>介護分の割合</span>
         <strong>${percent(careFee, total)}</strong>
+      </div>
+    </div>
+
+    <div class="reduction-box">
+      <div class="reduction-title">軽減判定（目安）</div>
+      <div class="reduction-main">${reduction.label}</div>
+      <div class="reduction-sub">
+        この簡易版では、世帯人数と前年所得から 7割・5割・2割軽減の目安を判定しています。<br>
+        未就学児人数は均等割の5割軽減として簡易反映しています。
       </div>
     </div>
   `;
