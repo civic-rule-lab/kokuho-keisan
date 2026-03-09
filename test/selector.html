@@ -19,24 +19,25 @@ body{
   max-width:720px;
   margin:0 auto;
   background:#ffffff;
-  padding:24px 20px 28px;
+  padding:28px 20px 30px;
   border-radius:18px;
   border:1px solid #e5e7eb;
   box-shadow:0 10px 30px rgba(0,0,0,0.05);
   box-sizing:border-box;
 }
 
-h1{
-  font-size:28px;
-  margin:0 0 6px 0;
-  font-weight:700;
-  line-height:1.4;
+.brand{
+  font-size:40px;
+  font-weight:800;
+  letter-spacing:0.3px;
   color:#0f172a;
+  margin-bottom:4px;
+  line-height:1.2;
 }
 
 .subtitle{
-  font-size:14px;
-  color:#6b7280;
+  font-size:15px;
+  color:#64748b;
   margin-bottom:24px;
 }
 
@@ -92,6 +93,10 @@ button:hover{
   background:#1e40af;
 }
 
+button:active{
+  transform:translateY(1px);
+}
+
 .links{
   margin-top:22px;
   padding:14px;
@@ -125,6 +130,12 @@ button:hover{
   line-height:1.8;
   color:#6b7280;
 }
+
+.status{
+  margin-top:16px;
+  font-size:14px;
+  color:#475569;
+}
 </style>
 </head>
 
@@ -132,54 +143,149 @@ button:hover{
 
 <div class="wrap">
 
-  <h1>Civic Exchange</h1>
+  <div class="brand">Civic Exchange</div>
   <div class="subtitle">自治体制度ポータル</div>
 
   <div class="lead">
-    都道府県・自治体・制度を選んで、各制度ページへ移動できます。<br>
-    今後、1741自治体に対応するための入口ページです。
+    都道府県・自治体・制度・ページ種別を選んで、各ページへ移動できます。<br>
+    1741自治体対応へ広げていくための入口ページです。
   </div>
 
   <label for="prefecture">都道府県を選択</label>
-  <select id="prefecture">
+  <select id="prefecture" onchange="updateMunicipalities()">
     <option value="kanagawa">神奈川県</option>
   </select>
 
   <label for="municipality">自治体を選択</label>
-  <select id="municipality">
+  <select id="municipality" onchange="updateSystems()">
     <option value="chigasaki">茅ヶ崎市</option>
   </select>
 
   <label for="system">制度を選択</label>
-  <select id="system">
+  <select id="system" onchange="updatePages()">
     <option value="kokuho">国民健康保険</option>
   </select>
 
-  <button onclick="goPage()">この制度ページを開く</button>
+  <label for="pageType">ページを選択</label>
+  <select id="pageType">
+    <option value="simple">かんたん計算</option>
+    <option value="income">所得ベース計算</option>
+  </select>
+
+  <button onclick="goPage()">このページを開く</button>
+
+  <div class="status" id="statusText">
+    現在：神奈川県 / 茅ヶ崎市 / 国民健康保険 / かんたん計算
+  </div>
 
   <div class="links">
-    <div class="links-title">茅ヶ崎市 国保ページ</div>
-    <a href="./title-test.html">かんたん計算ページを開く</a>
-    <a href="./kokuho-income.html">所得ベース計算ページを開く</a>
+    <div class="links-title">よく使うページ</div>
+    <a href="./title-test.html">茅ヶ崎市 国保 かんたん計算</a>
+    <a href="./kokuho-income.html">茅ヶ崎市 国保 所得ベース計算</a>
   </div>
 
   <div class="note">
     ※現在はテスト版のため、神奈川県・茅ヶ崎市・国民健康保険のみ対応しています。<br>
-    ※今後、自治体と制度を順次追加予定です。
+    ※今後、自治体・制度・ページ種別を順次追加予定です。
   </div>
 
 </div>
 
 <script>
+const registry = {
+  kanagawa: {
+    name: "神奈川県",
+    municipalities: {
+      chigasaki: {
+        name: "茅ヶ崎市",
+        systems: {
+          kokuho: {
+            name: "国民健康保険",
+            pages: {
+              simple: {
+                name: "かんたん計算",
+                url: "./title-test.html"
+              },
+              income: {
+                name: "所得ベース計算",
+                url: "./kokuho-income.html"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+};
+
+function setOptions(selectId, options){
+  const select = document.getElementById(selectId);
+  select.innerHTML = "";
+
+  Object.keys(options).forEach(key => {
+    const option = document.createElement("option");
+    option.value = key;
+    option.textContent = options[key].name;
+    select.appendChild(option);
+  });
+}
+
+function updateMunicipalities(){
+  const prefecture = document.getElementById("prefecture").value;
+  const municipalities = registry[prefecture].municipalities;
+  setOptions("municipality", municipalities);
+  updateSystems();
+}
+
+function updateSystems(){
+  const prefecture = document.getElementById("prefecture").value;
+  const municipality = document.getElementById("municipality").value;
+  const systems = registry[prefecture].municipalities[municipality].systems;
+  setOptions("system", systems);
+  updatePages();
+}
+
+function updatePages(){
+  const prefecture = document.getElementById("prefecture").value;
+  const municipality = document.getElementById("municipality").value;
+  const system = document.getElementById("system").value;
+  const pages = registry[prefecture].municipalities[municipality].systems[system].pages;
+  setOptions("pageType", pages);
+  updateStatus();
+}
+
+function updateStatus(){
+  const prefecture = document.getElementById("prefecture").value;
+  const municipality = document.getElementById("municipality").value;
+  const system = document.getElementById("system").value;
+  const pageType = document.getElementById("pageType").value;
+
+  const prefectureName = registry[prefecture].name;
+  const municipalityName = registry[prefecture].municipalities[municipality].name;
+  const systemName = registry[prefecture].municipalities[municipality].systems[system].name;
+  const pageName = registry[prefecture].municipalities[municipality].systems[system].pages[pageType].name;
+
+  document.getElementById("statusText").textContent =
+    `現在：${prefectureName} / ${municipalityName} / ${systemName} / ${pageName}`;
+}
+
 function goPage(){
   const prefecture = document.getElementById("prefecture").value;
   const municipality = document.getElementById("municipality").value;
   const system = document.getElementById("system").value;
+  const pageType = document.getElementById("pageType").value;
 
-  if(prefecture === "kanagawa" && municipality === "chigasaki" && system === "kokuho"){
-    window.location.href = "./title-test.html";
-  }
+  const url =
+    registry[prefecture]
+      .municipalities[municipality]
+      .systems[system]
+      .pages[pageType]
+      .url;
+
+  window.location.href = url;
 }
+
+updateMunicipalities();
 </script>
 
 </body>
