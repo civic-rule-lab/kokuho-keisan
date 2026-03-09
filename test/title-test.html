@@ -1,171 +1,191 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>茅ヶ崎市 国保計算ツール</title>
 
-  <style>
-    body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 20px;
-  background: #f3f4f6;
-  color: #222;
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>茅ヶ崎市 国保計算ツール</title>
+
+<style>
+
+body{
+font-family:sans-serif;
+margin:0;
+padding:20px;
+background:#f3f4f6;
+color:#222;
 }
 
-.wrap {
-  max-width: 720px;
-  margin: 0 auto;
-  background: #ffffff;
-  padding: 24px 20px 28px;
-  border-radius: 18px;
-  box
-    .wrap {
-      max-width: 720px;
-      margin: 0 auto;
-      background: #f7f7f7;
-      padding: 24px 20px 28px;
-      border-radius: 18px;
-      box-sizing: border-box;
-    }
+.wrap{
+max-width:720px;
+margin:0 auto;
+background:#ffffff;
+padding:24px 20px 28px;
+border-radius:18px;
+border:1px solid #e5e7eb;
+box-sizing:border-box;
+}
 
-    h1 {
-      font-size: 28px;
-      line-height: 1.4;
-      margin: 0 0 6px 0;
-      font-weight: 700;
-    }
+h1{
+font-size:28px;
+margin:0 0 6px 0;
+font-weight:700;
+color:#111827;
+}
 
-    .subtitle {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 28px;
-    }
+.subtitle{
+font-size:14px;
+color:#6b7280;
+margin-bottom:28px;
+}
 
-    label {
-      display: block;
-      font-size: 15px;
-      font-weight: 600;
-      margin-top: 22px;
-      margin-bottom: 8px;
-    }
+label{
+display:block;
+font-size:15px;
+font-weight:700;
+margin-top:22px;
+margin-bottom:8px;
+color:#111827;
+}
 
-    input {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 14px 12px;
-      font-size: 16px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      background: #fff;
-    }
+input{
+width:100%;
+padding:14px 12px;
+font-size:16px;
+border:2px solid #9ca3af;
+border-radius:10px;
+background:#ffffff;
+box-sizing:border-box;
+}
 
-    button {
-      width: 100%;
-      margin-top: 28px;
-      padding: 16px 12px;
-      font-size: 18px;
-      border: none;
-      border-radius: 999px;
-      background: #dcdcdc;
-      color: #222;
-      cursor: pointer;
-    }
+input:focus{
+outline:none;
+border-color:#2563eb;
+box-shadow:0 0 0 3px rgba(37,99,235,0.2);
+}
 
-    button:active {
-      opacity: 0.9;
-    }
+button{
+width:100%;
+margin-top:28px;
+padding:16px;
+font-size:18px;
+font-weight:700;
+border:none;
+border-radius:999px;
+background:#1d4ed8;
+color:#ffffff;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
 
-    .result-title {
-      margin-top: 34px;
-      font-size: 18px;
-      font-weight: 700;
-    }
+button:active{
+opacity:0.9;
+}
 
-    #result {
-      margin-top: 14px;
-      padding: 16px;
-      background: #fff;
-      border-radius: 10px;
-      min-height: 28px;
-      line-height: 1.7;
-      box-sizing: border-box;
-    }
+.result-title{
+margin-top:34px;
+font-size:18px;
+font-weight:700;
+}
 
-    .note {
-      margin-top: 22px;
-      font-size: 13px;
-      line-height: 1.8;
-      color: #666;
-    }
+#result{
+margin-top:14px;
+padding:16px;
+background:#ffffff;
+border:2px solid #e5e7eb;
+border-radius:10px;
+min-height:28px;
+line-height:1.7;
+}
 
-    .portal-link {
-      display: inline-block;
-      margin-top: 18px;
-      font-size: 14px;
-      color: #0b57d0;
-      text-decoration: none;
-    }
+.note{
+margin-top:22px;
+font-size:13px;
+line-height:1.8;
+color:#6b7280;
+}
 
-    .portal-link:hover {
-      text-decoration: underline;
-    }
-  </style>
+.portal-link{
+display:inline-block;
+margin-top:18px;
+font-size:14px;
+color:#2563eb;
+text-decoration:none;
+}
+
+.portal-link:hover{
+text-decoration:underline;
+}
+
+</style>
+
 </head>
+
 <body>
 
-  <div class="wrap">
-    <h1>茅ヶ崎市 国保計算ツール</h1>
-    <div class="subtitle">（国民健康保険料）</div>
+<div class="wrap">
 
-    <label for="income">前年所得</label>
-    <input id="income" type="number" placeholder="例：3000000">
+<h1>茅ヶ崎市 国保計算ツール</h1>
+<div class="subtitle">（国民健康保険料）</div>
 
-    <label for="family">世帯人数</label>
-    <input id="family" type="number" placeholder="例：3">
+<label>前年所得</label>
+<input id="income" type="number" placeholder="例：3000000">
 
-    <label for="care">介護保険人数（40〜64歳）</label>
-    <input id="care" type="number" placeholder="例：2">
+<label>世帯人数</label>
+<input id="family" type="number" placeholder="例：3">
 
-    <button onclick="calc()">計算する</button>
+<label>介護保険人数（40〜64歳）</label>
+<input id="care" type="number" placeholder="例：1">
 
-    <div class="result-title">計算結果</div>
-    <div id="result">ここに結果が表示されます</div>
+<button onclick="calc()">計算する</button>
 
-    <div class="note">
-      ※このページは表示確認用のテスト版です。<br>
-      ※現在の計算は仮のテスト計算で、正式な茅ヶ崎市の計算式ではありません。<br>
-      ※実際の保険料は世帯構成や軽減制度により異なる場合があります。
-    </div>
+<div class="result-title">計算結果</div>
 
-    <a class="portal-link" href="#" onclick="return false;">茅ヶ崎市の制度ポータルを見る</a>
-  </div>
+<div id="result">
+ここに結果が表示されます
+</div>
 
-  <script>
-    function calc() {
-      const income = Number(document.getElementById("income").value);
-      const family = Number(document.getElementById("family").value);
-      const care = Number(document.getElementById("care").value);
+<div class="note">
+※このページは表示確認用のテスト版です。<br>
+※現在の計算は仮のテスト計算です。<br>
+※実際の保険料は自治体の制度により異なります。
+</div>
 
-      if (!income) {
-        document.getElementById("result").innerText = "前年所得を入力してください";
-        return;
-      }
+<a class="portal-link" href="#">茅ヶ崎市制度ポータルを見る</a>
 
-      const familyCount = family || 0;
-      const careCount = care || 0;
+</div>
 
-      const testAmount =
-        Math.floor(income * 0.1) +
-        (familyCount * 10000) +
-        (careCount * 5000);
+<script>
 
-      document.getElementById("result").innerHTML =
-        "テスト計算結果：<strong>" + testAmount.toLocaleString() + "円</strong><br>" +
-        "（前年所得×10％ ＋ 世帯人数×10,000円 ＋ 介護保険人数×5,000円）";
-    }
-  </script>
+function calc(){
+
+const income = Number(document.getElementById("income").value);
+const family = Number(document.getElementById("family").value);
+const care = Number(document.getElementById("care").value);
+
+if(!income){
+document.getElementById("result").innerText =
+"前年所得を入力してください";
+return;
+}
+
+const familyCount = family || 0;
+const careCount = care || 0;
+
+const result =
+Math.floor(income*0.1)
++ familyCount*10000
++ careCount*5000;
+
+document.getElementById("result").innerHTML =
+"テスト計算結果：<strong>"
++ result.toLocaleString()
++ "円</strong>";
+
+}
+
+</script>
 
 </body>
 </html>
