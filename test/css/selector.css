@@ -18,13 +18,11 @@ box-sizing:border-box;
 }
 
 .brand{
-font-size:44px;
-font-weight:800;
-line-height:1.15;
-color:#0f172a;
-margin-bottom:10px;
-white-space:nowrap;
-letter-spacing:-0.5px;
+  font-size:28px;
+  font-weight:700;
+  color:#7fd4e6;
+  margin-bottom:6px;
+  text-align:center;
 }
 .brand span{
 display:block;
