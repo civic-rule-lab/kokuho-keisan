@@ -234,3 +234,24 @@ color:#6b7280;
 .prefecture-group{
   display:none;
 }
+.quick-links{
+  margin:14px 0 22px;
+}
+
+.quick-links-title{
+  font-size:14px;
+  font-weight:600;
+  color:#6b7a86;
+  margin-bottom:8px;
+}
+
+.quick-link{
+  display:block;
+  text-align:center;
+  padding:12px 14px;
+  border-radius:12px;
+  border:1px solid #e2e8ef;
+  background:#f7f9fc;
+  margin-bottom:8px;
+  font-weight:600;
+}
