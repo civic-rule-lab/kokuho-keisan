@@ -7,135 +7,181 @@
 <title>Civic Exchange｜自治体制度ポータル</title>
 
 <style>
+
 body{
-  font-family:sans-serif;
-  margin:0;
-  padding:20px;
-  background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
-  color:#222;
+font-family:sans-serif;
+margin:0;
+padding:20px;
+background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
+color:#222;
 }
 
 .wrap{
-  max-width:720px;
-  margin:0 auto;
-  background:#ffffff;
-  padding:28px 20px 30px;
-  border-radius:18px;
-  border:1px solid #e5e7eb;
-  box-shadow:0 10px 30px rgba(0,0,0,0.05);
-  box-sizing:border-box;
+max-width:720px;
+margin:0 auto;
+background:#ffffff;
+padding:28px 20px 30px;
+border-radius:18px;
+border:1px solid #e5e7eb;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+box-sizing:border-box;
 }
+
+/* ブランド */
 
 .brand{
-  font-size:40px;
-  font-weight:800;
-  letter-spacing:0.3px;
-  color:#0f172a;
-  margin-bottom:4px;
-  line-height:1.2;
+font-size:40px;
+font-weight:800;
+letter-spacing:0.5px;
+line-height:1.05;
+color:#0f172a;
+margin-bottom:2px;
 }
+
+.brand span{
+display:block;
+}
+
+.brand span:first-child{
+text-align:left;
+}
+
+.brand span:last-child{
+text-align:right;
+}
+
+/* サブタイトル */
 
 .subtitle{
-  font-size:15px;
-  color:#64748b;
-  margin-bottom:24px;
+font-size:14px;
+color:#64748b;
+margin-bottom:6px;
 }
+
+/* 説明 */
 
 .lead{
-  font-size:14px;
-  line-height:1.8;
-  color:#475569;
-  margin-bottom:20px;
+font-size:12px;
+line-height:1.45;
+color:#64748b;
+margin-top:2px;
+margin-bottom:10px;
 }
+
+/* よく使う制度 */
+
+.quick-links{
+margin-top:8px;
+margin-bottom:14px;
+padding:10px;
+background:#f8fafc;
+border:1px solid #e5e7eb;
+border-radius:12px;
+}
+
+.quick-links-title{
+font-size:14px;
+font-weight:700;
+color:#111827;
+margin-bottom:8px;
+}
+
+.quick-link{
+display:block;
+margin-top:6px;
+padding:8px 10px;
+background:#ffffff;
+border:1px solid #dbe3ee;
+border-radius:10px;
+color:#1d4ed8;
+text-decoration:none;
+font-weight:600;
+font-size:14px;
+line-height:1.4;
+}
+
+.quick-link:hover{
+background:#eff6ff;
+}
+
+/* ラベル */
 
 label{
-  display:block;
-  font-size:15px;
-  font-weight:700;
-  margin-top:22px;
-  margin-bottom:8px;
-  color:#111827;
+display:block;
+font-size:15px;
+font-weight:700;
+margin-top:18px;
+margin-bottom:6px;
+color:#111827;
 }
 
+/* セレクト */
+
 select{
-  width:100%;
-  padding:14px 12px;
-  font-size:18px;
-  font-weight:500;
-  border:2px solid #cbd5e1;
-  border-radius:12px;
-  background:#ffffff;
-  color:#0f172a;
-  box-sizing:border-box;
+width:100%;
+padding:14px 12px;
+font-size:18px;
+font-weight:500;
+border:2px solid #cbd5e1;
+border-radius:12px;
+background:#ffffff;
+color:#0f172a;
+box-sizing:border-box;
+margin-bottom:4px;
 }
 
 select:focus{
-  outline:none;
-  border-color:#2563eb;
-  box-shadow:0 0 0 3px rgba(37,99,235,0.15);
+outline:none;
+border-color:#2563eb;
+box-shadow:0 0 0 3px rgba(37,99,235,0.15);
 }
 
+/* 現在の選択 */
+
+.current-select{
+margin-top:18px;
+padding:10px 12px;
+background:#f1f5f9;
+border:1px solid #e2e8f0;
+border-radius:10px;
+font-size:14px;
+line-height:1.6;
+color:#475569;
+}
+
+/* ボタン */
+
 button{
-  width:100%;
-  margin-top:28px;
-  padding:16px;
-  font-size:18px;
-  font-weight:700;
-  border:none;
-  border-radius:999px;
-  background:#1d4ed8;
-  color:#ffffff;
-  cursor:pointer;
-  box-shadow:0 6px 16px rgba(0,0,0,0.15);
+width:100%;
+margin-top:22px;
+padding:16px;
+font-size:18px;
+font-weight:700;
+border:none;
+border-radius:999px;
+background:#1d4ed8;
+color:#ffffff;
+cursor:pointer;
+box-shadow:0 6px 16px rgba(0,0,0,0.15);
 }
 
 button:hover{
-  background:#1e40af;
+background:#1e40af;
 }
 
 button:active{
-  transform:translateY(1px);
+transform:translateY(1px);
 }
 
-.links{
-  margin-top:22px;
-  padding:14px;
-  background:#f8fafc;
-  border:1px solid #e5e7eb;
-  border-radius:12px;
-}
-
-.links-title{
-  font-size:15px;
-  font-weight:700;
-  color:#111827;
-  margin-bottom:10px;
-}
-
-.links a{
-  display:block;
-  margin-top:8px;
-  color:#2563eb;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.links a:hover{
-  text-decoration:underline;
-}
+/* 注記 */
 
 .note{
-  margin-top:18px;
-  font-size:13px;
-  line-height:1.8;
-  color:#6b7280;
+margin-top:18px;
+font-size:13px;
+line-height:1.8;
+color:#6b7280;
 }
 
-.status{
-  margin-top:16px;
-  font-size:14px;
-  color:#475569;
-}
 </style>
 </head>
 
@@ -143,149 +189,242 @@ button:active{
 
 <div class="wrap">
 
-  <div class="brand">Civic Exchange</div>
-  <div class="subtitle">自治体制度ポータル</div>
+<div class="brand">
+<span>Civic-</span>
+<span>Exchange</span>
+</div>
 
-  <div class="lead">
-    都道府県・自治体・制度・ページ種別を選んで、各ページへ移動できます。<br>
-    1741自治体対応へ広げていくための入口ページです。
-  </div>
+<div class="subtitle">自治体制度ポータル</div>
 
-  <label for="prefecture">都道府県を選択</label>
-  <select id="prefecture" onchange="updateMunicipalities()">
-    <option value="kanagawa">神奈川県</option>
-  </select>
+<div class="lead">
+自治体制度ページへの入口です。<br>
+都道府県・自治体・制度・ページを選択してください。
+</div>
 
-  <label for="municipality">自治体を選択</label>
-  <select id="municipality" onchange="updateSystems()">
-    <option value="chigasaki">茅ヶ崎市</option>
-  </select>
+<div class="quick-links">
 
-  <label for="system">制度を選択</label>
-  <select id="system" onchange="updatePages()">
-    <option value="kokuho">国民健康保険</option>
-  </select>
+<div class="quick-links-title">よく使う制度</div>
 
-  <label for="pageType">ページを選択</label>
-  <select id="pageType">
-    <option value="simple">かんたん計算</option>
-    <option value="income">所得ベース計算</option>
-  </select>
+<a class="quick-link" href="./title-test.html">
+茅ヶ崎市 国保 かんたん計算
+</a>
 
-  <button onclick="goPage()">このページを開く</button>
+<a class="quick-link" href="./kokuho-income.html">
+茅ヶ崎市 国保 所得ベース計算
+</a>
 
-  <div class="status" id="statusText">
-    現在：神奈川県 / 茅ヶ崎市 / 国民健康保険 / かんたん計算
-  </div>
+</div>
 
-  <div class="links">
-    <div class="links-title">よく使うページ</div>
-    <a href="./title-test.html">茅ヶ崎市 国保 かんたん計算</a>
-    <a href="./kokuho-income.html">茅ヶ崎市 国保 所得ベース計算</a>
-  </div>
+<label for="prefecture">都道府県</label>
 
-  <div class="note">
-    ※現在はテスト版のため、神奈川県・茅ヶ崎市・国民健康保険のみ対応しています。<br>
-    ※今後、自治体・制度・ページ種別を順次追加予定です。
-  </div>
+<select id="prefecture" onchange="updateMunicipalities()">
+<option value="kanagawa">神奈川県</option>
+</select>
+
+<label for="municipality">自治体</label>
+
+<select id="municipality" onchange="updateSystems()">
+<option value="chigasaki">茅ヶ崎市</option>
+</select>
+
+<label for="system">制度</label>
+
+<select id="system" onchange="updatePages()">
+<option value="kokuho">国民健康保険</option>
+</select>
+
+<label for="pageType">ページ</label>
+
+<select id="pageType" onchange="updateCurrent()">
+<option value="simple">かんたん計算</option>
+<option value="income">所得ベース計算</option>
+</select>
+
+<div class="current-select" id="currentSelect">
+
+神奈川県 / 茅ヶ崎市 / 国民健康保険 / かんたん計算
+
+</div>
+
+<button onclick="goPage()">
+
+このページを開く
+
+</button>
+
+<div class="note">
+
+※現在はテスト版のため、神奈川県・茅ヶ崎市・国民健康保険のみ対応しています。<br>
+※今後、自治体・制度・ページ種別を順次追加予定です。
+
+</div>
 
 </div>
 
 <script>
+
 const registry = {
-  kanagawa: {
-    name: "神奈川県",
-    municipalities: {
-      chigasaki: {
-        name: "茅ヶ崎市",
-        systems: {
-          kokuho: {
-            name: "国民健康保険",
-            pages: {
-              simple: {
-                name: "かんたん計算",
-                url: "./title-test.html"
-              },
-              income: {
-                name: "所得ベース計算",
-                url: "./kokuho-income.html"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+
+kanagawa: {
+
+name: "神奈川県",
+
+municipalities: {
+
+chigasaki: {
+
+name: "茅ヶ崎市",
+
+systems: {
+
+kokuho: {
+
+name: "国民健康保険",
+
+pages: {
+
+simple: {
+
+name: "かんたん計算",
+
+url: "./title-test.html"
+
+},
+
+income: {
+
+name: "所得ベース計算",
+
+url: "./kokuho-income.html"
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
 };
 
 function setOptions(selectId, options){
-  const select = document.getElementById(selectId);
-  select.innerHTML = "";
 
-  Object.keys(options).forEach(key => {
-    const option = document.createElement("option");
-    option.value = key;
-    option.textContent = options[key].name;
-    select.appendChild(option);
-  });
+const select = document.getElementById(selectId);
+
+select.innerHTML = "";
+
+Object.keys(options).forEach(key => {
+
+const option = document.createElement("option");
+
+option.value = key;
+
+option.textContent = options[key].name;
+
+select.appendChild(option);
+
+});
+
 }
 
 function updateMunicipalities(){
-  const prefecture = document.getElementById("prefecture").value;
-  const municipalities = registry[prefecture].municipalities;
-  setOptions("municipality", municipalities);
-  updateSystems();
+
+const prefecture = document.getElementById("prefecture").value;
+
+const municipalities = registry[prefecture].municipalities;
+
+setOptions("municipality", municipalities);
+
+updateSystems();
+
 }
 
 function updateSystems(){
-  const prefecture = document.getElementById("prefecture").value;
-  const municipality = document.getElementById("municipality").value;
-  const systems = registry[prefecture].municipalities[municipality].systems;
-  setOptions("system", systems);
-  updatePages();
+
+const prefecture = document.getElementById("prefecture").value;
+
+const municipality = document.getElementById("municipality").value;
+
+const systems = registry[prefecture].municipalities[municipality].systems;
+
+setOptions("system", systems);
+
+updatePages();
+
 }
 
 function updatePages(){
-  const prefecture = document.getElementById("prefecture").value;
-  const municipality = document.getElementById("municipality").value;
-  const system = document.getElementById("system").value;
-  const pages = registry[prefecture].municipalities[municipality].systems[system].pages;
-  setOptions("pageType", pages);
-  updateStatus();
+
+const prefecture = document.getElementById("prefecture").value;
+
+const municipality = document.getElementById("municipality").value;
+
+const system = document.getElementById("system").value;
+
+const pages = registry[prefecture].municipalities[municipality].systems[system].pages;
+
+setOptions("pageType", pages);
+
+updateCurrent();
+
 }
 
-function updateStatus(){
-  const prefecture = document.getElementById("prefecture").value;
-  const municipality = document.getElementById("municipality").value;
-  const system = document.getElementById("system").value;
-  const pageType = document.getElementById("pageType").value;
+function updateCurrent(){
 
-  const prefectureName = registry[prefecture].name;
-  const municipalityName = registry[prefecture].municipalities[municipality].name;
-  const systemName = registry[prefecture].municipalities[municipality].systems[system].name;
-  const pageName = registry[prefecture].municipalities[municipality].systems[system].pages[pageType].name;
+const prefecture = document.getElementById("prefecture").value;
 
-  document.getElementById("statusText").textContent =
-    `現在：${prefectureName} / ${municipalityName} / ${systemName} / ${pageName}`;
+const municipality = document.getElementById("municipality").value;
+
+const system = document.getElementById("system").value;
+
+const pageType = document.getElementById("pageType").value;
+
+const prefectureName = registry[prefecture].name;
+
+const municipalityName = registry[prefecture].municipalities[municipality].name;
+
+const systemName = registry[prefecture].municipalities[municipality].systems[system].name;
+
+const pageName = registry[prefecture].municipalities[municipality].systems[system].pages[pageType].name;
+
+document.getElementById("currentSelect").textContent =
+
+`${prefectureName} / ${municipalityName} / ${systemName} / ${pageName}`;
+
 }
 
 function goPage(){
-  const prefecture = document.getElementById("prefecture").value;
-  const municipality = document.getElementById("municipality").value;
-  const system = document.getElementById("system").value;
-  const pageType = document.getElementById("pageType").value;
 
-  const url =
-    registry[prefecture]
-      .municipalities[municipality]
-      .systems[system]
-      .pages[pageType]
-      .url;
+const prefecture = document.getElementById("prefecture").value;
 
-  window.location.href = url;
+const municipality = document.getElementById("municipality").value;
+
+const system = document.getElementById("system").value;
+
+const pageType = document.getElementById("pageType").value;
+
+const url =
+
+registry[prefecture]
+
+.municipalities[municipality]
+
+.systems[system]
+
+.pages[pageType]
+
+.url;
+
+window.location.href = url;
+
 }
 
 updateMunicipalities();
+
 </script>
 
 </body>
