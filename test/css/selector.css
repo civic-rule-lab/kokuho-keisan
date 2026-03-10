@@ -208,7 +208,28 @@ color:#6b7280;
   font-weight:600;
   color:#7fd4e6;  /* 水色🩵 */
 }
+
 .header{
   text-align:center;
-  margin-bottom:28px;
+  margin-bottom:40px;
+}
+
+.subtitle{
+  font-size:30px;
+  font-weight:600;
+  color:#1e2a38;
+  margin-bottom:14px;
+}
+
+.brand{
+  font-size:18px;
+  font-weight:600;
+  color:#7fd4e6;
+  margin-bottom:4px;
+}
+
+.tagline{
+  font-size:16px;
+  font-weight:500;
+  color:#7fd4e6;
 }
