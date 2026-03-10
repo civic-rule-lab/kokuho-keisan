@@ -184,3 +184,18 @@ font-size:13px;
 line-height:1.8;
 color:#6b7280;
 }
+.brand{
+  font-size:42px;
+  font-weight:700;
+  color:#1e2a38;
+}
+
+.subtitle{
+  color:#6b7a86;
+  font-size:15px;
+}
+
+.tagline{
+  color:#6fd0df; /* 湖ブルー */
+  font-size:14px;
+}
