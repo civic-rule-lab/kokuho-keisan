@@ -184,18 +184,27 @@ font-size:13px;
 line-height:1.8;
 color:#6b7280;
 }
-.brand{
-  font-size:42px;
-  font-weight:700;
-  color:#1e2a38;
+.header{
+  text-align:center;
+  margin-bottom:28px;
 }
 
 .subtitle{
-  color:#6b7a86;
-  font-size:15px;
+  font-size:28px;
+  font-weight:600;
+  color:#111;     /* 黒 */
+  margin-bottom:10px;
+}
+
+.brand{
+  font-size:16px;
+  font-weight:600;
+  color:#7fd4e6;  /* 水色🩵 */
+  margin-bottom:2px;
 }
 
 .tagline{
-  color:#6fd0df; /* 湖ブルー */
-  font-size:14px;
+  font-size:16px;
+  font-weight:600;
+  color:#7fd4e6;  /* 水色🩵 */
 }
