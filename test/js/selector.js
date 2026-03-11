@@ -14,7 +14,7 @@ const registry = {
               },
               income: {
                 name: "所得ベース計算",
-                url: "../chigasaki/kokuho-income.html"
+                url: "../kokuho-income.html"
               }
           }
         }
