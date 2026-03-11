@@ -273,3 +273,13 @@ color:#6b7280;
 .quick-links{
   margin-top:14px;
 }
+.back-link{
+text-align:center;
+margin-top:24px;
+}
+
+.back-link a{
+color:#3b4cca;
+font-size:15px;
+text-decoration:underline;
+}
