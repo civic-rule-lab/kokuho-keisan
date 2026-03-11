@@ -10,11 +10,11 @@ const registry = {
             pages: {
               simple: {
                 name: "かんたん計算",
-                url: "../title-test.html"
+                url: "./title-test.html"
               },
               income: {
                 name: "所得ベース計算",
-                url: "../kokuho-income.html"
+                url: "./kokuho-income.html"
               }
           }
         }
