@@ -10,7 +10,7 @@ const registry = {
             pages: {
               simple: {
                 name: "かんたん計算",
-                url: "../chigasaki/kokuho-simple.html"
+                url: "../title-test.html"
               },
               income: {
                 name: "所得ベース計算",
