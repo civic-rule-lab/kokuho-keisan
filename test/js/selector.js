@@ -1,4 +1,5 @@
-const registry = {
+console.log("selector.js loaded")
+  const registry = {
   kanagawa: {
     name: "神奈川県",
     municipalities: {
