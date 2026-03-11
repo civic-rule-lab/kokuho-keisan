@@ -16,7 +16,6 @@ const registry = {
                 name: "所得ベース計算",
                 url: "../chigasaki/kokuho-income.html"
               }
-            }
           }
         }
       }
