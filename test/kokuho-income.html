@@ -1,15 +1,147 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>所得ベース計算</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>茅ヶ崎市 国保 所得ベース計算</title>
+  <style>
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;
+      background:#f3f4f8;
+      color:#1f2a44;
+    }
+
+    .wrap{
+      max-width:760px;
+      margin:0 auto;
+      padding:32px 20px 60px;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:24px;
+      padding:28px 20px 32px;
+      box-shadow:0 2px 12px rgba(0,0,0,0.05);
+    }
+
+    h1{
+      margin:0 0 8px;
+      font-size:32px;
+      line-height:1.3;
+      text-align:center;
+    }
+
+    .subtitle{
+      text-align:center;
+      font-size:15px;
+      color:#6b7280;
+      margin-bottom:28px;
+    }
+
+    label{
+      display:block;
+      font-weight:700;
+      font-size:16px;
+      margin:20px 0 8px;
+    }
+
+    input{
+      width:100%;
+      box-sizing:border-box;
+      padding:18px 16px;
+      font-size:18px;
+      border:2px solid #cfd6e4;
+      border-radius:18px;
+      background:#fff;
+    }
+
+    button{
+      width:100%;
+      margin-top:28px;
+      padding:20px 16px;
+      border:none;
+      border-radius:999px;
+      background:#2f55d4;
+      color:#fff;
+      font-size:20px;
+      font-weight:700;
+      cursor:pointer;
+      box-shadow:0 10px 20px rgba(47,85,212,0.18);
+    }
+
+    .result-title{
+      margin-top:34px;
+      font-size:20px;
+      font-weight:700;
+    }
+
+    #result{
+      margin-top:12px;
+      padding:24px 18px;
+      border:2px solid #e2e6ef;
+      border-radius:18px;
+      background:#f9fafc;
+      font-size:18px;
+      line-height:1.8;
+      color:#1f2a44;
+    }
+
+    .back-link{
+      margin-top:24px;
+    }
+
+    .back-link a{
+      color:#5b3fb4;
+      text-decoration:underline;
+      font-size:16px;
+    }
+
+    .note{
+      margin-top:20px;
+      font-size:13px;
+      line-height:1.8;
+      color:#6b7280;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="wrap">
+    <div class="card">
+      <h1>茅ヶ崎市 国保 所得ベース計算</h1>
+      <div class="subtitle">前年所得をもとにした国民健康保険料シミュレーション</div>
 
-<h1>所得ベース計算</h1>
+      <label for="income">前年所得</label>
+      <input id="income" type="text" inputmode="numeric" placeholder="例：2000000">
 
-<a href="./selector.html">制度ポータルへ戻る</a>
+      <label for="family">世帯人数</label>
+      <input id="family" type="number" placeholder="例：3">
 
+      <label for="preschool">未就学児人数（0〜6歳）</label>
+      <input id="preschool" type="number" placeholder="例：1">
+
+      <label for="care">介護保険人数（40〜64歳）</label>
+      <input id="care" type="number" placeholder="例：1">
+
+      <button onclick="calc()">計算する</button>
+
+      <div class="result-title">計算結果</div>
+      <div id="result">ここに結果が表示されます</div>
+
+      <div class="back-link">
+        <a href="./selector.html">制度ポータルへ戻る</a>
+      </div>
+
+      <div class="note">
+        ※このページは茅ヶ崎市向けの所得ベース計算版です。<br>
+        ※基礎控除43万円を差し引いた簡易計算です。<br>
+        ※軽減判定は未反映です。正式な判定ではありません。<br>
+        ※未就学児軽減は今後反映予定です。<br>
+        ※実際の保険料は自治体の通知や公式案内でご確認ください。
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/engine.js"></script>
 </body>
 </html>
