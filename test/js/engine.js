@@ -34,7 +34,9 @@ async function calc() {
     '<div class="amount">約 ' + total.toLocaleString() + ' 円</div>' +
   '</div>';
   } catch (error) {
-    result.innerHTML = "計算エラー: " + error.message;
+    result.innerHTML =
+  '<div class="result-label">計算エラー</div>' +
+  '<div class="monthly">' + error.message + '</div>';
   }
 }
 
