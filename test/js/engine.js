@@ -29,7 +29,10 @@ async function calc() {
     const total = Math.round(incomePart + perCapita);
 
     result.innerHTML =
-      "年間保険料：約 " + total.toLocaleString() + " 円";
+  '<div class="result-row">' +
+    '<div class="result-label">年間保険料（概算）</div>' +
+    '<div class="amount">約 ' + total.toLocaleString() + ' 円</div>' +
+  '</div>';
   } catch (error) {
     result.innerHTML = "計算エラー: " + error.message;
   }
