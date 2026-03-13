@@ -2,7 +2,7 @@ async function calc() {
   const result = document.getElementById("result");
 
   try {
-    const income = Number(document.getElementById("income").value || 0);
+    const income = Number(document.getElementById("income").value.replace(/,/g, "") || 0);
     const family = Number(document.getElementById("family").value || 0);
     const preschool = Number(document.getElementById("preschool").value || 0);
     const care = Number(document.getElementById("care").value || 0);
