@@ -7,7 +7,8 @@ async function calc() {
     const preschool = Number(document.getElementById("preschool").value || 0);
     const care = Number(document.getElementById("care").value || 0);
 
-    const response = await fetch("./data/chigasaki-2025.json");
+    const params = new URLSearchParams(location.search);
+const city = params.get("city") || "chigasaki";
     if (!response.ok) {
       throw new Error("JSON読み込み失敗");
     }
