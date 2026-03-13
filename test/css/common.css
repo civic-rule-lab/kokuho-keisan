@@ -271,3 +271,38 @@ button:active{
   line-height:1.8;
   color:#6b7280;
 }
+.menu-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:14px;
+}
+
+.menu-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:132px;
+  padding:18px 12px;
+  text-align:center;
+  border:2px solid #cbd5e1;
+  border-radius:18px;
+  background:#ffffff;
+  box-sizing:border-box;
+}
+
+.menu-card-title{
+  font-size:18px;
+  font-weight:700;
+  line-height:1.4;
+  color:#0f172a;
+  white-space:nowrap;
+}
+
+.menu-sub{
+  margin-top:8px;
+  font-size:13px;
+  line-height:1.5;
+  color:#6b7280;
+}
