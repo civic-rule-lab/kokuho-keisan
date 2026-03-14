@@ -9,8 +9,7 @@ async function calc() {
 
     const params = new URLSearchParams(location.search);
 const city = params.get("city") || "chigasaki";
-const response = await fetch("./data/municipalities/chigasaki/kokuho-2025.json");
-
+fetch(`./data/municipalities/${city}/kokuho-2025.json`)
 if (!response.ok) {
   throw new Error("JSON読み込み失敗");
 }
