@@ -327,3 +327,10 @@ text-decoration:underline;
   text-align:center;
   line-height:1.2;
 }
+.button-row{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
