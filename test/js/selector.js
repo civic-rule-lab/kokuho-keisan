@@ -58,3 +58,9 @@ function goPage(){
   window.location.href = url;
 
 }
+function openSelectedPage() {
+  const municipality = document.getElementById("municipality").value;
+  const page = document.getElementById("pageType").value;
+
+  window.location.href = `./${page}.html?city=${municipality}`;
+}
