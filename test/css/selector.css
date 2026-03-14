@@ -283,3 +283,20 @@ color:#3b4cca;
 font-size:15px;
 text-decoration:underline;
 }
+.quick-links{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:12px;
+  align-items:stretch;
+}
+
+.quick-link{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  min-height:78px;
+  padding:12px 14px;
+  box-sizing:border-box;
+}
