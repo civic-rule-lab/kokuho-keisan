@@ -9,14 +9,13 @@ async function calc() {
 
     const params = new URLSearchParams(location.search);
 const city = params.get("city") || "chigasaki";
-fetch("./data/municipalities/chigasaki/kokuho-2025.json")
+const response = await fetch("./data/municipalities/chigasaki/kokuho-2025.json");
 
 if (!response.ok) {
   throw new Error("JSON読み込み失敗");
 }
 
-    const data = await response.json();
-
+const data = await response.json();
     const baseIncome = Math.max(income - data.basicDeduction, 0);
 
     const incomePart =
