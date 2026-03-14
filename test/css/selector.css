@@ -300,10 +300,10 @@ text-decoration:underline;
   box-sizing:border-box;
 }
 .city-title{
-  font-size:20px;
-  font-weight:700;
   text-align:center;
-  margin:20px 0 10px 0;
+  font-size:18px;
+  font-weight:700;
+  margin:10px 0 16px 0;
 }
 
 .button-row{
