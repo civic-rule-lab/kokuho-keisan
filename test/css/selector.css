@@ -300,3 +300,24 @@ text-decoration:underline;
   padding:12px 14px;
   box-sizing:border-box;
 }
+.city-title{
+  font-size:20px;
+  font-weight:700;
+  text-align:center;
+  margin:20px 0 10px 0;
+}
+
+.button-row{
+  display:flex;
+  justify-content:center;
+  gap:16px;
+}
+
+.calc-button{
+  background:#2563eb;
+  color:white;
+  padding:14px 18px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:700;
+}
