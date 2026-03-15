@@ -14,15 +14,15 @@
   },
 
   "perCapita": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 22432,
+    "support": 9231,
+    "care"9485
   },
 
   "caps": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 660000,
+    "support": 260000,
+    "care": 1700000
   },
 
   "preschoolReduction": {
