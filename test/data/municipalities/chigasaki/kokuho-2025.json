@@ -8,21 +8,27 @@
   "basicDeduction": 430000,
 
   "rate": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 0.0666,
+    "support": 0.0277,
+    "care": 0.0262
   },
 
   "perCapita": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 22432,
+    "support": 9231,
+    "care": 9485
+  },
+
+  "household": {
+    "medical": 27755,
+    "support": 11421,
+    "care": 8789
   },
 
   "caps": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 660000,
+    "support": 260000,
+    "care": 170000
   },
 
   "preschoolReduction": {
@@ -35,16 +41,16 @@
     "enabled": true,
     "standards": {
       "sevenTenths": {
-        "base": 0,
-        "perPersonAdd": 0
+        "base": 430000,
+        "perPersonAdd": 100000
       },
       "fiveTenths": {
-        "base": 0,
-        "perPersonAdd": 0
+        "base": 430000,
+        "perPersonAdd": 305000
       },
       "twoTenths": {
-        "base": 0,
-        "perPersonAdd": 0
+        "base": 430000,
+        "perPersonAdd": 560000
       }
     },
     "ratios": {
