@@ -100,6 +100,7 @@ async function calc() {
     careTotal = Math.min(careTotal, data.caps.care);
 
     const total = medicalTotal + supportTotal + careTotal;
+    const monthly = Math.round(total / 12);
     const totalReduction = medicalReduction + supportReduction + careReduction;
 
     result.innerHTML =
