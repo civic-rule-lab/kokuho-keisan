@@ -110,7 +110,8 @@ async function calc() {
       '<div class="result-row"><div class="result-label">未就学児軽減</div><div class="amount">-' + preschoolReduction.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">法定軽減</div><div class="amount">-' + totalReduction.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">軽減判定</div><div class="amount">' + reductionLabel + '</div></div>' +
-      '<div class="result-row"><div class="result-label">年間保険料（概算）</div><div class="amount">約 ' + total.toLocaleString() + ' 円</div></div>';
+      '<div class="result-row"><div class="result-label">年間保険料（概算）</div><div class="amount">約 ' + total.toLocaleString() + ' 円</div></div>' +
+　　　　'<div class="result-row"><div class="result-label">月額目安</div><div class="amount">約 ' + monthly.toLocaleString() + ' 円</div></div>';
 
   } catch (error) {
     result.innerHTML =
