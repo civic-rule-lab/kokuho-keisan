@@ -8,9 +8,9 @@
   "basicDeduction": 430000,
 
   "incomeRate": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 0.0666,
+    "support": 0.0277,
+    "care": 0.0262
   },
 
   "perCapita": {
