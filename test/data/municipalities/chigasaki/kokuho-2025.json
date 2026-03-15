@@ -7,7 +7,7 @@
 
   "basicDeduction": 430000,
 
-  "incomeRate": {
+  "rate": {
     "medical": 0,
     "support": 0,
     "care": 0
