@@ -1,13 +1,56 @@
 {
+  "cityCode": "14207",
+  "citySlug": "chigasaki",
+  "cityName": "茅ヶ崎市",
+  "fiscalYear": 2025,
+  "system": "kokuho",
+
   "basicDeduction": 430000,
-  "rate": {
-    "medical": 0.071,
-    "support": 0.024,
-    "care": 0.018
+
+  "incomeRate": {
+    "medical": 0,
+    "support": 0,
+    "care": 0
   },
+
   "perCapita": {
-    "medical": 35000,
-    "support": 12000,
-    "care": 17000
+    "medical": 0,
+    "support": 0,
+    "care": 0
+  },
+
+  "caps": {
+    "medical": 0,
+    "support": 0,
+    "care": 0
+  },
+
+  "preschoolReduction": {
+    "enabled": true,
+    "medicalPerCapitaRate": 0.5,
+    "supportPerCapitaRate": 0.5
+  },
+
+  "reduction": {
+    "enabled": true,
+    "standards": {
+      "sevenTenths": {
+        "base": 0,
+        "perPersonAdd": 0
+      },
+      "fiveTenths": {
+        "base": 0,
+        "perPersonAdd": 0
+      },
+      "twoTenths": {
+        "base": 0,
+        "perPersonAdd": 0
+      }
+    },
+    "ratios": {
+      "sevenTenths": 0.7,
+      "fiveTenths": 0.5,
+      "twoTenths": 0.2
+    }
   }
 }
