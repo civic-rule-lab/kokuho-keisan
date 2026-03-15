@@ -245,25 +245,54 @@ color:#6b7280;
   display:none;
 }
 .quick-links{
-  margin:14px 0 22px;
+  margin-top:12px;
+  text-align:center;
 }
 
 .quick-links-title{
   font-size:14px;
   font-weight:600;
   color:#6b7a86;
-  margin-bottom:8px;
+  margin-bottom:12px;
+  text-align:center;
 }
 
-.quick-link{
-  display:block;
+.quick-links-box{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.city-title{
   text-align:center;
-  padding:12px 14px;
+  font-size:18px;
+  font-weight:700;
+  margin:0 0 16px 0;
+}
+
+.button-row{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+.calc-button{
+  background:#2563eb;
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:700;
   border-radius:12px;
-  border:1px solid #e2e8ef;
-  background:#f7f9fc;
-  margin-bottom:8px;
-  font-weight:600;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:120px;
+  height:56px;
+  text-align:center;
+  line-height:1.2;
+  white-space:nowrap;
+  writing-mode:horizontal-tb;
 }
 .brand{
   margin-top:4px;
