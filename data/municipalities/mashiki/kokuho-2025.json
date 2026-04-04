@@ -1,0 +1,56 @@
+{
+  "cityCode": "43444",
+  "citySlug": "mashiki",
+  "cityName": "益城町",
+  "fiscalYear": 2025,
+  "system": "kokuho",
+  "basicDeduction": 430000,
+  "rate": {
+    "medical": 0.0769,
+    "support": 0.0306,
+    "care": 0.025
+  },
+  "perCapita": {
+    "medical": 26872,
+    "support": 10653,
+    "care": 16328
+  },
+  "household": {
+    "medical": 18162,
+    "support": 7200,
+    "care": 0
+  },
+  "caps": {
+    "medical": 660000,
+    "support": 260000,
+    "care": 170000
+  },
+  "preschoolReduction": {
+    "enabled": true,
+    "medicalPerCapitaRate": 0.5,
+    "supportPerCapitaRate": 0.5
+  },
+  "reduction": {
+    "enabled": true,
+    "standards": {
+      "sevenTenths": {
+        "base": 430000,
+        "perPersonAdd": 0
+      },
+      "fiveTenths": {
+        "base": 430000,
+        "perPersonAdd": 305000
+      },
+      "twoTenths": {
+        "base": 430000,
+        "perPersonAdd": 560000
+      }
+    },
+    "salaryPensionAdd": 100000,
+    "ratios": {
+      "sevenTenths": 0.7,
+      "fiveTenths": 0.5,
+      "twoTenths": 0.2
+    }
+  }
+}
