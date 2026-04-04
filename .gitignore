@@ -1,6 +1,7 @@
 # 開発・ビルド関連（このリポジトリには含めない）
 engines/
-data/
+data/pref-specs/
+data/ibaraki/
 registry/
 scripts/
 templates/
@@ -8,6 +9,7 @@ docs/
 generated/
 *.json
 !package.json
+!data/municipalities/**/*.json
 
 # OS
 .DS_Store
