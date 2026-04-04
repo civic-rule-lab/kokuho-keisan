@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>国保計算ツール｜Civic Rule Lab</title>
+<link rel="stylesheet" href="/css/selector.css?v=3">
+</head>
+
+<body>
+
+<div class="wrap">
+<div class="subtitle">自治体制度の情報サービス</div>
+
+<div class="brand">Civic Rule Lab</div>
+
+<div class="tagline">市民 ↔ 制度</div>
+
+<div class="prefecture-group">
+  <label for="prefecture">都道府県</label>
+  <select id="prefecture" onchange="updateMunicipalities()">
+    <option value="kanagawa">神奈川県</option>
+    <option value="nagano">長野県</option>
+    <option value="tokyo">東京都</option>
+    <option value="saitama">埼玉県</option>
+    <option value="chiba">千葉県</option>
+    <option value="osaka">大阪府</option>
+    <option value="fukuoka">福岡県</option>
+    <option value="kyoto">京都府</option>
+    <option value="aichi">愛知県</option>
+    <option value="hokkaido">北海道</option>
+    <option value="okinawa">沖縄県</option>
+    <option value="niigata">新潟県</option>
+    <option value="miyazaki">宮崎県</option>
+    <option value="ibaraki">茨城県</option>
+    <option value="gunma">群馬県</option>
+    <option value="tochigi">栃木県</option>
+    <option value="hyogo">兵庫県</option>
+    <option value="shizuoka">静岡県</option>
+    <option value="hiroshima">広島県</option>
+    <option value="gifu">岐阜県</option>
+    <option value="okayama">岡山県</option>
+    <option value="fukushima">福島県</option>
+    <option value="mie">三重県</option>
+    <option value="shiga">滋賀県</option>
+    <option value="kumamoto">熊本県</option>
+    <option value="nara">奈良県</option>
+    <option value="wakayama">和歌山県</option>
+    <option value="kagoshima">鹿児島県</option>
+    <option value="miyagi">宮城県</option>
+    <option value="ehime">愛媛県</option>
+    <option value="山口県">山口県</option>
+    <option value="青森県">青森県</option>
+    <option value="長崎県">長崎県</option>
+    <option value="岩手県">岩手県</option>
+    <option value="大分県">大分県</option>
+    <option value="石川県">石川県</option>
+    <option value="富山県">富山県</option>
+    <option value="徳島県">徳島県</option>
+    <option value="福井県">福井県</option>
+    <option value="akita">秋田県</option>
+    <option value="yamagata">山形県</option>
+    <option value="yamanashi">山梨県</option>
+    <option value="tottori">鳥取県</option>
+    <option value="shimane">島根県</option>
+    <option value="kagawa">香川県</option>
+    <option value="kochi">高知県</option>
+    <option value="saga">佐賀県</option>
+  </select>
+</div>
+
+<label for="municipality">自治体</label>
+
+<select id="municipality">
+<option value="yokohama">横浜市</option>
+<option value="kawasaki">川崎市</option>
+<option value="sagamihara">相模原市</option>
+<option value="yokosuka">横須賀市</option>
+<option value="hiratsuka">平塚市</option>
+<option value="kamakura">鎌倉市</option>
+<option value="fujisawa">藤沢市</option>
+<option value="odawara">小田原市</option>
+<option value="chigasaki">茅ヶ崎市</option>
+<option value="zushi">逗子市</option>
+<option value="miura">三浦市</option>
+<option value="hadano">秦野市</option>
+<option value="atsugi">厚木市</option>
+<option value="yamato">大和市</option>
+<option value="isehara">伊勢原市</option>
+<option value="ebina">海老名市</option>
+<option value="zama">座間市</option>
+<option value="minamiashigara">南足柄市</option>
+<option value="ayase">綾瀬市</option>
+<option value="hayama">葉山町</option>
+<option value="samukawa">寒川町</option>
+<option value="oiso">大磯町</option>
+<option value="ninomiya">二宮町</option>
+<option value="nakai">中井町</option>
+<option value="oi">大井町</option>
+<option value="matsuda">松田町</option>
+<option value="yamakita">山北町</option>
+<option value="kaisei">開成町</option>
+<option value="hakone">箱根町</option>
+<option value="manazuru">真鶴町</option>
+<option value="yugawara">湯河原町</option>
+<option value="aikawa">愛川町</option>
+<option value="kiyokawa">清川村</option>
+</select>
+
+<label for="system">制度</label>
+
+<select id="system">
+<option value="kokuho">国民健康保険</option>
+</select>
+
+<button type="button" onclick="goPage()">
+  計算ページを開く
+</button>
+
+<div class="note">
+  ※全国1727自治体の国民健康保険に対応しています。<br>
+  ※料率は令和7年度の公式値を使用しています。<br>
+  ※実際の保険料は各自治体の通知でご確認ください。
+</div>
+
+</div>
+
+<script src="/js/selector.js?v=20260404"></script>
+
+</body>
+</html>

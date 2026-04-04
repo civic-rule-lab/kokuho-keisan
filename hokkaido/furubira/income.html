@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="古平町（北海道）の令和7年度 国保料を詳しく計算。医療分所得割8.5%・均等割20,000円。未就学児・介護保険・給与年金も考慮した精密シミュレーション。">
+<link rel="canonical" href="https://kokuho-keisan.jp/hokkaido/furubira/income.html">
+<link rel="stylesheet" href="/css/common.css?v=2">
+<title>古平町の国民健康保険料計算（所得ベース）【令和7年度】</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"国保計算ポータル","item":"https://kokuho-keisan.jp/"},{"@type":"ListItem","position":2,"name":"北海道","item":"https://kokuho-keisan.jp/#hokkaido"},{"@type":"ListItem","position":3,"name":"古平町","item":"https://kokuho-keisan.jp/hokkaido/furubira/"}]},{"@type":"WebApplication","name":"古平町 国民健康保険料計算ツール（令和7年度）","description":"古平町（北海道）の令和7年度 国保料を詳しく計算。医療分所得割8.5%・均等割20,000円。未就学児・介護保険・給与年金も考慮した精密シミュレーション。","url":"https://kokuho-keisan.jp/hokkaido/furubira/income.html","applicationCategory":"FinanceApplication","operatingSystem":"Web","inLanguage":"ja","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"}}]}</script>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <h1 style="margin-top:32px;margin-bottom:16px;font-size:clamp(28px,5vw,35px);">古平町 国保計算ツール</h1>
+
+  <div class="subtitle" style="margin-bottom:32px;">国民健康保険料シミュレーション</div>
+
+  <div class="mode-title" style="font-size:28px;font-weight:700;color:#1d4ed8;text-align:center;margin-top:8px;margin-bottom:24px;">所得ベース計算</div>
+
+  <label for="income">前年所得</label>
+  <input id="income" type="text" inputmode="numeric" placeholder="例：3,000,000">
+
+  <label for="family">世帯人数</label>
+  <input id="family" type="number" placeholder="例：3">
+
+  <label for="preschool">未就学児人数（0〜6歳）</label>
+  <input id="preschool" type="number" placeholder="例：1">
+
+  <label for="care">介護保険人数（40〜64歳）</label>
+  <input id="care" type="number" placeholder="例：1">
+
+  <label for="salaryPensionCount">給与・年金所得者数</label>
+  <input id="salaryPensionCount" type="number" placeholder="例：1">
+
+  <div id="assetLevyGroup" style="display:none">
+    <label for="fixedAssetTax">固定資産税額（資産割対象の方のみ）</label>
+    <input id="fixedAssetTax" type="text" inputmode="numeric" placeholder="例：80,000（年額）">
+  </div>
+
+  <button onclick="calc()">計算する</button>
+
+  <div class="result-title">計算結果</div>
+  <div id="result"><span class="result-placeholder">ここに結果が表示されます</span></div>
+
+  <div style="margin-top:16px;font-size:14px;color:#374151;">
+    <a href="./">← 古平町 かんたん計算に戻る</a>
+  </div>
+
+  <div class="back-link" style="margin-top:20px;">
+    <a href="/">制度ポータルへ戻る</a>
+  </div>
+
+
+  <section style="margin-top:28px;padding:16px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+    <h2 style="font-size:14px;font-weight:700;color:#374151;margin:0 0 12px;">令和7年度 古平町の国民健康保険料率</h2>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:12px;">
+        <thead><tr><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:center;border:1px solid #e5e7eb;white-space:nowrap;">種別</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:center;border:1px solid #e5e7eb;white-space:nowrap;">所得割率</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:center;border:1px solid #e5e7eb;white-space:nowrap;">均等割額</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:center;border:1px solid #e5e7eb;white-space:nowrap;">平等割額</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:center;border:1px solid #e5e7eb;white-space:nowrap;">資産割率</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:center;border:1px solid #e5e7eb;white-space:nowrap;">賦課限度額</th></tr></thead>
+        <tbody>
+      <tr><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;font-weight:600;">医療分</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">8.5%</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">20,000円</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">30,200円</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">80%</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">66万円</td></tr>
+      <tr><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;font-weight:600;">後期高齢者支援金分</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">3%</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">5,000円</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">7,000円</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">10%</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">26万円</td></tr>
+      <tr><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;font-weight:600;">介護分（40〜64歳）</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">1.5%</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">7,500円</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">4,500円</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">14%</td><td style="padding:6px 10px;font-size:12px;text-align:right;border:1px solid #e5e7eb;">17万円</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="note">
+    ※基礎控除43万円を差し引いた簡易計算です。<br>
+    ※軽減判定は目安です。正式な判定ではありません。<br>
+    ※実際の保険料は自治体の通知や公式案内でご確認ください。
+  </div>
+
+  <div style="text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #e5e7eb;">
+    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:#7fd4e6;">
+      <div style="font-size:16px;font-weight:700;color:#ffffff;letter-spacing:0.02em;">Civic Rule Lab</div>
+      <div style="font-size:11px;font-weight:500;color:#ffffff;margin-top:1px;">市民 ↔ 制度</div>
+    </a>
+  </div>
+
+</div>
+
+<script>const CITY_SLUG = "furubira";</script>
+<script src="/js/engine.js?v=2"></script>
+
+</body>
+</html>
