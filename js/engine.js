@@ -130,6 +130,16 @@ async function calc() {
 
     const r = calculateKokuho(data, inputs);
 
+    // GA4: 計算実行イベント
+    if (typeof gtag === 'function') {
+      const pathParts = location.pathname.split('/').filter(Boolean);
+      gtag('event', 'calculate', {
+        prefecture: pathParts[0] || 'unknown',
+        city: city,
+        calc_type: location.pathname.includes('income') ? 'income' : 'simple'
+      });
+    }
+
     result.innerHTML =
       '<div class="result-row"><div class="result-label">医療分</div><div class="amount">' + r.medicalTotal.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">支援分</div><div class="amount">' + r.supportTotal.toLocaleString() + ' 円</div></div>' +
