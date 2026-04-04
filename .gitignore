@@ -1,0 +1,18 @@
+# 開発・ビルド関連（このリポジトリには含めない）
+engines/
+data/
+registry/
+scripts/
+templates/
+docs/
+generated/
+*.json
+!package.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
