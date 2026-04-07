@@ -75,5 +75,10 @@
       "completeness": "full"
     },
     "notes": ""
+  },
+  "caps": {
+    "medical": 660000,
+    "support": 260000,
+    "care": 170000
   }
 }
