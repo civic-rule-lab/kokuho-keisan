@@ -57,7 +57,7 @@
   "meta": {
     "schemaVersion": "1.0",
     "dataVersion": "1.0.0",
-    "status": "unverified",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-07T00:00:00Z",
       "updatedAt": "2026-04-07T00:00:00Z",
@@ -77,9 +77,9 @@
       "method": "manual"
     },
     "quality": {
-      "confidenceScore": 0.8,
+      "confidenceScore": 0.4,
       "completeness": "full"
     },
-    "notes": ""
+    "notes": "医療分所得割0.84%は極めて低い値。公式資料での要確認。"
   }
 }

@@ -1,10 +1,9 @@
 {
-  "cityCode": "45431",
-  "citySlug": "misatomachi",
-  "cityName": "美郷町",
+  "cityCode": "43348",
+  "citySlug": "misatokuma",
+  "cityName": "美里町",
   "fiscalYear": 2025,
   "system": "kokuho",
-  "note": "4方式。R6から資産割が62.62%→41.75%に大幅変更。内訳は宮崎県集計合算値からの推計。実際値は要確認。",
   "basicDeduction": 430000,
   "rate": {
     "medical": 0.0769,
@@ -21,15 +20,15 @@
     "support": 6900,
     "care": 6200
   },
-  "caps": {
-    "medical": 660000,
-    "support": 260000,
-    "care": 170000
-  },
   "assetLevy": {
     "medical": 0.2505,
     "support": 0.0752,
     "care": 0.0918
+  },
+  "caps": {
+    "medical": 660000,
+    "support": 260000,
+    "care": 170000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -62,7 +61,7 @@
   "meta": {
     "schemaVersion": "1.0",
     "dataVersion": "1.0.0",
-    "status": "unverified",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-07T00:00:00Z",
       "updatedAt": "2026-04-07T00:00:00Z",
@@ -85,6 +84,6 @@
       "confidenceScore": 0.8,
       "completeness": "full"
     },
-    "notes": ""
+    "notes": "HTMLページの料率テーブルより作成"
   }
 }
