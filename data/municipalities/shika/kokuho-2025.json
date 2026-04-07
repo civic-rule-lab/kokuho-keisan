@@ -4,7 +4,6 @@
   "cityName": "志賀町",
   "fiscalYear": 2025,
   "system": "kokuho",
-  "note": "R6税率を使用。R7公式未確認。",
   "basicDeduction": 430000,
   "rate": {
     "medical": 0.065,
@@ -57,7 +56,7 @@
   "meta": {
     "schemaVersion": "1.0",
     "dataVersion": "1.0.0",
-    "status": "unverified",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-07T00:00:00Z",
       "updatedAt": "2026-04-07T00:00:00Z",
@@ -77,9 +76,9 @@
       "method": "manual"
     },
     "quality": {
-      "confidenceScore": 0.8,
+      "confidenceScore": 0.5,
       "completeness": "full"
     },
-    "notes": ""
+    "notes": "R6税率を使用。R7公式未確認。"
   }
 }
