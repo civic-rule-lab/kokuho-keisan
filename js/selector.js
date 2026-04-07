@@ -31351,6 +31351,13 @@ function goPage() {
   if (url) {
     window.location.href = url;
   } else {
-    alert("ページが見つかりませんでした。");
+    var existing = document.getElementById("go-page-error");
+    if (existing) existing.remove();
+    var msg = document.createElement("p");
+    msg.id = "go-page-error";
+    msg.textContent = "ページが見つかりませんでした。";
+    msg.style.cssText = "color:#dc2626;font-size:13px;margin-top:8px;";
+    document.querySelector("button[onclick='goPage()']").insertAdjacentElement("afterend", msg);
+    setTimeout(function() { msg.remove(); }, 4000);
   }
 }

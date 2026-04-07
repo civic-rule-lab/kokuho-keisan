@@ -53,12 +53,11 @@
       "twoTenths": 0.2
     }
   },
-  "_note": "R3年度データ。R7未公開のため暫定",
   "_source": "nakai official",
   "meta": {
     "schemaVersion": "1.0",
     "dataVersion": "1.0.0",
-    "status": "unverified",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-07T00:00:00Z",
       "updatedAt": "2026-04-07T00:00:00Z",
@@ -78,9 +77,9 @@
       "method": "manual"
     },
     "quality": {
-      "confidenceScore": 0.8,
+      "confidenceScore": 0.5,
       "completeness": "full"
     },
-    "notes": ""
+    "notes": "R3年度データ。R7未公開のため暫定"
   }
 }
