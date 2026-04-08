@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-04-04
+// 最終生成: 2026-04-08
 
 const registry = {
   "kanagawa": {
@@ -31351,13 +31351,6 @@ function goPage() {
   if (url) {
     window.location.href = url;
   } else {
-    var existing = document.getElementById("go-page-error");
-    if (existing) existing.remove();
-    var msg = document.createElement("p");
-    msg.id = "go-page-error";
-    msg.textContent = "ページが見つかりませんでした。";
-    msg.style.cssText = "color:#dc2626;font-size:13px;margin-top:8px;";
-    document.querySelector("button[onclick='goPage()']").insertAdjacentElement("afterend", msg);
-    setTimeout(function() { msg.remove(); }, 4000);
+    alert("ページが見つかりませんでした。");
   }
 }
