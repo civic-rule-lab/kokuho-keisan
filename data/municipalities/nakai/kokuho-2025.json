@@ -57,29 +57,29 @@
   "meta": {
     "schemaVersion": "1.0",
     "dataVersion": "1.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-07T00:00:00Z",
-      "updatedAt": "2026-04-07T00:00:00Z",
+      "updatedAt": "2026-04-05T00:00:00Z",
       "validFrom": "2025-04-01",
       "validUntil": "2026-03-31",
       "expiresAt": "2026-04-30"
     },
     "source": {
-      "type": "manual",
-      "title": "",
-      "url": "",
+      "type": "official",
+      "title": "中井町 国民健康保険税率（令和8年度）",
+      "url": "https://www.town.nakai.kanagawa.jp/soshiki/zeimuchominkamadoguchihokenhan/kokuminkenkohoken/710.html",
       "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": "manual"
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-04-05",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
+      "confidenceScore": 0.9,
       "completeness": "full"
     },
-    "notes": "R3年度データ。R7未公開のため暫定"
+    "notes": "令和8年度公式サイトで料率が変更なしと確認。R7と同一値。"
   }
 }
