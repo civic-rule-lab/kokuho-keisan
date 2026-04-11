@@ -79,27 +79,38 @@ function calculateKokuho(data, inputs) {
     reductionRate  = data.reduction?.ratios?.twoTenths || 0;
   }
 
+  // 子ども・子育て支援金分（R8新設・0なら無効）
+  const childcareRate       = data.childcare?.rate      || 0;
+  const childcarePerCapita  = data.childcare?.perCapita || 0;
+  const childcareHousehold  = data.childcare?.household || 0;
+  const childcareIncome     = childcareRate > 0 ? Math.round(baseIncome * childcareRate) : 0;
+  const childcarePerCapitaTotal = family * childcarePerCapita;
+  const childcareHouseholdTotal = childcareRate > 0 ? childcareHousehold : 0;
+
   // 軽減額（均等割＋平等割に適用）
-  const medicalReduction = Math.round((medicalPerCapita + medicalHousehold) * reductionRate);
-  const supportReduction = Math.round((supportPerCapita + supportHousehold) * reductionRate);
-  const careReduction    = Math.round((carePerCapita    + careHousehold)    * reductionRate);
+  const medicalReduction   = Math.round((medicalPerCapita  + medicalHousehold)         * reductionRate);
+  const supportReduction   = Math.round((supportPerCapita  + supportHousehold)         * reductionRate);
+  const careReduction      = Math.round((carePerCapita     + careHousehold)            * reductionRate);
+  const childcareReduction = Math.round((childcarePerCapitaTotal + childcareHouseholdTotal) * reductionRate);
 
   // 区分別合計
-  let medicalTotal = medicalIncome + medicalPerCapita + medicalHousehold + assetLevyMedical - preschoolReductionMedical - medicalReduction;
-  let supportTotal = supportIncome + supportPerCapita + supportHousehold + assetLevySupport - preschoolReductionSupport - supportReduction;
-  let careTotal    = careIncome    + carePerCapita    + careHousehold    + assetLevyCare    - careReduction;
+  let medicalTotal   = medicalIncome  + medicalPerCapita        + medicalHousehold         + assetLevyMedical - preschoolReductionMedical - medicalReduction;
+  let supportTotal   = supportIncome  + supportPerCapita        + supportHousehold         + assetLevySupport - preschoolReductionSupport - supportReduction;
+  let careTotal      = careIncome     + carePerCapita           + careHousehold            + assetLevyCare    - careReduction;
+  let childcareTotal = childcareIncome + childcarePerCapitaTotal + childcareHouseholdTotal                    - childcareReduction;
 
-  medicalTotal = Math.min(Math.max(medicalTotal, 0), data.caps.medical);
-  supportTotal = Math.min(Math.max(supportTotal, 0), data.caps.support);
-  careTotal    = Math.min(Math.max(careTotal,    0), data.caps.care);
+  medicalTotal   = Math.min(Math.max(medicalTotal,   0), data.caps.medical);
+  supportTotal   = Math.min(Math.max(supportTotal,   0), data.caps.support);
+  careTotal      = Math.min(Math.max(careTotal,      0), data.caps.care);
+  childcareTotal = Math.min(Math.max(childcareTotal, 0), data.caps.childcare || 30000);
 
-  const total           = medicalTotal + supportTotal + careTotal;
+  const total           = medicalTotal + supportTotal + careTotal + childcareTotal;
   const monthly         = Math.round(total / 12);
-  const totalReduction  = medicalReduction + supportReduction + careReduction;
+  const totalReduction  = medicalReduction + supportReduction + careReduction + childcareReduction;
   const assetLevyTotal  = assetLevyMedical + assetLevySupport + assetLevyCare;
 
   return {
-    medicalTotal, supportTotal, careTotal,
+    medicalTotal, supportTotal, careTotal, childcareTotal,
     total, monthly,
     preschoolReduction, totalReduction,
     reductionLabel, assetLevyTotal
@@ -124,7 +135,8 @@ async function calc() {
     const params = new URLSearchParams(location.search);
     const city = (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city") || "chigasaki";
 
-    const response = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
+    let response = await fetch(`/data/municipalities/${city}/kokuho-2026.json`, { cache: "no-store" });
+    if (!response.ok) response = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
     if (!response.ok) throw new Error("JSON読み込み失敗");
     const data = await response.json();
 
@@ -144,6 +156,7 @@ async function calc() {
       '<div class="result-row"><div class="result-label">医療分</div><div class="amount">' + r.medicalTotal.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">支援分</div><div class="amount">' + r.supportTotal.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">介護分</div><div class="amount">' + r.careTotal.toLocaleString() + ' 円</div></div>' +
+      (r.childcareTotal > 0 ? '<div class="result-row"><div class="result-label">子ども・子育て支援金分</div><div class="amount">' + r.childcareTotal.toLocaleString() + ' 円</div></div>' : '') +
       (r.assetLevyTotal > 0 ? '<div class="result-row"><div class="result-label">資産割（内訳）</div><div class="amount">' + r.assetLevyTotal.toLocaleString() + ' 円</div></div>' : '') +
       '<div class="result-row"><div class="result-label">未就学児軽減</div><div class="amount">-' + r.preschoolReduction.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">法定軽減</div><div class="amount">-' + r.totalReduction.toLocaleString() + ' 円</div></div>' +
@@ -177,7 +190,8 @@ window.calc = calc;
   try {
     const params = new URLSearchParams(location.search);
     const city = (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city") || "chigasaki";
-    const res = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
+    let res = await fetch(`/data/municipalities/${city}/kokuho-2026.json`, { cache: "no-store" });
+    if (!res.ok) res = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
     if (!res.ok) return;
     const data = await res.json();
     if (data.assetLevy) {

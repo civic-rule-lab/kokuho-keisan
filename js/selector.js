@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-04-08
+// 最終生成: 2026-04-11
 
 const registry = {
   "kanagawa": {

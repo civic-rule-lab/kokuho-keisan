@@ -1,0 +1,91 @@
+{
+  "cityCode": "27100",
+  "citySlug": "osaka",
+  "cityName": "大阪市",
+  "fiscalYear": 2026,
+  "system": "kokuho",
+  "note": "大阪府統一保険料率。R6より全府統一。介護分は2方式（平等割なし）。賦課限度額650000/240000円。",
+  "basicDeduction": 430000,
+  "rate": {
+    "medical": 0.061,
+    "support": 0.021,
+    "care": 0.021
+  },
+  "perCapita": {
+    "medical": 43500,
+    "support": 14900,
+    "care": 17100
+  },
+  "household": {
+    "medical": 28500,
+    "support": 9800,
+    "care": 0
+  },
+  "caps": {
+    "medical": 650000,
+    "support": 220000,
+    "care": 170000,
+    "childcare": 37000
+  },
+  "preschoolReduction": {
+    "enabled": true,
+    "medicalPerCapitaRate": 0.5,
+    "supportPerCapitaRate": 0.5
+  },
+  "reduction": {
+    "enabled": true,
+    "standards": {
+      "sevenTenths": {
+        "base": 430000,
+        "perPersonAdd": 0
+      },
+      "fiveTenths": {
+        "base": 430000,
+        "perPersonAdd": 305000
+      },
+      "twoTenths": {
+        "base": 430000,
+        "perPersonAdd": 560000
+      }
+    },
+    "salaryPensionAdd": 100000,
+    "ratios": {
+      "sevenTenths": 0.7,
+      "fiveTenths": 0.5,
+      "twoTenths": 0.2
+    }
+  },
+  "meta": {
+    "schemaVersion": "2.0",
+    "dataVersion": "2.0.0",
+    "status": "verified",
+    "lifecycle": {
+      "createdAt": "2026-04-08T01:03:22.042Z",
+      "updatedAt": "2026-04-08T13:02:38.411Z",
+      "validFrom": "2026-04-01",
+      "validUntil": "2027-03-31",
+      "expiresAt": "2027-04-30"
+    },
+    "source": {
+      "type": "official",
+      "title": "大阪市 保険料の決め方（令和8年度）",
+      "url": "https://www.city.osaka.lg.jp/fukushi/page/0000624098.html",
+      "publishedAt": ""
+    },
+    "audit": {
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-04-08",
+      "method": "official-site"
+    },
+    "quality": {
+      "confidenceScore": 0.9,
+      "completeness": "full"
+    },
+    "notes": "R8公式確認。医療分上限650000・支援分上限220000は大阪市独自設定。子ども支援金分上限37000円。"
+  },
+  "childcare": {
+    "rate": 0.0046,
+    "perCapita": 3700,
+    "household": 0
+  }
+}

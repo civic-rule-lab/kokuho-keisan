@@ -1,0 +1,90 @@
+{
+  "cityCode": "14100",
+  "citySlug": "yokohama",
+  "cityName": "横浜市",
+  "fiscalYear": 2026,
+  "system": "kokuho",
+  "basicDeduction": 430000,
+  "rate": {
+    "medical": 0.0833,
+    "support": 0.0262,
+    "care": 0.0284
+  },
+  "perCapita": {
+    "medical": 40870,
+    "support": 13380,
+    "care": 16200
+  },
+  "household": {
+    "medical": 0,
+    "support": 0,
+    "care": 0
+  },
+  "caps": {
+    "medical": 670000,
+    "support": 260000,
+    "care": 170000,
+    "childcare": 30000
+  },
+  "preschoolReduction": {
+    "enabled": true,
+    "medicalPerCapitaRate": 0.5,
+    "supportPerCapitaRate": 0.5
+  },
+  "reduction": {
+    "enabled": true,
+    "standards": {
+      "sevenTenths": {
+        "base": 430000,
+        "perPersonAdd": 0
+      },
+      "fiveTenths": {
+        "base": 430000,
+        "perPersonAdd": 305000
+      },
+      "twoTenths": {
+        "base": 430000,
+        "perPersonAdd": 560000
+      }
+    },
+    "salaryPensionAdd": 100000,
+    "ratios": {
+      "sevenTenths": 0.7,
+      "fiveTenths": 0.5,
+      "twoTenths": 0.2
+    }
+  },
+  "meta": {
+    "schemaVersion": "2.0",
+    "dataVersion": "2.0.0",
+    "status": "verified",
+    "lifecycle": {
+      "createdAt": "2026-04-08T01:03:21.766Z",
+      "updatedAt": "2026-04-08T13:02:38.409Z",
+      "validFrom": "2026-04-01",
+      "validUntil": "2027-03-31",
+      "expiresAt": "2027-04-30"
+    },
+    "source": {
+      "type": "official",
+      "title": "横浜市 令和8年度保険料の料率等について",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/hokenryo/r7hokennryouritu.html",
+      "publishedAt": ""
+    },
+    "audit": {
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-04-08",
+      "method": "official-site"
+    },
+    "quality": {
+      "confidenceScore": 0.9,
+      "completeness": "full"
+    },
+    "notes": "R8公式確認。子ども分均等割1770円（被保険者均等1690+18歳以上80）。5月告示で正式確定予定。"
+  },
+  "childcare": {
+    "rate": 0.0034,
+    "perCapita": 1770,
+    "household": 0
+  }
+}
