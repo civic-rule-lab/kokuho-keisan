@@ -12,7 +12,7 @@ function formatNumber(input) {
 // ─── 計算ロジック（純粋関数） ────────────────────────────────────
 
 function calculateKokuho(data, inputs) {
-  const { income, family, preschool, care, salaryPensionCount, fixedAssetTax } = inputs;
+  const { income, family, preschool, under18, care, salaryPensionCount, fixedAssetTax } = inputs;
 
   // 資産割
   const assetLevyMedical = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.medical || 0)) : 0;
@@ -80,11 +80,13 @@ function calculateKokuho(data, inputs) {
   }
 
   // 子ども・子育て支援金分（R8新設・0なら無効）
-  const childcareRate       = data.childcare?.rate      || 0;
-  const childcarePerCapita  = data.childcare?.perCapita || 0;
-  const childcareHousehold  = data.childcare?.household || 0;
+  const childcareCfg        = data.childcareLevy;
+  const childcareRate       = childcareCfg?.rate      || 0;
+  const childcarePerCapita  = childcareCfg?.perCapita || 0;
+  const childcareHousehold  = childcareCfg?.household || 0;
   const childcareIncome     = childcareRate > 0 ? Math.round(baseIncome * childcareRate) : 0;
-  const childcarePerCapitaTotal = family * childcarePerCapita;
+  const under18Count        = (childcareCfg?.under18Reduction && childcareRate > 0) ? Math.min(under18 || 0, family) : 0;
+  const childcarePerCapitaTotal = (family - under18Count) * childcarePerCapita;
   const childcareHouseholdTotal = childcareRate > 0 ? childcareHousehold : 0;
 
   // 軽減額（均等割＋平等割に適用）
@@ -102,7 +104,7 @@ function calculateKokuho(data, inputs) {
   medicalTotal   = Math.min(Math.max(medicalTotal,   0), data.caps.medical);
   supportTotal   = Math.min(Math.max(supportTotal,   0), data.caps.support);
   careTotal      = Math.min(Math.max(careTotal,      0), data.caps.care);
-  childcareTotal = Math.min(Math.max(childcareTotal, 0), data.caps.childcare || 30000);
+  childcareTotal = Math.min(Math.max(childcareTotal, 0), childcareCfg?.cap ?? 30000);
 
   const total           = medicalTotal + supportTotal + careTotal + childcareTotal;
   const monthly         = Math.round(total / 12);
@@ -117,6 +119,32 @@ function calculateKokuho(data, inputs) {
   };
 }
 
+// ─── データ取得（キャッシュ付き） ────────────────────────────────
+
+const _kokuhoDataCache = new Map();
+
+async function loadKokuhoData(city) {
+  if (_kokuhoDataCache.has(city)) return _kokuhoDataCache.get(city);
+  const promise = (async () => {
+    let res = await fetch(`/data/municipalities/${city}/kokuho-2026.json`, { cache: "no-store" });
+    if (!res.ok) res = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
+    if (!res.ok) throw new Error("JSON読み込み失敗");
+    return await res.json();
+  })();
+  _kokuhoDataCache.set(city, promise);
+  try {
+    return await promise;
+  } catch (e) {
+    _kokuhoDataCache.delete(city);
+    throw e;
+  }
+}
+
+function getCurrentCity() {
+  const params = new URLSearchParams(location.search);
+  return (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city") || "chigasaki";
+}
+
 // ─── DOM アダプター ──────────────────────────────────────────────
 
 async function calc() {
@@ -127,18 +155,14 @@ async function calc() {
       income:             Number(toHalfWidth(document.getElementById("income").value || "").replace(/[^\d]/g, "")) || 0,
       family:             Number(toHalfWidth(document.getElementById("family").value || "0")) || 0,
       preschool:          Number(toHalfWidth(document.getElementById("preschool")?.value || "0")) || 0,
+      under18:            Number(toHalfWidth(document.getElementById("under18")?.value || "0")) || 0,
       care:               Number(toHalfWidth(document.getElementById("care")?.value || "0")) || 0,
       salaryPensionCount: Number(toHalfWidth(document.getElementById("salaryPensionCount")?.value || "1")) || 1,
       fixedAssetTax:      Number(toHalfWidth(document.getElementById("fixedAssetTax")?.value || "0").replace(/[^\d]/g, "")) || 0,
     };
 
-    const params = new URLSearchParams(location.search);
-    const city = (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city") || "chigasaki";
-
-    let response = await fetch(`/data/municipalities/${city}/kokuho-2026.json`, { cache: "no-store" });
-    if (!response.ok) response = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
-    if (!response.ok) throw new Error("JSON読み込み失敗");
-    const data = await response.json();
+    const city = getCurrentCity();
+    const data = await loadKokuhoData(city);
 
     const r = calculateKokuho(data, inputs);
 
@@ -188,12 +212,7 @@ window.calc = calc;
 // ページ読み込み時に資産割入力欄を表示制御
 (async function() {
   try {
-    const params = new URLSearchParams(location.search);
-    const city = (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city") || "chigasaki";
-    let res = await fetch(`/data/municipalities/${city}/kokuho-2026.json`, { cache: "no-store" });
-    if (!res.ok) res = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
-    if (!res.ok) return;
-    const data = await res.json();
+    const data = await loadKokuhoData(getCurrentCity());
     if (data.assetLevy) {
       const group = document.getElementById("assetLevyGroup");
       if (group) group.style.display = "";
