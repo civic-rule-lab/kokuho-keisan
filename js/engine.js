@@ -152,13 +152,13 @@ async function calc() {
 
   try {
     const inputs = {
-      income:             Number(toHalfWidth(document.getElementById("income").value || "").replace(/[^\d]/g, "")) || 0,
-      family:             Number(toHalfWidth(document.getElementById("family").value || "0")) || 0,
-      preschool:          Number(toHalfWidth(document.getElementById("preschool")?.value || "0")) || 0,
-      under18:            Number(toHalfWidth(document.getElementById("under18")?.value || "0")) || 0,
-      care:               Number(toHalfWidth(document.getElementById("care")?.value || "0")) || 0,
-      salaryPensionCount: Number(toHalfWidth(document.getElementById("salaryPensionCount")?.value || "1")) || 1,
-      fixedAssetTax:      Number(toHalfWidth(document.getElementById("fixedAssetTax")?.value || "0").replace(/[^\d]/g, "")) || 0,
+      income:             Math.max(0, Number(toHalfWidth(document.getElementById("income").value || "").replace(/[^\d]/g, "")) || 0),
+      family:             Math.max(1, Number(toHalfWidth(document.getElementById("family").value || "1")) || 1),
+      preschool:          Math.max(0, Number(toHalfWidth(document.getElementById("preschool")?.value || "0")) || 0),
+      under18:            Math.max(0, Number(toHalfWidth(document.getElementById("under18")?.value || "0")) || 0),
+      care:               Math.max(0, Number(toHalfWidth(document.getElementById("care")?.value || "0")) || 0),
+      salaryPensionCount: Math.max(1, Number(toHalfWidth(document.getElementById("salaryPensionCount")?.value || "1")) || 1),
+      fixedAssetTax:      Math.max(0, Number(toHalfWidth(document.getElementById("fixedAssetTax")?.value || "0").replace(/[^\d]/g, "")) || 0),
     };
 
     const city = getCurrentCity();
