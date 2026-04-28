@@ -4,13 +4,35 @@ function toHalfWidth(str) {
     .replace(/[，、,]/g, "");
 }
 
-function formatNumber(input) {
-  const raw = toHalfWidth(input.value).replace(/[^\d]/g, "");
-  input.value = raw ? Number(raw).toLocaleString("ja-JP") : "";
-}
+function setupNumericInput(id, options) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const withCommas = !!(options && options.withCommas);
+  let isComposing = false;
 
-function formatInteger(input) {
-  input.value = toHalfWidth(input.value).replace(/[^\d]/g, "");
+  function clean() {
+    if (isComposing) return;
+    el.value = toHalfWidth(el.value).replace(/[^\d]/g, "");
+  }
+
+  function commit() {
+    const raw = toHalfWidth(el.value).replace(/[^\d]/g, "");
+    if (!raw) { el.value = ""; return; }
+    el.value = withCommas ? Number(raw).toLocaleString("ja-JP") : raw;
+  }
+
+  el.addEventListener('compositionstart', () => { isComposing = true; });
+  el.addEventListener('compositionend', () => {
+    isComposing = false;
+    setTimeout(commit, 0);
+  });
+  el.addEventListener('input', clean);
+  el.addEventListener('blur', commit);
+  el.addEventListener('keydown', (e) => {
+    if (e.key === '-' || e.key === '+' || e.key === 'e' || e.key === 'E') {
+      e.preventDefault();
+    }
+  });
 }
 
 // ─── 計算ロジック（純粋関数） ────────────────────────────────────
@@ -202,28 +224,8 @@ async function calc() {
 window.calc = calc;
 
 (function() {
-  const numberFields = ['income', 'fixedAssetTax'];
-  const integerFields = ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'];
-
-  numberFields.forEach(id => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.addEventListener('compositionend', function() {
-      const t = this;
-      setTimeout(function() { formatNumber(t); }, 0);
-    });
-    el.addEventListener('blur', function() { formatNumber(this); });
-  });
-
-  integerFields.forEach(id => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.addEventListener('compositionend', function() {
-      const t = this;
-      setTimeout(function() { formatInteger(t); }, 0);
-    });
-    el.addEventListener('blur', function() { formatInteger(this); });
-  });
+  ['income', 'fixedAssetTax'].forEach(id => setupNumericInput(id, { withCommas: true }));
+  ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'].forEach(id => setupNumericInput(id));
 })();
 
 // ページ読み込み時に資産割入力欄を表示制御
