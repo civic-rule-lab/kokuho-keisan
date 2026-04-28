@@ -9,6 +9,10 @@ function formatNumber(input) {
   input.value = raw ? Number(raw).toLocaleString("ja-JP") : "";
 }
 
+function formatInteger(input) {
+  input.value = toHalfWidth(input.value).replace(/[^\d]/g, "");
+}
+
 // ─── 計算ロジック（純粋関数） ────────────────────────────────────
 
 function calculateKokuho(data, inputs) {
@@ -198,14 +202,27 @@ async function calc() {
 window.calc = calc;
 
 (function() {
-  const income = document.getElementById('income');
-  if (!income) return;
-  income.addEventListener('compositionend', function() {
-    const el = this;
-    setTimeout(function() { formatNumber(el); }, 0);
+  const numberFields = ['income', 'fixedAssetTax'];
+  const integerFields = ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'];
+
+  numberFields.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('compositionend', function() {
+      const t = this;
+      setTimeout(function() { formatNumber(t); }, 0);
+    });
+    el.addEventListener('blur', function() { formatNumber(this); });
   });
-  income.addEventListener('blur', function() {
-    formatNumber(this);
+
+  integerFields.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('compositionend', function() {
+      const t = this;
+      setTimeout(function() { formatInteger(t); }, 0);
+    });
+    el.addEventListener('blur', function() { formatInteger(this); });
   });
 })();
 
