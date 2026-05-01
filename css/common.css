@@ -338,21 +338,24 @@ button:active{
 ──────────────────────────────────────────────────────────────── */
 .result-note{
   margin:10px 0 0;
-  font-size:12px;
+  font-size:13px;
   color:#6b7280;
   line-height:1.6;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+}
+.result-note__text{
+  flex:1;
 }
 .result-note__badge{
-  display:block;
-  text-align:right;
+  flex-shrink:0;
+  white-space:nowrap;
   font-size:10px;
   font-weight:600;
   padding:1px 5px;
   border-radius:4px;
-  white-space:nowrap;
-  width:fit-content;
-  margin-left:auto;
-  margin-top:2px;
 }
 .result-note__badge--verified{
   color:#166534;
