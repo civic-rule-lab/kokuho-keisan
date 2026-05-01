@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="沖縄県の国民健康保険料を県内41市区町村別に計算。令和8年度（2026年度）公式データ確認済み。沖縄県では住民税の超過課税はありません。">
+<link rel="canonical" href="https://kokuho-keisan.jp/okinawa/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="沖縄県の住民税・国保料計算【令和8年度】">
+<meta property="og:description" content="沖縄県の国民健康保険料を県内41市区町村別に計算。令和8年度（2026年度）公式データ確認済み。沖縄県では住民税の超過課税はありません。">
+<meta property="og:url" content="https://kokuho-keisan.jp/okinawa/">
+<meta property="og:site_name" content="国保計算.jp">
+<meta property="og:locale" content="ja_JP">
+<link rel="stylesheet" href="/css/common.css?v=2">
+<title>沖縄県の住民税・国保料計算【令和8年度】</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"国保計算ポータル","item":"https://kokuho-keisan.jp/"},{"@type":"ListItem","position":2,"name":"沖縄県","item":"https://kokuho-keisan.jp/okinawa/"}]},{"@type":"WebPage","name":"沖縄県の住民税・国保料計算","description":"沖縄県の国民健康保険料を県内41市区町村別に計算。令和8年度（2026年度）公式データ確認済み。沖縄県では住民税の超過課税はありません。","url":"https://kokuho-keisan.jp/okinawa/","inLanguage":"ja"}]}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H15R1TNWD2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H15R1TNWD2');
+</script>
+<style>
+.pref-page-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:4px 12px;border-radius:12px;font-size:13px;font-weight:500;
+  background:#f0fdf4;color:#166534;border:1px solid #bbf7d0;
+  margin-bottom:20px;
+}
+.pref-jumin-box{
+  margin:20px 0 28px;padding:18px 20px;
+  background:#f8fafc;border:1px solid #e2e8f0;
+  border-left:3px solid #64748b;border-radius:8px;
+  font-size:14px;line-height:1.8;color:#374151;
+}
+.pref-jumin-box__desc{ margin:0 0 10px; }
+.pref-jumin-box__link{
+  font-size:13px;color:#2563eb;text-decoration:none;
+}
+.pref-jumin-box__link:hover{ text-decoration:underline; }
+.muni-section{ margin:24px 0; }
+.muni-section h3{
+  font-size:13px;font-weight:700;color:#6b7280;
+  letter-spacing:0.08em;margin:0 0 10px;
+  padding-bottom:4px;border-bottom:1px solid #e5e7eb;
+}
+.muni-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+  gap:6px;
+}
+.muni-link{
+  display:block;padding:8px 10px;
+  background:#fff;border:1px solid #e5e7eb;border-radius:8px;
+  font-size:13px;color:#1d4ed8;text-decoration:none;
+  transition:background 0.15s;
+}
+.muni-link:hover{ background:#eff6ff;border-color:#bfdbfe; }
+.muni-link--designated{ border-left:3px solid #0ea5e9; }
+.faq-item{ margin:0 0 20px; }
+.faq-item summary{
+  font-weight:600;font-size:15px;cursor:pointer;
+  padding:12px 14px;background:#f9fafb;
+  border:1px solid #e5e7eb;border-radius:8px;
+  list-style:none;color:#0f172a;
+}
+.faq-item summary::-webkit-details-marker{ display:none; }
+.faq-item summary::before{ content:"Q. "; color:#6b7280; }
+.faq-item[open] summary{ border-radius:8px 8px 0 0;border-bottom-color:transparent; }
+.faq-item p{
+  margin:0;padding:14px 16px;
+  border:1px solid #e5e7eb;border-top:none;border-radius:0 0 8px 8px;
+  font-size:14px;line-height:1.8;color:#374151;background:#fff;
+}
+@media(max-width:480px){
+  .muni-grid{ grid-template-columns:1fr 1fr; }
+  .muni-link{ font-size:12px; }
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <nav style="font-size:12px;color:#6b7280;margin-bottom:16px;">
+    <a href="/" style="color:#2563eb;text-decoration:none;">ホーム</a>
+    <span style="margin:0 6px;">›</span>
+    <span>沖縄県</span>
+  </nav>
+
+  <h1 style="font-size:clamp(20px,4vw,26px);font-weight:700;color:#0f172a;margin:0 0 8px;line-height:1.4;">
+    沖縄県の住民税・国保料計算
+  </h1>
+  <p style="font-size:14px;color:#374151;line-height:1.7;margin:0 0 16px;">
+    沖縄県内の市区町村を選んで、国民健康保険料を計算できます。
+    また、沖縄県の住民税（都道府県民税）の情報もご確認いただけます。
+  </p>
+
+  <span class="pref-page-badge">
+    <span style="color:#16a34a;font-weight:700;">✓</span>令和8年度（2026年度）公式データ確認済み
+  </span>
+
+  <h2 style="font-size:18px;font-weight:700;color:#0f172a;margin:24px 0 12px;">
+    沖縄県の住民税について
+  </h2>
+
+  <div class="pref-jumin-box">
+    <p class="pref-jumin-box__desc">沖縄県では個人県民税の超過課税はありません。地方税法の標準税率（所得割4%、均等割1,000円）が適用されています。</p>
+    <a class="pref-jumin-box__link" href="https://www.pref.okinawa.lg.jp/kurashikankyo/zeikin/1003660/index.html" target="_blank" rel="noopener">公式サイトで確認 ↗</a>
+  </div>
+
+  <h2 style="font-size:18px;font-weight:700;color:#0f172a;margin:32px 0 4px;">
+    県内市区町村の国保料計算
+  </h2>
+  <p style="font-size:13px;color:#6b7280;margin:0 0 16px;">
+    計算したい市区町村を選んでください。
+  </p>
+
+  <div class="muni-section">
+    <h3>市</h3>
+    <div class="muni-grid">
+      <a class="muni-link" href="/okinawa/naha/">那覇市</a>
+      <a class="muni-link" href="/okinawa/ginowan/">宜野湾市</a>
+      <a class="muni-link" href="/okinawa/nago/">名護市</a>
+      <a class="muni-link" href="/okinawa/okinawashi/">沖縄市</a>
+      <a class="muni-link" href="/okinawa/ishigaki/">石垣市</a>
+      <a class="muni-link" href="/okinawa/urasoe/">浦添市</a>
+      <a class="muni-link" href="/okinawa/itoman/">糸満市</a>
+      <a class="muni-link" href="/okinawa/tomigusuku/">豊見城市</a>
+      <a class="muni-link" href="/okinawa/nanjo/">南城市</a>
+      <a class="muni-link" href="/okinawa/uruma/">うるま市</a>
+      <a class="muni-link" href="/okinawa/miyakojima/">宮古島市</a>
+    </div>
+  </div>
+
+  <div class="muni-section">
+    <h3>町・村</h3>
+    <div class="muni-grid">
+      <a class="muni-link" href="/okinawa/yaese/">八重瀬町</a>
+      <a class="muni-link" href="/okinawa/kunigami/">国頭村</a>
+      <a class="muni-link" href="/okinawa/ogimi/">大宜味村</a>
+      <a class="muni-link" href="/okinawa/higashi/">東村</a>
+      <a class="muni-link" href="/okinawa/nakijin/">今帰仁村</a>
+      <a class="muni-link" href="/okinawa/motobu/">本部町</a>
+      <a class="muni-link" href="/okinawa/onna/">恩納村</a>
+      <a class="muni-link" href="/okinawa/ginoza/">宜野座村</a>
+      <a class="muni-link" href="/okinawa/kin/">金武町</a>
+      <a class="muni-link" href="/okinawa/ie/">伊江村</a>
+      <a class="muni-link" href="/okinawa/yomitan/">読谷村</a>
+      <a class="muni-link" href="/okinawa/kadena/">嘉手納町</a>
+      <a class="muni-link" href="/okinawa/chatan/">北谷町</a>
+      <a class="muni-link" href="/okinawa/kitanakagusuku/">北中城村</a>
+      <a class="muni-link" href="/okinawa/nakagusuku/">中城村</a>
+      <a class="muni-link" href="/okinawa/nishihara/">西原町</a>
+      <a class="muni-link" href="/okinawa/yonabaru/">与那原町</a>
+      <a class="muni-link" href="/okinawa/haebaru/">南風原町</a>
+      <a class="muni-link" href="/okinawa/kumejima/">久米島町</a>
+      <a class="muni-link" href="/okinawa/tokashiki/">渡嘉敷村</a>
+      <a class="muni-link" href="/okinawa/zamami/">座間味村</a>
+      <a class="muni-link" href="/okinawa/aguni/">粟国村</a>
+      <a class="muni-link" href="/okinawa/tonaki/">渡名喜村</a>
+      <a class="muni-link" href="/okinawa/minamidaito/">南大東村</a>
+      <a class="muni-link" href="/okinawa/kitadaito/">北大東村</a>
+      <a class="muni-link" href="/okinawa/iheya/">伊平屋村</a>
+      <a class="muni-link" href="/okinawa/izena/">伊是名村</a>
+      <a class="muni-link" href="/okinawa/tarama/">多良間村</a>
+      <a class="muni-link" href="/okinawa/taketomi/">竹富町</a>
+      <a class="muni-link" href="/okinawa/yonaguni/">与那国町</a>
+    </div>
+  </div>
+
+  <h2 style="font-size:18px;font-weight:700;color:#0f172a;margin:36px 0 16px;">
+    よくある質問
+  </h2>
+
+  <details class="faq-item">
+    <summary>沖縄県の住民税（県民税）は全国標準ですか？</summary>
+    <p>はい。沖縄県では都道府県独自の超過課税はなく、地方税法の標準税率（所得割4%、均等割1,000円）が適用されています。</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>沖縄県内の市区町村で住民税の金額は違いますか？</summary>
+    <p>県民税部分（所得割4%・均等割1,000円）は全市区町村で統一されています。市区町村民税は各自治体の設定によります。</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>沖縄県の国民健康保険料はどこで確認できますか？</summary>
+    <p>このページに掲載している各市区町村の計算ページから試算できます。正式な保険料は各自治体の窓口や通知書でご確認ください。</p>
+  </details>
+
+  <div style="margin-top:40px;padding:24px;background:#f0f9ff;border:1px solid #bae6fd;border-radius:16px;text-align:center;">
+    <div style="font-size:12px;color:#0284c7;letter-spacing:0.1em;margin-bottom:8px;">Powered by</div>
+    <div style="font-size:18px;font-weight:700;color:#0c4a6e;margin-bottom:8px;">Civic Systems</div>
+    <div style="font-size:13px;color:#475569;margin-bottom:16px;">市民と制度をつなぐ技術基盤を研究する会社</div>
+    <a href="https://civicsystems.jp" target="_blank" rel="noopener"
+       style="display:inline-block;background:#0284c7;color:#fff;font-weight:700;font-size:13px;padding:10px 24px;border-radius:40px;text-decoration:none;">
+      Civic Systems へ →
+    </a>
+  </div>
+
+  <div style="text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #e5e7eb;">
+    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:#7fd4e6;">
+      <div style="font-size:16px;font-weight:700;color:#ffffff;letter-spacing:0.02em;">Civic Rule Lab</div>
+      <div style="font-size:11px;font-weight:500;color:#ffffff;margin-top:1px;">市民 ↔ 制度</div>
+    </a>
+  </div>
+
+</div>
+</body>
+</html>

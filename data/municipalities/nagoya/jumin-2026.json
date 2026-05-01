@@ -1,0 +1,20 @@
+{
+  "cityCode": "23100",
+  "citySlug": "nagoya",
+  "cityName": "名古屋市",
+  "prefSlug": "aichi",
+  "fiscalYear": 2026,
+  "system": "jumin",
+  "schemaVersion": "1.0",
+  "status": "verified",
+  "prefRate": 0.02,
+  "prefPerCapita": 1500,
+  "cityRate": 0.072,
+  "cityPerCapita": 2800,
+  "source": {
+    "url": "https://www.city.nagoya.jp/zaisei/page/0000009961.html",
+    "pageTitle": "名古屋市 市民税の減税",
+    "retrievedAt": "2026-04-30"
+  },
+  "notes": "政令市（prefRate=2%,cityRate=8%）に市民税1割減税(×0.9)を適用。あいち森と緑づくり税(+500円)はPREF_DEFAULTSで適用済み。"
+}

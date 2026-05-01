@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="福島県の国民健康保険料を県内59市区町村別に計算。福島県では「ふくしま森林づくり県民税」として均等割に1,000円が上乗せされています。令和8年度（2026年度）公式データ確認済み。">
+<link rel="canonical" href="https://kokuho-keisan.jp/fukushima/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="福島県の住民税・国保料計算【令和8年度】">
+<meta property="og:description" content="福島県の国民健康保険料を県内59市区町村別に計算。福島県では「ふくしま森林づくり県民税」として均等割に1,000円が上乗せされています。令和8年度（2026年度）公式データ確認済み。">
+<meta property="og:url" content="https://kokuho-keisan.jp/fukushima/">
+<meta property="og:site_name" content="国保計算.jp">
+<meta property="og:locale" content="ja_JP">
+<link rel="stylesheet" href="/css/common.css?v=2">
+<title>福島県の住民税・国保料計算【令和8年度】</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"国保計算ポータル","item":"https://kokuho-keisan.jp/"},{"@type":"ListItem","position":2,"name":"福島県","item":"https://kokuho-keisan.jp/fukushima/"}]},{"@type":"WebPage","name":"福島県の住民税・国保料計算","description":"福島県の国民健康保険料を県内59市区町村別に計算。福島県では「ふくしま森林づくり県民税」として均等割に1,000円が上乗せされています。令和8年度（2026年度）公式データ確認済み。","url":"https://kokuho-keisan.jp/fukushima/","inLanguage":"ja"}]}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H15R1TNWD2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H15R1TNWD2');
+</script>
+<style>
+.pref-page-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:4px 12px;border-radius:12px;font-size:13px;font-weight:500;
+  background:#f0fdf4;color:#166534;border:1px solid #bbf7d0;
+  margin-bottom:20px;
+}
+.pref-jumin-box{
+  margin:20px 0 28px;padding:18px 20px;
+  background:#f8fafc;border:1px solid #e2e8f0;
+  border-left:3px solid #64748b;border-radius:8px;
+  font-size:14px;line-height:1.8;color:#374151;
+}
+.pref-jumin-box__desc{ margin:0 0 10px; }
+.pref-jumin-box__link{
+  font-size:13px;color:#2563eb;text-decoration:none;
+}
+.pref-jumin-box__link:hover{ text-decoration:underline; }
+.muni-section{ margin:24px 0; }
+.muni-section h3{
+  font-size:13px;font-weight:700;color:#6b7280;
+  letter-spacing:0.08em;margin:0 0 10px;
+  padding-bottom:4px;border-bottom:1px solid #e5e7eb;
+}
+.muni-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
+  gap:6px;
+}
+.muni-link{
+  display:block;padding:8px 10px;
+  background:#fff;border:1px solid #e5e7eb;border-radius:8px;
+  font-size:13px;color:#1d4ed8;text-decoration:none;
+  transition:background 0.15s;
+}
+.muni-link:hover{ background:#eff6ff;border-color:#bfdbfe; }
+.muni-link--designated{ border-left:3px solid #0ea5e9; }
+.faq-item{ margin:0 0 20px; }
+.faq-item summary{
+  font-weight:600;font-size:15px;cursor:pointer;
+  padding:12px 14px;background:#f9fafb;
+  border:1px solid #e5e7eb;border-radius:8px;
+  list-style:none;color:#0f172a;
+}
+.faq-item summary::-webkit-details-marker{ display:none; }
+.faq-item summary::before{ content:"Q. "; color:#6b7280; }
+.faq-item[open] summary{ border-radius:8px 8px 0 0;border-bottom-color:transparent; }
+.faq-item p{
+  margin:0;padding:14px 16px;
+  border:1px solid #e5e7eb;border-top:none;border-radius:0 0 8px 8px;
+  font-size:14px;line-height:1.8;color:#374151;background:#fff;
+}
+@media(max-width:480px){
+  .muni-grid{ grid-template-columns:1fr 1fr; }
+  .muni-link{ font-size:12px; }
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <nav style="font-size:12px;color:#6b7280;margin-bottom:16px;">
+    <a href="/" style="color:#2563eb;text-decoration:none;">ホーム</a>
+    <span style="margin:0 6px;">›</span>
+    <span>福島県</span>
+  </nav>
+
+  <h1 style="font-size:clamp(20px,4vw,26px);font-weight:700;color:#0f172a;margin:0 0 8px;line-height:1.4;">
+    福島県の住民税・国保料計算
+  </h1>
+  <p style="font-size:14px;color:#374151;line-height:1.7;margin:0 0 16px;">
+    福島県内の市区町村を選んで、国民健康保険料を計算できます。
+    また、福島県の住民税（都道府県民税）の情報もご確認いただけます。
+  </p>
+
+  <span class="pref-page-badge">
+    <span style="color:#16a34a;font-weight:700;">✓</span>令和8年度（2026年度）公式データ確認済み
+  </span>
+
+  <h2 style="font-size:18px;font-weight:700;color:#0f172a;margin:24px 0 12px;">
+    福島県の住民税について
+  </h2>
+
+  <div class="pref-jumin-box">
+    <p class="pref-jumin-box__desc">福島県では「ふくしま森林づくり県民税」として、個人県民税の均等割に1,000円が上乗せされています。2006年度から実施されており、荒廃した人工林の間伐・再造林と森林環境の保全整備に充てられています。</p>
+    <a class="pref-jumin-box__link" href="https://www.pref.fukushima.lg.jp/sec/01115d/zeimu22.html" target="_blank" rel="noopener">公式サイトで確認 ↗</a>
+  </div>
+
+  <h2 style="font-size:18px;font-weight:700;color:#0f172a;margin:32px 0 4px;">
+    県内市区町村の国保料計算
+  </h2>
+  <p style="font-size:13px;color:#6b7280;margin:0 0 16px;">
+    計算したい市区町村を選んでください。
+  </p>
+
+  <div class="muni-section">
+    <h3>市</h3>
+    <div class="muni-grid">
+      <a class="muni-link" href="/fukushima/fukushimashi/">福島市</a>
+      <a class="muni-link" href="/fukushima/aizuwakamatsu/">会津若松市</a>
+      <a class="muni-link" href="/fukushima/koriyama/">郡山市</a>
+      <a class="muni-link" href="/fukushima/iwaki/">いわき市</a>
+      <a class="muni-link" href="/fukushima/shirakawashi/">白河市</a>
+      <a class="muni-link" href="/fukushima/sukagawa/">須賀川市</a>
+      <a class="muni-link" href="/fukushima/kitakatashi/">喜多方市</a>
+      <a class="muni-link" href="/fukushima/soma/">相馬市</a>
+      <a class="muni-link" href="/fukushima/nihonmatsu/">二本松市</a>
+      <a class="muni-link" href="/fukushima/tamura/">田村市</a>
+      <a class="muni-link" href="/fukushima/minamisoma/">南相馬市</a>
+      <a class="muni-link" href="/fukushima/dateshi/">伊達市</a>
+      <a class="muni-link" href="/fukushima/motomiya/">本宮市</a>
+    </div>
+  </div>
+
+  <div class="muni-section">
+    <h3>町・村</h3>
+    <div class="muni-grid">
+      <a class="muni-link" href="/fukushima/koori/">桑折町</a>
+      <a class="muni-link" href="/fukushima/kunimi/">国見町</a>
+      <a class="muni-link" href="/fukushima/kawamata/">川俣町</a>
+      <a class="muni-link" href="/fukushima/otama/">大玉村</a>
+      <a class="muni-link" href="/fukushima/kagamiishi/">鏡石町</a>
+      <a class="muni-link" href="/fukushima/tenei/">天栄村</a>
+      <a class="muni-link" href="/fukushima/shimogo/">下郷町</a>
+      <a class="muni-link" href="/fukushima/hinoemata/">檜枝岐村</a>
+      <a class="muni-link" href="/fukushima/tadami/">只見町</a>
+      <a class="muni-link" href="/fukushima/kitashiobara/">北塩原村</a>
+      <a class="muni-link" href="/fukushima/nishiaizu/">西会津町</a>
+      <a class="muni-link" href="/fukushima/bandai/">磐梯町</a>
+      <a class="muni-link" href="/fukushima/inawashiro/">猪苗代町</a>
+      <a class="muni-link" href="/fukushima/aizubange/">会津坂下町</a>
+      <a class="muni-link" href="/fukushima/yugawa/">湯川村</a>
+      <a class="muni-link" href="/fukushima/yanaitsu/">柳津町</a>
+      <a class="muni-link" href="/fukushima/mishimacho/">三島町</a>
+      <a class="muni-link" href="/fukushima/kaneyama/">金山町</a>
+      <a class="muni-link" href="/fukushima/showamura/">昭和村</a>
+      <a class="muni-link" href="/fukushima/nishigo/">西郷村</a>
+      <a class="muni-link" href="/fukushima/izumizaki/">泉崎村</a>
+      <a class="muni-link" href="/fukushima/nakajima/">中島村</a>
+      <a class="muni-link" href="/fukushima/yabuki/">矢吹町</a>
+      <a class="muni-link" href="/fukushima/tanagura/">棚倉町</a>
+      <a class="muni-link" href="/fukushima/yamatsuri/">矢祭町</a>
+      <a class="muni-link" href="/fukushima/hanawa/">塙町</a>
+      <a class="muni-link" href="/fukushima/samegawa/">鮫川村</a>
+      <a class="muni-link" href="/fukushima/furudono/">古殿町</a>
+      <a class="muni-link" href="/fukushima/ishikawa/">石川町</a>
+      <a class="muni-link" href="/fukushima/tamakawa/">玉川村</a>
+      <a class="muni-link" href="/fukushima/hirata/">平田村</a>
+      <a class="muni-link" href="/fukushima/asakawa/">浅川町</a>
+      <a class="muni-link" href="/fukushima/miharu/">三春町</a>
+      <a class="muni-link" href="/fukushima/onomachi/">小野町</a>
+      <a class="muni-link" href="/fukushima/hirono/">広野町</a>
+      <a class="muni-link" href="/fukushima/naraha/">楢葉町</a>
+      <a class="muni-link" href="/fukushima/tomiokacho/">富岡町</a>
+      <a class="muni-link" href="/fukushima/kawauchi/">川内村</a>
+      <a class="muni-link" href="/fukushima/okuma/">大熊町</a>
+      <a class="muni-link" href="/fukushima/futaba/">双葉町</a>
+      <a class="muni-link" href="/fukushima/namie/">浪江町</a>
+      <a class="muni-link" href="/fukushima/katsurao/">葛尾村</a>
+      <a class="muni-link" href="/fukushima/shinchi/">新地町</a>
+      <a class="muni-link" href="/fukushima/iitate/">飯舘村</a>
+      <a class="muni-link" href="/fukushima/aizumisato/">会津美里町</a>
+      <a class="muni-link" href="/fukushima/minamiaizu/">南会津町</a>
+    </div>
+  </div>
+
+  <h2 style="font-size:18px;font-weight:700;color:#0f172a;margin:36px 0 16px;">
+    よくある質問
+  </h2>
+
+  <details class="faq-item">
+    <summary>なぜ福島県の住民税（均等割）は全国標準より高いのですか？</summary>
+    <p>福島県では「ふくしま森林づくり県民税」として、個人県民税の均等割に1,000円が上乗せされています。2006年度から実施されており、森林整備・水源保全などの財源に充てられています。</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>「ふくしま森林づくり県民税」はいつまで継続されますか？</summary>
+    <p>現在も継続実施中です。福島県では条例に基づき概ね5年ごとに効果を検証しながら延長されています。最新の課税期間については<a href="https://www.pref.fukushima.lg.jp/sec/01115d/zeimu22.html" target="_blank" rel="noopener">福島県公式サイト ↗</a>でご確認ください。</p>
+  </details>
+
+  <details class="faq-item">
+    <summary>福島県内の市区町村で住民税の金額は違いますか？</summary>
+    <p>「ふくしま森林づくり県民税」は福島県全域に等しく適用されます。市区町村民税（市民税・区民税）部分は各自治体が独自に設定するため、市区町村によって異なる場合があります。</p>
+  </details>
+
+  <div style="margin-top:40px;padding:24px;background:#f0f9ff;border:1px solid #bae6fd;border-radius:16px;text-align:center;">
+    <div style="font-size:12px;color:#0284c7;letter-spacing:0.1em;margin-bottom:8px;">Powered by</div>
+    <div style="font-size:18px;font-weight:700;color:#0c4a6e;margin-bottom:8px;">Civic Systems</div>
+    <div style="font-size:13px;color:#475569;margin-bottom:16px;">市民と制度をつなぐ技術基盤を研究する会社</div>
+    <a href="https://civicsystems.jp" target="_blank" rel="noopener"
+       style="display:inline-block;background:#0284c7;color:#fff;font-weight:700;font-size:13px;padding:10px 24px;border-radius:40px;text-decoration:none;">
+      Civic Systems へ →
+    </a>
+  </div>
+
+  <div style="text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #e5e7eb;">
+    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:#7fd4e6;">
+      <div style="font-size:16px;font-weight:700;color:#ffffff;letter-spacing:0.02em;">Civic Rule Lab</div>
+      <div style="font-size:11px;font-weight:500;color:#ffffff;margin-top:1px;">市民 ↔ 制度</div>
+    </a>
+  </div>
+
+</div>
+</body>
+</html>

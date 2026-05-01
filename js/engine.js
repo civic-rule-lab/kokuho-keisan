@@ -35,115 +35,7 @@ function setupNumericInput(id, options) {
   });
 }
 
-// ─── 計算ロジック（純粋関数） ────────────────────────────────────
-
-function calculateKokuho(data, inputs) {
-  const { income, family, preschool, under18, care, salaryPensionCount, fixedAssetTax } = inputs;
-
-  // 資産割
-  const assetLevyMedical = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.medical || 0)) : 0;
-  const assetLevySupport = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.support || 0)) : 0;
-  const assetLevyCare    = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.care    || 0)) : 0;
-
-  const baseIncome = Math.max(income - data.basicDeduction, 0);
-
-  // 所得割
-  const medicalIncome = Math.round(baseIncome * data.rate.medical);
-  const supportIncome = Math.round(baseIncome * data.rate.support);
-  const careIncome    = care > 0 ? Math.round(baseIncome * data.rate.care) : 0;
-
-  // 均等割
-  const medicalPerCapita = family * data.perCapita.medical;
-  const supportPerCapita = family * data.perCapita.support;
-  const carePerCapita    = care  * data.perCapita.care;
-
-  // 平等割
-  const medicalHousehold = data.household?.medical || 0;
-  const supportHousehold = data.household?.support || 0;
-  const careHousehold    = care > 0 ? (data.household?.care || 0) : 0;
-
-  // 未就学児軽減
-  const preschoolReductionMedical = Math.round(
-    preschool * data.perCapita.medical * (data.preschoolReduction?.medicalPerCapitaRate || 0)
-  );
-  const preschoolReductionSupport = Math.round(
-    preschool * data.perCapita.support * (data.preschoolReduction?.supportPerCapitaRate || 0)
-  );
-  const preschoolReduction = preschoolReductionMedical + preschoolReductionSupport;
-
-  // 軽減判定
-  const B = Math.max(salaryPensionCount, 1);
-  const salaryPensionAdd = data.reduction?.salaryPensionAdd || 0;
-  const extraForIncomeEarners = salaryPensionAdd * (B - 1);
-
-  const sevenTenthsLimit =
-    (data.reduction?.standards?.sevenTenths?.base || 0) +
-    ((data.reduction?.standards?.sevenTenths?.perPersonAdd || 0) * family) +
-    extraForIncomeEarners;
-
-  const fiveTenthsLimit =
-    (data.reduction?.standards?.fiveTenths?.base || 0) +
-    ((data.reduction?.standards?.fiveTenths?.perPersonAdd || 0) * family) +
-    extraForIncomeEarners;
-
-  const twoTenthsLimit =
-    (data.reduction?.standards?.twoTenths?.base || 0) +
-    ((data.reduction?.standards?.twoTenths?.perPersonAdd || 0) * family) +
-    extraForIncomeEarners;
-
-  let reductionLabel = "軽減なし";
-  let reductionRate  = 0;
-
-  if (income <= sevenTenthsLimit) {
-    reductionLabel = "7割軽減";
-    reductionRate  = data.reduction?.ratios?.sevenTenths || 0;
-  } else if (income <= fiveTenthsLimit) {
-    reductionLabel = "5割軽減";
-    reductionRate  = data.reduction?.ratios?.fiveTenths || 0;
-  } else if (income <= twoTenthsLimit) {
-    reductionLabel = "2割軽減";
-    reductionRate  = data.reduction?.ratios?.twoTenths || 0;
-  }
-
-  // 子ども・子育て支援金分（R8新設・0なら無効）
-  const childcareCfg        = data.childcareLevy;
-  const childcareRate       = childcareCfg?.rate      || 0;
-  const childcarePerCapita  = childcareCfg?.perCapita || 0;
-  const childcareHousehold  = childcareCfg?.household || 0;
-  const childcareIncome     = childcareRate > 0 ? Math.round(baseIncome * childcareRate) : 0;
-  const under18Count        = (childcareCfg?.under18Reduction && childcareRate > 0) ? Math.min(under18 || 0, family) : 0;
-  const childcarePerCapitaTotal = (family - under18Count) * childcarePerCapita;
-  const childcareHouseholdTotal = childcareRate > 0 ? childcareHousehold : 0;
-
-  // 軽減額（均等割＋平等割に適用）
-  const medicalReduction   = Math.round((medicalPerCapita  + medicalHousehold)         * reductionRate);
-  const supportReduction   = Math.round((supportPerCapita  + supportHousehold)         * reductionRate);
-  const careReduction      = Math.round((carePerCapita     + careHousehold)            * reductionRate);
-  const childcareReduction = Math.round((childcarePerCapitaTotal + childcareHouseholdTotal) * reductionRate);
-
-  // 区分別合計
-  let medicalTotal   = medicalIncome  + medicalPerCapita        + medicalHousehold         + assetLevyMedical - preschoolReductionMedical - medicalReduction;
-  let supportTotal   = supportIncome  + supportPerCapita        + supportHousehold         + assetLevySupport - preschoolReductionSupport - supportReduction;
-  let careTotal      = careIncome     + carePerCapita           + careHousehold            + assetLevyCare    - careReduction;
-  let childcareTotal = childcareIncome + childcarePerCapitaTotal + childcareHouseholdTotal                    - childcareReduction;
-
-  medicalTotal   = Math.min(Math.max(medicalTotal,   0), data.caps.medical);
-  supportTotal   = Math.min(Math.max(supportTotal,   0), data.caps.support);
-  careTotal      = Math.min(Math.max(careTotal,      0), data.caps.care);
-  childcareTotal = Math.min(Math.max(childcareTotal, 0), childcareCfg?.cap ?? 30000);
-
-  const total           = medicalTotal + supportTotal + careTotal + childcareTotal;
-  const monthly         = Math.round(total / 12);
-  const totalReduction  = medicalReduction + supportReduction + careReduction + childcareReduction;
-  const assetLevyTotal  = assetLevyMedical + assetLevySupport + assetLevyCare;
-
-  return {
-    medicalTotal, supportTotal, careTotal, childcareTotal,
-    total, monthly,
-    preschoolReduction, totalReduction,
-    reductionLabel, assetLevyTotal
-  };
-}
+// calculateKokuho は js/core/kokuho.js で定義（browser: グローバル、Node: require）
 
 // ─── データ取得（キャッシュ付き） ────────────────────────────────
 
@@ -221,20 +113,100 @@ async function calc() {
   }
 }
 
-window.calc = calc;
+// ─── 75歳以上（後期高齢者医療制度）警告 ──────────────────────────
+// 全47都道府県の広域連合公式URL（curl で HTTP 200/301/302 を確認済み 2026-05-01）
+// 宮城は http://（https 未対応）、鳥取は広域連合サイト接続不能のため県公式ページ
+const KOUKI_URLS = {
+  hokkaido:  { name:'北海道後期高齢者医療広域連合',   url:'https://iryokouiki-hokkaido.jp/' },
+  aomori:    { name:'青森県後期高齢者医療広域連合',   url:'http://www.aomori-kouikirengou.jp/' },
+  iwate:     { name:'岩手県後期高齢者医療広域連合',   url:'https://iwate-kouiki.jp/' },
+  miyagi:    { name:'宮城県後期高齢者医療広域連合',   url:'https://www.miyagi-kouiki.jp/' },
+  akita:     { name:'秋田県後期高齢者医療広域連合',   url:'https://akita-kouiki.jp/' },
+  yamagata:  { name:'山形県後期高齢者医療広域連合',   url:'https://www.yamagata-kouiki.jp/' },
+  fukushima: { name:'福島県後期高齢者医療広域連合',   url:'https://www.fukushima-kouiki.jp/' },
+  ibaraki:   { name:'茨城県後期高齢者医療広域連合',   url:'https://www.kouiki-ibaraki.jp/' },
+  tochigi:   { name:'栃木県後期高齢者医療広域連合',   url:'https://www.kouikirengo-tochigi.jp/' },
+  gunma:     { name:'群馬県後期高齢者医療広域連合',   url:'https://www.gunma-kouiki.jp/' },
+  saitama:   { name:'埼玉県後期高齢者医療広域連合',   url:'https://www.saitama-koukikourei.org/' },
+  chiba:     { name:'千葉県後期高齢者医療広域連合',   url:'https://www.kouiki-chiba.jp/' },
+  tokyo:     { name:'東京都後期高齢者医療広域連合',   url:'https://www.tokyo-ikiiki.net/' },
+  kanagawa:  { name:'神奈川県後期高齢者医療広域連合', url:'https://www.union.kanagawa.lg.jp/' },
+  niigata:   { name:'新潟県後期高齢者医療広域連合',   url:'https://www.niigata-kouiki.jp/' },
+  toyama:    { name:'富山県後期高齢者医療広域連合',   url:'https://www.toyama-iryou.jp/' },
+  ishikawa:  { name:'石川県後期高齢者医療広域連合',   url:'http://www.ishikawa-kouiki.jp/' },
+  fukui:     { name:'福井県後期高齢者医療広域連合',   url:'https://www.fukui-kouiki.or.jp/' },
+  yamanashi: { name:'山梨県後期高齢者医療広域連合',   url:'https://www.yamanashi-iryoukouiki.jp/' },
+  nagano:    { name:'長野県後期高齢者医療広域連合',   url:'https://www.koukikourei-nagano.jp/' },
+  gifu:      { name:'岐阜県後期高齢者医療広域連合',   url:'https://www.gikouiki.jp/' },
+  shizuoka:  { name:'静岡県後期高齢者医療広域連合',   url:'https://www.shizuoka-ki.jp/' },
+  aichi:     { name:'愛知県後期高齢者医療広域連合',   url:'https://www.aichi-kouiki.jp/' },
+  mie:       { name:'三重県後期高齢者医療広域連合',   url:'https://mie-kouiki.jp/' },
+  shiga:     { name:'滋賀県後期高齢者医療広域連合',   url:'https://www.shigakouiki.jp/' },
+  kyoto:     { name:'京都府後期高齢者医療広域連合',   url:'https://kouiki-kyoto.jp/' },
+  osaka:     { name:'大阪府後期高齢者医療広域連合',   url:'https://www.kouikirengo-osaka.jp/' },
+  hyogo:     { name:'兵庫県後期高齢者医療広域連合',   url:'https://www.kouiki-hyogo.jp/' },
+  nara:      { name:'奈良県後期高齢者医療広域連合',   url:'https://www.nara-kouiki.jp/' },
+  wakayama:  { name:'和歌山県後期高齢者医療広域連合', url:'https://kouiki-wakayama.jp/' },
+  tottori:   { name:'鳥取県後期高齢者医療広域連合',   url:'http://www.koureikouiki-tottori.jp/' },
+  shimane:   { name:'島根県後期高齢者医療広域連合',   url:'http://www.shimane-kouiki.jp/' },
+  okayama:   { name:'岡山県後期高齢者医療広域連合',   url:'https://www.kouiki-okayama.jp/' },
+  hiroshima: { name:'広島県後期高齢者医療広域連合',   url:'https://www.kouiki-hiroshima.jp/' },
+  yamaguchi: { name:'山口県後期高齢者医療広域連合',   url:'http://yamaguchi-kouiki.jp/' },
+  tokushima: { name:'徳島県後期高齢者医療広域連合',   url:'https://www.koukikourei-tokushima.jp/' },
+  kagawa:    { name:'香川県後期高齢者医療広域連合',   url:'https://kagawa-kouiki.jp/' },
+  ehime:     { name:'愛媛県後期高齢者医療広域連合',   url:'https://www.ehime-kouiki.jp/' },
+  kochi:     { name:'高知県後期高齢者医療広域連合',   url:'https://www.kochi-kouiki.or.jp/' },
+  fukuoka:   { name:'福岡県後期高齢者医療広域連合',   url:'https://www.fukuoka-kouki.jp/' },
+  saga:      { name:'佐賀県後期高齢者医療広域連合',   url:'https://www.saga-kouiki.jp/' },
+  nagasaki:  { name:'長崎県後期高齢者医療広域連合',   url:'https://www.nagasaki-kouiki.net/' },
+  kumamoto:  { name:'熊本県後期高齢者医療広域連合',   url:'https://www.kumamoto-kouikirengo.jp/' },
+  oita:      { name:'大分県後期高齢者医療広域連合',   url:'http://oita-kouiki.jp/' },
+  miyazaki:  { name:'宮崎県後期高齢者医療広域連合',   url:'https://www.miyazaki-kourei-kouiki.jp/' },
+  kagoshima: { name:'鹿児島県後期高齢者医療広域連合', url:'https://www.kagoshima-kouiki.jp/' },
+  okinawa:   { name:'沖縄県後期高齢者医療広域連合',   url:'https://www.kouiki-okinawa.com/' },
+};
+// フォールバック（KOUKI_URLSに未登録の場合 ― 現状は全47県が登録済み）
+const KOUKI_FALLBACK_URL = 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/koukikourei/index.html';
 
-(function() {
-  ['income', 'fixedAssetTax'].forEach(id => setupNumericInput(id, { withCommas: true }));
-  ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'].forEach(id => setupNumericInput(id));
-})();
-
-// ページ読み込み時に資産割入力欄を表示制御
-(async function() {
-  try {
-    const data = await loadKokuhoData(getCurrentCity());
-    if (data.assetLevy) {
-      const group = document.getElementById("assetLevyGroup");
-      if (group) group.style.display = "";
+function checkOver75() {
+  const count = parseInt(document.getElementById('over75Count')?.value || '0', 10);
+  const warning = document.getElementById('over75Warning');
+  if (!warning) return;
+  if (count > 0) {
+    warning.classList.add('is-visible');
+    // 都道府県に応じた広域連合リンクを表示
+    const prefSlug = typeof CITY_SLUG !== 'undefined'
+      ? window.location.pathname.split('/')[1]
+      : '';
+    const linkEl = document.getElementById('over75PrefLink');
+    if (linkEl) {
+      const info = KOUKI_URLS[prefSlug];
+      linkEl.innerHTML = info
+        ? `<a href="${info.url}" target="_blank" rel="noopener">${info.name} ↗</a>`
+        : `<a href="${KOUKI_FALLBACK_URL}" target="_blank" rel="noopener">後期高齢者医療制度について（厚生労働省）↗</a><br><span style="font-size:12px;color:#6b7280;">※上記ページから各都道府県の広域連合が確認できます。</span>`;
     }
-  } catch (e) {}
-})();
+  } else {
+    warning.classList.remove('is-visible');
+  }
+}
+
+if (typeof window !== 'undefined') {
+  window.calc = calc;
+  window.checkOver75 = checkOver75;
+
+  (function() {
+    ['income', 'fixedAssetTax'].forEach(id => setupNumericInput(id, { withCommas: true }));
+    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18', 'over75Count'].forEach(id => setupNumericInput(id));
+  })();
+
+  // ページ読み込み時に資産割入力欄を表示制御
+  (async function() {
+    try {
+      const data = await loadKokuhoData(getCurrentCity());
+      if (data.assetLevy) {
+        const group = document.getElementById("assetLevyGroup");
+        if (group) group.style.display = "";
+      }
+    } catch (e) {}
+  })();
+}
