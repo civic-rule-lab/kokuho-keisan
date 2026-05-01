@@ -53,8 +53,10 @@ h1{
   display:block;
   font-size:0.75em;
   font-weight:500;
-  color:#6b7280;
+  color:#0f172a;
   margin-top:2px;
+  text-align:center;
+  width:100%;
 }
 
 .subtitle{
