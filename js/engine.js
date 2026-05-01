@@ -189,10 +189,14 @@ if (typeof window !== 'undefined') {
     initOver75Link();
   })();
 
-  // ページ読み込み時に資産割入力欄を表示制御
+  // ページ読み込み時に任意入力欄を表示制御
   (async function() {
     try {
       const data = await loadKokuhoData(getCurrentCity());
+      if (data.childcareLevy?.under18Reduction) {
+        const g = document.getElementById("under18Group");
+        if (g) g.style.display = "";
+      }
       if (data.assetLevy) {
         const group = document.getElementById("assetLevyGroup");
         if (group) group.style.display = "";
