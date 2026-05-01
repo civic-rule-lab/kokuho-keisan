@@ -168,35 +168,25 @@ const KOUKI_URLS = {
 // フォールバック（KOUKI_URLSに未登録の場合 ― 現状は全47県が登録済み）
 const KOUKI_FALLBACK_URL = 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/koukikourei/index.html';
 
-function checkOver75() {
-  const count = parseInt(document.getElementById('over75Count')?.value || '0', 10);
-  const warning = document.getElementById('over75Warning');
-  if (!warning) return;
-  if (count > 0) {
-    warning.classList.add('is-visible');
-    // 都道府県に応じた広域連合リンクを表示
-    const prefSlug = typeof CITY_SLUG !== 'undefined'
-      ? window.location.pathname.split('/')[1]
-      : '';
-    const linkEl = document.getElementById('over75PrefLink');
-    if (linkEl) {
-      const info = KOUKI_URLS[prefSlug];
-      linkEl.innerHTML = info
-        ? `<a href="${info.url}" target="_blank" rel="noopener">${info.name} ↗</a>`
-        : `<a href="${KOUKI_FALLBACK_URL}" target="_blank" rel="noopener">後期高齢者医療制度について（厚生労働省）↗</a><br><span style="font-size:12px;color:#6b7280;">※上記ページから各都道府県の広域連合が確認できます。</span>`;
-    }
-  } else {
-    warning.classList.remove('is-visible');
+// 広域連合リンクを都道府県に応じて自動設定
+function initOver75Link() {
+  const linkEl = document.getElementById('over75Link');
+  if (!linkEl) return;
+  const prefSlug = window.location.pathname.split('/')[1] || '';
+  const info = KOUKI_URLS[prefSlug];
+  if (info) {
+    linkEl.href = info.url;
+    linkEl.textContent = info.name + ' ↗';
   }
 }
 
 if (typeof window !== 'undefined') {
   window.calc = calc;
-  window.checkOver75 = checkOver75;
 
   (function() {
     ['income', 'fixedAssetTax'].forEach(id => setupNumericInput(id, { withCommas: true }));
-    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18', 'over75Count'].forEach(id => setupNumericInput(id));
+    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'].forEach(id => setupNumericInput(id));
+    initOver75Link();
   })();
 
   // ページ読み込み時に資産割入力欄を表示制御
