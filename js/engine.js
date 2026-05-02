@@ -44,8 +44,8 @@ const _kokuhoDataCache = new Map();
 async function loadKokuhoData(city) {
   if (_kokuhoDataCache.has(city)) return _kokuhoDataCache.get(city);
   const promise = (async () => {
-    let res = await fetch(`/data/municipalities/${city}/kokuho-2026.json`, { cache: "no-store" });
-    if (!res.ok) res = await fetch(`/data/municipalities/${city}/kokuho-2025.json`, { cache: "no-store" });
+    const year = window.PUBLISH_YEAR || 2025;
+    const res = await fetch(`/data/municipalities/${city}/kokuho-${year}.json`, { cache: "no-store" });
     if (!res.ok) throw new Error("JSON読み込み失敗");
     return await res.json();
   })();
