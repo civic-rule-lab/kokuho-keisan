@@ -85,13 +85,20 @@ function calculateKokuho(data, inputs) {
   // 均等割の計算
   // 新方式: perCapitaAdult が定義されている場合 → 18歳未満は perCapita、18歳以上は perCapitaAdult
   // 旧方式: under18Reduction=true の場合 → 18歳未満は0、18歳以上は perCapita
+  // 均等割の計算
+  // 新方式(perCapitaAdult あり):
+  //   18歳以上 → perCapita + perCapitaAdult（例: 京都市 1,110 + 60 = 1,170円）
+  //   18歳未満 → 0（under18Reductionで全額減額）
+  // 旧方式(perCapitaAdult なし、under18Reduction: true):
+  //   18歳以上 → perCapita のみ（例: 練馬区 1,873円）
+  //   18歳未満 → 0
+  const u18    = Math.min(under18 || 0, family);
+  const adults = family - u18;
   let childcarePerCapitaTotal;
   if (childcareCfg?.perCapitaAdult !== undefined) {
-    const u18    = Math.min(under18 || 0, family);
-    const adults = family - u18;
-    childcarePerCapitaTotal = u18 * childcarePerCapita + adults * (childcareCfg.perCapitaAdult || 0);
+    childcarePerCapitaTotal = adults * (childcarePerCapita + (childcareCfg.perCapitaAdult || 0));
   } else {
-    const under18Excluded = (childcareCfg?.under18Reduction && childcareRate > 0) ? Math.min(under18 || 0, family) : 0;
+    const under18Excluded = (childcareCfg?.under18Reduction && childcareRate > 0) ? u18 : 0;
     childcarePerCapitaTotal = (family - under18Excluded) * childcarePerCapita;
   }
   const childcareHouseholdTotal = childcareRate > 0 ? childcareHousehold : 0;
