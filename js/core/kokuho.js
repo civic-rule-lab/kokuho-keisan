@@ -81,8 +81,19 @@ function calculateKokuho(data, inputs) {
   const childcarePerCapita  = childcareCfg?.perCapita || 0;
   const childcareHousehold  = childcareCfg?.household || 0;
   const childcareIncome     = childcareRate > 0 ? Math.round(baseIncome * childcareRate) : 0;
-  const under18Count        = (childcareCfg?.under18Reduction && childcareRate > 0) ? Math.min(under18 || 0, family) : 0;
-  const childcarePerCapitaTotal = (family - under18Count) * childcarePerCapita;
+
+  // 均等割の計算
+  // 新方式: perCapitaAdult が定義されている場合 → 18歳未満は perCapita、18歳以上は perCapitaAdult
+  // 旧方式: under18Reduction=true の場合 → 18歳未満は0、18歳以上は perCapita
+  let childcarePerCapitaTotal;
+  if (childcareCfg?.perCapitaAdult !== undefined) {
+    const u18    = Math.min(under18 || 0, family);
+    const adults = family - u18;
+    childcarePerCapitaTotal = u18 * childcarePerCapita + adults * (childcareCfg.perCapitaAdult || 0);
+  } else {
+    const under18Excluded = (childcareCfg?.under18Reduction && childcareRate > 0) ? Math.min(under18 || 0, family) : 0;
+    childcarePerCapitaTotal = (family - under18Excluded) * childcarePerCapita;
+  }
   const childcareHouseholdTotal = childcareRate > 0 ? childcareHousehold : 0;
 
   // 軽減額（均等割＋平等割に適用）

@@ -193,7 +193,7 @@ if (typeof window !== 'undefined') {
   (async function() {
     try {
       const data = await loadKokuhoData(getCurrentCity());
-      if (data.childcareLevy?.under18Reduction) {
+      if (data.childcareLevy && (data.childcareLevy.under18Reduction || data.childcareLevy.perCapitaAdult !== undefined)) {
         const g = document.getElementById("under18Group");
         if (g) g.style.display = "";
       }
