@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="国民健康保険の軽減判定（7割・5割・2割）を、初心者向けの図解と中級者向けの正確な計算式で解説。所得ラインの早見表、未就学児の追加軽減、申請の要否まで網羅。">
+<link rel="canonical" href="https://kokuho-keisan.jp/keigen/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="国民健康保険の軽減判定（7割・5割・2割）の仕組み｜計算式と早見表">
+<meta property="og:description" content="国民健康保険の軽減判定（7割・5割・2割）を、初心者向けの図解と中級者向けの正確な計算式で解説。所得ラインの早見表、未就学児の追加軽減、申請の要否まで網羅。">
+<meta property="og:url" content="https://kokuho-keisan.jp/keigen/">
+<meta property="og:site_name" content="国保計算.jp">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="国民健康保険の軽減判定（7割・5割・2割）の仕組み｜計算式と早見表">
+<meta name="twitter:description" content="国民健康保険の軽減判定（7割・5割・2割）を、初心者向けの図解と中級者向けの正確な計算式で解説。所得ラインの早見表、未就学児の追加軽減、申請の要否まで網羅。">
+<link rel="stylesheet" href="/css/common.css?v=c40fbd95">
+<link rel="stylesheet" href="/css/article.css?v=c40fbd95">
+<title>国民健康保険の軽減判定（7割・5割・2割）の仕組み｜計算式と早見表</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"国民健康保険の軽減判定（7割・5割・2割）の仕組み｜計算式と早見表","description":"国民健康保険の軽減判定（7割・5割・2割）を、初心者向けの図解と中級者向けの正確な計算式で解説。所得ラインの早見表、未就学児の追加軽減、申請の要否まで網羅。","url":"https://kokuho-keisan.jp/keigen/","datePublished":"2026-05-04T00:00:00.000Z","dateModified":"2026-05-04T00:00:00.000Z","inLanguage":"ja","author":{"@type":"Organization","name":"kokuho-keisan.jp","url":"https://kokuho-keisan.jp"},"publisher":{"@type":"Organization","name":"kokuho-keisan.jp","url":"https://kokuho-keisan.jp"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://kokuho-keisan.jp/"},{"@type":"ListItem","position":2,"name":"軽減判定の仕組み","item":"https://kokuho-keisan.jp/keigen/"}]}]}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H15R1TNWD2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H15R1TNWD2');
+</script>
+</head>
+<body>
+<div class="wrap article-wrap">
+
+  <nav class="breadcrumb">
+    <a href="/">ホーム</a>
+    <span>›</span>
+    <span>軽減判定の仕組み</span>
+  </nav>
+
+  <article class="article-body">
+    <h1>国民健康保険の軽減判定（7割・5割・2割）の仕組み</h1>
+<blockquote>
+<p>国民健康保険には、所得が一定以下の世帯の保険料を<strong>自動で安くする制度</strong>があります。申請は不要です。このページでは、初めての方にもわかりやすく、計算式まで踏み込んで知りたい方にも詳しく、軽減判定の仕組みを解説します。</p>
+</blockquote>
+<div class="article-cta">
+        <a href="https://kokuho-keisan.jp/">自分の世帯の軽減判定を計算する →</a>
+        <p class="article-cta-sub">無料・登録不要・公式データ使用</p>
+      </div><hr>
+<h2>このページの読み方</h2>
+<ul>
+<li><strong>前半（基礎編）</strong>：「軽減って何？」から始まる初心者向け解説</li>
+<li><strong>後半（詳細編）</strong>：計算式・境界値・特殊ケースを正確に知りたい方向け</li>
+</ul>
+<p>途中で「もう十分」と思ったら、そこで読むのをやめても大丈夫です。</p>
+<hr>
+<h1>基礎編：軽減って何ですか？</h1>
+<h2>ひとことで言うと</h2>
+<p><strong>所得が低い世帯の保険料を、市町村が自動で安くしてくれる制度</strong>です。</p>
+<p>3段階あります。</p>
+<table>
+<thead>
+<tr>
+<th>軽減割合</th>
+<th>どれくらい安くなる？</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>7割軽減</strong></td>
+<td>均等割が<strong>3割の支払い</strong>でOK（7割引）</td>
+</tr>
+<tr>
+<td><strong>5割軽減</strong></td>
+<td>均等割が<strong>5割の支払い</strong>でOK（5割引）</td>
+</tr>
+<tr>
+<td><strong>2割軽減</strong></td>
+<td>均等割が<strong>8割の支払い</strong>でOK（2割引）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>💡 <strong>「均等割」とは</strong>：保険料のうち、<strong>加入者1人あたり一定額</strong>として課される部分。所得に関係なく人数で決まります。家族が多いほど大きくなる部分なので、これが軽減されるのは家計に効きます。</p>
+</blockquote>
+<h2>よくある誤解</h2>
+<h3>❌「申請しないと軽減されない」</h3>
+<p>→ <strong>間違い</strong>。市町村が前年の所得情報をもとに<strong>自動で判定</strong>します。引越し直後など特殊なケースを除き、申請は不要です。</p>
+<h3>❌「保険料の全額が安くなる」</h3>
+<p>→ <strong>半分正しい</strong>。軽減されるのは<strong>均等割（人数で決まる部分）のみ</strong>です。所得割（所得に応じた部分）は軽減されません。所得が低い世帯はそもそも所得割も低いので、結果的に保険料全体が大きく下がります。</p>
+<h3>❌「収入がある人は対象外」</h3>
+<p>→ <strong>誤解</strong>。会社員ではない自営業の方や、退職して国保に入った方など、給与所得・年金所得がある世帯でも対象になることがあります。判定は**「総所得金額」**で行われ、収入から各種控除を引いた額で判断されます。</p>
+<hr>
+<h2>自分の世帯が対象かどうか、ざっくり知りたい</h2>
+<p>世帯の<strong>総所得金額</strong>（家族全員の所得を合算した額）が、おおむね以下の範囲なら軽減対象です。</p>
+<h3>単身世帯の場合のざっくり目安</h3>
+<table>
+<thead>
+<tr>
+<th>世帯の総所得金額</th>
+<th>軽減</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>43万円以下</td>
+<td><strong>7割軽減</strong></td>
+</tr>
+<tr>
+<td>73.5万円以下</td>
+<td><strong>5割軽減</strong></td>
+</tr>
+<tr>
+<td>99万円以下</td>
+<td><strong>2割軽減</strong></td>
+</tr>
+<tr>
+<td>それ以上</td>
+<td>軽減なし</td>
+</tr>
+</tbody></table>
+<h3>4人世帯の場合のざっくり目安（給与所得者2人）</h3>
+<table>
+<thead>
+<tr>
+<th>世帯の総所得金額</th>
+<th>軽減</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>53万円以下</td>
+<td><strong>7割軽減</strong></td>
+</tr>
+<tr>
+<td>175万円以下</td>
+<td><strong>5割軽減</strong></td>
+</tr>
+<tr>
+<td>277万円以下</td>
+<td><strong>2割軽減</strong></td>
+</tr>
+<tr>
+<td>それ以上</td>
+<td>軽減なし</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>⚠️ あくまで「ざっくり」の目安です。<strong>世帯の構成や給与・年金所得者の人数で実際のラインは変動</strong>します。正確な判定は<a href="https://kokuho-keisan.jp/">計算ツール</a>で確認してください。</p>
+</blockquote>
+<div class="article-cta">
+        <a href="https://kokuho-keisan.jp/">自分の世帯の保険料を計算する →</a>
+      </div><hr>
+<h2>7割・5割・2割、どれが一番多い？</h2>
+<p>統計的に、軽減対象となっている世帯のうち約半数が <strong>7割軽減</strong> です。これは年金収入のみの単身高齢者世帯や、無職・低所得の世帯が該当しやすいためです。</p>
+<p>5割・2割は、子育て世帯や非正規雇用世帯で該当することが多くなります。</p>
+<hr>
+<p>ここまでが基礎編です。「自分の世帯がどれに当てはまりそうか」がわかれば、まずは十分です。</p>
+<p><strong>ここから先は、計算式・境界値・特殊ケースを正確に知りたい方向けの詳細編です。</strong></p>
+<hr>
+<h1>詳細編：計算式と境界値の正確な仕組み</h1>
+<h2>軽減判定の正式な計算式（令和7年度）</h2>
+<p>軽減判定は、<strong>世帯の総所得金額</strong>を以下のラインと比較して行います。</p>
+<h3>7割軽減のライン</h3>
+<pre><code>43万円 + 10万円 × max(0, 給与・年金所得者数 - 1)
+</code></pre>
+<h3>5割軽減のライン</h3>
+<pre><code>43万円 + 30.5万円 × 被保険者数 + 10万円 × max(0, 給与・年金所得者数 - 1)
+</code></pre>
+<h3>2割軽減のライン</h3>
+<pre><code>43万円 + 56万円 × 被保険者数 + 10万円 × max(0, 給与・年金所得者数 - 1)
+</code></pre>
+<blockquote>
+<p>💡 <code>max(0, n-1)</code> の意味：給与・年金所得者数が0人または1人の場合、加算項は0になります。マイナスにはなりません。</p>
+</blockquote>
+<h2>各項の意味</h2>
+<table>
+<thead>
+<tr>
+<th>項</th>
+<th>意味</th>
+<th>用語の正確な定義</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>43万円</strong></td>
+<td>基礎控除相当の固定値</td>
+<td>全世帯共通</td>
+</tr>
+<tr>
+<td><strong>被保険者数</strong></td>
+<td>国保加入者数</td>
+<td>同一世帯の国保加入者の合計</td>
+</tr>
+<tr>
+<td><strong>給与・年金所得者数</strong></td>
+<td>給与所得＋公的年金等所得がある人の数</td>
+<td>国保加入者に限らず、世帯主が国保非加入でも算入（擬制世帯主）</td>
+</tr>
+<tr>
+<td><strong>総所得金額</strong></td>
+<td>軽減判定に用いる所得</td>
+<td>譲渡所得の特別控除前など、軽減判定独自の調整あり</td>
+</tr>
+</tbody></table>
+<h2>4人世帯の具体例（被保険者4人・給与所得者2人）</h2>
+<p>各ラインを計算してみます。</p>
+<table>
+<thead>
+<tr>
+<th>軽減</th>
+<th>計算式</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>7割</td>
+<td>43万 + 10万 × max(0, 2-1)</td>
+<td><strong>53万円</strong></td>
+</tr>
+<tr>
+<td>5割</td>
+<td>43万 + 30.5万 × 4 + 10万 × max(0, 2-1)</td>
+<td><strong>175万円</strong></td>
+</tr>
+<tr>
+<td>2割</td>
+<td>43万 + 56万 × 4 + 10万 × max(0, 2-1)</td>
+<td><strong>277万円</strong></td>
+</tr>
+</tbody></table>
+<p><strong>世帯の総所得金額が...</strong></p>
+<ul>
+<li>53万円以下 → 7割軽減</li>
+<li>53万円超〜175万円以下 → 5割軽減</li>
+<li>175万円超〜277万円以下 → 2割軽減</li>
+<li>277万円超 → 軽減なし</li>
+</ul>
+<h2>境界値の扱い（重要）</h2>
+<p>「以下」と「超」の境目はどう判定されるのか。</p>
+<table>
+<thead>
+<tr>
+<th>状態</th>
+<th>軽減</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>総所得 = 軽減ラインぴったり</td>
+<td><strong>その軽減が適用される</strong>（「以下」なので含む）</td>
+</tr>
+<tr>
+<td>総所得 = 軽減ライン + 1円</td>
+<td>1段階下の軽減（または軽減なし）</td>
+</tr>
+</tbody></table>
+<p>例えば4人世帯で総所得が <strong>171万円ちょうど</strong> なら <strong>5割軽減</strong>、<strong>171万1円</strong> なら <strong>2割軽減</strong> に切り替わります。1円の違いで保険料が変わるので、確定申告の所得調整は注意深く行いましょう。</p>
+<blockquote>
+<p>💡 当ツールでは境界値±1円のテストを実装済みで、こうした切り替わりも正確に計算します。</p>
+</blockquote>
+<hr>
+<h2>未就学児の追加5割軽減</h2>
+<p>令和4年度から、<strong>未就学児（小学校入学前の子ども）<strong>の均等割は、世帯の軽減判定とは</strong>別に追加で5割軽減</strong>されます。</p>
+<h3>適用範囲</h3>
+<table>
+<thead>
+<tr>
+<th>区分</th>
+<th>5割軽減の対象</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>医療分</td>
+<td>✅ 対象</td>
+</tr>
+<tr>
+<td>後期支援金分</td>
+<td>✅ 対象</td>
+</tr>
+<tr>
+<td>介護分</td>
+<td>（そもそも未就学児は40〜64歳ではないので対象外）</td>
+</tr>
+</tbody></table>
+<h3>世帯軽減との重ね合わせ</h3>
+<p>世帯がすでに7割軽減の対象であっても、<strong>未就学児はさらに5割が引かれます</strong>（独立加算型）。</p>
+<p>具体例：</p>
+<pre><code>未就学児1人の医療分均等割（仮に14,000円とする）
+
+世帯軽減なしの場合:
+  14,000円 × 0.5 = 7,000円
+
+世帯7割軽減の場合:
+  14,000円 × 0.3（7割軽減後）× 0.5（未就学児軽減）= 2,100円
+</code></pre>
+<p>つまり 7割軽減世帯の未就学児は、元の <strong>15%</strong> の負担で済みます。</p>
+<hr>
+<h2>給与・年金所得者数の数え方</h2>
+<p>ここは混乱しやすい部分です。正確に整理します。</p>
+<h3>「給与所得者」に含まれる人</h3>
+<ul>
+<li>給与収入があり、給与所得が発生している人</li>
+<li>パート・アルバイトでも給与所得が0円超なら含む</li>
+</ul>
+<h3>「年金所得者」に含まれる人</h3>
+<ul>
+<li>公的年金等の雑所得が発生している人</li>
+<li><strong>65歳以上で公的年金等の収入が125万円超</strong>、または<strong>65歳未満で60万円超</strong>の人（公的年金等控除を引いて所得が0円超になる人）</li>
+</ul>
+<h3>注意点</h3>
+<ul>
+<li><strong>国保非加入の世帯主（擬制世帯主）も数える</strong></li>
+<li><strong>同一世帯であれば、国保加入の有無に関わらず数える</strong></li>
+<li>給与と年金の両方がある人は <strong>1人としてカウント</strong>（重複しない）</li>
+</ul>
+<hr>
+<h2>軽減判定で使う「総所得金額」の正確な定義</h2>
+<p>ここも誤解されがちです。<strong>通常の所得税・住民税の所得計算とは少し違います。</strong></p>
+<h3>軽減判定独自の調整</h3>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>軽減判定での扱い</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>譲渡所得の特別控除</strong></td>
+<td>控除前の額で判定（例：マイホーム売却の3,000万円特別控除を引く前）</td>
+</tr>
+<tr>
+<td><strong>65歳以上の公的年金等</strong></td>
+<td>通常の年金控除に加え、<strong>さらに15万円控除</strong>して判定</td>
+</tr>
+<tr>
+<td><strong>専従者給与</strong></td>
+<td>事業主側で控除しない（実態に合わせて判定）</td>
+</tr>
+</tbody></table>
+<p>これらの調整があるため、住民税の課税通知書と軽減判定の所得が一致しないことがあります。</p>
+<hr>
+<h2>よくある質問（詳細編）</h2>
+<h3>Q1. 年度の途中で世帯構成が変わったら？</h3>
+<p>軽減判定は<strong>4月1日時点の世帯状況</strong>で行います。年度途中の変動（出生・死亡・転入・転出）は、<strong>翌年度の軽減判定に反映</strong>されます。</p>
+<h3>Q2. 確定申告をしていない人がいると軽減を受けられない？</h3>
+<p>はい。<strong>世帯全員の所得が把握されている</strong>ことが軽減の前提です。所得がなくても、住民税の申告（所得0申告）が必要です。</p>
+<h3>Q3. 軽減判定の結果はいつわかる？</h3>
+<p>茅ヶ崎市の場合、<strong>6月中旬頃</strong>に届く保険料決定通知書に記載されます。判定結果に疑問がある場合は、市の保険年金課にお問い合わせください。</p>
+<h3>Q4. 7割軽減だった世帯が、年度途中で5割軽減に変わることはある？</h3>
+<p>原則ありません。年度内は<strong>4月1日時点の判定が固定</strong>されます。ただし、世帯主の変更や所得の更正があった場合は遡って再判定されることがあります。</p>
+<h3>Q5. 軽減と「減免」は違う？</h3>
+<p>違います。</p>
+<ul>
+<li><strong>軽減</strong>：所得基準で<strong>自動的に</strong>適用される。本記事のテーマ</li>
+<li><strong>減免</strong>：災害・失業・病気など特別な事情で、<strong>申請して</strong>保険料を減額・免除してもらう制度</li>
+</ul>
+<p>両方を受けられるケースもあります。減免については各市町村のページをご確認ください。</p>
+<hr>
+<h2>関連ページ</h2>
+<ul>
+<li><a href="https://kokuho-keisan.jp/chigasaki/">茅ヶ崎市の国民健康保険料の計算方法</a></li>
+<li><a href="https://kokuho-keisan.jp/kyoto/">京都市の国民健康保険料の計算方法</a> ※準備中</li>
+<li><a href="https://kokuho-keisan.jp/">計算ツール</a></li>
+</ul>
+<hr>
+<h2>出典・参考</h2>
+<ul>
+<li><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000074437.html">厚生労働省 - 国民健康保険制度</a></li>
+<li><a href="https://www.mhlw.go.jp/">厚生労働省 - 国民健康保険の保険料・保険税について</a></li>
+<li>国民健康保険法 第81条（軽減）、地方税法 第703条の5</li>
+<li>各市町村の国民健康保険条例</li>
+</ul>
+<hr>
+<blockquote>
+<p>📅 <strong>最終更新</strong>: 2026年5月4日
+🔄 <strong>次回更新予定</strong>: 令和8年度料率公表時（5月下旬〜6月初旬）
+✉️ <strong>誤りのご指摘・お問い合わせ</strong>: [連絡先]</p>
+</blockquote>
+
+  </article>
+
+  <div style="margin-top:40px;padding-top:24px;border-top:1px solid #e5e7eb;text-align:center;">
+    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:#7fd4e6;">
+      <div style="font-size:16px;font-weight:700;color:#ffffff;letter-spacing:0.02em;">Civic Rule Lab</div>
+      <div style="font-size:11px;font-weight:500;color:#ffffff;margin-top:1px;">市民 ↔ 制度</div>
+    </a>
+  </div>
+
+</div>
+</body>
+</html>
