@@ -58,7 +58,8 @@
     "rate": 0.0028,
     "perCapita": 1110,
     "perCapitaAdult": 60,
-    "perCapitaMode": "all_ages",
+    "perCapitaAdultScope": "all_ages",
+    "needsPhoneVerification": true,
     "household": 660,
     "cap": 30000,
     "under18Reduction": true

@@ -52,7 +52,7 @@ function calculateKokuho(data, inputs) {
   // ② salaryPensionCount > family 対策：family を上限として clamp
   const B = Math.max(Math.min(salaryPensionCount || 0, familySafe || 1), 1);
   const salaryPensionAdd = data.reduction?.salaryPensionAdd || 0;
-  const extraForIncomeEarners = salaryPensionAdd * (B - 1);
+  const extraForIncomeEarners = salaryPensionAdd * Math.max(0, B - 1);
 
   const sevenTenthsLimit =
     (data.reduction?.standards?.sevenTenths?.base || 0) +
@@ -104,11 +104,14 @@ function calculateKokuho(data, inputs) {
   const adults = familySafe - u18;
   let childcarePerCapitaTotal;
   if (childcareCfg?.perCapitaAdult !== undefined) {
-    // perCapitaMode で均等割の計算方式を切り替える（電話確認後にフラグを確定）
+    // perCapitaAdultScope で均等割の計算方式を切り替える（電話確認後にフラグを確定）
     //   "all_ages"    : 全員に perCapita 適用＋大人に perCapitaAdult 加算（大人 = perCapita+perCapitaAdult）
     //   "adults_only" : 大人のみ perCapitaAdult、perCapita は 18歳未満向け名目額（全額減額で実質0）
-    const mode = childcareCfg.perCapitaMode || 'all_ages';
-    if (mode === 'adults_only') {
+    const scope = childcareCfg.perCapitaAdultScope;
+    if (scope === undefined) {
+      throw new Error(`[kokuho] ${data.citySlug}: perCapitaAdult が定義されていますが perCapitaAdultScope がありません。"all_ages" または "adults_only" を設定してください。`);
+    }
+    if (scope === 'adults_only') {
       childcarePerCapitaTotal = adults * (childcareCfg.perCapitaAdult || 0);
     } else {
       childcarePerCapitaTotal = adults * (childcarePerCapita + (childcareCfg.perCapitaAdult || 0));
