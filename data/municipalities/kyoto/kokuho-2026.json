@@ -7,25 +7,24 @@
   "note": "政令市。区ごとに窓口が異なるが保険料率は市全体で統一。",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0827,
-    "support": 0.0267,
-    "care": 0.0237
+    "medical": 0.0794,
+    "support": 0.0266,
+    "care": 0.0251
   },
   "perCapita": {
-    "medical": 29840,
-    "support": 9990,
-    "care": 10090
+    "medical": 30080,
+    "support": 10360,
+    "care": 11090
   },
   "household": {
-    "medical": 18070,
-    "support": 6050,
-    "care": 4940
+    "medical": 17930,
+    "support": 6180,
+    "care": 5370
   },
   "caps": {
     "medical": 670000,
     "support": 260000,
-    "care": 170000,
-    "childcare": 30000
+    "care": 170000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -55,22 +54,31 @@
       "twoTenths": 0.2
     }
   },
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1110,
+    "perCapitaAdult": 60,
+    "perCapitaMode": "all_ages",
+    "household": 660,
+    "cap": 30000,
+    "under18Reduction": true
+  },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.105Z",
-      "updatedAt": "2026-04-08T01:03:22.105Z",
+      "updatedAt": "2026-05-04T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official_web",
+      "title": "京都市 令和8年度国民健康保険料率",
+      "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000351039.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
       "verifiedBy": "",
@@ -78,14 +86,9 @@
       "method": ""
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.85,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
-  },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "notes": "公式サイトより料率確認済み（2026-05-03）。childcareLevy.perCapitaMode は「均等割1,110円が全員対象か18歳未満専用か」で解釈が分かれるため、電話確認（075-222-3500）後に all_ages / adults_only を確定すること。all_ages=大人1,170円、adults_only=大人60円。"
   }
 }
