@@ -6,14 +6,14 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0773,
-    "support": 0.0283,
-    "care": 0.0242
+    "medical": 0.0742,
+    "support": 0.0285,
+    "care": 0.0241
   },
   "perCapita": {
-    "medical": 44000,
-    "support": 17400,
-    "care": 18800
+    "medical": 42500,
+    "support": 17800,
+    "care": 18000
   },
   "household": {
     "medical": 0,
@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.898Z",
-      "updatedAt": "2026-04-08T01:03:21.898Z",
+      "updatedAt": "2026-05-09T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "八王子市 令和8年度国民健康保険税についての改正点（公式サイト）",
+      "url": "https://www.city.hachioji.tokyo.jp/kurashi/nenkin/001/003/001/p003504.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-09",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "八王子市公式サイトから R8 料率を取得・確認。2方式（平等割なし）。子ども・子育て支援金分の均等割は18歳未満全額軽減（perCapitaは18歳以上）。R8軽減判定係数（5割31万・2割57万）を反映。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+    "rate": 0.0030,
+    "perCapita": 1800,
     "household": 0
   }
 }

@@ -6,14 +6,14 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0747,
-    "support": 0.0336,
-    "care": 0.026
+    "medical": 0.0726,
+    "support": 0.0324,
+    "care": 0.0259
   },
   "perCapita": {
-    "medical": 28600,
-    "support": 12200,
-    "care": 12300
+    "medical": 27500,
+    "support": 11900,
+    "care": 12000
   },
   "household": {
     "medical": 0,
@@ -22,7 +22,7 @@
   },
   "caps": {
     "medical": 670000,
-    "support": 240000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.404Z",
-      "updatedAt": "2026-04-08T01:03:22.404Z",
+      "updatedAt": "2026-05-09T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "日立市 令和8年度国民健康保険の保険料率（公式サイト）",
+      "url": "https://www.city.hitachi.lg.jp/kurashi_tetsuzuki/kokuho_nenkin/1001939/1001957/1001958.html",
+      "publishedAt": "2026-04-07"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-09",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "日立市公式サイトから R8 料率を取得・確認。2方式（平等割なし）。後期支援分上限を R7 24万→R8 26万へ引上げ。子ども・子育て支援金分は18歳未満全額軽減（perCapitaは18歳以上）。医療・後期は未就学児半額＋18歳未満半額減免（実質18歳未満半額）。R8軽減判定係数（5割31万・2割57万）を反映。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+    "rate": 0.0028,
+    "perCapita": 1400,
     "household": 0
   }
 }

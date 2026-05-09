@@ -84,7 +84,9 @@ function calculateKokuho(data, inputs) {
   }
 
   // 子ども・子育て支援金分（R8新設・0なら無効）
-  const childcareCfg        = data.childcareLevy;
+  // childcareLevy（旧方式・under18Reduction/perCapitaAdult 対応）を優先、
+  // なければ migration 後の data.childcare（フラット: rate/perCapita/household）を使う。
+  const childcareCfg        = data.childcareLevy || data.childcare;
   const childcareRate       = childcareCfg?.rate      || 0;
   const childcarePerCapita  = childcareCfg?.perCapita || 0;
   const childcareHousehold  = childcareCfg?.household || 0;

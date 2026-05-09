@@ -41,11 +41,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -58,34 +58,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.777Z",
-      "updatedAt": "2026-04-08T01:03:21.777Z",
+      "updatedAt": "2026-05-08T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "大和市 令和8年度国民健康保険税の税率（公式サイト）",
+      "url": "https://www.city.yamato.lg.jp/gyosei/soshik/2020/kokuminkenkohoken/kokuho_zeikin/6920.html",
+      "publishedAt": "2026-03-04"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-08",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "大和市公式国保ページから R8 料率を取得・確認。R8 で料率は据え置き、医療分上限のみ +1万円・子ども子育て支援金分新設。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "rate": 0.0026,
+    "perCapita": 1260,
+    "household": 900
   }
 }
