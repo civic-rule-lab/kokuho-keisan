@@ -6,14 +6,14 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0552,
-    "support": 0.0198,
-    "care": 0.0175
+    "medical": 0.058,
+    "support": 0.0208,
+    "care": 0.0184
   },
   "perCapita": {
-    "medical": 29000,
-    "support": 10300,
-    "care": 12000
+    "medical": 30500,
+    "support": 10900,
+    "care": 12600
   },
   "household": {
     "medical": 0,
@@ -21,8 +21,8 @@
     "care": 0
   },
   "caps": {
-    "medical": 670000,
-    "support": 240000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:21.903Z",
-      "updatedAt": "2026-04-08T01:03:21.903Z",
+      "createdAt": "2026-04-08T01:03:21.926Z",
+      "updatedAt": "2026-05-10T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "調布市 令和8年度国民健康保険税の計算方法（公式サイト）",
+      "url": "https://www.city.chofu.lg.jp/060080/p038109.html",
+      "publishedAt": "2026-04-02"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-10",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "調布市公式 R8 計算方法ページ（更新日 2026-04-02）から取得。2方式（平等割なし）、東京多摩。R5以来3年ぶりの5%規模税率改定。医療上限はR7 65万→R8 66万（67万には未到達、段階的接近中）。子ども分は18歳以上に課税し均等割1900円+18歳以上均等割100円=2000円、18歳未満分は18歳以上で負担する仕組み。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+    "rate": 0.003,
+    "perCapita": 1900,
     "household": 0
   }
 }

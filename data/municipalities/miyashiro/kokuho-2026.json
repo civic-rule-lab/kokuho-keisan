@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "provisional",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.012Z",
-      "updatedAt": "2026-04-08T01:03:22.012Z",
+      "createdAt": "2026-04-08T01:03:21.937Z",
+      "updatedAt": "2026-05-10T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "pre-publication",
+      "title": "宮代町 令和7年第3回国保運営協議会 資料2 令和8年度国民健康保険税率について",
+      "url": "https://www.town.miyashiro.lg.jp/cmsfiles/contents/0000025/25676/zeiritukaisei.pdf",
+      "publishedAt": "2025-12-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-10",
+      "method": "assembly-doc"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.7,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "宮代町運営協議会資料（R7第3回）の『町保険税率』として提示された値。3月議会で正式議決予定（資料明記）。値は標準保険税率と並列で比較表示されており、R7→R8の改定値として扱う。要・3月議会後の確認（5月時点で告示済みなら verify 化可能）。2方式（平等割なし）。子ども分均等割1582円、18歳以上96円。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+    "rate": 0.0026,
+    "perCapita": 1582,
     "household": 0
   }
 }

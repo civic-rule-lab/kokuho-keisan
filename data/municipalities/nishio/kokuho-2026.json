@@ -4,22 +4,21 @@
   "cityName": "西尾市",
   "fiscalYear": 2026,
   "system": "kokuho",
-  "note": "愛知県R7標準保険料率を使用。実際値は要確認。",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0756,
-    "support": 0.0284,
-    "care": 0.0237
+    "medical": 0.0715,
+    "support": 0.0289,
+    "care": 0.0245
   },
   "perCapita": {
-    "medical": 32435,
-    "support": 12012,
-    "care": 12006
+    "medical": 30500,
+    "support": 12200,
+    "care": 12200
   },
   "household": {
-    "medical": 21056,
-    "support": 7798,
-    "care": 5943
+    "medical": 19800,
+    "support": 7800,
+    "care": 6000
   },
   "caps": {
     "medical": 670000,
@@ -41,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -58,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.135Z",
-      "updatedAt": "2026-04-08T01:03:22.135Z",
+      "createdAt": "2026-04-08T01:03:21.926Z",
+      "updatedAt": "2026-05-10T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "西尾市 令和8年度国民健康保険税（公式サイト）",
+      "url": "https://www.city.nishio.aichi.jp/kurashi/hoken/1001423/1002162.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-10",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "西尾市公式 R8 計算方法ページ（更新日 2026-04-01）から取得。3方式（平等割あり）。愛知西三河エリア、刈谷の同系統。子ども分均等割1300円（うち18歳以上100円含、18歳未満は均等割10割軽減）+ 平等割800円。軽減判定は5割31万・2割57万のR8基準。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "rate": 0.0029,
+    "perCapita": 1300,
+    "household": 800
   }
 }

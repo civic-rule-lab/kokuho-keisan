@@ -6,23 +6,23 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0816,
-    "support": 0.03,
-    "care": 0.0255
+    "medical": 0.0826,
+    "support": 0.0294,
+    "care": 0.0247
   },
   "perCapita": {
-    "medical": 34904,
-    "support": 12594,
-    "care": 12724
+    "medical": 34600,
+    "support": 12200,
+    "care": 12000
   },
   "household": {
-    "medical": 22610,
-    "support": 8158,
-    "care": 6332
+    "medical": 23000,
+    "support": 8100,
+    "care": 6100
   },
   "caps": {
     "medical": 670000,
-    "support": 240000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:23.071Z",
-      "updatedAt": "2026-04-08T01:03:23.071Z",
+      "createdAt": "2026-04-08T01:03:21.926Z",
+      "updatedAt": "2026-05-10T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "鹿児島市 令和8年度国保税の計算方法・所得申告と国保税（公式サイト）",
+      "url": "https://www.city.kagoshima.lg.jp/shimin/shiminbunka/kokuho/kurashi/hoken/hoken/kokuho/ze.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-10",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "鹿児島市公式 R8 計算方法ページ（更新日 2026-04-01）から取得。3方式（平等割あり）。第3期鹿児島県国保運営方針に基づく完全統一に向け R7 に続く R8 改定。子ども分均等割1290円（うち18歳以上90円含、18歳未満10割軽減）+ 平等割800円。鹿児島市独自で『小学生以下は均等割2分の1減額』の市独自軽減あり（schemaへの反映は要検討、現状 preschoolReduction で対応）。値は当初告示画像と本ページのテキストで一致確認。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "rate": 0.0029,
+    "perCapita": 1290,
+    "household": 800
   }
 }

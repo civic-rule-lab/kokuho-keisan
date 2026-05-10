@@ -7,18 +7,18 @@
   "basicDeduction": 430000,
   "rate": {
     "medical": 0.0771,
-    "support": 0.0289,
-    "care": 0.0235
+    "support": 0.0282,
+    "care": 0.0252
   },
   "perCapita": {
     "medical": 33195,
-    "support": 12211,
-    "care": 11996
+    "support": 12245,
+    "care": 12937
   },
   "household": {
     "medical": 21294,
-    "support": 7841,
-    "care": 5814
+    "support": 7721,
+    "care": 6261
   },
   "caps": {
     "medical": 670000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "provisional",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.656Z",
-      "updatedAt": "2026-04-08T01:03:22.656Z",
+      "createdAt": "2026-04-08T01:03:21.937Z",
+      "updatedAt": "2026-05-10T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "pre-publication",
+      "title": "東広島市 令和8年度国民健康保険税の計算方法（公式サイト・予定値）",
+      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kenkofukushi/4/kokuhozei/3503.html",
+      "publishedAt": "2026-03-18"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-10",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.85,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "東広島市公式ページに『令和8年6月議会で決定予定』と明記。3方式（平等割あり）。市公式の予定値として provisional 扱い。6月議会通過後にverify化。医療分上限R7 66万→R8 67万。子ども分均等割1247円、18歳以上分74円、平等割790円、18歳未満は均等割全額軽減。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "rate": 0.0029,
+    "perCapita": 1247,
+    "household": 790
   }
 }
