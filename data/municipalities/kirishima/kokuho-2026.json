@@ -1,14 +1,14 @@
 {
-  "cityCode": "46217",
+  "cityCode": "46218",
   "citySlug": "kirishima",
   "cityName": "霧島市",
   "fiscalYear": 2026,
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.1000,
-    "support": 0.0330,
-    "care": 0.0260
+    "medical": 0.1,
+    "support": 0.033,
+    "care": 0.026
   },
   "perCapita": {
     "medical": 19900,

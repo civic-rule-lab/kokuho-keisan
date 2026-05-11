@@ -1,28 +1,28 @@
 {
-  "cityCode": "12421",
-  "citySlug": "chiba-ichinomiya",
-  "cityName": "一宮町",
+  "cityCode": "01604",
+  "citySlug": "hidaka-hokkaido",
+  "cityName": "日高町",
   "fiscalYear": 2025,
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.08,
-    "support": 0.0274,
-    "care": 0.0228
+    "medical": 0.079,
+    "support": 0.029,
+    "care": 0.025
   },
   "perCapita": {
-    "medical": 34327,
-    "support": 11611,
-    "care": 11545
+    "medical": 42200,
+    "support": 15600,
+    "care": 17900
   },
   "household": {
-    "medical": 22284,
-    "support": 7537,
-    "care": 5714
+    "medical": 0,
+    "support": 0,
+    "care": 0
   },
   "caps": {
-    "medical": 660000,
-    "support": 260000,
+    "medical": 650000,
+    "support": 240000,
     "care": 170000
   },
   "preschoolReduction": {

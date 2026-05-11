@@ -1,28 +1,28 @@
 {
-  "cityCode": "01604",
-  "citySlug": "hokkaido-hidaka",
-  "cityName": "日高町",
+  "cityCode": "01644",
+  "citySlug": "ikeda-hokkaido",
+  "cityName": "池田町",
   "fiscalYear": 2025,
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.079,
-    "support": 0.029,
-    "care": 0.025
+    "medical": 0.064,
+    "support": 0.027,
+    "care": 0.021
   },
   "perCapita": {
-    "medical": 42200,
-    "support": 15600,
-    "care": 17900
+    "medical": 21000,
+    "support": 10000,
+    "care": 9000
   },
   "household": {
-    "medical": 0,
-    "support": 0,
-    "care": 0
+    "medical": 21000,
+    "support": 8000,
+    "care": 7000
   },
   "caps": {
-    "medical": 650000,
-    "support": 240000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000
   },
   "preschoolReduction": {

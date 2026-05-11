@@ -1,5 +1,5 @@
 {
-  "cityCode": "23232",
+  "cityCode": "23233",
   "citySlug": "kiyosu",
   "cityName": "清須市",
   "fiscalYear": 2026,
@@ -7,7 +7,7 @@
   "basicDeduction": 430000,
   "rate": {
     "medical": 0.0793,
-    "support": 0.0280,
+    "support": 0.028,
     "care": 0.0241
   },
   "perCapita": {

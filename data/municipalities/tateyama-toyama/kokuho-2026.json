@@ -1,29 +1,30 @@
 {
-  "cityCode": "01644",
-  "citySlug": "hokkaido-ikeda",
-  "cityName": "池田町",
-  "fiscalYear": 2025,
+  "cityCode": "16323",
+  "citySlug": "tateyama-toyama",
+  "cityName": "立山町",
+  "fiscalYear": 2026,
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.064,
-    "support": 0.027,
-    "care": 0.021
+    "medical": 0.066,
+    "support": 0.023,
+    "care": 0.02
   },
   "perCapita": {
-    "medical": 21000,
-    "support": 10000,
-    "care": 9000
+    "medical": 24600,
+    "support": 7800,
+    "care": 9600
   },
   "household": {
-    "medical": 21000,
-    "support": 8000,
-    "care": 7000
+    "medical": 22800,
+    "support": 6600,
+    "care": 6600
   },
   "caps": {
-    "medical": 660000,
+    "medical": 670000,
     "support": 260000,
-    "care": 170000
+    "care": 170000,
+    "childcare": 30000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -54,18 +55,18 @@
     }
   },
   "meta": {
-    "schemaVersion": "1.0",
-    "dataVersion": "1.0.0",
-    "status": "unverified",
+    "schemaVersion": "2.0",
+    "dataVersion": "2.0.0",
+    "status": "needs_update",
     "lifecycle": {
-      "createdAt": "2026-04-07T00:00:00Z",
-      "updatedAt": "2026-04-07T00:00:00Z",
-      "validFrom": "2025-04-01",
-      "validUntil": "2026-03-31",
-      "expiresAt": "2026-04-30"
+      "createdAt": "2026-04-08T01:03:22.016Z",
+      "updatedAt": "2026-04-08T01:03:22.016Z",
+      "validFrom": "2026-04-01",
+      "validUntil": "2027-03-31",
+      "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "manual",
+      "type": "estimated",
       "title": "",
       "url": "",
       "publishedAt": ""
@@ -73,12 +74,17 @@
     "audit": {
       "verifiedBy": "",
       "verifiedAt": "",
-      "method": "manual"
+      "method": ""
     },
     "quality": {
-      "confidenceScore": 0.8,
-      "completeness": "full"
+      "confidenceScore": 0.5,
+      "completeness": "partial"
     },
-    "notes": ""
+    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+  },
+  "childcare": {
+    "rate": 0,
+    "perCapita": 0,
+    "household": 0
   }
 }

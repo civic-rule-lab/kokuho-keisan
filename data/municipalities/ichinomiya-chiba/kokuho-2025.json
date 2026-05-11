@@ -1,30 +1,29 @@
 {
-  "cityCode": "15342",
-  "citySlug": "tateyama",
-  "cityName": "立山町",
-  "fiscalYear": 2026,
+  "cityCode": "12421",
+  "citySlug": "ichinomiya-chiba",
+  "cityName": "一宮町",
+  "fiscalYear": 2025,
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.066,
-    "support": 0.023,
-    "care": 0.02
+    "medical": 0.08,
+    "support": 0.0274,
+    "care": 0.0228
   },
   "perCapita": {
-    "medical": 24600,
-    "support": 7800,
-    "care": 9600
+    "medical": 34327,
+    "support": 11611,
+    "care": 11545
   },
   "household": {
-    "medical": 22800,
-    "support": 6600,
-    "care": 6600
+    "medical": 22284,
+    "support": 7537,
+    "care": 5714
   },
   "caps": {
-    "medical": 670000,
+    "medical": 660000,
     "support": 260000,
-    "care": 170000,
-    "childcare": 30000
+    "care": 170000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -55,18 +54,18 @@
     }
   },
   "meta": {
-    "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "schemaVersion": "1.0",
+    "dataVersion": "1.0.0",
+    "status": "unverified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.016Z",
-      "updatedAt": "2026-04-08T01:03:22.016Z",
-      "validFrom": "2026-04-01",
-      "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "createdAt": "2026-04-07T00:00:00Z",
+      "updatedAt": "2026-04-07T00:00:00Z",
+      "validFrom": "2025-04-01",
+      "validUntil": "2026-03-31",
+      "expiresAt": "2026-04-30"
     },
     "source": {
-      "type": "estimated",
+      "type": "manual",
       "title": "",
       "url": "",
       "publishedAt": ""
@@ -74,17 +73,12 @@
     "audit": {
       "verifiedBy": "",
       "verifiedAt": "",
-      "method": ""
+      "method": "manual"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.8,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
-  },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "notes": ""
   }
 }

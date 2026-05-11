@@ -4923,7 +4923,7 @@ const registry = {
           }
         }
       },
-      "ichinomiya": {
+      "ichinomiya-chiba": {
         "name": "一宮町",
         "systems": {
           "kokuho": {
@@ -4931,11 +4931,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/chiba/ichinomiya/"
+                "url": "/chiba/ichinomiya-chiba/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/chiba/ichinomiya/income.html"
+                "url": "/chiba/ichinomiya-chiba/income.html"
               }
             }
           }
@@ -10042,7 +10042,7 @@ const registry = {
           }
         }
       },
-      "kamikawa": {
+      "kamikawa-hokkaido": {
         "name": "上川町",
         "systems": {
           "kokuho": {
@@ -10050,11 +10050,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/hokkaido/kamikawa/"
+                "url": "/hokkaido/kamikawa-hokkaido/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/hokkaido/kamikawa/income.html"
+                "url": "/hokkaido/kamikawa-hokkaido/income.html"
               }
             }
           }
@@ -10222,7 +10222,7 @@ const registry = {
           }
         }
       },
-      "nakagawa": {
+      "nakagawa-hokkaido": {
         "name": "中川町",
         "systems": {
           "kokuho": {
@@ -10230,11 +10230,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/hokkaido/nakagawa/"
+                "url": "/hokkaido/nakagawa-hokkaido/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/hokkaido/nakagawa/income.html"
+                "url": "/hokkaido/nakagawa-hokkaido/income.html"
               }
             }
           }
@@ -10942,7 +10942,7 @@ const registry = {
           }
         }
       },
-      "hidaka": {
+      "hidaka-hokkaido": {
         "name": "日高町",
         "systems": {
           "kokuho": {
@@ -10950,11 +10950,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/hokkaido/hidaka/"
+                "url": "/hokkaido/hidaka-hokkaido/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/hokkaido/hidaka/income.html"
+                "url": "/hokkaido/hidaka-hokkaido/income.html"
               }
             }
           }
@@ -11266,7 +11266,7 @@ const registry = {
           }
         }
       },
-      "ikeda": {
+      "ikeda-hokkaido": {
         "name": "池田町",
         "systems": {
           "kokuho": {
@@ -11274,11 +11274,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/hokkaido/ikeda/"
+                "url": "/hokkaido/ikeda-hokkaido/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/hokkaido/ikeda/income.html"
+                "url": "/hokkaido/ikeda-hokkaido/income.html"
               }
             }
           }
@@ -27043,7 +27043,7 @@ const registry = {
           }
         }
       },
-      "tateyama": {
+      "tateyama-toyama": {
         "name": "立山町",
         "systems": {
           "kokuho": {
@@ -27051,11 +27051,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/tateyama/"
+                "url": "/富山県/tateyama-toyama/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/tateyama/income.html"
+                "url": "/富山県/tateyama-toyama/income.html"
               }
             }
           }

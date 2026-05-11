@@ -1,6 +1,6 @@
 {
   "cityCode": "01457",
-  "citySlug": "hokkaido-kamikawa",
+  "citySlug": "kamikawa-hokkaido",
   "cityName": "上川町",
   "fiscalYear": 2025,
   "system": "kokuho",
@@ -22,8 +22,8 @@
   },
   "assetLevy": {
     "medical": 0.15,
-    "support": 0.0,
-    "care": 0.0
+    "support": 0,
+    "care": 0
   },
   "caps": {
     "medical": 660000,
