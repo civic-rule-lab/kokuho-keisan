@@ -9592,6 +9592,10 @@ const registry = {
           }
         }
       },
+      "tomari-kunashir": {
+        "name": "泊村",
+        "systems": {}
+      },
       "kamoenai": {
         "name": "神恵内村",
         "systems": {

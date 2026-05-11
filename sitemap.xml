@@ -6649,6 +6649,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kokuho-keisan.jp/hokkaido/tomari-kunashir/income.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kokuho-keisan.jp/hokkaido/tomari-kunashir/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kokuho-keisan.jp/hokkaido/kamoenai/income.html</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
