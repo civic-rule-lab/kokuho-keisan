@@ -27047,24 +27047,6 @@ const registry = {
           }
         }
       },
-      "tateyama-toyama": {
-        "name": "立山町",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/富山県/tateyama-toyama/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/富山県/tateyama-toyama/income.html"
-              }
-            }
-          }
-        }
-      },
       "nyuzen": {
         "name": "入善町",
         "systems": {
@@ -27096,6 +27078,29 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/富山県/asahitoyama/income.html"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "toyama": {
+    "name": "富山県",
+    "municipalities": {
+      "tateyama-toyama": {
+        "name": "立山町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/toyama/tateyama-toyama/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/toyama/tateyama-toyama/income.html"
               }
             }
           }
