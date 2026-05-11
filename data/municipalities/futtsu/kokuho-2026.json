@@ -6,14 +6,14 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.069,
-    "support": 0.024,
-    "care": 0.024
+    "medical": 0.0740,
+    "support": 0.0250,
+    "care": 0.0240
   },
   "perCapita": {
-    "medical": 39000,
-    "support": 13000,
-    "care": 14000
+    "medical": 41000,
+    "support": 13800,
+    "care": 13700
   },
   "household": {
     "medical": 0,
@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "provisional",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.026Z",
-      "updatedAt": "2026-04-08T01:03:22.026Z",
+      "createdAt": "2026-05-11T00:00:00.000Z",
+      "updatedAt": "2026-05-11T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "富津市 令和8年度国民健康保険税の改定（公式サイト）",
+      "url": "https://www.city.futtsu.lg.jp/0000007346.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-11",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
+      "confidenceScore": 0.80,
       "completeness": "partial"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "富津市公式 R8 改定ページ（更新日 2026-04-01）から3区分値取得。2方式（平等割なし）。千葉県標準保険税率に向けた段階的引き上げ。R7→R8 改定値: 基礎(医療)所得割6.9%→7.4%・均等割39,000→41,000円 / 後期支援2.4%→2.5%・13,000→13,800円 / 介護2.4%(変更なし)・14,000→13,700円(△300)。賦課限度額・子ども分の具体的料率は公式ページに明示なし → R8 国基準 67/26/17/3万円および子ども分0.3%/1,200円(本体)を暫定採用、要 Code 検証（計算方法ページ https://www.city.futtsu.lg.jp/0000000227.html や試算用 PDF/Excel で確認推奨）。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+    "rate": 0.0030,
+    "perCapita": 1200,
     "household": 0
   }
 }

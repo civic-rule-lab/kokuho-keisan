@@ -6,9 +6,9 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.068,
-    "support": 0.026,
-    "care": 0.022
+    "medical": 0.0680,
+    "support": 0.0260,
+    "care": 0.0220
   },
   "perCapita": {
     "medical": 25800,
@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.525Z",
-      "updatedAt": "2026-04-08T01:03:22.526Z",
+      "createdAt": "2026-05-11T00:00:00.000Z",
+      "updatedAt": "2026-05-11T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "桐生市 国保税の決め方（公式サイト）",
+      "url": "https://www.city.kiryu.lg.jp/kurashi/kenpo/kokuhozei/1000705.html",
+      "publishedAt": "2026-04-24"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-11",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "桐生市公式 R8 国保税の決め方ページ（更新日 2026-04-24・ページID:1000705）から取得。3方式（平等割あり）。群馬県内、4月告示済み。医療最高限度67万、後期26万、介護17万、子ども分3万を公式に明示。子ども分均等割は本体1,200円・18歳以上加算+100円・高校3年生該当年度以下（18歳未満）は免除（公式記載）。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "rate": 0.0030,
+    "perCapita": 1200,
+    "household": 800
   }
 }

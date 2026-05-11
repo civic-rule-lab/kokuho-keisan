@@ -6,9 +6,9 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.077,
+    "medical": 0.0770,
     "support": 0.0315,
-    "care": 0.025
+    "care": 0.0250
   },
   "perCapita": {
     "medical": 38500,
@@ -22,7 +22,7 @@
   },
   "caps": {
     "medical": 670000,
-    "support": 240000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,34 +57,34 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.498Z",
-      "updatedAt": "2026-04-08T01:03:22.498Z",
+      "createdAt": "2026-05-11T00:00:00.000Z",
+      "updatedAt": "2026-05-11T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "つくば市 国民健康保険税の税率・課税限度額（公式サイト）",
+      "url": "https://www.city.tsukuba.lg.jp/soshikikarasagasu/hokembukokuminkenkohokenka/gyomuannai/4/1/1001243.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-11",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "つくば市公式 R8 ページ（更新日 2026-04-01）から取得。2方式（平等割なし）。茨城南西部、水戸・日立・ひたちなかの同系統。子ども分均等割は本体1,400円・18歳以上加算+200円（合算1,600円相当だが、本体値1,400をperCapitaに採用＝既存drafts(西尾・鹿児島)が合算後で書く運用と異なる可能性あり、要 Code 確認）。18歳未満は子ども分均等割10割軽減。軽減判定 5割31万・2割57万（R8基準）。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+    "rate": 0.0029,
+    "perCapita": 1400,
     "household": 0
   }
 }
