@@ -1,0 +1,29 @@
+# Legacy slug 衝突解消 (2026-05-11)
+# POLICIES §9 補則: suffixed 命名規約 v1
+
+# 北海道日高町: hidaka → hidaka-hokkaido (埼玉日高市が base)
+/hokkaido/hidaka/                 /hokkaido/hidaka-hokkaido/                301
+/hokkaido/hidaka/income.html      /hokkaido/hidaka-hokkaido/income.html     301
+
+# 北海道池田町: ikeda → ikeda-hokkaido (長野池田町が base)
+/hokkaido/ikeda/                  /hokkaido/ikeda-hokkaido/                 301
+/hokkaido/ikeda/income.html       /hokkaido/ikeda-hokkaido/income.html      301
+
+# 北海道上川町: kamikawa → kamikawa-hokkaido (埼玉神川町が base)
+/hokkaido/kamikawa/               /hokkaido/kamikawa-hokkaido/              301
+/hokkaido/kamikawa/income.html    /hokkaido/kamikawa-hokkaido/income.html   301
+
+# 北海道中川町: nakagawa → nakagawa-hokkaido (長野中川村が base)
+/hokkaido/nakagawa/               /hokkaido/nakagawa-hokkaido/              301
+/hokkaido/nakagawa/income.html    /hokkaido/nakagawa-hokkaido/income.html   301
+
+# 千葉一宮町: ichinomiya → ichinomiya-chiba (愛知一宮市が base)
+/chiba/ichinomiya/                /chiba/ichinomiya-chiba/                  301
+/chiba/ichinomiya/income.html     /chiba/ichinomiya-chiba/income.html       301
+
+# 富山立山町: tateyama → tateyama-toyama (千葉館山市が base)
+/toyama/tateyama/                 /toyama/tateyama-toyama/                  301
+/toyama/tateyama/income.html      /toyama/tateyama-toyama/income.html       301
+
+# Note: /chiba/tateyama/ は URL 維持・コンテンツが千葉館山市に正常化される
+# Note: /aichi/ichinomiya/ は URL 維持・愛知一宮市 base 維持
