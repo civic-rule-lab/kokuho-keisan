@@ -19,5 +19,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Claude Code アクセス制御設定（リポジトリには含めない）
+# Claude Code アクセス制御設定・フック（リポジトリには含めない）
 .claudeignore
+.claude/
