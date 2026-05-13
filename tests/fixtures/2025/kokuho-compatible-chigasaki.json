@@ -1,0 +1,496 @@
+{
+  "description": "2025 legacy-compatible calculateKokuho comparison fixture. Expected values are produced from the legacy 2025 Chigasaki data shape without childcare, asset levy, under18, or fixedAssetTax extensions.",
+  "dataRef": "data/municipalities/chigasaki/kokuho-2025.json",
+  "cases": [
+    {
+      "name": "seven_tenths_single_no_care",
+      "input": {
+        "income": 430000,
+        "family": 1,
+        "preschool": 0,
+        "care": 0,
+        "salaryPensionCount": 1
+      },
+      "expected": {
+        "medicalTotal": 15056,
+        "supportTotal": 6196,
+        "careTotal": 0,
+        "total": 21252,
+        "monthly": 1771,
+        "preschoolReduction": 0,
+        "totalReduction": 49587,
+        "reductionLabel": "7割軽減",
+        "details": {
+          "inputs": {
+            "income": 430000,
+            "family": 1,
+            "preschool": 0,
+            "care": 0,
+            "salaryPensionCount": 1,
+            "reductionJudgmentIncome": 430000
+          },
+          "baseIncome": 0,
+          "incomeBased": {
+            "medical": 0,
+            "support": 0,
+            "care": 0
+          },
+          "perCapita": {
+            "medical": 22432,
+            "support": 9231,
+            "care": 0
+          },
+          "household": {
+            "medical": 27755,
+            "support": 11421,
+            "care": 0
+          },
+          "preschoolReduction": {
+            "medical": 0,
+            "support": 0,
+            "total": 0
+          },
+          "reduction": {
+            "label": "7割軽減",
+            "rate": 0.7,
+            "salaryPensionAdd": 100000,
+            "extraForIncomeEarners": 0,
+            "limits": {
+              "sevenTenths": 430000,
+              "fiveTenths": 735000,
+              "twoTenths": 990000
+            },
+            "amount": {
+              "medical": 35131,
+              "support": 14456,
+              "care": 0,
+              "total": 49587
+            }
+          },
+          "caps": {
+            "medical": 660000,
+            "support": 260000,
+            "care": 170000
+          }
+        },
+        "breakdown": {
+          "medical": {
+            "income": 0,
+            "perCapita": 22432,
+            "household": 27755,
+            "preschoolReduction": 0,
+            "reduction": 35131,
+            "total": 15056
+          },
+          "support": {
+            "income": 0,
+            "perCapita": 9231,
+            "household": 11421,
+            "preschoolReduction": 0,
+            "reduction": 14456,
+            "total": 6196
+          },
+          "care": {
+            "income": 0,
+            "perCapita": 0,
+            "household": 0,
+            "reduction": 0,
+            "total": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "five_tenths_family_with_preschool_and_care",
+      "input": {
+        "income": 900000,
+        "family": 3,
+        "preschool": 1,
+        "care": 1,
+        "salaryPensionCount": 2
+      },
+      "expected": {
+        "medicalTotal": 67611,
+        "supportTotal": 27960,
+        "careTotal": 21451,
+        "total": 117022,
+        "monthly": 9752,
+        "preschoolReduction": 15832,
+        "totalReduction": 76220,
+        "reductionLabel": "5割軽減",
+        "details": {
+          "inputs": {
+            "income": 900000,
+            "family": 3,
+            "preschool": 1,
+            "care": 1,
+            "salaryPensionCount": 2,
+            "reductionJudgmentIncome": 900000
+          },
+          "baseIncome": 470000,
+          "incomeBased": {
+            "medical": 31302,
+            "support": 13019,
+            "care": 12314
+          },
+          "perCapita": {
+            "medical": 67296,
+            "support": 27693,
+            "care": 9485
+          },
+          "household": {
+            "medical": 27755,
+            "support": 11421,
+            "care": 8789
+          },
+          "preschoolReduction": {
+            "medical": 11216,
+            "support": 4616,
+            "total": 15832
+          },
+          "reduction": {
+            "label": "5割軽減",
+            "rate": 0.5,
+            "salaryPensionAdd": 100000,
+            "extraForIncomeEarners": 100000,
+            "limits": {
+              "sevenTenths": 530000,
+              "fiveTenths": 1445000,
+              "twoTenths": 2210000
+            },
+            "amount": {
+              "medical": 47526,
+              "support": 19557,
+              "care": 9137,
+              "total": 76220
+            }
+          },
+          "caps": {
+            "medical": 660000,
+            "support": 260000,
+            "care": 170000
+          }
+        },
+        "breakdown": {
+          "medical": {
+            "income": 31302,
+            "perCapita": 67296,
+            "household": 27755,
+            "preschoolReduction": 11216,
+            "reduction": 47526,
+            "total": 67611
+          },
+          "support": {
+            "income": 13019,
+            "perCapita": 27693,
+            "household": 11421,
+            "preschoolReduction": 4616,
+            "reduction": 19557,
+            "total": 27960
+          },
+          "care": {
+            "income": 12314,
+            "perCapita": 9485,
+            "household": 8789,
+            "reduction": 9137,
+            "total": 21451
+          }
+        }
+      }
+    },
+    {
+      "name": "cap_high_income_with_care",
+      "input": {
+        "income": 20000000,
+        "family": 4,
+        "preschool": 0,
+        "care": 2,
+        "salaryPensionCount": 2
+      },
+      "expected": {
+        "medicalTotal": 660000,
+        "supportTotal": 260000,
+        "careTotal": 170000,
+        "total": 1090000,
+        "monthly": 90833,
+        "preschoolReduction": 0,
+        "totalReduction": 0,
+        "reductionLabel": "軽減なし",
+        "details": {
+          "inputs": {
+            "income": 20000000,
+            "family": 4,
+            "preschool": 0,
+            "care": 2,
+            "salaryPensionCount": 2,
+            "reductionJudgmentIncome": 20000000
+          },
+          "baseIncome": 19570000,
+          "incomeBased": {
+            "medical": 1303362,
+            "support": 542089,
+            "care": 512734
+          },
+          "perCapita": {
+            "medical": 89728,
+            "support": 36924,
+            "care": 18970
+          },
+          "household": {
+            "medical": 27755,
+            "support": 11421,
+            "care": 8789
+          },
+          "preschoolReduction": {
+            "medical": 0,
+            "support": 0,
+            "total": 0
+          },
+          "reduction": {
+            "label": "軽減なし",
+            "rate": 0,
+            "salaryPensionAdd": 100000,
+            "extraForIncomeEarners": 100000,
+            "limits": {
+              "sevenTenths": 530000,
+              "fiveTenths": 1750000,
+              "twoTenths": 2770000
+            },
+            "amount": {
+              "medical": 0,
+              "support": 0,
+              "care": 0,
+              "total": 0
+            }
+          },
+          "caps": {
+            "medical": 660000,
+            "support": 260000,
+            "care": 170000
+          }
+        },
+        "breakdown": {
+          "medical": {
+            "income": 1303362,
+            "perCapita": 89728,
+            "household": 27755,
+            "preschoolReduction": 0,
+            "reduction": 0,
+            "total": 660000
+          },
+          "support": {
+            "income": 542089,
+            "perCapita": 36924,
+            "household": 11421,
+            "preschoolReduction": 0,
+            "reduction": 0,
+            "total": 260000
+          },
+          "care": {
+            "income": 512734,
+            "perCapita": 18970,
+            "household": 8789,
+            "reduction": 0,
+            "total": 170000
+          }
+        }
+      }
+    },
+    {
+      "name": "reduction_judgment_income_override",
+      "input": {
+        "income": 2500000,
+        "reductionJudgmentIncome": 430000,
+        "family": 2,
+        "preschool": 0,
+        "care": 1,
+        "salaryPensionCount": 1
+      },
+      "expected": {
+        "medicalTotal": 159648,
+        "supportTotal": 66304,
+        "careTotal": 59716,
+        "total": 285668,
+        "monthly": 23806,
+        "preschoolReduction": 0,
+        "totalReduction": 84543,
+        "reductionLabel": "7割軽減",
+        "details": {
+          "inputs": {
+            "income": 2500000,
+            "family": 2,
+            "preschool": 0,
+            "care": 1,
+            "salaryPensionCount": 1,
+            "reductionJudgmentIncome": 430000
+          },
+          "baseIncome": 2070000,
+          "incomeBased": {
+            "medical": 137862,
+            "support": 57339,
+            "care": 54234
+          },
+          "perCapita": {
+            "medical": 44864,
+            "support": 18462,
+            "care": 9485
+          },
+          "household": {
+            "medical": 27755,
+            "support": 11421,
+            "care": 8789
+          },
+          "preschoolReduction": {
+            "medical": 0,
+            "support": 0,
+            "total": 0
+          },
+          "reduction": {
+            "label": "7割軽減",
+            "rate": 0.7,
+            "salaryPensionAdd": 100000,
+            "extraForIncomeEarners": 0,
+            "limits": {
+              "sevenTenths": 430000,
+              "fiveTenths": 1040000,
+              "twoTenths": 1550000
+            },
+            "amount": {
+              "medical": 50833,
+              "support": 20918,
+              "care": 12792,
+              "total": 84543
+            }
+          },
+          "caps": {
+            "medical": 660000,
+            "support": 260000,
+            "care": 170000
+          }
+        },
+        "breakdown": {
+          "medical": {
+            "income": 137862,
+            "perCapita": 44864,
+            "household": 27755,
+            "preschoolReduction": 0,
+            "reduction": 50833,
+            "total": 159648
+          },
+          "support": {
+            "income": 57339,
+            "perCapita": 18462,
+            "household": 11421,
+            "preschoolReduction": 0,
+            "reduction": 20918,
+            "total": 66304
+          },
+          "care": {
+            "income": 54234,
+            "perCapita": 9485,
+            "household": 8789,
+            "reduction": 12792,
+            "total": 59716
+          }
+        }
+      }
+    },
+    {
+      "name": "legacy_input_correction_bounds",
+      "input": {
+        "family": -2,
+        "preschool": 9,
+        "care": 9,
+        "salaryPensionCount": 9
+      },
+      "expected": {
+        "medicalTotal": 8326,
+        "supportTotal": 3426,
+        "careTotal": 0,
+        "total": 11752,
+        "monthly": 979,
+        "preschoolReduction": 0,
+        "totalReduction": 27424,
+        "reductionLabel": "7割軽減",
+        "details": {
+          "inputs": {
+            "income": 0,
+            "family": 0,
+            "preschool": 0,
+            "care": 0,
+            "salaryPensionCount": 1,
+            "reductionJudgmentIncome": 0
+          },
+          "baseIncome": 0,
+          "incomeBased": {
+            "medical": 0,
+            "support": 0,
+            "care": 0
+          },
+          "perCapita": {
+            "medical": 0,
+            "support": 0,
+            "care": 0
+          },
+          "household": {
+            "medical": 27755,
+            "support": 11421,
+            "care": 0
+          },
+          "preschoolReduction": {
+            "medical": 0,
+            "support": 0,
+            "total": 0
+          },
+          "reduction": {
+            "label": "7割軽減",
+            "rate": 0.7,
+            "salaryPensionAdd": 100000,
+            "extraForIncomeEarners": 0,
+            "limits": {
+              "sevenTenths": 430000,
+              "fiveTenths": -180000,
+              "twoTenths": -690000
+            },
+            "amount": {
+              "medical": 19429,
+              "support": 7995,
+              "care": 0,
+              "total": 27424
+            }
+          },
+          "caps": {
+            "medical": 660000,
+            "support": 260000,
+            "care": 170000
+          }
+        },
+        "breakdown": {
+          "medical": {
+            "income": 0,
+            "perCapita": 0,
+            "household": 27755,
+            "preschoolReduction": 0,
+            "reduction": 19429,
+            "total": 8326
+          },
+          "support": {
+            "income": 0,
+            "perCapita": 0,
+            "household": 11421,
+            "preschoolReduction": 0,
+            "reduction": 7995,
+            "total": 3426
+          },
+          "care": {
+            "income": 0,
+            "perCapita": 0,
+            "household": 0,
+            "reduction": 0,
+            "total": 0
+          }
+        }
+      }
+    }
+  ]
+}
