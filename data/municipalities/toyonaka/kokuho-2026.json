@@ -4,26 +4,26 @@
   "cityName": "豊中市",
   "fiscalYear": 2026,
   "system": "kokuho",
-  "note": "大阪府統一保険料率。R6より全府統一。介護分は2方式（平等割なし）。賦課限度額650000/240000円。",
+  "note": "大阪府統一保険料率。R6より全府統一。R8で賦課限度額引き上げ・子ども子育て支援金分新設。介護分は2方式（平等割なし）。賦課限度額660000/260000/170000/30000円。",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.093,
-    "support": 0.0302,
-    "care": 0.0256
+    "medical": 0.095,
+    "support": 0.0306,
+    "care": 0.026
   },
   "perCapita": {
-    "medical": 34424,
-    "support": 11034,
-    "care": 18784
+    "medical": 34990,
+    "support": 11191,
+    "care": 18682
   },
   "household": {
-    "medical": 33574,
-    "support": 10761,
+    "medical": 33908,
+    "support": 10845,
     "care": 0
   },
   "caps": {
-    "medical": 670000,
-    "support": 240000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -41,11 +41,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,35 +57,47 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.0.1",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.044Z",
-      "updatedAt": "2026-04-08T01:03:22.044Z",
+      "updatedAt": "2026-05-15T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.toyonaka.osaka.jp/kenko/kokuho/topics/hokennryokaiseiten.html",
+        "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/hokenryouritsu/hokenryouritsu2.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-05-15",
+      "verificationLevel": "official_source_checked"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
+      "type": "official",
+      "title": "豊中市 令和8年度国民健康保険料の改正点について",
+      "url": "https://www.city.toyonaka.osaka.jp/kenko/kokuho/topics/hokennryokaiseiten.html",
       "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-15",
+      "method": "official-page"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "大阪府統一保険料率 (R8)。豊中市公式「令和8年度国民健康保険料の改正点について」ページに R7→R8 対比形式で改正内容が明示されており（医療 9.30%→9.50%, 支援 3.02%→3.06%, 介護 2.56%→2.60%, 子ども分 0.28% 新設）、大阪府公式 R8 統一保険料率テーブルと完全一致。本 PR では豊中市公式を一次ソースとして確定。子育て分均等割は大阪市公式表記の breakdown (perCapita 1,745円 + 18歳以上 96円 = 合計 1,841円) を採用 (osaka と同構造)。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1745,
+    "perCapitaAdult": 96,
+    "perCapitaAdultScope": "all_ages",
     "household": 0
   }
 }

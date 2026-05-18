@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-05-11
+// 最終生成: 2026-05-18
 
 const registry = {
   "kanagawa": {
@@ -13396,24 +13396,6 @@ const registry = {
           }
         }
       },
-      "kogashi": {
-        "name": "古河市",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/ibaraki/kogashi/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/ibaraki/kogashi/income.html"
-              }
-            }
-          }
-        }
-      },
       "ishioka": {
         "name": "石岡市",
         "systems": {
@@ -14224,24 +14206,6 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/gunma/isesaki/income.html"
-              }
-            }
-          }
-        }
-      },
-      "otashi": {
-        "name": "太田市",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/gunma/otashi/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/gunma/otashi/income.html"
               }
             }
           }
@@ -24098,7 +24062,7 @@ const registry = {
       }
     }
   },
-  "山口県": {
+  "yamaguchi": {
     "name": "山口県",
     "municipalities": {
       "shimonoseki": {
@@ -24109,11 +24073,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/shimonoseki/"
+                "url": "/yamaguchi/shimonoseki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/shimonoseki/income.html"
+                "url": "/yamaguchi/shimonoseki/income.html"
               }
             }
           }
@@ -24127,11 +24091,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/ube/"
+                "url": "/yamaguchi/ube/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/ube/income.html"
+                "url": "/yamaguchi/ube/income.html"
               }
             }
           }
@@ -24145,11 +24109,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/yamaguchi/"
+                "url": "/yamaguchi/yamaguchi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/yamaguchi/income.html"
+                "url": "/yamaguchi/yamaguchi/income.html"
               }
             }
           }
@@ -24163,11 +24127,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/hagi/"
+                "url": "/yamaguchi/hagi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/hagi/income.html"
+                "url": "/yamaguchi/hagi/income.html"
               }
             }
           }
@@ -24181,11 +24145,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/hofu/"
+                "url": "/yamaguchi/hofu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/hofu/income.html"
+                "url": "/yamaguchi/hofu/income.html"
               }
             }
           }
@@ -24199,11 +24163,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/kudamatsu/"
+                "url": "/yamaguchi/kudamatsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/kudamatsu/income.html"
+                "url": "/yamaguchi/kudamatsu/income.html"
               }
             }
           }
@@ -24217,11 +24181,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/iwakuni/"
+                "url": "/yamaguchi/iwakuni/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/iwakuni/income.html"
+                "url": "/yamaguchi/iwakuni/income.html"
               }
             }
           }
@@ -24235,11 +24199,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/hikari/"
+                "url": "/yamaguchi/hikari/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/hikari/income.html"
+                "url": "/yamaguchi/hikari/income.html"
               }
             }
           }
@@ -24253,11 +24217,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/nagato/"
+                "url": "/yamaguchi/nagato/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/nagato/income.html"
+                "url": "/yamaguchi/nagato/income.html"
               }
             }
           }
@@ -24271,11 +24235,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/yanai/"
+                "url": "/yamaguchi/yanai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/yanai/income.html"
+                "url": "/yamaguchi/yanai/income.html"
               }
             }
           }
@@ -24289,11 +24253,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/mine/"
+                "url": "/yamaguchi/mine/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/mine/income.html"
+                "url": "/yamaguchi/mine/income.html"
               }
             }
           }
@@ -24307,11 +24271,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/shunan/"
+                "url": "/yamaguchi/shunan/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/shunan/income.html"
+                "url": "/yamaguchi/shunan/income.html"
               }
             }
           }
@@ -24325,11 +24289,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/sanyoonoda/"
+                "url": "/yamaguchi/sanyoonoda/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/sanyoonoda/income.html"
+                "url": "/yamaguchi/sanyoonoda/income.html"
               }
             }
           }
@@ -24343,11 +24307,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/suooshima/"
+                "url": "/yamaguchi/suooshima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/suooshima/income.html"
+                "url": "/yamaguchi/suooshima/income.html"
               }
             }
           }
@@ -24361,11 +24325,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/waki/"
+                "url": "/yamaguchi/waki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/waki/income.html"
+                "url": "/yamaguchi/waki/income.html"
               }
             }
           }
@@ -24379,11 +24343,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/kaminoseki/"
+                "url": "/yamaguchi/kaminoseki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/kaminoseki/income.html"
+                "url": "/yamaguchi/kaminoseki/income.html"
               }
             }
           }
@@ -24397,11 +24361,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/tabuse/"
+                "url": "/yamaguchi/tabuse/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/tabuse/income.html"
+                "url": "/yamaguchi/tabuse/income.html"
               }
             }
           }
@@ -24415,11 +24379,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/hirao/"
+                "url": "/yamaguchi/hirao/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/hirao/income.html"
+                "url": "/yamaguchi/hirao/income.html"
               }
             }
           }
@@ -24433,11 +24397,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/山口県/abu/"
+                "url": "/yamaguchi/abu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/山口県/abu/income.html"
+                "url": "/yamaguchi/abu/income.html"
               }
             }
           }
@@ -24445,7 +24409,7 @@ const registry = {
       }
     }
   },
-  "青森県": {
+  "aomori": {
     "name": "青森県",
     "municipalities": {
       "aomori": {
@@ -24456,11 +24420,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/aomori/"
+                "url": "/aomori/aomori/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/aomori/income.html"
+                "url": "/aomori/aomori/income.html"
               }
             }
           }
@@ -24474,11 +24438,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/hirosaki/"
+                "url": "/aomori/hirosaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/hirosaki/income.html"
+                "url": "/aomori/hirosaki/income.html"
               }
             }
           }
@@ -24492,11 +24456,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/hachinohe/"
+                "url": "/aomori/hachinohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/hachinohe/income.html"
+                "url": "/aomori/hachinohe/income.html"
               }
             }
           }
@@ -24510,11 +24474,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/kuroishi/"
+                "url": "/aomori/kuroishi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/kuroishi/income.html"
+                "url": "/aomori/kuroishi/income.html"
               }
             }
           }
@@ -24528,11 +24492,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/goshogawara/"
+                "url": "/aomori/goshogawara/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/goshogawara/income.html"
+                "url": "/aomori/goshogawara/income.html"
               }
             }
           }
@@ -24546,11 +24510,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/towada/"
+                "url": "/aomori/towada/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/towada/income.html"
+                "url": "/aomori/towada/income.html"
               }
             }
           }
@@ -24564,11 +24528,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/misawa/"
+                "url": "/aomori/misawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/misawa/income.html"
+                "url": "/aomori/misawa/income.html"
               }
             }
           }
@@ -24582,11 +24546,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/mutsu/"
+                "url": "/aomori/mutsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/mutsu/income.html"
+                "url": "/aomori/mutsu/income.html"
               }
             }
           }
@@ -24600,11 +24564,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/tsugaru/"
+                "url": "/aomori/tsugaru/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/tsugaru/income.html"
+                "url": "/aomori/tsugaru/income.html"
               }
             }
           }
@@ -24618,11 +24582,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/hirakawa/"
+                "url": "/aomori/hirakawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/hirakawa/income.html"
+                "url": "/aomori/hirakawa/income.html"
               }
             }
           }
@@ -24636,11 +24600,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/hiranai/"
+                "url": "/aomori/hiranai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/hiranai/income.html"
+                "url": "/aomori/hiranai/income.html"
               }
             }
           }
@@ -24654,11 +24618,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/imabetsu/"
+                "url": "/aomori/imabetsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/imabetsu/income.html"
+                "url": "/aomori/imabetsu/income.html"
               }
             }
           }
@@ -24672,11 +24636,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/yomogita/"
+                "url": "/aomori/yomogita/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/yomogita/income.html"
+                "url": "/aomori/yomogita/income.html"
               }
             }
           }
@@ -24690,11 +24654,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/sotogahama/"
+                "url": "/aomori/sotogahama/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/sotogahama/income.html"
+                "url": "/aomori/sotogahama/income.html"
               }
             }
           }
@@ -24708,11 +24672,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/ajigasawa/"
+                "url": "/aomori/ajigasawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/ajigasawa/income.html"
+                "url": "/aomori/ajigasawa/income.html"
               }
             }
           }
@@ -24726,11 +24690,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/fukaura/"
+                "url": "/aomori/fukaura/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/fukaura/income.html"
+                "url": "/aomori/fukaura/income.html"
               }
             }
           }
@@ -24744,11 +24708,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/nishimeya/"
+                "url": "/aomori/nishimeya/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/nishimeya/income.html"
+                "url": "/aomori/nishimeya/income.html"
               }
             }
           }
@@ -24762,11 +24726,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/fujisaki/"
+                "url": "/aomori/fujisaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/fujisaki/income.html"
+                "url": "/aomori/fujisaki/income.html"
               }
             }
           }
@@ -24780,11 +24744,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/owani/"
+                "url": "/aomori/owani/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/owani/income.html"
+                "url": "/aomori/owani/income.html"
               }
             }
           }
@@ -24798,11 +24762,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/inakadate/"
+                "url": "/aomori/inakadate/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/inakadate/income.html"
+                "url": "/aomori/inakadate/income.html"
               }
             }
           }
@@ -24816,11 +24780,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/itayanagi/"
+                "url": "/aomori/itayanagi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/itayanagi/income.html"
+                "url": "/aomori/itayanagi/income.html"
               }
             }
           }
@@ -24834,11 +24798,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/tsuruta/"
+                "url": "/aomori/tsuruta/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/tsuruta/income.html"
+                "url": "/aomori/tsuruta/income.html"
               }
             }
           }
@@ -24852,11 +24816,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/nakadomari/"
+                "url": "/aomori/nakadomari/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/nakadomari/income.html"
+                "url": "/aomori/nakadomari/income.html"
               }
             }
           }
@@ -24870,11 +24834,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/noheji/"
+                "url": "/aomori/noheji/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/noheji/income.html"
+                "url": "/aomori/noheji/income.html"
               }
             }
           }
@@ -24888,11 +24852,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/shichinohe/"
+                "url": "/aomori/shichinohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/shichinohe/income.html"
+                "url": "/aomori/shichinohe/income.html"
               }
             }
           }
@@ -24906,11 +24870,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/rokunohe/"
+                "url": "/aomori/rokunohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/rokunohe/income.html"
+                "url": "/aomori/rokunohe/income.html"
               }
             }
           }
@@ -24924,11 +24888,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/yokohamacho/"
+                "url": "/aomori/yokohamacho/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/yokohamacho/income.html"
+                "url": "/aomori/yokohamacho/income.html"
               }
             }
           }
@@ -24942,11 +24906,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/tohokucho/"
+                "url": "/aomori/tohokucho/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/tohokucho/income.html"
+                "url": "/aomori/tohokucho/income.html"
               }
             }
           }
@@ -24960,11 +24924,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/rokkasho/"
+                "url": "/aomori/rokkasho/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/rokkasho/income.html"
+                "url": "/aomori/rokkasho/income.html"
               }
             }
           }
@@ -24978,11 +24942,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/oirase/"
+                "url": "/aomori/oirase/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/oirase/income.html"
+                "url": "/aomori/oirase/income.html"
               }
             }
           }
@@ -24996,11 +24960,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/oma/"
+                "url": "/aomori/oma/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/oma/income.html"
+                "url": "/aomori/oma/income.html"
               }
             }
           }
@@ -25014,11 +24978,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/higashidori/"
+                "url": "/aomori/higashidori/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/higashidori/income.html"
+                "url": "/aomori/higashidori/income.html"
               }
             }
           }
@@ -25032,11 +24996,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/kazamaura/"
+                "url": "/aomori/kazamaura/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/kazamaura/income.html"
+                "url": "/aomori/kazamaura/income.html"
               }
             }
           }
@@ -25050,11 +25014,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/sai/"
+                "url": "/aomori/sai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/sai/income.html"
+                "url": "/aomori/sai/income.html"
               }
             }
           }
@@ -25068,11 +25032,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/sannohe/"
+                "url": "/aomori/sannohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/sannohe/income.html"
+                "url": "/aomori/sannohe/income.html"
               }
             }
           }
@@ -25086,11 +25050,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/gonohe/"
+                "url": "/aomori/gonohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/gonohe/income.html"
+                "url": "/aomori/gonohe/income.html"
               }
             }
           }
@@ -25104,11 +25068,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/takko/"
+                "url": "/aomori/takko/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/takko/income.html"
+                "url": "/aomori/takko/income.html"
               }
             }
           }
@@ -25122,11 +25086,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/nanbu/"
+                "url": "/aomori/nanbu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/nanbu/income.html"
+                "url": "/aomori/nanbu/income.html"
               }
             }
           }
@@ -25140,11 +25104,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/hashikami/"
+                "url": "/aomori/hashikami/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/hashikami/income.html"
+                "url": "/aomori/hashikami/income.html"
               }
             }
           }
@@ -25158,11 +25122,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/青森県/shingo/"
+                "url": "/aomori/shingo/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/青森県/shingo/income.html"
+                "url": "/aomori/shingo/income.html"
               }
             }
           }
@@ -25170,7 +25134,7 @@ const registry = {
       }
     }
   },
-  "長崎県": {
+  "nagasaki": {
     "name": "長崎県",
     "municipalities": {
       "nagasaki": {
@@ -25181,11 +25145,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/nagasaki/"
+                "url": "/nagasaki/nagasaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/nagasaki/income.html"
+                "url": "/nagasaki/nagasaki/income.html"
               }
             }
           }
@@ -25199,11 +25163,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/sasebo/"
+                "url": "/nagasaki/sasebo/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/sasebo/income.html"
+                "url": "/nagasaki/sasebo/income.html"
               }
             }
           }
@@ -25217,11 +25181,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/shimabara/"
+                "url": "/nagasaki/shimabara/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/shimabara/income.html"
+                "url": "/nagasaki/shimabara/income.html"
               }
             }
           }
@@ -25235,11 +25199,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/isahaya/"
+                "url": "/nagasaki/isahaya/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/isahaya/income.html"
+                "url": "/nagasaki/isahaya/income.html"
               }
             }
           }
@@ -25253,11 +25217,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/omura/"
+                "url": "/nagasaki/omura/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/omura/income.html"
+                "url": "/nagasaki/omura/income.html"
               }
             }
           }
@@ -25271,11 +25235,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/hirado/"
+                "url": "/nagasaki/hirado/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/hirado/income.html"
+                "url": "/nagasaki/hirado/income.html"
               }
             }
           }
@@ -25289,11 +25253,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/matsuura/"
+                "url": "/nagasaki/matsuura/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/matsuura/income.html"
+                "url": "/nagasaki/matsuura/income.html"
               }
             }
           }
@@ -25307,11 +25271,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/tsushimashi/"
+                "url": "/nagasaki/tsushimashi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/tsushimashi/income.html"
+                "url": "/nagasaki/tsushimashi/income.html"
               }
             }
           }
@@ -25325,11 +25289,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/iki/"
+                "url": "/nagasaki/iki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/iki/income.html"
+                "url": "/nagasaki/iki/income.html"
               }
             }
           }
@@ -25343,11 +25307,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/goto/"
+                "url": "/nagasaki/goto/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/goto/income.html"
+                "url": "/nagasaki/goto/income.html"
               }
             }
           }
@@ -25361,11 +25325,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/saikai/"
+                "url": "/nagasaki/saikai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/saikai/income.html"
+                "url": "/nagasaki/saikai/income.html"
               }
             }
           }
@@ -25379,11 +25343,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/unzen/"
+                "url": "/nagasaki/unzen/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/unzen/income.html"
+                "url": "/nagasaki/unzen/income.html"
               }
             }
           }
@@ -25397,11 +25361,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/minamishimabara/"
+                "url": "/nagasaki/minamishimabara/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/minamishimabara/income.html"
+                "url": "/nagasaki/minamishimabara/income.html"
               }
             }
           }
@@ -25415,11 +25379,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/nagayo/"
+                "url": "/nagasaki/nagayo/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/nagayo/income.html"
+                "url": "/nagasaki/nagayo/income.html"
               }
             }
           }
@@ -25433,11 +25397,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/togitsu/"
+                "url": "/nagasaki/togitsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/togitsu/income.html"
+                "url": "/nagasaki/togitsu/income.html"
               }
             }
           }
@@ -25451,11 +25415,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/higashisonogi/"
+                "url": "/nagasaki/higashisonogi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/higashisonogi/income.html"
+                "url": "/nagasaki/higashisonogi/income.html"
               }
             }
           }
@@ -25469,11 +25433,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/kawatana/"
+                "url": "/nagasaki/kawatana/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/kawatana/income.html"
+                "url": "/nagasaki/kawatana/income.html"
               }
             }
           }
@@ -25487,11 +25451,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/hasami/"
+                "url": "/nagasaki/hasami/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/hasami/income.html"
+                "url": "/nagasaki/hasami/income.html"
               }
             }
           }
@@ -25505,11 +25469,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/ojika/"
+                "url": "/nagasaki/ojika/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/ojika/income.html"
+                "url": "/nagasaki/ojika/income.html"
               }
             }
           }
@@ -25523,11 +25487,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/saza/"
+                "url": "/nagasaki/saza/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/saza/income.html"
+                "url": "/nagasaki/saza/income.html"
               }
             }
           }
@@ -25541,11 +25505,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/長崎県/shinkamigoto/"
+                "url": "/nagasaki/shinkamigoto/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/長崎県/shinkamigoto/income.html"
+                "url": "/nagasaki/shinkamigoto/income.html"
               }
             }
           }
@@ -25553,7 +25517,7 @@ const registry = {
       }
     }
   },
-  "岩手県": {
+  "iwate": {
     "name": "岩手県",
     "municipalities": {
       "morioka": {
@@ -25564,11 +25528,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/morioka/"
+                "url": "/iwate/morioka/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/morioka/income.html"
+                "url": "/iwate/morioka/income.html"
               }
             }
           }
@@ -25582,11 +25546,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/miyakoshi/"
+                "url": "/iwate/miyakoshi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/miyakoshi/income.html"
+                "url": "/iwate/miyakoshi/income.html"
               }
             }
           }
@@ -25600,11 +25564,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/ofunato/"
+                "url": "/iwate/ofunato/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/ofunato/income.html"
+                "url": "/iwate/ofunato/income.html"
               }
             }
           }
@@ -25618,11 +25582,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/hanamaki/"
+                "url": "/iwate/hanamaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/hanamaki/income.html"
+                "url": "/iwate/hanamaki/income.html"
               }
             }
           }
@@ -25636,11 +25600,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/kitakami/"
+                "url": "/iwate/kitakami/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/kitakami/income.html"
+                "url": "/iwate/kitakami/income.html"
               }
             }
           }
@@ -25654,11 +25618,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/kuji/"
+                "url": "/iwate/kuji/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/kuji/income.html"
+                "url": "/iwate/kuji/income.html"
               }
             }
           }
@@ -25672,11 +25636,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/tono/"
+                "url": "/iwate/tono/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/tono/income.html"
+                "url": "/iwate/tono/income.html"
               }
             }
           }
@@ -25690,11 +25654,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/ichinoseki/"
+                "url": "/iwate/ichinoseki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/ichinoseki/income.html"
+                "url": "/iwate/ichinoseki/income.html"
               }
             }
           }
@@ -25708,11 +25672,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/rikuzentakata/"
+                "url": "/iwate/rikuzentakata/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/rikuzentakata/income.html"
+                "url": "/iwate/rikuzentakata/income.html"
               }
             }
           }
@@ -25726,11 +25690,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/kamaishi/"
+                "url": "/iwate/kamaishi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/kamaishi/income.html"
+                "url": "/iwate/kamaishi/income.html"
               }
             }
           }
@@ -25744,11 +25708,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/ninohe/"
+                "url": "/iwate/ninohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/ninohe/income.html"
+                "url": "/iwate/ninohe/income.html"
               }
             }
           }
@@ -25762,11 +25726,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/hachimantai/"
+                "url": "/iwate/hachimantai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/hachimantai/income.html"
+                "url": "/iwate/hachimantai/income.html"
               }
             }
           }
@@ -25780,11 +25744,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/oshu/"
+                "url": "/iwate/oshu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/oshu/income.html"
+                "url": "/iwate/oshu/income.html"
               }
             }
           }
@@ -25798,11 +25762,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/takizawa/"
+                "url": "/iwate/takizawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/takizawa/income.html"
+                "url": "/iwate/takizawa/income.html"
               }
             }
           }
@@ -25816,11 +25780,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/shizukuishi/"
+                "url": "/iwate/shizukuishi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/shizukuishi/income.html"
+                "url": "/iwate/shizukuishi/income.html"
               }
             }
           }
@@ -25834,11 +25798,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/kuzumaki/"
+                "url": "/iwate/kuzumaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/kuzumaki/income.html"
+                "url": "/iwate/kuzumaki/income.html"
               }
             }
           }
@@ -25852,11 +25816,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/iwatemachi/"
+                "url": "/iwate/iwatemachi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/iwatemachi/income.html"
+                "url": "/iwate/iwatemachi/income.html"
               }
             }
           }
@@ -25870,11 +25834,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/shiwa/"
+                "url": "/iwate/shiwa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/shiwa/income.html"
+                "url": "/iwate/shiwa/income.html"
               }
             }
           }
@@ -25888,11 +25852,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/yahaba/"
+                "url": "/iwate/yahaba/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/yahaba/income.html"
+                "url": "/iwate/yahaba/income.html"
               }
             }
           }
@@ -25906,11 +25870,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/nishiwaga/"
+                "url": "/iwate/nishiwaga/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/nishiwaga/income.html"
+                "url": "/iwate/nishiwaga/income.html"
               }
             }
           }
@@ -25924,11 +25888,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/kanegasaki/"
+                "url": "/iwate/kanegasaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/kanegasaki/income.html"
+                "url": "/iwate/kanegasaki/income.html"
               }
             }
           }
@@ -25942,11 +25906,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/hiraizumi/"
+                "url": "/iwate/hiraizumi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/hiraizumi/income.html"
+                "url": "/iwate/hiraizumi/income.html"
               }
             }
           }
@@ -25960,11 +25924,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/sumita/"
+                "url": "/iwate/sumita/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/sumita/income.html"
+                "url": "/iwate/sumita/income.html"
               }
             }
           }
@@ -25978,11 +25942,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/otsuchi/"
+                "url": "/iwate/otsuchi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/otsuchi/income.html"
+                "url": "/iwate/otsuchi/income.html"
               }
             }
           }
@@ -25996,11 +25960,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/yamada/"
+                "url": "/iwate/yamada/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/yamada/income.html"
+                "url": "/iwate/yamada/income.html"
               }
             }
           }
@@ -26014,11 +25978,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/iwaizumi/"
+                "url": "/iwate/iwaizumi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/iwaizumi/income.html"
+                "url": "/iwate/iwaizumi/income.html"
               }
             }
           }
@@ -26032,11 +25996,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/tanohata/"
+                "url": "/iwate/tanohata/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/tanohata/income.html"
+                "url": "/iwate/tanohata/income.html"
               }
             }
           }
@@ -26050,11 +26014,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/fudai/"
+                "url": "/iwate/fudai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/fudai/income.html"
+                "url": "/iwate/fudai/income.html"
               }
             }
           }
@@ -26068,11 +26032,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/karumai/"
+                "url": "/iwate/karumai/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/karumai/income.html"
+                "url": "/iwate/karumai/income.html"
               }
             }
           }
@@ -26086,11 +26050,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/nodamura/"
+                "url": "/iwate/nodamura/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/nodamura/income.html"
+                "url": "/iwate/nodamura/income.html"
               }
             }
           }
@@ -26104,11 +26068,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/kunohe/"
+                "url": "/iwate/kunohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/kunohe/income.html"
+                "url": "/iwate/kunohe/income.html"
               }
             }
           }
@@ -26122,11 +26086,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/hironocho/"
+                "url": "/iwate/hironocho/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/hironocho/income.html"
+                "url": "/iwate/hironocho/income.html"
               }
             }
           }
@@ -26140,11 +26104,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/岩手県/ichinohe/"
+                "url": "/iwate/ichinohe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/岩手県/ichinohe/income.html"
+                "url": "/iwate/ichinohe/income.html"
               }
             }
           }
@@ -26152,7 +26116,7 @@ const registry = {
       }
     }
   },
-  "大分県": {
+  "oita": {
     "name": "大分県",
     "municipalities": {
       "oita": {
@@ -26163,11 +26127,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/oita/"
+                "url": "/oita/oita/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/oita/income.html"
+                "url": "/oita/oita/income.html"
               }
             }
           }
@@ -26181,11 +26145,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/beppu/"
+                "url": "/oita/beppu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/beppu/income.html"
+                "url": "/oita/beppu/income.html"
               }
             }
           }
@@ -26199,11 +26163,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/nakatsu/"
+                "url": "/oita/nakatsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/nakatsu/income.html"
+                "url": "/oita/nakatsu/income.html"
               }
             }
           }
@@ -26217,11 +26181,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/hita/"
+                "url": "/oita/hita/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/hita/income.html"
+                "url": "/oita/hita/income.html"
               }
             }
           }
@@ -26235,11 +26199,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/saiki/"
+                "url": "/oita/saiki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/saiki/income.html"
+                "url": "/oita/saiki/income.html"
               }
             }
           }
@@ -26253,11 +26217,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/usuki/"
+                "url": "/oita/usuki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/usuki/income.html"
+                "url": "/oita/usuki/income.html"
               }
             }
           }
@@ -26271,11 +26235,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/tsukumi/"
+                "url": "/oita/tsukumi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/tsukumi/income.html"
+                "url": "/oita/tsukumi/income.html"
               }
             }
           }
@@ -26289,11 +26253,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/taketa/"
+                "url": "/oita/taketa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/taketa/income.html"
+                "url": "/oita/taketa/income.html"
               }
             }
           }
@@ -26307,11 +26271,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/bungotakada/"
+                "url": "/oita/bungotakada/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/bungotakada/income.html"
+                "url": "/oita/bungotakada/income.html"
               }
             }
           }
@@ -26325,11 +26289,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/kitsuki/"
+                "url": "/oita/kitsuki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/kitsuki/income.html"
+                "url": "/oita/kitsuki/income.html"
               }
             }
           }
@@ -26343,11 +26307,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/usa/"
+                "url": "/oita/usa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/usa/income.html"
+                "url": "/oita/usa/income.html"
               }
             }
           }
@@ -26361,11 +26325,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/bungoono/"
+                "url": "/oita/bungoono/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/bungoono/income.html"
+                "url": "/oita/bungoono/income.html"
               }
             }
           }
@@ -26379,11 +26343,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/yufu/"
+                "url": "/oita/yufu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/yufu/income.html"
+                "url": "/oita/yufu/income.html"
               }
             }
           }
@@ -26397,11 +26361,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/kunisaki/"
+                "url": "/oita/kunisaki/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/kunisaki/income.html"
+                "url": "/oita/kunisaki/income.html"
               }
             }
           }
@@ -26415,11 +26379,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/himeshima/"
+                "url": "/oita/himeshima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/himeshima/income.html"
+                "url": "/oita/himeshima/income.html"
               }
             }
           }
@@ -26433,11 +26397,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/hiji/"
+                "url": "/oita/hiji/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/hiji/income.html"
+                "url": "/oita/hiji/income.html"
               }
             }
           }
@@ -26451,11 +26415,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/kokonoe/"
+                "url": "/oita/kokonoe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/kokonoe/income.html"
+                "url": "/oita/kokonoe/income.html"
               }
             }
           }
@@ -26469,11 +26433,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/大分県/kusu/"
+                "url": "/oita/kusu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/大分県/kusu/income.html"
+                "url": "/oita/kusu/income.html"
               }
             }
           }
@@ -26481,7 +26445,7 @@ const registry = {
       }
     }
   },
-  "石川県": {
+  "ishikawa": {
     "name": "石川県",
     "municipalities": {
       "kanazawa": {
@@ -26492,11 +26456,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/kanazawa/"
+                "url": "/ishikawa/kanazawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/kanazawa/income.html"
+                "url": "/ishikawa/kanazawa/income.html"
               }
             }
           }
@@ -26510,11 +26474,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/nanao/"
+                "url": "/ishikawa/nanao/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/nanao/income.html"
+                "url": "/ishikawa/nanao/income.html"
               }
             }
           }
@@ -26528,11 +26492,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/komatsu/"
+                "url": "/ishikawa/komatsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/komatsu/income.html"
+                "url": "/ishikawa/komatsu/income.html"
               }
             }
           }
@@ -26546,11 +26510,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/wajima/"
+                "url": "/ishikawa/wajima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/wajima/income.html"
+                "url": "/ishikawa/wajima/income.html"
               }
             }
           }
@@ -26564,11 +26528,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/suzu/"
+                "url": "/ishikawa/suzu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/suzu/income.html"
+                "url": "/ishikawa/suzu/income.html"
               }
             }
           }
@@ -26582,11 +26546,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/kaga/"
+                "url": "/ishikawa/kaga/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/kaga/income.html"
+                "url": "/ishikawa/kaga/income.html"
               }
             }
           }
@@ -26600,11 +26564,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/hakui/"
+                "url": "/ishikawa/hakui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/hakui/income.html"
+                "url": "/ishikawa/hakui/income.html"
               }
             }
           }
@@ -26618,11 +26582,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/kahoku/"
+                "url": "/ishikawa/kahoku/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/kahoku/income.html"
+                "url": "/ishikawa/kahoku/income.html"
               }
             }
           }
@@ -26636,11 +26600,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/hakusan/"
+                "url": "/ishikawa/hakusan/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/hakusan/income.html"
+                "url": "/ishikawa/hakusan/income.html"
               }
             }
           }
@@ -26654,11 +26618,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/nomi/"
+                "url": "/ishikawa/nomi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/nomi/income.html"
+                "url": "/ishikawa/nomi/income.html"
               }
             }
           }
@@ -26672,11 +26636,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/nonoichi/"
+                "url": "/ishikawa/nonoichi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/nonoichi/income.html"
+                "url": "/ishikawa/nonoichi/income.html"
               }
             }
           }
@@ -26690,11 +26654,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/kawakita/"
+                "url": "/ishikawa/kawakita/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/kawakita/income.html"
+                "url": "/ishikawa/kawakita/income.html"
               }
             }
           }
@@ -26708,11 +26672,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/tsubata/"
+                "url": "/ishikawa/tsubata/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/tsubata/income.html"
+                "url": "/ishikawa/tsubata/income.html"
               }
             }
           }
@@ -26726,11 +26690,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/uchinada/"
+                "url": "/ishikawa/uchinada/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/uchinada/income.html"
+                "url": "/ishikawa/uchinada/income.html"
               }
             }
           }
@@ -26744,11 +26708,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/shika/"
+                "url": "/ishikawa/shika/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/shika/income.html"
+                "url": "/ishikawa/shika/income.html"
               }
             }
           }
@@ -26762,11 +26726,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/hodatsushimizu/"
+                "url": "/ishikawa/hodatsushimizu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/hodatsushimizu/income.html"
+                "url": "/ishikawa/hodatsushimizu/income.html"
               }
             }
           }
@@ -26780,11 +26744,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/nakanoto/"
+                "url": "/ishikawa/nakanoto/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/nakanoto/income.html"
+                "url": "/ishikawa/nakanoto/income.html"
               }
             }
           }
@@ -26798,11 +26762,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/anamizu/"
+                "url": "/ishikawa/anamizu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/anamizu/income.html"
+                "url": "/ishikawa/anamizu/income.html"
               }
             }
           }
@@ -26816,11 +26780,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/石川県/notocho/"
+                "url": "/ishikawa/notocho/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/石川県/notocho/income.html"
+                "url": "/ishikawa/notocho/income.html"
               }
             }
           }
@@ -26828,7 +26792,7 @@ const registry = {
       }
     }
   },
-  "富山県": {
+  "toyama": {
     "name": "富山県",
     "municipalities": {
       "toyama": {
@@ -26839,11 +26803,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/toyama/"
+                "url": "/toyama/toyama/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/toyama/income.html"
+                "url": "/toyama/toyama/income.html"
               }
             }
           }
@@ -26857,11 +26821,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/takaoka/"
+                "url": "/toyama/takaoka/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/takaoka/income.html"
+                "url": "/toyama/takaoka/income.html"
               }
             }
           }
@@ -26875,11 +26839,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/uozu/"
+                "url": "/toyama/uozu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/uozu/income.html"
+                "url": "/toyama/uozu/income.html"
               }
             }
           }
@@ -26893,11 +26857,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/himi/"
+                "url": "/toyama/himi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/himi/income.html"
+                "url": "/toyama/himi/income.html"
               }
             }
           }
@@ -26911,11 +26875,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/namerikawa/"
+                "url": "/toyama/namerikawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/namerikawa/income.html"
+                "url": "/toyama/namerikawa/income.html"
               }
             }
           }
@@ -26929,11 +26893,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/kurobe/"
+                "url": "/toyama/kurobe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/kurobe/income.html"
+                "url": "/toyama/kurobe/income.html"
               }
             }
           }
@@ -26947,11 +26911,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/tonami/"
+                "url": "/toyama/tonami/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/tonami/income.html"
+                "url": "/toyama/tonami/income.html"
               }
             }
           }
@@ -26965,11 +26929,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/oyabe/"
+                "url": "/toyama/oyabe/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/oyabe/income.html"
+                "url": "/toyama/oyabe/income.html"
               }
             }
           }
@@ -26983,11 +26947,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/nanto/"
+                "url": "/toyama/nanto/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/nanto/income.html"
+                "url": "/toyama/nanto/income.html"
               }
             }
           }
@@ -27001,11 +26965,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/imizu/"
+                "url": "/toyama/imizu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/imizu/income.html"
+                "url": "/toyama/imizu/income.html"
               }
             }
           }
@@ -27019,11 +26983,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/funahashi/"
+                "url": "/toyama/funahashi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/funahashi/income.html"
+                "url": "/toyama/funahashi/income.html"
               }
             }
           }
@@ -27037,57 +27001,16 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/富山県/kamiichi/"
+                "url": "/toyama/kamiichi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/富山県/kamiichi/income.html"
+                "url": "/toyama/kamiichi/income.html"
               }
             }
           }
         }
       },
-      "nyuzen": {
-        "name": "入善町",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/富山県/nyuzen/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/富山県/nyuzen/income.html"
-              }
-            }
-          }
-        }
-      },
-      "asahitoyama": {
-        "name": "朝日町",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/富山県/asahitoyama/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/富山県/asahitoyama/income.html"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
-  "toyama": {
-    "name": "富山県",
-    "municipalities": {
       "tateyama-toyama": {
         "name": "立山町",
         "systems": {
@@ -27105,10 +27028,46 @@ const registry = {
             }
           }
         }
+      },
+      "nyuzen": {
+        "name": "入善町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/toyama/nyuzen/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/toyama/nyuzen/income.html"
+              }
+            }
+          }
+        }
+      },
+      "asahitoyama": {
+        "name": "朝日町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/toyama/asahitoyama/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/toyama/asahitoyama/income.html"
+              }
+            }
+          }
+        }
       }
     }
   },
-  "徳島県": {
+  "tokushima": {
     "name": "徳島県",
     "municipalities": {
       "tokushima": {
@@ -27119,11 +27078,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/tokushima/"
+                "url": "/tokushima/tokushima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/tokushima/income.html"
+                "url": "/tokushima/tokushima/income.html"
               }
             }
           }
@@ -27137,11 +27096,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/naruto/"
+                "url": "/tokushima/naruto/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/naruto/income.html"
+                "url": "/tokushima/naruto/income.html"
               }
             }
           }
@@ -27155,11 +27114,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/komatsushima/"
+                "url": "/tokushima/komatsushima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/komatsushima/income.html"
+                "url": "/tokushima/komatsushima/income.html"
               }
             }
           }
@@ -27173,11 +27132,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/anantokushima/"
+                "url": "/tokushima/anantokushima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/anantokushima/income.html"
+                "url": "/tokushima/anantokushima/income.html"
               }
             }
           }
@@ -27191,11 +27150,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/yoshinogawa/"
+                "url": "/tokushima/yoshinogawa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/yoshinogawa/income.html"
+                "url": "/tokushima/yoshinogawa/income.html"
               }
             }
           }
@@ -27209,11 +27168,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/awa/"
+                "url": "/tokushima/awa/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/awa/income.html"
+                "url": "/tokushima/awa/income.html"
               }
             }
           }
@@ -27227,11 +27186,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/mima/"
+                "url": "/tokushima/mima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/mima/income.html"
+                "url": "/tokushima/mima/income.html"
               }
             }
           }
@@ -27245,11 +27204,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/miyoshitokushima/"
+                "url": "/tokushima/miyoshitokushima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/miyoshitokushima/income.html"
+                "url": "/tokushima/miyoshitokushima/income.html"
               }
             }
           }
@@ -27263,11 +27222,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/katsuuratokushima/"
+                "url": "/tokushima/katsuuratokushima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/katsuuratokushima/income.html"
+                "url": "/tokushima/katsuuratokushima/income.html"
               }
             }
           }
@@ -27281,11 +27240,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/kamikatsu/"
+                "url": "/tokushima/kamikatsu/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/kamikatsu/income.html"
+                "url": "/tokushima/kamikatsu/income.html"
               }
             }
           }
@@ -27299,11 +27258,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/sanagochi/"
+                "url": "/tokushima/sanagochi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/sanagochi/income.html"
+                "url": "/tokushima/sanagochi/income.html"
               }
             }
           }
@@ -27317,11 +27276,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/ishii/"
+                "url": "/tokushima/ishii/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/ishii/income.html"
+                "url": "/tokushima/ishii/income.html"
               }
             }
           }
@@ -27335,11 +27294,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/kamiyama/"
+                "url": "/tokushima/kamiyama/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/kamiyama/income.html"
+                "url": "/tokushima/kamiyama/income.html"
               }
             }
           }
@@ -27353,11 +27312,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/nakatokushima/"
+                "url": "/tokushima/nakatokushima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/nakatokushima/income.html"
+                "url": "/tokushima/nakatokushima/income.html"
               }
             }
           }
@@ -27371,11 +27330,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/mugi/"
+                "url": "/tokushima/mugi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/mugi/income.html"
+                "url": "/tokushima/mugi/income.html"
               }
             }
           }
@@ -27389,11 +27348,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/minami/"
+                "url": "/tokushima/minami/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/minami/income.html"
+                "url": "/tokushima/minami/income.html"
               }
             }
           }
@@ -27407,11 +27366,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/kaiyo/"
+                "url": "/tokushima/kaiyo/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/kaiyo/income.html"
+                "url": "/tokushima/kaiyo/income.html"
               }
             }
           }
@@ -27425,11 +27384,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/matsushige/"
+                "url": "/tokushima/matsushige/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/matsushige/income.html"
+                "url": "/tokushima/matsushige/income.html"
               }
             }
           }
@@ -27443,11 +27402,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/kitajima/"
+                "url": "/tokushima/kitajima/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/kitajima/income.html"
+                "url": "/tokushima/kitajima/income.html"
               }
             }
           }
@@ -27461,11 +27420,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/aizumi/"
+                "url": "/tokushima/aizumi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/aizumi/income.html"
+                "url": "/tokushima/aizumi/income.html"
               }
             }
           }
@@ -27479,11 +27438,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/itano/"
+                "url": "/tokushima/itano/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/itano/income.html"
+                "url": "/tokushima/itano/income.html"
               }
             }
           }
@@ -27497,11 +27456,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/kamiita/"
+                "url": "/tokushima/kamiita/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/kamiita/income.html"
+                "url": "/tokushima/kamiita/income.html"
               }
             }
           }
@@ -27515,11 +27474,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/tsurugi/"
+                "url": "/tokushima/tsurugi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/tsurugi/income.html"
+                "url": "/tokushima/tsurugi/income.html"
               }
             }
           }
@@ -27533,11 +27492,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/徳島県/higashimiyoshi/"
+                "url": "/tokushima/higashimiyoshi/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/徳島県/higashimiyoshi/income.html"
+                "url": "/tokushima/higashimiyoshi/income.html"
               }
             }
           }
@@ -27545,7 +27504,7 @@ const registry = {
       }
     }
   },
-  "福井県": {
+  "fukui": {
     "name": "福井県",
     "municipalities": {
       "fukui": {
@@ -27556,11 +27515,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/fukui/"
+                "url": "/fukui/fukui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/fukui/income.html"
+                "url": "/fukui/fukui/income.html"
               }
             }
           }
@@ -27574,11 +27533,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/tsuruga/"
+                "url": "/fukui/tsuruga/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/tsuruga/income.html"
+                "url": "/fukui/tsuruga/income.html"
               }
             }
           }
@@ -27592,11 +27551,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/obama/"
+                "url": "/fukui/obama/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/obama/income.html"
+                "url": "/fukui/obama/income.html"
               }
             }
           }
@@ -27610,11 +27569,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/onofukui/"
+                "url": "/fukui/onofukui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/onofukui/income.html"
+                "url": "/fukui/onofukui/income.html"
               }
             }
           }
@@ -27628,11 +27587,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/katsuyama/"
+                "url": "/fukui/katsuyama/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/katsuyama/income.html"
+                "url": "/fukui/katsuyama/income.html"
               }
             }
           }
@@ -27646,11 +27605,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/sabae/"
+                "url": "/fukui/sabae/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/sabae/income.html"
+                "url": "/fukui/sabae/income.html"
               }
             }
           }
@@ -27664,11 +27623,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/awara/"
+                "url": "/fukui/awara/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/awara/income.html"
+                "url": "/fukui/awara/income.html"
               }
             }
           }
@@ -27682,11 +27641,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/echizen/"
+                "url": "/fukui/echizen/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/echizen/income.html"
+                "url": "/fukui/echizen/income.html"
               }
             }
           }
@@ -27700,11 +27659,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/sakaifukui/"
+                "url": "/fukui/sakaifukui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/sakaifukui/income.html"
+                "url": "/fukui/sakaifukui/income.html"
               }
             }
           }
@@ -27718,11 +27677,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/ikedafukui/"
+                "url": "/fukui/ikedafukui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/ikedafukui/income.html"
+                "url": "/fukui/ikedafukui/income.html"
               }
             }
           }
@@ -27736,11 +27695,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/minamiechizen/"
+                "url": "/fukui/minamiechizen/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/minamiechizen/income.html"
+                "url": "/fukui/minamiechizen/income.html"
               }
             }
           }
@@ -27754,11 +27713,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/echizencho/"
+                "url": "/fukui/echizencho/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/echizencho/income.html"
+                "url": "/fukui/echizencho/income.html"
               }
             }
           }
@@ -27772,11 +27731,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/mihamafukui/"
+                "url": "/fukui/mihamafukui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/mihamafukui/income.html"
+                "url": "/fukui/mihamafukui/income.html"
               }
             }
           }
@@ -27790,11 +27749,11 @@ const registry = {
             "pages": {
               "simple": {
                 "name": "かんたん計算",
-                "url": "/福井県/takahamafukui/"
+                "url": "/fukui/takahamafukui/"
               },
               "income": {
                 "name": "所得ベース計算",
-                "url": "/福井県/takahamafukui/income.html"
+                "url": "/fukui/takahamafukui/income.html"
               }
             }
           }

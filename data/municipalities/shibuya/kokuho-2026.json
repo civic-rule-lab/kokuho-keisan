@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -56,14 +56,24 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
+    "dataVersion": "2.0.1",
     "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.889Z",
-      "updatedAt": "2026-04-08T13:00:56.374Z",
+      "updatedAt": "2026-05-18T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.tokyo23city-kuchokai.jp/katsudo/kokuho_20hoken.html",
+        "https://www.city.nerima.tokyo.jp/kurashi/nenkinhoken/kokuminkenkohoken/hoken_hokenryo/keisan_hoho.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-05-18",
+      "verificationLevel": "official_source_checked"
     },
     "source": {
       "type": "official",

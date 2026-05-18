@@ -55,30 +55,30 @@
   },
   "meta": {
     "schemaVersion": "1.0",
-    "dataVersion": "1.0.0",
-    "status": "unverified",
+    "dataVersion": "1.0.1",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-07T00:00:00Z",
-      "updatedAt": "2026-04-07T00:00:00Z",
+      "updatedAt": "2026-05-18T00:00:00Z",
       "validFrom": "2025-04-01",
       "validUntil": "2026-03-31",
       "expiresAt": "2026-04-30"
     },
     "source": {
-      "type": "manual",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "我孫子市 令和7年度国民健康保険税 制度改正のお知らせ",
+      "url": "https://www.city.abiko.chiba.jp/kurashi/kokuho/kokuho_info/abk10003001020.html",
+      "publishedAt": "2025-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": "manual"
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-18",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.8,
+      "confidenceScore": 1.0,
       "completeness": "full"
     },
-    "notes": ""
+    "notes": "Cowork session 2026-05-18 にて R7 公式ページ (abiko 国保税改正告知 abk10003001020.html) と R7 JSON 値を 13 項目突合し完全一致を確認。値変更ゼロ、metadata only の verified retrofit (型 B 第 1 例)。突合内訳: 医療 7.46%/24,000/25,000/66万・後期 3.85%/12,000/0/26万・介護 2.04%/18,100/0/17万・reduction 5割 305,000・2割 560,000。"
   }
 }

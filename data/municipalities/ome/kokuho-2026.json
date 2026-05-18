@@ -40,11 +40,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -56,35 +56,45 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.0.1",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.901Z",
-      "updatedAt": "2026-04-08T01:03:21.901Z",
+      "updatedAt": "2026-05-15T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.ome.tokyo.jp/soshiki/18/711.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-05-15",
+      "verificationLevel": "official_source_checked"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "青梅市公式ページ「国民健康保険税の決め方と納付方法」",
+      "url": "https://www.city.ome.tokyo.jp/soshiki/18/711.html",
+      "publishedAt": "2026-03-27"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-15",
+      "method": "official-page"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "青梅市公式ページから取得（更新日 2026-03-27）。子ども・子育て支援金分は均等割 2,014 円で 18歳未満全額軽減（under18Reduction: true で実装、kokuho.js は 18歳未満を formula から除外）。medical.cap = 670,000 円は青梅市独自・国標準 660,000 より上方。"
   },
   "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "rate": 0.0031,
+    "perCapita": 2014,
+    "household": 0,
+    "under18Reduction": true
   }
 }

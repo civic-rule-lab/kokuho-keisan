@@ -4,28 +4,28 @@
   "cityName": "大阪市",
   "fiscalYear": 2026,
   "system": "kokuho",
-  "note": "大阪府統一保険料率。R6より全府統一。介護分は2方式（平等割なし）。賦課限度額650000/240000円。",
+  "note": "大阪府統一保険料率。R6より全府統一。R8で賦課限度額引き上げ・子ども子育て支援金分新設。介護分は2方式（平等割なし）。賦課限度額660000/260000/170000/30000円。",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.061,
-    "support": 0.021,
-    "care": 0.021
+    "medical": 0.095,
+    "support": 0.0306,
+    "care": 0.026
   },
   "perCapita": {
-    "medical": 43500,
-    "support": 14900,
-    "care": 17100
+    "medical": 34990,
+    "support": 11191,
+    "care": 18682
   },
   "household": {
-    "medical": 28500,
-    "support": 9800,
+    "medical": 33908,
+    "support": 10845,
     "care": 0
   },
   "caps": {
-    "medical": 650000,
-    "support": 220000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000,
-    "childcare": 37000
+    "childcare": 30000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -41,11 +41,11 @@
       },
       "fiveTenths": {
         "base": 430000,
-        "perPersonAdd": 305000
+        "perPersonAdd": 310000
       },
       "twoTenths": {
         "base": 430000,
-        "perPersonAdd": 560000
+        "perPersonAdd": 570000
       }
     },
     "salaryPensionAdd": 100000,
@@ -57,35 +57,47 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
+    "dataVersion": "2.0.3",
     "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.042Z",
-      "updatedAt": "2026-04-08T13:02:38.411Z",
+      "updatedAt": "2026-05-15T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/hokenryouritsu/hokenryouritsu2.html",
+        "https://www.city.osaka.lg.jp/fukushi/page/0000624098.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-05-15",
+      "verificationLevel": "official_source_checked"
     },
     "source": {
       "type": "official",
-      "title": "大阪市 保険料の決め方（令和8年度）",
-      "url": "https://www.city.osaka.lg.jp/fukushi/page/0000624098.html",
+      "title": "大阪府 令和8年度大阪府市町村標準保険料率（大阪府統一保険料率）",
+      "url": "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/hokenryouritsu/hokenryouritsu2.html",
       "publishedAt": ""
     },
     "audit": {
       "verifiedBy": "civic-rule-lab",
-      "verifiedAt": "2026-04-08",
-      "method": "official-site"
+      "verifiedAt": "2026-05-15",
+      "method": "official-page"
     },
     "quality": {
-      "confidenceScore": 0.9,
+      "confidenceScore": 0.95,
       "completeness": "full"
     },
-    "notes": "R8公式確認。医療分上限650000・支援分上限220000は大阪市独自設定。子ども支援金分上限37000円。"
+    "notes": "大阪府統一保険料率 (R8)。大阪府公式 R8 unified rate ページ (pref.osaka.lg.jp/o100080/...) および大阪市公式 保険料の決め方ページから全項目確認: 医療 9.50%・34,990円・33,908円・上限66万円 / 支援 3.06%・11,191円・10,845円・上限26万円 / 介護 2.60%・18,682円・上限17万円 / 子育て 0.28%・上限3万円。子育て分均等割は大阪市公式表記の breakdown (perCapita 1,745円 + 18歳以上 96円 = 合計 1,841円) を採用。R7→R8 で賦課限度額 650000→660000・220000→260000 へ引き上げ、子育て分上限 30,000円が新設。"
   },
-  "childcare": {
-    "rate": 0.0046,
-    "perCapita": 3700,
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1745,
+    "perCapitaAdult": 96,
+    "perCapitaAdultScope": "all_ages",
     "household": 0
   }
 }

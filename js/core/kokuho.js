@@ -48,6 +48,20 @@ function calculateKokuho(data, inputs) {
   );
   const preschoolReduction = preschoolReductionMedical + preschoolReductionSupport;
 
+  // 学齢児軽減（未就学児を除く 18 歳未満の医療分・支援分均等割を減額）
+  // 例: 昭島市の独自減免「未就学児を除く 18 歳未満の医療分・支援分均等割を 5割減額」
+  // 対象人数 = under18 - 未就学児（負値防止のため max(0, ...)）。介護分には適用しない。
+  // schoolReduction.enabled が true でない自治体は schoolReductionMedical/Support = 0 → 既存挙動完全維持。
+  const u18Safe = Math.min(under18 || 0, familySafe);
+  const schoolSafe = Math.max(u18Safe - preschoolSafe, 0);
+  const schoolReductionMedical = data.schoolReduction?.enabled ? Math.round(
+    schoolSafe * data.perCapita.medical * (data.schoolReduction?.medicalPerCapitaRate || 0)
+  ) : 0;
+  const schoolReductionSupport = data.schoolReduction?.enabled ? Math.round(
+    schoolSafe * data.perCapita.support * (data.schoolReduction?.supportPerCapitaRate || 0)
+  ) : 0;
+  const schoolReduction = schoolReductionMedical + schoolReductionSupport;
+
   // 軽減判定
   // ② salaryPensionCount > family 対策：family を上限として clamp
   const B = Math.max(Math.min(salaryPensionCount || 0, familySafe || 1), 1);
@@ -131,8 +145,8 @@ function calculateKokuho(data, inputs) {
   const childcareReduction = Math.round((childcarePerCapitaTotal + childcareHouseholdTotal) * reductionRate);
 
   // 区分別合計
-  let medicalTotal   = medicalIncome  + medicalPerCapita        + medicalHousehold         + assetLevyMedical - preschoolReductionMedical - medicalReduction;
-  let supportTotal   = supportIncome  + supportPerCapita        + supportHousehold         + assetLevySupport - preschoolReductionSupport - supportReduction;
+  let medicalTotal   = medicalIncome  + medicalPerCapita        + medicalHousehold         + assetLevyMedical - preschoolReductionMedical - schoolReductionMedical - medicalReduction;
+  let supportTotal   = supportIncome  + supportPerCapita        + supportHousehold         + assetLevySupport - preschoolReductionSupport - schoolReductionSupport - supportReduction;
   let careTotal      = careIncome     + carePerCapita           + careHousehold            + assetLevyCare    - careReduction;
   let childcareTotal = childcareIncome + childcarePerCapitaTotal + childcareHouseholdTotal                    - childcareReduction;
 
@@ -149,7 +163,7 @@ function calculateKokuho(data, inputs) {
   return {
     medicalTotal, supportTotal, careTotal, childcareTotal,
     total, monthly,
-    preschoolReduction, totalReduction,
+    preschoolReduction, schoolReduction, totalReduction,
     reductionLabel, assetLevyTotal,
   };
 }
