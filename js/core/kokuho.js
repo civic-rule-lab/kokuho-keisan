@@ -2,9 +2,9 @@
 // Browser: <script> で読み込むとグローバル関数として使用可能
 // Node:    require('./js/core/kokuho') で { calculateKokuho } を取得
 
-function calculateKokuho(data, inputs) {
+function calculateKokuho(input, data) {
   const { income, family, preschool, under18, care, salaryPensionCount, fixedAssetTax,
-          reductionJudgmentIncome } = inputs;
+          reductionJudgmentIncome } = input;
 
   // ① income=undefined 対策：未指定時は 0 として扱う
   const incomeSafe      = income      || 0;

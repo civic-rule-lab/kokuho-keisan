@@ -82,7 +82,7 @@ async function calc() {
     const city = getCurrentCity();
     const data = await loadKokuhoData(city);
 
-    const r = calculateKokuho(data, inputs);
+    const r = calculateKokuho(inputs, data);
 
     // GA4: 計算実行イベント
     if (typeof gtag === 'function') {
