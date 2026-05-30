@@ -57,14 +57,25 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
+    "dataVersion": "2.0.2",
     "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.776Z",
-      "updatedAt": "2026-05-08T00:00:00.000Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.hadano.kanagawa.jp/soshiki/5/1038/5/4/5037.html",
+        "https://www.city.hadano.kanagawa.jp/soshiki/5/1038/5/4/3561.html",
+        "https://www.city.hadano.kanagawa.jp/material/files/group/39/R8sisan.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-05-21",
+      "verificationLevel": "official_source_checked"
     },
     "source": {
       "type": "official",
@@ -81,11 +92,11 @@
       "confidenceScore": 0.95,
       "completeness": "full"
     },
-    "notes": "公式試算ツールから取得。R8軽減判定係数（5割31万・2割57万）を反映。"
+    "notes": "公式試算ツールから取得。R8軽減判定係数（5割31万・2割57万）を反映。2026-05-30: 子ども・子育て支援納付金分の均等割を公式試算用紙(R8sisan.pdf)・公式料率ページ(5037.html)で再照合し、18歳以上1人あたりの賦課額 1,150→1,200円に訂正（18歳未満は全額軽減。公式は「均等割1,200円×18歳以上の被保険者のみ」）。"
   },
   "childcare": {
     "rate": 0.0029,
-    "perCapita": 1150,
+    "perCapita": 1200,
     "household": 1000
   }
 }

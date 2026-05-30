@@ -68,7 +68,7 @@
       "sourceStatus": "official_rate_page",
       "sourceUrls": [
         "https://www.city.hino.lg.jp/kurashi/kokuhonenkin/1023198/1023202/1023220.html",
-        "https://www.city.hino.lg.jp/kurashi/kokuhonenkin/1023198/1023199/1028419.html"
+        "https://www.city.hino.lg.jp/kurashi/kokuhonenkin/1023198/1023199/1030606.html"
       ],
       "previousYearTemplate": false,
       "r8Updated": true,
@@ -90,7 +90,7 @@
       "confidenceScore": 0.95,
       "completeness": "full"
     },
-    "notes": "日野市公式ページから取得。R7 改定ページ /1028419.html で R7 値（医療 5.8% / 34,500、支援 2.1% / 12,300、介護 2.1% / 14,700）が確認でき、R8 でも全項目据え置き（限度額のみ R8 国標準合わせで 660,000→670,000 を維持）。子ども・子育て支援金分は新方式 perCapitaAdult + perCapitaAdultScope: 'all_ages'（perCapita 1,899 + perCapitaAdult 84 = 大人 1 人 1,983 円、18歳未満は formula 上 0 算入）。medical.cap = 670,000 円は日野市独自・国標準 660,000 より上方。"
+    "notes": "日野市公式ページから取得。R7 改定ページ /1030606.html で R7 値（医療 5.8% / 34,500、支援 2.1% / 12,300、介護 2.1% / 14,700）が確認でき、R8 でも全項目据え置き（限度額のみ R8 国標準合わせで 660,000→670,000 を維持）。子ども・子育て支援金分は新方式 perCapitaAdult + perCapitaAdultScope: 'all_ages'（perCapita 1,899 + perCapitaAdult 84 = 大人 1 人 1,983 円、18歳未満は formula 上 0 算入）。medical.cap = 670,000 円は日野市独自・国標準 660,000 より上方。"
   },
   "childcareLevy": {
     "rate": 0.003,

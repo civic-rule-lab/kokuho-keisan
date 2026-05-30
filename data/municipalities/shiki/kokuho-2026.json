@@ -56,14 +56,23 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
+    "dataVersion": "2.0.1",
     "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.937Z",
-      "updatedAt": "2026-05-10T00:00:00.000Z",
+      "updatedAt": "2026-05-25T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.shiki.lg.jp/soshiki/25/19381.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-05-21",
+      "verificationLevel": "official_source_checked"
     },
     "source": {
       "type": "official",
