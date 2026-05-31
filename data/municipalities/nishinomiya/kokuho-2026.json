@@ -6,25 +6,33 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0729,
-    "support": 0.029,
-    "care": 0.0256
+    "medical": 0.0733,
+    "support": 0.0297,
+    "care": 0.0266
   },
   "perCapita": {
-    "medical": 32280,
-    "support": 12480,
-    "care": 12840
+    "medical": 32640,
+    "support": 12840,
+    "care": 13080
   },
   "household": {
     "medical": 20640,
-    "support": 7680,
-    "care": 6240
+    "support": 8160,
+    "care": 6720
   },
   "caps": {
     "medical": 670000,
     "support": 260000,
     "care": 170000,
     "childcare": 30000
+  },
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1200,
+    "perCapitaAdult": 36,
+    "perCapitaAdultScope": "all_ages",
+    "household": 960,
+    "cap": 30000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -56,35 +64,38 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "verified",
     "lifecycle": {
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.nishi.or.jp/kurashi/kokuminkenkohoken/hokenryo/about_hokenryo/r4-kokuhoritsu.html"
+      ],
+      "verifiedAt": "2026-05-30",
+      "r8Updated": true,
+      "verificationLevel": "official_source_checked",
       "createdAt": "2026-04-08T01:03:22.572Z",
-      "updatedAt": "2026-04-08T01:03:22.572Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "西宮市 令和8年度国民健康保険料 公式ページ",
+      "url": "https://www.nishi.or.jp/kurashi/kokuminkenkohoken/hokenryo/about_hokenryo/r4-kokuhoritsu.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-30",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
-  },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "notes": "R8公式ページで確認（2026-05-30）。3方式。子ども分18歳以上加算は36円（市固有値）のsakai pattern。"
   }
 }

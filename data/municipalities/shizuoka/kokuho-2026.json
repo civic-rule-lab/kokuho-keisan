@@ -6,18 +6,18 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0715,
-    "support": 0.0299,
-    "care": 0.0235
+    "medical": 0.0673,
+    "support": 0.0257,
+    "care": 0.0233
   },
   "perCapita": {
-    "medical": 29936,
-    "support": 12153,
-    "care": 16878
+    "medical": 29400,
+    "support": 10500,
+    "care": 18400
   },
   "household": {
-    "medical": 19587,
-    "support": 7952,
+    "medical": 20900,
+    "support": 7900,
     "care": 0
   },
   "caps": {
@@ -25,6 +25,14 @@
     "support": 260000,
     "care": 170000,
     "childcare": 30000
+  },
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1700,
+    "perCapitaAdult": 100,
+    "perCapitaAdultScope": "all_ages",
+    "household": 0,
+    "cap": 30000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -56,35 +64,38 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "verified",
     "lifecycle": {
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.shizuoka.lg.jp/s8435/s000649.html"
+      ],
+      "verifiedAt": "2026-05-30",
+      "r8Updated": true,
+      "verificationLevel": "official_source_checked",
       "createdAt": "2026-04-08T01:03:22.614Z",
-      "updatedAt": "2026-04-08T01:03:22.614Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "静岡市 令和8年度国民健康保険料 公式ページ",
+      "url": "https://www.city.shizuoka.lg.jp/s8435/s000649.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-30",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
-  },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "notes": "R8公式スクショ確認済（2026-05-30）。混合方式：医療・後期=3方式、介護・子ども=2方式（平等割なし）。子ども分18歳以上加算100円のsakai pattern。18歳未満は子ども分均等割10割減額。"
   }
 }

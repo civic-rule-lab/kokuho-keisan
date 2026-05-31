@@ -24,7 +24,16 @@
   "caps": {
     "medical": 670000,
     "support": 260000,
-    "care": 170000
+    "care": 170000,
+    "childcare": 30000
+  },
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1110,
+    "perCapitaAdult": 60,
+    "perCapitaAdultScope": "all_ages",
+    "household": 660,
+    "cap": 30000
   },
   "preschoolReduction": {
     "enabled": true,
@@ -54,42 +63,40 @@
       "twoTenths": 0.2
     }
   },
-  "childcareLevy": {
-    "rate": 0.0028,
-    "perCapita": 1110,
-    "perCapitaAdult": 60,
-    "perCapitaAdultScope": "all_ages",
-    "needsPhoneVerification": true,
-    "household": 660,
-    "cap": 30000,
-    "under18Reduction": true
-  },
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.1.0",
-    "status": "provisional",
+    "status": "verified",
     "lifecycle": {
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000351038.html"
+      ],
+      "verifiedAt": "2026-05-30",
+      "r8Updated": true,
+      "verificationLevel": "official_source_checked",
       "createdAt": "2026-04-08T01:03:22.105Z",
-      "updatedAt": "2026-05-04T00:00:00.000Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "official_web",
-      "title": "京都市 令和8年度国民健康保険料率",
-      "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000351039.html",
+      "type": "official",
+      "title": "京都市 令和8年度国民健康保険料 公式ページ",
+      "url": "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000351038.html",
       "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-05-30",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.85,
+      "confidenceScore": 0.95,
       "completeness": "full"
     },
-    "notes": "公式サイトより料率確認済み（2026-05-03）。childcareLevy.perCapitaMode は「均等割1,110円が全員対象か18歳未満専用か」で解釈が分かれるため、電話確認（075-222-3500）後に all_ages / adults_only を確定すること。all_ages=大人1,170円、adults_only=大人60円。"
+    "notes": "R8公式スクショ確認済（2026-05-30）。全区分3方式。介護平等割5,370円は台帳「なし」の誤りを公式で訂正。18歳以上均等割は子ども分のみ60円のsakai pattern。未就学児軽減(医療15,040/後期5,180)→preschoolReduction:true。18歳未満(平成20/4/2以降生)は子ども分均等割全額減額。"
   }
 }
