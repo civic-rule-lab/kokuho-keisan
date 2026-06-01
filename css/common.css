@@ -48,6 +48,13 @@ h1{
   color:#0f172a;
   text-align:center;
 }
+/* タイトルは自治体名・「国民健康保険料計算」を概念の塊として常に別行に固定する。
+   block 化で幅や市名長に依存せず必ず「1行目=自治体名 / 2行目=国民健康保険料計算
+   （/ 3行目=年度）」に揃う。nowrap で各塊が途中で割れない（例: 国民健康保険/料計算 を防止）。 */
+.h1-seg{
+  display:block;
+  white-space:nowrap;
+}
 
 .h1-year{
   display:block;
@@ -371,6 +378,22 @@ button:active{
   color:#4b5563;
   background:#f9fafb;
   border:1px solid #e5e7eb;
+}
+.result-note__badge--standard{
+  color:#1e40af;
+  background:#eff6ff;
+  border:1px solid #bfdbfe;
+  white-space:normal;
+}
+/* モバイルでは免責テキストとバッジを横並びにすると左テキストが極細列に潰れるため縦積みにする */
+@media (max-width:480px){
+  .result-note{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  .result-note__badge{
+    white-space:normal;
+  }
 }
 
 /* ─── note-pref ─────────────────────────────────────────────────
