@@ -4,26 +4,25 @@
   "cityName": "大阪狭山市",
   "fiscalYear": 2026,
   "system": "kokuho",
-  "note": "大阪府統一保険料率。R6より全府統一。介護分は2方式（平等割なし）。賦課限度額650000/240000円。",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.093,
-    "support": 0.0302,
-    "care": 0.0256
+    "medical": 0.095,
+    "support": 0.0306,
+    "care": 0.026
   },
   "perCapita": {
-    "medical": 34424,
-    "support": 11034,
-    "care": 18784
+    "medical": 34990,
+    "support": 11191,
+    "care": 18682
   },
   "household": {
-    "medical": 33574,
-    "support": 10761,
+    "medical": 33908,
+    "support": 10845,
     "care": 0
   },
   "caps": {
-    "medical": 670000,
-    "support": 240000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -57,35 +56,48 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.057Z",
-      "updatedAt": "2026-04-08T01:03:22.057Z",
+      "updatedAt": "2026-06-03T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_unified",
+      "sourceUrls": [
+        "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/hokenryouritsu/hokenryouritsu2.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 大阪府市町村標準保険料率（大阪府統一保険料率）",
+      "url": "https://www.pref.osaka.lg.jp/o100080/kokuho/iryouseido/hokenryouritsu/hokenryouritsu2.html",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-unified"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "大阪府は令和6年度から府内完全統一料率。令和8年度 府統一保険料率を参考値として採用(医療/後期/介護は全43市町村共通)。介護・子ども分は2方式(平等割0)。子ども均等割は均等割1752円+18歳以上89円=1,841円統一(内訳は大阪狭山市の年齢構成等で異なる)。限度額 医療66万(大阪統一)。市告示確定で verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1752,
+    "perCapitaAdult": 89,
+    "perCapitaAdultScope": "all_ages",
+    "household": 0,
+    "cap": 30000
   }
 }

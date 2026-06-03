@@ -67,7 +67,7 @@
       "r8Stage": "standard_r8",
       "sourceStatus": "prefecture_standard_municipal_list",
       "sourceUrls": [
-        "https://www.pref.nagano.lg.jp/hoken/kenko/iryohoken/joho/r8hyojun.html"
+        "https://www.pref.nagano.lg.jp/kokuho/kokuho/documents/r8kekka.pdf"
       ],
       "previousYearTemplate": false,
       "r8Updated": true,
@@ -78,7 +78,7 @@
     "source": {
       "type": "prefecture_standard",
       "title": "令和8年度 長野県 市町村標準保険料率",
-      "url": "https://www.pref.nagano.lg.jp/hoken/kenko/iryohoken/joho/r8hyojun.html",
+      "url": "https://www.pref.nagano.lg.jp/kokuho/kokuho/documents/r8kekka.pdf",
       "publishedAt": "2026"
     },
     "audit": {
