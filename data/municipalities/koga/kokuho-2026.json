@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.084,
-    "support": 0.029,
-    "care": 0.024
+    "medical": 0.0763,
+    "support": 0.0282,
+    "care": 0.023
   },
   "perCapita": {
-    "medical": 23800,
-    "support": 10100,
-    "care": 16600
+    "medical": 29392,
+    "support": 10793,
+    "care": 10571
   },
   "household": {
-    "medical": 26200,
-    "support": 10900,
-    "care": 0
+    "medical": 29052,
+    "support": 10668,
+    "care": 8171
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,48 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.077Z",
-      "updatedAt": "2026-04-08T01:03:22.077Z",
+      "updatedAt": "2026-06-03T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_p3",
+      "sourceUrls": [
+        "https://www.pref.fukuoka.lg.jp/uploaded/attachment/275320.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": [
+        "https://www.city.koga.fukuoka.jp/cityhall/work/shiminkokuho/021.php"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 福岡県 市町村標準保険料率（別紙1）",
+      "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/275320.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-table"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "福岡県公表の令和8年度 市町村標準保険料率(別紙1)を参考値として採用。法定外繰入ゼロ前提の理論値で、古賀市が実際に告示する料率とは異なる場合がある。全4区分3方式（平等割あり）。子ども・子育て支援金分は18歳以上均等割の分割を省いたフラット均等割で暫定。市町村告示が出たら verified_r8 へ昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0027,
+    "perCapita": 1045,
+    "household": 1018,
+    "cap": 30000
   }
 }
