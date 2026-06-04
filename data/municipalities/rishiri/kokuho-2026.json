@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0814,
-    "support": 0.0254,
-    "care": 0.0207
+    "medical": 0.075,
+    "support": 0.022000000000000002,
+    "care": 0.017
   },
   "perCapita": {
-    "medical": 28150,
-    "support": 9394,
-    "care": 9497
+    "medical": 29000,
+    "support": 8000,
+    "care": 7000
   },
   "household": {
-    "medical": 27712,
-    "support": 9248,
-    "care": 7411
+    "medical": 30000,
+    "support": 7000,
+    "care": 6000
   },
   "caps": {
     "medical": 670000,
@@ -56,46 +56,35 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.1.0",
-    "status": "provisional",
+    "dataVersion": "2.0.0",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.250Z",
-      "updatedAt": "2026-06-03T00:00:00.000Z",
+      "updatedAt": "2026-04-08T01:03:22.250Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
-      "sourceStatus": "prefecture_standard_municipal_list",
-      "sourceUrls": [
-        "https://www.pref.hokkaido.lg.jp/fs/1/3/0/1/4/1/1/2/_/03_市町村標準保険料率(市町村別一覧).pdf"
-      ],
-      "previousYearTemplate": false,
-      "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "prefecture_standard_unverified",
-      "watchUrls": []
+      "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "prefecture_standard",
-      "title": "令和8年度 北海道 市町村標準保険料率（市町村別一覧）",
-      "url": "https://www.pref.hokkaido.lg.jp/hf/kki/101133.html",
-      "publishedAt": "2026"
+      "type": "estimated",
+      "title": "",
+      "url": "",
+      "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "civic-rule-lab",
+      "verifiedBy": "",
       "verifiedAt": "",
-      "method": "prefecture-standard-municipal-list"
+      "method": ""
     },
     "quality": {
-      "confidenceScore": 0.6,
-      "completeness": "full"
+      "confidenceScore": 0.5,
+      "completeness": "partial"
     },
-    "notes": "北海道公表の令和8年度 市町村標準保険料率（市町村別一覧）を参考値として採用。法定外繰入ゼロ前提の理論値で、利尻町が実際に告示する料率とは異なる場合がある。3方式（所得割+均等割+平等割）・資産割なし。子ども・子育て支援金分は18歳以上均等割(=100円・合計1100円)の分割を省いたフラット均等割で暫定。市町村告示が出たら verified_r8 へ昇格。"
+    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
   },
-  "childcareLevy": {
-    "rate": 0.0029,
-    "perCapita": 1000,
-    "household": 1000,
-    "cap": 30000
+  "childcare": {
+    "rate": 0,
+    "perCapita": 0,
+    "household": 0
   }
 }

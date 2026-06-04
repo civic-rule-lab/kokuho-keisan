@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0486,
-    "support": 0.0278,
-    "care": 0.0224
+    "medical": 0.0625,
+    "support": 0.0277,
+    "care": 0.023
   },
   "perCapita": {
-    "medical": 21556,
-    "support": 12334,
-    "care": 11692
+    "medical": 27146,
+    "support": 11896,
+    "care": 11654
   },
   "household": {
-    "medical": 14090,
-    "support": 8062,
-    "care": 5766
+    "medical": 18021,
+    "support": 7897,
+    "care": 5846
   },
   "caps": {
     "medical": 670000,
@@ -56,46 +56,35 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.1.0",
-    "status": "provisional",
+    "dataVersion": "2.0.0",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.812Z",
-      "updatedAt": "2026-06-03T00:00:00.000Z",
+      "updatedAt": "2026-04-08T01:03:22.812Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
-      "sourceStatus": "prefecture_standard_municipal_list",
-      "sourceUrls": [
-        "https://www.pref.fukushima.lg.jp/uploaded/attachment/731236.pdf"
-      ],
-      "previousYearTemplate": false,
-      "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "prefecture_standard_unverified",
-      "watchUrls": []
+      "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "prefecture_standard",
-      "title": "令和8年度 福島県 市町村標準保険料率",
-      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/731236.pdf",
-      "publishedAt": "2026"
+      "type": "estimated",
+      "title": "",
+      "url": "",
+      "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "civic-rule-lab",
+      "verifiedBy": "",
       "verifiedAt": "",
-      "method": "prefecture-standard-municipal-list"
+      "method": ""
     },
     "quality": {
-      "confidenceScore": 0.6,
-      "completeness": "full"
+      "confidenceScore": 0.5,
+      "completeness": "partial"
     },
-    "notes": "福島県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で鏡石町の実告示と異なる場合あり。3方式・資産割なし。子ども子育て分は18歳以上均等割(=94円)を省いたフラット暫定。市告示後 verified_r8 昇格。"
+    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
   },
-  "childcareLevy": {
-    "rate": 0.003,
-    "perCapita": 1325,
-    "household": 867,
-    "cap": 30000
+  "childcare": {
+    "rate": 0,
+    "perCapita": 0,
+    "household": 0
   }
 }

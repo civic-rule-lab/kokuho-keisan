@@ -6,18 +6,18 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0204,
-    "support": 0.0313,
-    "care": 0.0295
+    "medical": 0.026,
+    "support": 0.0309,
+    "care": 0.026
   },
   "perCapita": {
-    "medical": 7397,
-    "support": 11372,
-    "care": 19318
+    "medical": 9093,
+    "support": 10764,
+    "care": 16946
   },
   "household": {
-    "medical": 4894,
-    "support": 7524,
+    "medical": 6146,
+    "support": 7275,
     "care": 0
   },
   "caps": {
@@ -56,46 +56,35 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.1.0",
-    "status": "provisional",
+    "dataVersion": "2.0.0",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:23.004Z",
-      "updatedAt": "2026-06-03T00:00:00.000Z",
+      "updatedAt": "2026-04-08T01:03:23.004Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
-      "sourceStatus": "prefecture_standard_municipal_list",
-      "sourceUrls": [
-        "https://www.pref.kumamoto.jp/soshiki/43/262736.html"
-      ],
-      "previousYearTemplate": false,
-      "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "prefecture_standard_unverified",
-      "watchUrls": []
+      "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "prefecture_standard",
-      "title": "令和8年度 熊本県 市町村標準保険料率",
-      "url": "https://www.pref.kumamoto.jp/soshiki/43/262736.html",
-      "publishedAt": "2026"
+      "type": "estimated",
+      "title": "",
+      "url": "",
+      "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "civic-rule-lab",
+      "verifiedBy": "",
       "verifiedAt": "",
-      "method": "prefecture-standard-municipal-list"
+      "method": ""
     },
     "quality": {
-      "confidenceScore": 0.6,
-      "completeness": "full"
+      "confidenceScore": 0.5,
+      "completeness": "partial"
     },
-    "notes": "熊本県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で水俣市の実告示と異なる場合あり。3方式・資産割なし。子ども子育て分は18歳以上均等割(=28円)を省いたフラット暫定。市告示後 verified_r8 昇格。"
+    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
   },
-  "childcareLevy": {
-    "rate": 0.0026,
-    "perCapita": 1405,
-    "household": 0,
-    "cap": 30000
+  "childcare": {
+    "rate": 0,
+    "perCapita": 0,
+    "household": 0
   }
 }

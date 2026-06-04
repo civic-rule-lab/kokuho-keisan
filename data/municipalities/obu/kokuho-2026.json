@@ -4,21 +4,22 @@
   "cityName": "大府市",
   "fiscalYear": 2026,
   "system": "kokuho",
+  "note": "愛知県R7標準保険料率を使用。実際値は要確認。",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0826,
-    "support": 0.0288,
-    "care": 0.0251
+    "medical": 0.0792,
+    "support": 0.0283,
+    "care": 0.0239
   },
   "perCapita": {
-    "medical": 35299,
-    "support": 12245,
-    "care": 12603
+    "medical": 33973,
+    "support": 11972,
+    "care": 12096
   },
   "household": {
-    "medical": 22660,
-    "support": 7861,
-    "care": 6241
+    "medical": 22054,
+    "support": 7772,
+    "care": 5987
   },
   "caps": {
     "medical": 670000,
@@ -56,46 +57,35 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.1.0",
-    "status": "provisional",
+    "dataVersion": "2.0.0",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.149Z",
-      "updatedAt": "2026-06-03T00:00:00.000Z",
+      "updatedAt": "2026-04-08T01:03:22.149Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
-      "sourceStatus": "prefecture_standard_municipal_list",
-      "sourceUrls": [
-        "https://www.pref.aichi.jp/uploaded/attachment/604944.pdf"
-      ],
-      "previousYearTemplate": false,
-      "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "prefecture_standard_unverified",
-      "watchUrls": []
+      "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "prefecture_standard",
-      "title": "令和8年度 愛知県 市町村標準保険料率",
-      "url": "https://www.pref.aichi.jp/soshiki/kokuho/hyojunhokenryoritsu.html",
-      "publishedAt": "2026"
+      "type": "estimated",
+      "title": "",
+      "url": "",
+      "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "civic-rule-lab",
+      "verifiedBy": "",
       "verifiedAt": "",
-      "method": "prefecture-standard-municipal-list"
+      "method": ""
     },
     "quality": {
-      "confidenceScore": 0.6,
-      "completeness": "full"
+      "confidenceScore": 0.5,
+      "completeness": "partial"
     },
-    "notes": "愛知県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で、大府市が実際に告示する料率とは異なる場合がある。3方式(所得割+均等割+平等割)・資産割なし。子ども子育て分は18歳以上均等割(=73円)を省いたフラット暫定。市町村告示後 verified_r8 へ昇格。"
+    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
   },
-  "childcareLevy": {
-    "rate": 0.0029,
-    "perCapita": 1229,
-    "household": 790,
-    "cap": 30000
+  "childcare": {
+    "rate": 0,
+    "perCapita": 0,
+    "household": 0
   }
 }

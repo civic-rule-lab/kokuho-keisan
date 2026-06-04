@@ -6,17 +6,17 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0689,
-    "support": 0.037,
-    "care": 0.0233
+    "medical": 0.0703,
+    "support": 0.021,
+    "care": 0.0142
   },
   "perCapita": {
-    "medical": 24893,
-    "support": 7678,
-    "care": 17662
+    "medical": 26300,
+    "support": 4300,
+    "care": 11400
   },
   "household": {
-    "medical": 28718,
+    "medical": 30300,
     "support": 0,
     "care": 0
   },
@@ -56,46 +56,35 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.1.0",
-    "status": "provisional",
+    "dataVersion": "2.0.0",
+    "status": "needs_update",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.029Z",
-      "updatedAt": "2026-06-03T00:00:00.000Z",
+      "updatedAt": "2026-04-08T01:03:22.029Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
-      "sourceStatus": "prefecture_standard_municipal_method",
-      "sourceUrls": [
-        "https://www.pref.chiba.lg.jp/hoken/kokubo/documents/std-rate-municipal-method.pdf"
-      ],
-      "previousYearTemplate": false,
-      "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "prefecture_standard_unverified",
-      "watchUrls": []
+      "expiresAt": "2027-04-30"
     },
     "source": {
-      "type": "prefecture_standard",
-      "title": "令和8年度 千葉県 市町村標準保険料率（市町村算定方式）",
-      "url": "https://www.pref.chiba.lg.jp/hoken/kokubo/documents/std-rate-municipal-method.pdf",
-      "publishedAt": "2026"
+      "type": "estimated",
+      "title": "",
+      "url": "",
+      "publishedAt": ""
     },
     "audit": {
-      "verifiedBy": "civic-rule-lab",
+      "verifiedBy": "",
       "verifiedAt": "",
-      "method": "prefecture-standard-municipal-method"
+      "method": ""
     },
     "quality": {
-      "confidenceScore": 0.6,
-      "completeness": "full"
+      "confidenceScore": 0.5,
+      "completeness": "partial"
     },
-    "notes": "千葉県公表の令和8年度 市町村標準保険料率（市町村算定方式）を参考値として採用。法定外繰入ゼロ前提の理論値で、白井市が実際に告示する料率とは異なる場合がある。資産割なし。平等割は当該市町村の実方式に従う。子ども・子育て支援金分は18歳以上均等割(=157円)の分割を省いたフラット均等割で暫定。市町村告示が出たら verified_r8 へ昇格。"
+    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
   },
-  "childcareLevy": {
-    "rate": 0.0025,
-    "perCapita": 2001,
-    "household": 0,
-    "cap": 30000
+  "childcare": {
+    "rate": 0,
+    "perCapita": 0,
+    "household": 0
   }
 }

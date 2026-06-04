@@ -6,23 +6,23 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0473,
-    "support": 0.0294,
-    "care": 0.0267
+    "medical": 0.0474,
+    "support": 0.0295,
+    "care": 0.0262
   },
   "perCapita": {
-    "medical": 20220,
-    "support": 12360,
-    "care": 13344
+    "medical": 20704,
+    "support": 12777,
+    "care": 13220
   },
   "household": {
-    "medical": 13098,
-    "support": 8006,
-    "care": 6640
+    "medical": 13239,
+    "support": 8170,
+    "care": 6553
   },
   "caps": {
-    "medical": 670000,
-    "support": 240000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -56,35 +56,46 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:23.107Z",
-      "updatedAt": "2026-04-08T01:03:23.107Z",
+      "updatedAt": "2026-06-04T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_list",
+      "sourceUrls": [
+        "https://www.pref.kagoshima.jp/ae02/documents/64057_20260402141120-1.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 鹿児島県 市町村標準保険料率",
+      "url": "https://www.pref.kagoshima.jp/ae02/documents/64057_20260402141120-1.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-municipal-list"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "鹿児島県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で天城町の実告示と異なる場合あり。3方式(所得割+均等割+平等割)・4制度すべて3方式(子ども分も平等割)・資産割なし・限度額医療66万(国基準準拠)。子ども子育て分は18歳以上均等割(=104円)を省いたフラット暫定。市告示後 verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0029,
+    "perCapita": 1256,
+    "household": 810,
+    "cap": 30000
   }
 }

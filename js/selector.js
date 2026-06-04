@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-06-03
+// 最終生成: 2026-06-04
 
 const registry = {
   "kanagawa": {
@@ -11571,60 +11571,6 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/hokkaido/rausu/income.html"
-              }
-            }
-          }
-        }
-      },
-      "higashikawa": {
-        "name": "東川町",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/hokkaido/higashikawa/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/hokkaido/higashikawa/income.html"
-              }
-            }
-          }
-        }
-      },
-      "biei": {
-        "name": "美瑛町",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/hokkaido/biei/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/hokkaido/biei/income.html"
-              }
-            }
-          }
-        }
-      },
-      "higashikagura": {
-        "name": "東神楽町",
-        "systems": {
-          "kokuho": {
-            "name": "国民健康保険",
-            "pages": {
-              "simple": {
-                "name": "かんたん計算",
-                "url": "/hokkaido/higashikagura/"
-              },
-              "income": {
-                "name": "所得ベース計算",
-                "url": "/hokkaido/higashikagura/income.html"
               }
             }
           }
