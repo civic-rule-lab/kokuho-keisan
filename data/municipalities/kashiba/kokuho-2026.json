@@ -21,8 +21,8 @@
     "care": 0
   },
   "caps": {
-    "medical": 670000,
-    "support": 240000,
+    "medical": 660000,
+    "support": 260000,
     "care": 170000,
     "childcare": 30000
   },
@@ -56,35 +56,46 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:23.032Z",
-      "updatedAt": "2026-04-08T01:03:23.032Z",
+      "updatedAt": "2026-06-04T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_list",
+      "sourceUrls": [
+        "https://www.pref.nara.lg.jp/n065/p012003.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 奈良県 市町村標準保険料率",
+      "url": "https://www.pref.nara.lg.jp/n065/p012003.html",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-municipal-list"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "奈良県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で香芝市の実告示と異なる場合あり。県内統一料率(混合方式: 医療/後期=3方式・介護/子ども=2方式平等割なし)・資産割なし・限度額医療66万。値は大和高田市公式(統一料率の代理source)由来→協議会資料PDFと要照合。子ども分は18歳未満均等割全額減額の特殊ルールあり(18+加算=200円・engine表現未対応)。市告示後 verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0031,
+    "perCapita": 1700,
+    "household": 0,
+    "cap": 30000
   }
 }
