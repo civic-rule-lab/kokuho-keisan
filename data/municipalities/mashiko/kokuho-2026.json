@@ -6,22 +6,22 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0587,
-    "support": 0.0277,
-    "care": 0.0232
+    "medical": 0.0593,
+    "support": 0.0268,
+    "care": 0.0206
   },
   "perCapita": {
-    "medical": 25642,
-    "support": 11961,
-    "care": 11986
+    "medical": 24105,
+    "support": 10218,
+    "care": 11042
   },
   "household": {
-    "medical": 17250,
-    "support": 8046,
-    "care": 6026
+    "medical": 18395,
+    "support": 7749,
+    "care": 5983
   },
   "caps": {
-    "medical": 670000,
+    "medical": 660000,
     "support": 260000,
     "care": 170000,
     "childcare": 30000
@@ -56,35 +56,46 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.559Z",
-      "updatedAt": "2026-04-08T01:03:22.559Z",
+      "updatedAt": "2026-06-04T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_list",
+      "sourceUrls": [
+        "https://www.pref.tochigi.lg.jp/e09/houdou/kouhou/documents/documents/20260326102624.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 栃木県 市町村標準保険料率",
+      "url": "https://www.pref.tochigi.lg.jp/e09/houdou/kouhou/documents/documents/20260326102624.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-municipal-list"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "栃木県公表の令和8年度 市町村標準保険料率(各市町算定基準)を参考値として採用。法定外繰入ゼロ前提の理論値で益子町の実告示と異なる場合あり。3方式(所得割+均等割+平等割)・子ども分も平等割あり(18歳以上加算の別枠なし)・資産割なし・限度額医療66万(県内verified市の告示と整合)。市告示後 verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0027,
+    "perCapita": 1223,
+    "household": 875,
+    "cap": 30000
   }
 }
