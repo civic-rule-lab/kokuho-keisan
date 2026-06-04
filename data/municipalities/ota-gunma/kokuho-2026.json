@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0680,
-    "support": 0.0260,
-    "care": 0.0220
+    "medical": 0.0744,
+    "support": 0.0308,
+    "care": 0.0264
   },
   "perCapita": {
-    "medical": 25800,
-    "support": 10300,
-    "care": 10900
+    "medical": 32383,
+    "support": 13328,
+    "care": 13561
   },
   "household": {
-    "medical": 19600,
-    "support": 7600,
-    "care": 5600
+    "medical": 21595,
+    "support": 8889,
+    "care": 6701
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,46 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-05-11T00:00:00.000Z",
-      "updatedAt": "2026-05-11T00:00:00.000Z",
+      "updatedAt": "2026-06-04T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_list",
+      "sourceUrls": [
+        "https://www.pref.gunma.jp/page/3163.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 群馬県 市町村標準保険料率",
+      "url": "https://www.pref.gunma.jp/page/3163.html",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-municipal-list"
     },
     "quality": {
-      "confidenceScore": 0,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "PLACEHOLDER: 群馬県太田市のR8値は未取得（5/11新規slug追加）。桐生市R8をベースにstructure保持目的で複製。次回Coworkで群馬太田R8を取得して上書き予定。"
+    "notes": "群馬県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で太田市の実告示と異なる場合あり。3方式(所得割+均等割+平等割)・子ども分も平等割あり・資産割なし。子ども子育て分は18歳以上均等割(=100円)を省いたフラット暫定。市告示後 verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0.0030,
+  "childcareLevy": {
+    "rate": 0.003,
     "perCapita": 1200,
-    "household": 800
+    "household": 800,
+    "cap": 30000
   }
 }
