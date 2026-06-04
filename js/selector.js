@@ -11575,6 +11575,60 @@ const registry = {
             }
           }
         }
+      },
+      "higashikawa": {
+        "name": "東川町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/hokkaido/higashikawa/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/hokkaido/higashikawa/income.html"
+              }
+            }
+          }
+        }
+      },
+      "biei": {
+        "name": "美瑛町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/hokkaido/biei/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/hokkaido/biei/income.html"
+              }
+            }
+          }
+        }
+      },
+      "higashikagura": {
+        "name": "東神楽町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/hokkaido/higashikagura/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/hokkaido/higashikagura/income.html"
+              }
+            }
+          }
+        }
       }
     }
   },

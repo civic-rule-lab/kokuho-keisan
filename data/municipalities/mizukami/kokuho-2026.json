@@ -6,18 +6,18 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0775,
-    "support": 0.0309,
-    "care": 0.0246
+    "medical": 0.0667,
+    "support": 0.0313,
+    "care": 0.0281
   },
   "perCapita": {
-    "medical": 27090,
-    "support": 10770,
-    "care": 16041
+    "medical": 24179,
+    "support": 11391,
+    "care": 18427
   },
   "household": {
-    "medical": 18309,
-    "support": 7279,
+    "medical": 15997,
+    "support": 7537,
     "care": 0
   },
   "caps": {
@@ -56,35 +56,46 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:23.025Z",
-      "updatedAt": "2026-04-08T01:03:23.025Z",
+      "updatedAt": "2026-06-03T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_list",
+      "sourceUrls": [
+        "https://www.pref.kumamoto.jp/soshiki/43/262736.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 熊本県 市町村標準保険料率",
+      "url": "https://www.pref.kumamoto.jp/soshiki/43/262736.html",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-municipal-list"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "熊本県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で水上村の実告示と異なる場合あり。3方式・資産割なし。子ども子育て分は18歳以上均等割(=134円)を省いたフラット暫定。市告示後 verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0026,
+    "perCapita": 1319,
+    "household": 0,
+    "cap": 30000
   }
 }
