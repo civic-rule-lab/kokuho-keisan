@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0771,
-    "support": 0.0282,
-    "care": 0.0252
+    "medical": 0.084,
+    "support": 0.0277,
+    "care": 0.0263
   },
   "perCapita": {
-    "medical": 33195,
-    "support": 12245,
-    "care": 12937
+    "medical": 35423,
+    "support": 11548,
+    "care": 11884
   },
   "household": {
-    "medical": 21294,
-    "support": 7721,
-    "care": 6261
+    "medical": 22668,
+    "support": 7397,
+    "care": 5822
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,48 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
+    "dataVersion": "2.1.0",
     "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:21.937Z",
-      "updatedAt": "2026-05-10T00:00:00.000Z",
+      "updatedAt": "2026-06-02T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_p3",
+      "sourceUrls": [
+        "https://www.pref.hiroshima.lg.jp/uploaded/life/1113288_9614203_misc.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": [
+        "https://www.city.higashihiroshima.lg.jp/soshiki/kenkofukushi/4/kokuhozei/3503.html"
+      ]
     },
     "source": {
-      "type": "pre-publication",
-      "title": "東広島市 令和8年度国民健康保険税の計算方法（公式サイト・予定値）",
-      "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kenkofukushi/4/kokuhozei/3503.html",
-      "publishedAt": "2026-03-18"
+      "type": "prefecture_standard",
+      "title": "令和8年度 広島県 標準保険料率算定結果一覧（③市町村の算定基準に基づく標準保険料率）",
+      "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/1113288_9614203_misc.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
       "verifiedBy": "civic-rule-lab",
-      "verifiedAt": "2026-05-10",
-      "method": "official-site"
+      "verifiedAt": "",
+      "method": "prefecture-standard-table"
     },
     "quality": {
-      "confidenceScore": 0.85,
+      "confidenceScore": 0.6,
       "completeness": "full"
     },
-    "notes": "東広島市公式ページに『令和8年6月議会で決定予定』と明記。3方式（平等割あり）。市公式の予定値として provisional 扱い。6月議会通過後にverify化。医療分上限R7 66万→R8 67万。子ども分均等割1247円、18歳以上分74円、平等割790円、18歳未満は均等割全額軽減。"
+    "notes": "広島県公表の令和8年度標準保険料率(③市町村の算定基準による)を参考値として採用。法定外繰入ゼロ前提の理論値で、東広島市が実際に告示する料率とは異なる場合がある。子ども・子育て支援金分は18歳以上均等割の分割を省いたフラット均等割で暫定。市町告示が出たら verified_r8 へ昇格し子ども分scopeを確定する。"
   },
-  "childcare": {
-    "rate": 0.0029,
-    "perCapita": 1247,
-    "household": 790
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1193,
+    "household": 763,
+    "cap": 30000
   }
 }

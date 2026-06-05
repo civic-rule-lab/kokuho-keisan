@@ -6,18 +6,18 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0706,
-    "support": 0.0284,
-    "care": 0.0221
+    "medical": 0.0811,
+    "support": 0.0277,
+    "care": 0.0219
   },
   "perCapita": {
-    "medical": 29535,
-    "support": 11544,
-    "care": 15816
+    "medical": 34362,
+    "support": 11713,
+    "care": 15891
   },
   "household": {
-    "medical": 19325,
-    "support": 7554,
+    "medical": 22165,
+    "support": 7556,
     "care": 0
   },
   "caps": {
@@ -56,35 +56,48 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.620Z",
-      "updatedAt": "2026-04-08T01:03:22.620Z",
+      "updatedAt": "2026-06-02T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_p3",
+      "sourceUrls": [
+        "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/024/897/r8santeikekka.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": [
+        "https://www.city.fuji.shizuoka.jp/1025250000/p007645.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 静岡県 市町村標準保険料率算定結果（市町村標準保険料率）",
+      "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/024/897/r8santeikekka.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-table"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "静岡県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で、富士市が実際に告示する料率とは異なる場合がある。介護分は2方式（平等割なし）。子ども・子育て支援金分は18歳以上均等割の分割を省いたフラット均等割で暫定。市町告示が出たら verified_r8 へ昇格し子ども分scopeを確定する。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.003,
+    "perCapita": 1878,
+    "household": 0,
+    "cap": 30000
   }
 }

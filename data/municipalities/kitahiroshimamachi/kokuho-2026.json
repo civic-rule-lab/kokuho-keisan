@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.082,
-    "support": 0.0284,
-    "care": 0.0202
+    "medical": 0.1211,
+    "support": 0.0404,
+    "care": 0.0242
   },
   "perCapita": {
-    "medical": 33793,
-    "support": 11735,
-    "care": 10472
+    "medical": 17365,
+    "support": 5499,
+    "care": 11816
   },
   "household": {
-    "medical": 22201,
-    "support": 7712,
-    "care": 5087
+    "medical": 10893,
+    "support": 3510,
+    "care": 5670
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,48 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.662Z",
-      "updatedAt": "2026-04-08T01:03:22.662Z",
+      "updatedAt": "2026-06-02T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_p3",
+      "sourceUrls": [
+        "https://www.pref.hiroshima.lg.jp/uploaded/life/1113288_9614203_misc.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": [
+        "https://www.town.kitahiroshima.lg.jp/soshiki/7/1299.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 広島県 標準保険料率算定結果一覧（③市町村の算定基準に基づく標準保険料率）",
+      "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/1113288_9614203_misc.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-table"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "広島県公表の令和8年度標準保険料率(③市町村の算定基準による)を参考値として採用。法定外繰入ゼロ前提の理論値で、北広島町が実際に告示する料率とは異なる場合がある。子ども・子育て支援金分は18歳以上均等割の分割を省いたフラット均等割で暫定。市町告示が出たら verified_r8 へ昇格し子ども分scopeを確定する。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0041,
+    "perCapita": 583,
+    "household": 366,
+    "cap": 30000
   }
 }

@@ -6,18 +6,18 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0703,
-    "support": 0.029,
-    "care": 0.0232
+    "medical": 0.0803,
+    "support": 0.0286,
+    "care": 0.0233
   },
   "perCapita": {
-    "medical": 29423,
-    "support": 11769,
-    "care": 16665
+    "medical": 33997,
+    "support": 12102,
+    "care": 16911
   },
   "household": {
-    "medical": 19252,
-    "support": 7701,
+    "medical": 21930,
+    "support": 7807,
     "care": 0
   },
   "caps": {
@@ -56,35 +56,48 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.628Z",
-      "updatedAt": "2026-04-08T01:03:22.628Z",
+      "updatedAt": "2026-06-02T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_p3",
+      "sourceUrls": [
+        "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/024/897/r8santeikekka.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": [
+        "https://www.city.izunokuni.shizuoka.jp/kokuho/kurashi/kokuho/kenkouhouken/ze.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 静岡県 市町村標準保険料率算定結果（市町村標準保険料率）",
+      "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/024/897/r8santeikekka.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-table"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "静岡県公表の令和8年度 市町村標準保険料率を参考値として採用。法定外繰入ゼロ前提の理論値で、伊豆の国市が実際に告示する料率とは異なる場合がある。介護分は2方式（平等割なし）。子ども・子育て支援金分は18歳以上均等割の分割を省いたフラット均等割で暫定。市町告示が出たら verified_r8 へ昇格し子ども分scopeを確定する。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.003,
+    "perCapita": 1877,
+    "household": 0,
+    "cap": 30000
   }
 }

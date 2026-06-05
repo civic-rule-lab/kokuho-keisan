@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.074,
-    "support": 0.0283,
-    "care": 0.0232
+    "medical": 0.0759,
+    "support": 0.0277,
+    "care": 0.0248
   },
   "perCapita": {
-    "medical": 31700,
-    "support": 11900,
-    "care": 11800
+    "medical": 32600,
+    "support": 12000,
+    "care": 12700
   },
   "household": {
-    "medical": 20500,
-    "support": 7600,
-    "care": 5700
+    "medical": 20900,
+    "support": 7500,
+    "care": 6100
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,51 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.1",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.649Z",
-      "updatedAt": "2026-04-08T01:03:22.649Z",
+      "updatedAt": "2026-06-03T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.takehara.lg.jp/soshikikarasagasu/zeimuka/gyomuannai/1/5/1499.html",
+        "https://www.city.takehara.lg.jp/soshikikarasagasu/zeimuka/gyomuannai/1/5/1497.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-06-03",
+      "verificationLevel": "official_source_checked",
+      "watchUrls": [
+        "https://www.city.takehara.lg.jp/soshikikarasagasu/zeimuka/gyomuannai/1/5/1499.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "竹原市 令和8年度国民健康保険税（公式）",
+      "url": "https://www.city.takehara.lg.jp/soshikikarasagasu/zeimuka/gyomuannai/1/5/1499.html",
+      "publishedAt": "2026-04-01"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-06-03",
+      "method": "official-site"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 1.0,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "竹原市子ども・子育て支援金分は18歳未満全額減免・18歳以上に均等割。賦課限度額・軽減は全国法定/標準。県標準保険料率(参考値)とは法定外繰入差で異なる。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0028,
+    "perCapita": 1170,
+    "perCapitaAdult": 30,
+    "perCapitaAdultScope": "all_ages",
+    "household": 700,
+    "cap": 30000
   }
 }
