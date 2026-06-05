@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.082,
-    "support": 0.025,
-    "care": 0.022
+    "medical": 0.0883,
+    "support": 0.0281,
+    "care": 0.0256
   },
   "perCapita": {
-    "medical": 29000,
-    "support": 9000,
-    "care": 9500
+    "medical": 33819,
+    "support": 10715,
+    "care": 11254
   },
   "household": {
-    "medical": 22000,
-    "support": 6500,
-    "care": 5000
+    "medical": 21840,
+    "support": 6920,
+    "care": 5519
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,46 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "provisional",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:23.718Z",
-      "updatedAt": "2026-04-08T01:03:23.718Z",
+      "updatedAt": "2026-06-05T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_list",
+      "sourceUrls": [
+        "https://www.pref.kagawa.lg.jp/documents/1935/r8hyoujyunnhokenryouritu.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "",
+      "verificationLevel": "prefecture_standard_unverified",
+      "watchUrls": []
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "prefecture_standard",
+      "title": "令和8年度 香川県 市町村標準保険料率",
+      "url": "https://www.pref.kagawa.lg.jp/documents/1935/r8hyoujyunnhokenryouritu.pdf",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
+      "verifiedBy": "civic-rule-lab",
       "verifiedAt": "",
-      "method": ""
+      "method": "prefecture-standard-municipal-list"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.6,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "香川県公表の令和8年度 市町村標準保険料率(健康政策課・2026-04-28公開)を参考値として採用。法定外繰入ゼロ前提の理論値でまんのう町の実告示と異なる場合あり。3方式(所得割+均等割+平等割)・子ども分も平等割あり・資産割なし。子ども子育て分は18歳以上均等割(=48円)を省いたフラット暫定。限度額医療はverified無のため67万踏襲(R8政令67万で妥当だがdeploy前にPDFで66/67確認推奨)。市告示後 verified_r8 昇格。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0029,
+    "perCapita": 1100,
+    "household": 708,
+    "cap": 30000
   }
 }
