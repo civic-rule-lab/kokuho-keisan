@@ -18649,6 +18649,42 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kokuho-keisan.jp/fukui/eiheiji/income.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kokuho-keisan.jp/fukui/eiheiji/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kokuho-keisan.jp/fukui/ooi/income.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kokuho-keisan.jp/fukui/ooi/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kokuho-keisan.jp/fukui/wakasa/income.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kokuho-keisan.jp/fukui/wakasa/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kokuho-keisan.jp/akita/akita/income.html</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>yearly</changefreq>

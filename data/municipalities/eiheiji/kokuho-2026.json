@@ -1,24 +1,24 @@
 {
-  "cityCode": "18206",
-  "citySlug": "katsuyama",
-  "cityName": "勝山市",
+  "cityCode": "18322",
+  "citySlug": "eiheiji",
+  "cityName": "永平寺町",
   "fiscalYear": 2026,
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0589,
-    "support": 0.0275,
-    "care": 0.024
+    "medical": 0.06,
+    "support": 0.0272,
+    "care": 0.0241
   },
   "perCapita": {
-    "medical": 26104,
-    "support": 12166,
-    "care": 12750
+    "medical": 26620,
+    "support": 12016,
+    "care": 12762
   },
   "household": {
-    "medical": 16948,
-    "support": 7899,
-    "care": 6185
+    "medical": 17283,
+    "support": 7801,
+    "care": 6191
   },
   "caps": {
     "medical": 670000,
@@ -59,7 +59,7 @@
     "dataVersion": "2.1.0",
     "status": "provisional",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:23.513Z",
+      "createdAt": "2026-06-05T00:00:00.000Z",
       "updatedAt": "2026-06-05T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
@@ -90,12 +90,12 @@
       "confidenceScore": 0.6,
       "completeness": "full"
     },
-    "notes": "福井県公表の令和8年度 市町村標準保険料率(算定結果・最終更新2026-03-19)を参考値として採用。法定外繰入ゼロ前提の理論値で勝山市の実告示と異なる場合あり。3方式(所得割+均等割+平等割)・子ども分も平等割あり・資産割なし。子ども子育て分は全国最低水準(所得割0.15-0.16%・均等割643-698円)で県公表通り。18歳以上均等割(=31円)を省いたフラット暫定。限度額医療はverified無のため67万踏襲(R8政令67万で妥当だがdeploy前にPDFで66/67確認推奨)。市告示後 verified_r8 昇格。"
+    "notes": "福井県公表の令和8年度 市町村標準保険料率を参考値として採用。3方式（所得割+均等割+平等割）・子ども分も平等割あり・資産割なし。子ども分は全国最低水準（所得割0.15%・均等割674円）。子ども子育て分は18歳以上均等割(=46円)を省いたフラット暫定。"
   },
   "childcareLevy": {
     "rate": 0.0015,
-    "perCapita": 669,
-    "household": 425,
+    "perCapita": 674,
+    "household": 437,
     "cap": 30000
   }
 }

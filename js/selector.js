@@ -27812,6 +27812,60 @@ const registry = {
             }
           }
         }
+      },
+      "eiheiji": {
+        "name": "永平寺町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/fukui/eiheiji/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/fukui/eiheiji/income.html"
+              }
+            }
+          }
+        }
+      },
+      "ooi": {
+        "name": "おおい町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/fukui/ooi/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/fukui/ooi/income.html"
+              }
+            }
+          }
+        }
+      },
+      "wakasa": {
+        "name": "若狭町",
+        "systems": {
+          "kokuho": {
+            "name": "国民健康保険",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "/fukui/wakasa/"
+              },
+              "income": {
+                "name": "所得ベース計算",
+                "url": "/fukui/wakasa/income.html"
+              }
+            }
+          }
+        }
       }
     }
   },
