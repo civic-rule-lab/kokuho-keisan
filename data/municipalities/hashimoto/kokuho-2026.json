@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0768,
-    "support": 0.0307,
-    "care": 0.0256
+    "medical": 0.087,
+    "support": 0.028,
+    "care": 0.025
   },
   "perCapita": {
-    "medical": 27686,
-    "support": 10770,
-    "care": 11197
+    "medical": 32100,
+    "support": 10300,
+    "care": 10200
   },
   "household": {
-    "medical": 19192,
-    "support": 7466,
-    "care": 5682
+    "medical": 22000,
+    "support": 7100,
+    "care": 5300
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +56,49 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:23.055Z",
-      "updatedAt": "2026-04-08T01:03:23.055Z",
+      "updatedAt": "2026-06-06T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/hoken_nenkin/kokuho/1360290956700.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-06-06",
+      "verificationLevel": "official_source_checked",
+      "watchUrls": [
+        "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/hoken_nenkin/kokuho/1360290956700.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "橋本市公式「国民健康保険税算定について」令和8年度国民健康保険税算定の計算式",
+      "url": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/hoken_nenkin/kokuho/1360290956700.html",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-06-06",
+      "method": "official-page"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "橋本市公式「令和8年度国民健康保険税算定の計算式」（実告示）から確定。医療8.7%/32,100/22,000・後期2.8%/10,300/7,100・介護2.5%/10,200/5,300。賦課限度額は医療67万・後期26万・介護17万・子ども3万（ページ明示）。子ども・子育て支援金分0.3%は均等割が「被保険者人数(18歳以上)×1,200円」と明示＝18歳未満は均等割なし→under18Reduction:true（旧方式・練馬区型）、平等割700円。未就学児の医療・支援均等割1/2減額もページ明示。和歌山県は県集約標準テーブル未公表のため個別verified（和歌山市に続き2件目）。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.003,
+    "perCapita": 1200,
+    "household": 700,
+    "cap": 30000,
+    "under18Reduction": true
   }
 }

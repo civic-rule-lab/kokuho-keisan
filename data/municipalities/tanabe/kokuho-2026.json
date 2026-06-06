@@ -6,19 +6,24 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.0731,
-    "support": 0.031,
-    "care": 0.0255
+    "medical": 0.08,
+    "support": 0.026,
+    "care": 0.021
+  },
+  "assetLevy": {
+    "medical": 0.028,
+    "support": 0.006,
+    "care": 0.007
   },
   "perCapita": {
-    "medical": 26380,
-    "support": 10859,
-    "care": 11160
+    "medical": 31100,
+    "support": 10600,
+    "care": 12200
   },
   "household": {
-    "medical": 18287,
-    "support": 7528,
-    "care": 5663
+    "medical": 22700,
+    "support": 7700,
+    "care": 6400
   },
   "caps": {
     "medical": 670000,
@@ -56,35 +61,50 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:23.056Z",
-      "updatedAt": "2026-04-08T01:03:23.056Z",
+      "createdAt": "2026-04-08T01:03:23.055Z",
+      "updatedAt": "2026-06-06T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.tanabe.lg.jp/material/files/group/15/R08kokuho4.pdf"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-06-06",
+      "verificationLevel": "official_source_checked",
+      "watchUrls": [
+        "https://www.city.tanabe.lg.jp/hoken/kokuho/index.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "田辺市「令和8年度（令和8年4月から令和9年3月まで）国民健康保険税のお知らせ」(R08kokuho4.pdf)",
+      "url": "https://www.city.tanabe.lg.jp/soshiki/shimin/2/2/814.html",
+      "publishedAt": "2026"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-06-06",
+      "method": "official-page"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.9,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "田辺市公式PDF「令和8年度国民健康保険税のお知らせ」(R08kokuho4.pdf)から確定。★資産割あり4方式: 医療8.0%+資産割2.8%/31,100/22,700、後期2.6%+0.6%/10,600/7,700、介護2.1%+0.7%/12,200/6,400（資産割は令和8年度固定資産税(土地・家屋分)に乗じる→assetLevy、和歌山県内初の資産割自治体）。子ども分0.3%＝表記の均等割1,191円は注6で「均等割1,109円＋18歳以上均等割82円の合計」・18歳未満は均等割10割軽減→childcareLevy perCapita=1109/perCapitaAdult=82/scope=all_ages（長崎・佐賀・有田型）、平等割766円・資産割なし。限度額は医療67万(前年度66万→引上げ明記)/後期26万/介護17万/子ども3万。⚠️source.urlはPDF掲載元ページ要確定(PDF直リンクはchrome-extension経由で取得できず・R08kokuho4.pdfはcity.tanabe.lg.jp/material/配下)。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.003,
+    "perCapita": 1109,
+    "perCapitaAdult": 82,
+    "perCapitaAdultScope": "all_ages",
+    "household": 766,
+    "cap": 30000
   }
 }
