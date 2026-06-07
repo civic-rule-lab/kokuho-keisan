@@ -4,7 +4,6 @@
   "cityName": "宮崎市",
   "fiscalYear": 2026,
   "system": "kokuho",
-  "note": "県庁所在地。資産割なし。実際値。",
   "basicDeduction": 430000,
   "rate": {
     "medical": 0.087,
@@ -57,35 +56,50 @@
   },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "verified",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.336Z",
-      "updatedAt": "2026-04-08T01:03:22.336Z",
+      "createdAt": "2026-04-08T01:03:23.055Z",
+      "updatedAt": "2026-06-07T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "official_rate_page",
+      "sourceUrls": [
+        "https://www.city.miyazaki.miyazaki.jp/health/national_health_insurance/insurance/7564.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true,
+      "verifiedAt": "2026-06-07",
+      "verificationLevel": "official_source_checked",
+      "watchUrls": [
+        "https://www.city.miyazaki.miyazaki.jp/health/national_health_insurance/insurance/7564.html"
+      ]
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
+      "type": "official",
+      "title": "宮崎市「【国保】保険税の決め方」令和8年度税率（2026-04-01更新）",
+      "url": "https://www.city.miyazaki.miyazaki.jp/health/national_health_insurance/insurance/7564.html",
+      "publishedAt": "2026-04"
     },
     "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-06-07",
+      "method": "official-page"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.95,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
+    "notes": "宮崎市公式「【国保】保険税の決め方」(7564.html・2026-04-01更新)から確定。医療8.7%/27,000/19,800・後期3.0%/9,100/6,600・介護2.2%/9,100/5,000。3方式・資産割なし。賦課限度額=医療67万(66万→引上げ明記・地方税法施行令改正)/後期26万/介護17万/子ども3万(新設)・合計113万。子ども・子育て支援金分0.31%＝均等割1,340円(「18歳以上被保険者均等割140円を含む」と明記=1,200+140)＋平等割800円、「18歳になる年度分までは均等割額を10割軽減」→childcareLevy perCapita=1200/perCapitaAdult=140/perCapitaAdultScope=all_ages。宮崎県は県集約標準テーブル未公表(各市個別決定)のため個別verified(県内1件目)。市の試算シートR8年度分は6月公開予定。"
   },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+  "childcareLevy": {
+    "rate": 0.0031,
+    "perCapita": 1200,
+    "perCapitaAdult": 140,
+    "perCapitaAdultScope": "all_ages",
+    "household": 800,
+    "cap": 30000
   }
 }
