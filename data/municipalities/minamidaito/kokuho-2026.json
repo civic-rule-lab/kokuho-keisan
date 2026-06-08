@@ -4,33 +4,32 @@
   "cityName": "南大東村",
   "fiscalYear": 2026,
   "system": "kokuho",
-  "note": "4方式（所得割+資産割+均等割+平等割）",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.05,
-    "support": 0.015,
-    "care": 0.012
+    "medical": 0.0695,
+    "support": 0.0323,
+    "care": 0.0222
+  },
+  "assetLevy": {
+    "medical": 0.3271,
+    "support": 0.0652,
+    "care": 0.0771
   },
   "perCapita": {
-    "medical": 16000,
-    "support": 4600,
-    "care": 6000
+    "medical": 15897,
+    "support": 7083,
+    "care": 7851
   },
   "household": {
-    "medical": 17000,
-    "support": 3900,
-    "care": 3500
+    "medical": 17549,
+    "support": 6238,
+    "care": 4755
   },
   "caps": {
     "medical": 670000,
     "support": 260000,
     "care": 170000,
     "childcare": 30000
-  },
-  "assetLevy": {
-    "medical": 0.35,
-    "support": 0.045,
-    "care": 0.07
   },
   "preschoolReduction": {
     "enabled": true,
@@ -60,37 +59,45 @@
       "twoTenths": 0.2
     }
   },
+  "childcareLevy": {
+    "rate": 0.0027,
+    "perCapita": 1230,
+    "perCapitaAdult": 121,
+    "perCapitaAdultScope": "all_ages",
+    "household": 796,
+    "cap": 30000
+  },
   "meta": {
     "schemaVersion": "2.0",
-    "dataVersion": "2.0.0",
-    "status": "needs_update",
+    "dataVersion": "2.1.0",
+    "status": "standard",
     "lifecycle": {
-      "createdAt": "2026-04-08T01:03:22.317Z",
-      "updatedAt": "2026-04-08T01:03:22.317Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
-      "expiresAt": "2027-04-30"
+      "expiresAt": "2027-04-30",
+      "updatedAt": "2026-06-08T00:00:00.000Z",
+      "r8Stage": "standard_r8",
+      "sourceStatus": "prefecture_standard_municipal_method",
+      "sourceUrls": [
+        "https://www.pref.okinawa.jp/iryokenko/iryo/1006488/1006541.html",
+        "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/006/541/01r8hyoujunhokennryouritu.pdf"
+      ],
+      "watchUrls": [
+        "https://www.pref.okinawa.jp/iryokenko/iryo/1006488/1006541.html"
+      ],
+      "previousYearTemplate": false,
+      "r8Updated": true
     },
     "source": {
-      "type": "estimated",
-      "title": "",
-      "url": "",
-      "publishedAt": ""
-    },
-    "audit": {
-      "verifiedBy": "",
-      "verifiedAt": "",
-      "method": ""
+      "type": "prefecture_standard",
+      "title": "沖縄県 令和8年度 標準保険料率算定結果（市町村算定方式）",
+      "url": "https://www.pref.okinawa.jp/iryokenko/iryo/1006488/1006541.html",
+      "publishedAt": "2026-03-31"
     },
     "quality": {
-      "confidenceScore": 0.5,
-      "completeness": "partial"
+      "confidenceScore": 0.8,
+      "completeness": "full"
     },
-    "notes": "R7→R8移行。医療分上限+1万円。子ども・子育て支援金分新設（料率要確認）。"
-  },
-  "childcare": {
-    "rate": 0,
-    "perCapita": 0,
-    "household": 0
+    "notes": "沖縄県公表の市町村算定方式(実採用)を収録。資産割は固定資産税額に対する率。標準保険料率(参考値)。"
   }
 }

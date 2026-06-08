@@ -21,6 +21,7 @@ function calculateKokuho(input, data) {
   const assetLevyMedical = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.medical || 0)) : 0;
   const assetLevySupport = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.support || 0)) : 0;
   const assetLevyCare    = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.care    || 0)) : 0;
+  const assetLevyChildcare = data.assetLevy ? Math.round(fixedAssetTax * (data.assetLevy.childcare || 0)) : 0;
 
   const baseIncome = Math.max(incomeSafe - data.basicDeduction, 0);
 
@@ -148,7 +149,7 @@ function calculateKokuho(input, data) {
   let medicalTotal   = medicalIncome  + medicalPerCapita        + medicalHousehold         + assetLevyMedical - preschoolReductionMedical - schoolReductionMedical - medicalReduction;
   let supportTotal   = supportIncome  + supportPerCapita        + supportHousehold         + assetLevySupport - preschoolReductionSupport - schoolReductionSupport - supportReduction;
   let careTotal      = careIncome     + carePerCapita           + careHousehold            + assetLevyCare    - careReduction;
-  let childcareTotal = childcareIncome + childcarePerCapitaTotal + childcareHouseholdTotal                    - childcareReduction;
+  let childcareTotal = childcareIncome + childcarePerCapitaTotal + childcareHouseholdTotal + assetLevyChildcare - childcareReduction;
 
   medicalTotal   = Math.min(Math.max(medicalTotal,   0), data.caps.medical);
   supportTotal   = Math.min(Math.max(supportTotal,   0), data.caps.support);
@@ -158,7 +159,7 @@ function calculateKokuho(input, data) {
   const total          = medicalTotal + supportTotal + careTotal + childcareTotal;
   const monthly        = Math.round(total / 12);
   const totalReduction = medicalReduction + supportReduction + careReduction + childcareReduction;
-  const assetLevyTotal = assetLevyMedical + assetLevySupport + assetLevyCare;
+  const assetLevyTotal = assetLevyMedical + assetLevySupport + assetLevyCare + assetLevyChildcare;
 
   return {
     medicalTotal, supportTotal, careTotal, childcareTotal,
