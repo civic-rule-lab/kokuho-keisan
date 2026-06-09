@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-06-08
+// 最終生成: 2026-06-09
 
 const registry = {
   "kanagawa": {
@@ -22,6 +22,10 @@ const registry = {
                 "url": "/kanagawa/yokohama/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -40,6 +44,10 @@ const registry = {
                 "url": "/kanagawa/kawasaki/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -58,6 +66,10 @@ const registry = {
                 "url": "/kanagawa/sagamihara/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -2989,6 +3001,10 @@ const registry = {
                 "url": "/saitama/saitama/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -4128,6 +4144,10 @@ const registry = {
                 "url": "/chiba/chiba/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -5105,6 +5125,10 @@ const registry = {
                 "url": "/osaka/osaka/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -5123,6 +5147,10 @@ const registry = {
                 "url": "/osaka/sakai/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -5884,6 +5912,10 @@ const registry = {
                 "url": "/fukuoka/kitakyushu/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -5902,6 +5934,10 @@ const registry = {
                 "url": "/fukuoka/fukuoka/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -6969,6 +7005,10 @@ const registry = {
                 "url": "/kyoto/kyoto/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -7442,6 +7482,10 @@ const registry = {
                 "url": "/aichi/nagoya/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -8419,6 +8463,10 @@ const registry = {
                 "url": "/hokkaido/sapporo/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -12393,6 +12441,10 @@ const registry = {
                 "url": "/niigata/niigata/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -15298,6 +15350,10 @@ const registry = {
                 "url": "/hyogo/kobe/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -15460,6 +15516,10 @@ const registry = {
                 "url": "/hyogo/toyookashi/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -16041,6 +16101,10 @@ const registry = {
                 "url": "/shizuoka/shizuoka/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -16059,6 +16123,10 @@ const registry = {
                 "url": "/shizuoka/hamamatsu/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -16676,6 +16744,10 @@ const registry = {
                 "url": "/hiroshima/hiroshima/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -17856,6 +17928,10 @@ const registry = {
                 "url": "/okayama/okayama/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -20288,6 +20364,10 @@ const registry = {
                 "url": "/kumamoto/kumamoto/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
@@ -23134,6 +23214,10 @@ const registry = {
                 "url": "/miyagi/sendai/income.html"
               }
             }
+          },
+          "jumin": {
+            "name": "jumin",
+            "pages": {}
           }
         }
       },
