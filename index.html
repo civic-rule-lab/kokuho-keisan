@@ -80,7 +80,7 @@
 
 <label for="municipality">自治体</label>
 
-<select id="municipality">
+<select id="municipality" onchange="updateSystems()">
 <option value="sapporo">札幌市</option>
 <option value="hakodate">函館市</option>
 <option value="otaru">小樽市</option>
@@ -266,7 +266,10 @@
 <label for="system">制度</label>
 
 <select id="system">
-<option value="kokuho">国民健康保険</option>
+<option value="kokuho" data-label="国民健康保険">国民健康保険</option>
+<option value="jumin" data-label="住民税">住民税</option>
+<option value="kakeibo" data-label="まとめて試算（家計簿シミュレーター）">まとめて試算（家計簿シミュレーター）</option>
+<option value="kaigo" data-label="介護保険" disabled>介護保険（準備中）</option>
 </select>
 
 <button type="button" onclick="goPage()">

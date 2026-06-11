@@ -24,8 +24,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hokkaido/sapporo/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/hokkaido/sapporo/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/sapporo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4583,8 +4601,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/miyagi/sendai/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/miyagi/sendai/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/sendai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8176,8 +8212,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tochigi/utsunomiya/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tochigi/utsunomiya/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/utsunomiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9270,8 +9324,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/saitama/saitama/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/saitama/saitama/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/saitama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9328,8 +9400,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/saitama/kawaguchi/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/saitama/kawaguchi/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kawaguchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10417,8 +10507,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/chiba/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/chiba/chiba/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/chiba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10475,8 +10583,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/funabashi/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/chiba/funabashi/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/funabashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11402,8 +11528,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/chiyoda/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/chiyoda/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/chiyoda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11424,8 +11568,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/chuo/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/chuo/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/chuo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11446,8 +11608,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/minato/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/minato/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/minato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11468,8 +11648,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/shinjuku/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/shinjuku/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/shinjuku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11490,8 +11688,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/bunkyo/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/bunkyo/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/bunkyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11512,8 +11728,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/taito/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/taito/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/taito/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11534,8 +11768,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/sumida/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/sumida/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/sumida/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11556,8 +11808,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/koto/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/koto/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/koto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11578,8 +11848,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/shinagawa/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/shinagawa/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/shinagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11600,8 +11888,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/meguro/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/meguro/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/meguro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11622,8 +11928,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/ota/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/ota/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/ota/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11644,8 +11968,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/setagaya/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/setagaya/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/setagaya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11666,8 +12008,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/shibuya/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/shibuya/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/shibuya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11688,8 +12048,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/nakano-ku/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/nakano-ku/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/nakano-ku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11710,8 +12088,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/suginami/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/suginami/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/suginami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11732,8 +12128,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/toshima/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/toshima/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/toshima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11754,8 +12168,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/kita/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/kita/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/kita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11776,8 +12208,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/arakawa/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/arakawa/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/arakawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11798,8 +12248,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/itabashi/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/itabashi/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/itabashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11820,8 +12288,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/nerima/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/nerima/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/nerima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11842,8 +12328,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/adachi/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/adachi/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/adachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11864,8 +12368,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/katsushika/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/katsushika/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/katsushika/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11886,8 +12408,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/edogawa/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/edogawa/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/edogawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11908,8 +12448,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/hachioji/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/tokyo/hachioji/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/hachioji/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12475,8 +13033,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kanagawa/yokohama/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/kanagawa/yokohama/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/yokohama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12497,8 +13073,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kanagawa/kawasaki/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/kanagawa/kawasaki/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/kawasaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12519,8 +13113,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kanagawa/sagamihara/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/kanagawa/sagamihara/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/sagamihara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13086,8 +13698,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/niigata/niigata/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/niigata/niigata/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/niigata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13910,8 +14540,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/ishikawa/kanazawa/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/ishikawa/kanazawa/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/kanazawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16454,8 +17102,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/gifu/gifu/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/gifu/gifu/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/gifu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17219,8 +17885,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/shizuoka/shizuoka/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/shizuoka/shizuoka/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/shizuoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17241,8 +17925,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/shizuoka/hamamatsu/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/shizuoka/hamamatsu/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/hamamatsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17862,8 +18564,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/aichi/nagoya/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/aichi/nagoya/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/nagoya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19717,8 +20437,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kyoto/kyoto/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/kyoto/kyoto/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kyoto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20194,8 +20932,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/osaka/osaka/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/osaka/osaka/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/osaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20216,8 +20972,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/osaka/sakai/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/osaka/sakai/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/sakai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20688,8 +21462,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/osaka/higashiosaka/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/osaka/higashiosaka/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/higashiosaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20985,8 +21777,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hyogo/kobe/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/hyogo/kobe/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kobe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21007,8 +21817,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hyogo/himeji/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/hyogo/himeji/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/himeji/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21155,8 +21983,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hyogo/toyookashi/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/hyogo/toyookashi/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/toyookashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -23686,8 +24532,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/okayama/okayama/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/okayama/okayama/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/okayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24181,8 +25045,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hiroshima/hiroshima/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/hiroshima/hiroshima/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/hiroshima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25699,8 +26581,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/ehime/matsuyama/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/ehime/matsuyama/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/matsuyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26685,8 +27585,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/fukuoka/kitakyushu/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/fukuoka/kitakyushu/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kitakyushu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26707,8 +27625,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/fukuoka/fukuoka/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/fukuoka/fukuoka/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/fukuoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28526,8 +29462,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kumamoto/kumamoto/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/kumamoto/kumamoto/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kumamoto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30147,8 +31101,26 @@ const registry = {
             }
           },
           "jumin": {
-            "name": "jumin",
-            "pages": {}
+            "name": "住民税",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kagoshima/kagoshima/jumin/"
+              },
+              "income": {
+                "name": "詳しく計算",
+                "url": "https://seido-keisan.jp/kagoshima/kagoshima/jumin/income.html"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/kagoshima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31662,7 +32634,27 @@ function updateMunicipalities() {
   sel.innerHTML = Object.entries(municipalities)
     .map(function(e) { return '<option value="' + e[0] + '">' + e[1].name + '</option>'; })
     .join("");
+  updateSystems();
 }
+
+// 選択中の自治体で利用できる制度だけ選択可能にする
+// （住民税・家計簿は制度ポータル公開済み自治体のみ）
+function updateSystems() {
+  const prefecture   = document.getElementById("prefecture").value;
+  const municipality = document.getElementById("municipality").value;
+  const sysSel       = document.getElementById("system");
+  const available    = registry[prefecture]?.municipalities[municipality]?.systems || {};
+  for (const opt of sysSel.options) {
+    if (opt.value === "kaigo") continue; // 介護は全体準備中（常にdisabled）
+    const ok = !!available[opt.value];
+    opt.disabled = !ok;
+    opt.textContent = opt.dataset.label + (ok ? "" : "（この自治体は準備中）");
+  }
+  if (sysSel.selectedOptions[0] && sysSel.selectedOptions[0].disabled) {
+    sysSel.value = "kokuho";
+  }
+}
+document.addEventListener("DOMContentLoaded", updateSystems);
 
 function goPage() {
   const prefecture   = document.getElementById("prefecture").value;
