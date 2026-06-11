@@ -44,7 +44,10 @@ const _kokuhoDataCache = new Map();
 async function loadKokuhoData(city) {
   if (_kokuhoDataCache.has(city)) return _kokuhoDataCache.get(city);
   const promise = (async () => {
-    const year = window.PUBLISH_YEAR || 2025;
+    // ページ側の `const PUBLISH_YEAR = ...` はトップレベル宣言でも window に
+    // 付かないため、CITY_SLUG と同じ typeof パターンで参照する（旧実装は
+    // window.PUBLISH_YEAR を見て常に 2025 にフォールバックするバグだった）
+    const year = (typeof PUBLISH_YEAR !== "undefined" ? PUBLISH_YEAR : null) || window.PUBLISH_YEAR || 2025;
     const res = await fetch(`/data/municipalities/${city}/kokuho-${year}.json`, { cache: "no-store" });
     if (!res.ok) throw new Error("JSON読み込み失敗");
     return await res.json();
