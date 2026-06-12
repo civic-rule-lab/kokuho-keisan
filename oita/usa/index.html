@@ -36,6 +36,16 @@
 
   <label for="income">前年所得</label>
   <input id="income" type="text" inputmode="numeric" placeholder="例：3,000,000">
+  <details style="margin:6px 0 14px;font-size:12.5px;color:#6b7280;">
+    <summary style="cursor:pointer;color:#2563eb;font-weight:600;list-style-position:inside;">入力する金額がわからない方へ（給与・年金・自営業）</summary>
+    <div style="margin-top:8px;line-height:1.8;background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px 14px;">
+      <strong style="color:#374151;">「前年の所得」を世帯で合算して入力してください。</strong><br>
+      ・<strong>給与の方</strong>：源泉徴収票の「給与所得控除後の金額」<br>
+      ・<strong>年金の方</strong>：年金収入から公的年金等控除を引いた金額<br>
+      ・<strong>個人事業主の方</strong>：売上 − 必要経費 − 青色申告特別控除（確定申告書 第一表「所得金額等」の合計）<br>
+      <span style="color:#b45309;">基礎控除（43万円）は自動で差し引くため、引かずに入力してください。社会保険料控除・小規模企業共済・扶養控除などの所得控除も引きません（国保の計算では使われないため）。</span>
+    </div>
+  </details>
 
   <label for="family">世帯人数</label>
   <input id="family" type="text" inputmode="numeric" placeholder="例：3">
