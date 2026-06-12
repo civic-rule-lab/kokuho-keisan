@@ -64,8 +64,11 @@
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
+      "r8Stage": "source_found_r8",
       "watchUrls": [
+        "http://www.town.wakayama-hidaka.lg.jp/docs/2014090400051/"
+      ],
+      "sourceUrls": [
         "http://www.town.wakayama-hidaka.lg.jp/docs/2014090400051/"
       ]
     },

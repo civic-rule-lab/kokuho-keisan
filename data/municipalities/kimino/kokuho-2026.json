@@ -64,7 +64,7 @@
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
+      "r8Stage": "extracted_r8",
       "sourceUrls": [
         "https://www.town.kimino.wakayama.jp/sagasu/zeimuka/aboutzeikin/2044.html"
       ]

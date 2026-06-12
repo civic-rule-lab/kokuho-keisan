@@ -64,8 +64,11 @@
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30",
-      "r8Stage": "standard_r8",
+      "r8Stage": "source_found_r8",
       "watchUrls": [
+        "https://www.city.gobo.lg.jp/sosiki/siminseikatu/kokuho/tanto/hoken/kokuhozei/1383026463919.html"
+      ],
+      "sourceUrls": [
         "https://www.city.gobo.lg.jp/sosiki/siminseikatu/kokuho/tanto/hoken/kokuhozei/1383026463919.html"
       ]
     },
