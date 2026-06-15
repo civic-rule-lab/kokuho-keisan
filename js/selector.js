@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-06-14
+// 最終生成: 2026-06-15
 
 const registry = {
   "hokkaido": {
@@ -13151,6 +13151,10 @@ const registry = {
                 "url": "/kanagawa/yokosuka/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13169,6 +13173,10 @@ const registry = {
                 "url": "/kanagawa/hiratsuka/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13187,6 +13195,10 @@ const registry = {
                 "url": "/kanagawa/kamakura/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13205,6 +13217,10 @@ const registry = {
                 "url": "/kanagawa/fujisawa/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13223,6 +13239,10 @@ const registry = {
                 "url": "/kanagawa/odawara/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13241,6 +13261,10 @@ const registry = {
                 "url": "/kanagawa/chigasaki/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13259,6 +13283,10 @@ const registry = {
                 "url": "/kanagawa/zushi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13277,6 +13305,10 @@ const registry = {
                 "url": "/kanagawa/miura/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13295,6 +13327,10 @@ const registry = {
                 "url": "/kanagawa/hadano/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13313,6 +13349,10 @@ const registry = {
                 "url": "/kanagawa/atsugi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13331,6 +13371,10 @@ const registry = {
                 "url": "/kanagawa/yamato/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13349,6 +13393,10 @@ const registry = {
                 "url": "/kanagawa/isehara/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13367,6 +13415,10 @@ const registry = {
                 "url": "/kanagawa/ebina/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13385,6 +13437,10 @@ const registry = {
                 "url": "/kanagawa/zama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13403,6 +13459,10 @@ const registry = {
                 "url": "/kanagawa/minamiashigara/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13421,6 +13481,10 @@ const registry = {
                 "url": "/kanagawa/ayase/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13439,6 +13503,10 @@ const registry = {
                 "url": "/kanagawa/hayama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13457,6 +13525,10 @@ const registry = {
                 "url": "/kanagawa/samukawa/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13475,6 +13547,10 @@ const registry = {
                 "url": "/kanagawa/oiso/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13493,6 +13569,10 @@ const registry = {
                 "url": "/kanagawa/ninomiya/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13511,6 +13591,10 @@ const registry = {
                 "url": "/kanagawa/nakai/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13529,6 +13613,10 @@ const registry = {
                 "url": "/kanagawa/oi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13547,6 +13635,10 @@ const registry = {
                 "url": "/kanagawa/matsuda/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13565,6 +13657,10 @@ const registry = {
                 "url": "/kanagawa/yamakita/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13583,6 +13679,10 @@ const registry = {
                 "url": "/kanagawa/kaisei/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13601,6 +13701,10 @@ const registry = {
                 "url": "/kanagawa/hakone/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13619,6 +13723,10 @@ const registry = {
                 "url": "/kanagawa/manazuru/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13637,6 +13745,10 @@ const registry = {
                 "url": "/kanagawa/yugawara/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13655,6 +13767,10 @@ const registry = {
                 "url": "/kanagawa/aikawa/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -13673,6 +13789,10 @@ const registry = {
                 "url": "/kanagawa/kiyokawa/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       }
@@ -14263,6 +14383,10 @@ const registry = {
                 "url": "/toyama/toyama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14281,6 +14405,10 @@ const registry = {
                 "url": "/toyama/takaoka/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14299,6 +14427,10 @@ const registry = {
                 "url": "/toyama/uozu/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14317,6 +14449,10 @@ const registry = {
                 "url": "/toyama/himi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14335,6 +14471,10 @@ const registry = {
                 "url": "/toyama/namerikawa/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14353,6 +14493,10 @@ const registry = {
                 "url": "/toyama/kurobe/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14371,6 +14515,10 @@ const registry = {
                 "url": "/toyama/tonami/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14389,6 +14537,10 @@ const registry = {
                 "url": "/toyama/oyabe/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14407,6 +14559,10 @@ const registry = {
                 "url": "/toyama/nanto/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14425,6 +14581,10 @@ const registry = {
                 "url": "/toyama/imizu/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14443,6 +14603,10 @@ const registry = {
                 "url": "/toyama/funahashi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14461,6 +14625,10 @@ const registry = {
                 "url": "/toyama/kamiichi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14479,6 +14647,10 @@ const registry = {
                 "url": "/toyama/tateyama-toyama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14497,6 +14669,10 @@ const registry = {
                 "url": "/toyama/nyuzen/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14515,6 +14691,10 @@ const registry = {
                 "url": "/toyama/asahitoyama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       }
