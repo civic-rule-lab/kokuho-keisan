@@ -14732,6 +14732,10 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -14758,6 +14762,10 @@ const registry = {
                 "url": "/ishikawa/nanao/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14776,6 +14784,10 @@ const registry = {
                 "url": "/ishikawa/komatsu/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14794,6 +14806,10 @@ const registry = {
                 "url": "/ishikawa/wajima/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14812,6 +14828,10 @@ const registry = {
                 "url": "/ishikawa/suzu/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14830,6 +14850,10 @@ const registry = {
                 "url": "/ishikawa/kaga/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14848,6 +14872,10 @@ const registry = {
                 "url": "/ishikawa/hakui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14866,6 +14894,10 @@ const registry = {
                 "url": "/ishikawa/kahoku/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14884,6 +14916,10 @@ const registry = {
                 "url": "/ishikawa/hakusan/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14902,6 +14938,10 @@ const registry = {
                 "url": "/ishikawa/nomi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14920,6 +14960,10 @@ const registry = {
                 "url": "/ishikawa/nonoichi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14938,6 +14982,10 @@ const registry = {
                 "url": "/ishikawa/kawakita/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14956,6 +15004,10 @@ const registry = {
                 "url": "/ishikawa/tsubata/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14974,6 +15026,10 @@ const registry = {
                 "url": "/ishikawa/uchinada/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -14992,6 +15048,10 @@ const registry = {
                 "url": "/ishikawa/shika/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15010,6 +15070,10 @@ const registry = {
                 "url": "/ishikawa/hodatsushimizu/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15028,6 +15092,10 @@ const registry = {
                 "url": "/ishikawa/nakanoto/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15046,6 +15114,10 @@ const registry = {
                 "url": "/ishikawa/anamizu/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15087,6 +15159,10 @@ const registry = {
                 "url": "/fukui/fukui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15105,6 +15181,10 @@ const registry = {
                 "url": "/fukui/tsuruga/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15123,6 +15203,10 @@ const registry = {
                 "url": "/fukui/obama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15141,6 +15225,10 @@ const registry = {
                 "url": "/fukui/onofukui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15159,6 +15247,10 @@ const registry = {
                 "url": "/fukui/katsuyama/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15177,6 +15269,10 @@ const registry = {
                 "url": "/fukui/sabae/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15195,6 +15291,10 @@ const registry = {
                 "url": "/fukui/awara/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15213,6 +15313,10 @@ const registry = {
                 "url": "/fukui/echizen/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15231,6 +15335,10 @@ const registry = {
                 "url": "/fukui/sakaifukui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15249,6 +15357,10 @@ const registry = {
                 "url": "/fukui/eiheiji/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15267,6 +15379,10 @@ const registry = {
                 "url": "/fukui/ikedafukui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15285,6 +15401,10 @@ const registry = {
                 "url": "/fukui/minamiechizen/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15303,6 +15423,10 @@ const registry = {
                 "url": "/fukui/echizencho/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15321,6 +15445,10 @@ const registry = {
                 "url": "/fukui/mihamafukui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15339,6 +15467,10 @@ const registry = {
                 "url": "/fukui/takahamafukui/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15357,6 +15489,10 @@ const registry = {
                 "url": "/fukui/ooi/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       },
@@ -15375,6 +15511,10 @@ const registry = {
                 "url": "/fukui/wakasa/income.html"
               }
             }
+          },
+          "kaigo": {
+            "name": "kaigo",
+            "pages": {}
           }
         }
       }
