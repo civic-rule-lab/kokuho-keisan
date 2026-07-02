@@ -67,7 +67,10 @@
       "watchUrls": [
         "https://www.town.kozagawa.lg.jp/kurashi/sub002_05.html"
       ],
-      "r8Stage": "source_found_r8"
+      "r8Stage": "source_found_r8",
+      "sourceUrls": [
+        "https://www.town.kozagawa.lg.jp/kurashi/sub002_05.html"
+      ]
     },
     "source": {
       "type": "estimated",

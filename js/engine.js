@@ -68,7 +68,14 @@ async function loadKokuhoData(city) {
 
 function getCurrentCity() {
   const params = new URLSearchParams(location.search);
-  return (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city") || "chigasaki";
+  // CITY_SLUG（生成ページが埋め込む）→ ?city= の順で解決する。
+  // 暗黙フォールバック（旧実装の `|| "chigasaki"`）は置かない：CITY_SLUG 宣言漏れの
+  // まま静かに茅ヶ崎の料率で計算すると「別自治体の数字を正しい風に表示」する事故になる。
+  // PUBLISH_YEAR（loadKokuhoData 参照）と同じく、ここでエラーになる＝生成側の退行として
+  // 即座に気づかせる。engine.js を読む全テンプレートは CITY_SLUG を宣言済み。
+  const city = (typeof CITY_SLUG !== "undefined" ? CITY_SLUG : null) || params.get("city");
+  if (!city) throw new Error("CITY_SLUG が未宣言です（ページ生成側の自治体配線を確認してください）");
+  return city;
 }
 
 // ─── DOM アダプター ──────────────────────────────────────────────

@@ -46,14 +46,9 @@ function calculateKokuho(input, data) {
   const supportHousehold = data.household?.support || 0;
   const careHousehold    = careSafe > 0 ? (data.household?.care || 0) : 0;
 
-  // 未就学児軽減
-  const preschoolReductionMedical = Math.round(
-    preschoolSafe * data.perCapita.medical * (data.preschoolReduction?.medicalPerCapitaRate || 0)
-  );
-  const preschoolReductionSupport = Math.round(
-    preschoolSafe * data.perCapita.support * (data.preschoolReduction?.supportPerCapitaRate || 0)
-  );
-  const preschoolReduction = preschoolReductionMedical + preschoolReductionSupport;
+  // 未就学児軽減の計算は「軽減判定」で reductionRate が確定した後に行う。
+  // 制度上、法定軽減（7/5/2割）が適用される世帯では「軽減後の」均等割額の5割を
+  // 軽減するため、reductionRate に依存する。定義は下方（reductionRate 決定後）へ移動。
 
   // 学齢児軽減（未就学児を除く 18 歳未満の医療分・支援分均等割を減額）
   // 例: 昭島市の独自減免「未就学児を除く 18 歳未満の医療分・支援分均等割を 5割減額」
@@ -103,6 +98,19 @@ function calculateKokuho(input, data) {
     reductionLabel = "2割軽減";
     reductionRate  = data.reduction?.ratios?.twoTenths || 0;
   }
+
+  // 未就学児軽減（均等割の医療分・支援分）
+  // 制度: 法定軽減（7/5/2割）が適用される世帯では「軽減後の均等割額」の5割を軽減する。
+  //   例) 7割軽減世帯 → 残り3割の5割(=1.5割)を軽減 → 合計8.5割軽減。
+  // よって未就学児分の per-capita に (1 - reductionRate) を乗じた残額へ軽減率を適用する。
+  // reductionRate=0（軽減なし）のときは (1-0)=1 で従来式と一致（後方互換）。
+  const preschoolReductionMedical = Math.round(
+    preschoolSafe * data.perCapita.medical * (1 - reductionRate) * (data.preschoolReduction?.medicalPerCapitaRate || 0)
+  );
+  const preschoolReductionSupport = Math.round(
+    preschoolSafe * data.perCapita.support * (1 - reductionRate) * (data.preschoolReduction?.supportPerCapitaRate || 0)
+  );
+  const preschoolReduction = preschoolReductionMedical + preschoolReductionSupport;
 
   // 子ども・子育て支援金分（R8新設・0なら無効）
   // childcareLevy（旧方式・under18Reduction/perCapitaAdult 対応）を優先、
