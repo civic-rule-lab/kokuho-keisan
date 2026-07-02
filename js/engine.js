@@ -46,8 +46,13 @@ async function loadKokuhoData(city) {
   const promise = (async () => {
     // ページ側の `const PUBLISH_YEAR = ...` はトップレベル宣言でも window に
     // 付かないため、CITY_SLUG と同じ typeof パターンで参照する（旧実装は
-    // window.PUBLISH_YEAR を見て常に 2025 にフォールバックするバグだった）
-    const year = (typeof PUBLISH_YEAR !== "undefined" ? PUBLISH_YEAR : null) || window.PUBLISH_YEAR || 2025;
+    // window.PUBLISH_YEAR を見て常に 2025 にフォールバックするバグだった）。
+    // 年度の暗黙フォールバック（`|| 2025` 等）は置かない：宣言漏れのまま
+    // 静かに旧年度で計算すると「表示は R8・計算は R7」型の事故（PR #185）が
+    // 再発するため。全テンプレート（templates/*.html）が PUBLISH_YEAR を
+    // 宣言しており、ここでエラーになる＝生成側の退行なので即座に気づかせる。
+    const year = (typeof PUBLISH_YEAR !== "undefined" ? PUBLISH_YEAR : null) || window.PUBLISH_YEAR;
+    if (!year) throw new Error("PUBLISH_YEAR が未宣言です（ページ生成側の年度配線を確認してください）");
     const res = await fetch(`/data/municipalities/${city}/kokuho-${year}.json`, { cache: "no-store" });
     if (!res.ok) throw new Error("JSON読み込み失敗");
     return await res.json();

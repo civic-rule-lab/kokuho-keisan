@@ -2,6 +2,12 @@
 // Browser: <script> で読み込むとグローバル関数として使用可能
 // Node:    require('./js/core/kokuho') で { calculateKokuho } を取得
 
+// 子ども・子育て支援金分の賦課限度額の国基準（政令）。
+// 出典: 国民健康保険法施行令 第29条の7 第5項 第10号（令和8年度新設・30,000円、2026-07-02 確認）
+// 注意: 条例で国基準未満を定める自治体が実在する（例: shika 20,000円）ため、
+// これは「データ欠落時の最後の手段」であり、正は各自治体 JSON の childcareLevy.cap。
+const CHILDCARE_CAP_NATIONAL = 30000;
+
 function calculateKokuho(input, data) {
   const { income, family, preschool, under18, care, salaryPensionCount, fixedAssetTax,
           reductionJudgmentIncome } = input;
@@ -158,7 +164,16 @@ function calculateKokuho(input, data) {
   medicalTotal   = Math.min(Math.max(medicalTotal,   0), data.caps.medical);
   supportTotal   = Math.min(Math.max(supportTotal,   0), data.caps.support);
   careTotal      = Math.min(Math.max(careTotal,      0), data.caps.care);
-  childcareTotal = Math.min(Math.max(childcareTotal, 0), childcareCfg?.cap ?? 30000);
+  // 支援金分の cap は自治体データが正。未定義なら国基準で代用するが、
+  // 静かに落とさず警告する（cap 未定義は 2026-07-02 時点で 114 自治体）。
+  let childcareCap = childcareCfg?.cap;
+  if (childcareCap === undefined) {
+    childcareCap = CHILDCARE_CAP_NATIONAL;
+    if (childcareTotal > 0 && typeof console !== "undefined") {
+      console.warn(`[kokuho] ${data.citySlug || "(citySlug不明)"}: childcareLevy.cap がデータ未定義のため国基準 ${CHILDCARE_CAP_NATIONAL} 円で代用（条例値の確認・データ整備が必要）`);
+    }
+  }
+  childcareTotal = Math.min(Math.max(childcareTotal, 0), childcareCap);
 
   const total          = medicalTotal + supportTotal + careTotal + childcareTotal;
   const monthly        = Math.round(total / 12);
