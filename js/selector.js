@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-07-03
+// 最終生成: 2026-07-08
 
 const registry = {
   "hokkaido": {
@@ -51,6 +51,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/sapporo/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hokkaido/sapporo/hoiku/"
               }
             }
           },
@@ -21801,6 +21810,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/sodegaura/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -21825,6 +21843,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/chiba/yachimata/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/yachimata/kaigo/"
               }
             }
           },
@@ -22431,6 +22458,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/yokoshibahikari/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -22710,6 +22746,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/onjuku/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -22734,6 +22779,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/chiba/kyonan/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/kyonan/kaigo/"
               }
             }
           },
@@ -22800,6 +22854,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/chiyoda/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -22855,6 +22918,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/chuo/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/chuo/hoiku/"
               }
             }
           },
@@ -22916,6 +22988,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/minato/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -22971,6 +23052,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/shinjuku/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/shinjuku/hoiku/"
               }
             }
           },
@@ -23032,6 +23122,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/bunkyo/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23087,6 +23186,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/taito/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/taito/hoiku/"
               }
             }
           },
@@ -23148,6 +23256,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/sumida/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23203,6 +23320,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/koto/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/koto/hoiku/"
               }
             }
           },
@@ -23264,6 +23390,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/shinagawa/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23319,6 +23454,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/meguro/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/meguro/hoiku/"
               }
             }
           },
@@ -23380,6 +23524,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/ota/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23435,6 +23588,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/setagaya/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/setagaya/hoiku/"
               }
             }
           },
@@ -23496,6 +23658,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/shibuya/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23551,6 +23722,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/nakano-ku/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/nakano-ku/hoiku/"
               }
             }
           },
@@ -23612,6 +23792,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/suginami/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23667,6 +23856,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/toshima/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/toshima/hoiku/"
               }
             }
           },
@@ -23728,6 +23926,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/kita/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23783,6 +23990,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/arakawa/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/arakawa/hoiku/"
               }
             }
           },
@@ -23844,6 +24060,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/itabashi/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -23899,6 +24124,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/nerima/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/nerima/hoiku/"
               }
             }
           },
@@ -23960,6 +24194,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/adachi/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -24015,6 +24258,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/katsushika/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/katsushika/hoiku/"
               }
             }
           },
@@ -24076,6 +24328,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/edogawa/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -24134,6 +24395,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/hachioji/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -24178,6 +24448,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/tachikawa/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/tachikawa/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24212,6 +24491,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/musashino/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/musashino/hoiku/"
               }
             }
           }
@@ -24250,6 +24538,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/mitaka/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/mitaka/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24284,6 +24581,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/ome/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/ome/hoiku/"
               }
             }
           }
@@ -24322,6 +24628,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/fuchu/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/fuchu/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24356,6 +24671,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/akishima/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/akishima/hoiku/"
               }
             }
           }
@@ -24394,6 +24718,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/chofu/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/chofu/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24428,6 +24761,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/machida/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/machida/hoiku/"
               }
             }
           }
@@ -24466,6 +24808,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/koganei/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/koganei/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24500,6 +24851,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/kodaira/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/kodaira/hoiku/"
               }
             }
           }
@@ -24538,6 +24898,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/hino/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/hino/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24572,6 +24941,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/higashimurayama/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/higashimurayama/hoiku/"
               }
             }
           }
@@ -24610,6 +24988,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/kokubunji/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/kokubunji/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24644,6 +25031,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/kunitachi/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/kunitachi/hoiku/"
               }
             }
           }
@@ -24682,6 +25078,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/fussa/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/fussa/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24716,6 +25121,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/komae/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/komae/hoiku/"
               }
             }
           }
@@ -24754,6 +25168,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/higashiyamato/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/higashiyamato/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24788,6 +25211,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/kiyose/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/kiyose/hoiku/"
               }
             }
           }
@@ -24826,6 +25258,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/higashikurume/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/higashikurume/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24860,6 +25301,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/musashimurayama/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/musashimurayama/hoiku/"
               }
             }
           }
@@ -24898,6 +25348,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/tama/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/tama/hoiku/"
+              }
+            }
           }
         }
       },
@@ -24932,6 +25391,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/inagi/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/inagi/hoiku/"
               }
             }
           }
@@ -24970,6 +25438,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/hamura/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/hamura/hoiku/"
+              }
+            }
           }
         }
       },
@@ -25006,6 +25483,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/akiruno/kouki/"
               }
             }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/akiruno/hoiku/"
+              }
+            }
           }
         }
       },
@@ -25040,6 +25526,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/nishitokyo/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/tokyo/nishitokyo/hoiku/"
               }
             }
           }
@@ -25274,6 +25769,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/yokohama/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kanagawa/yokohama/hoiku/"
               }
             }
           },
@@ -26533,6 +27037,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/niigata/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/niigata/niigata/hoiku/"
               }
             }
           },
@@ -28827,6 +29340,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/ishikawa/notocho/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -30376,6 +30898,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/yamanashi/kosugemura/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -31236,6 +31767,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nagano/minamiaiki/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -31260,6 +31800,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/nagano/kitaaiki/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nagano/kitaaiki/kaigo/"
               }
             }
           },
@@ -32190,6 +32739,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nagano/takagi/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -32649,6 +33207,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nagano/chikuhoku/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -32961,6 +33528,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/nagano/kijimadaira/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nagano/kijimadaira/kaigo/"
               }
             }
           },
@@ -34795,6 +35371,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/shizuoka/hamamatsu/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -35650,6 +36235,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/shizuoka/minamiizu/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -36034,6 +36628,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/nagoya/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/aichi/nagoya/hoiku/"
               }
             }
           },
@@ -39737,6 +40340,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kyoto/kyoto/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -42319,6 +42931,15 @@ const registry = {
               }
             }
           },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/hyogo/kobe/hoiku/"
+              }
+            }
+          },
           "kakeibo": {
             "name": "まとめて試算（家計簿）",
             "pages": {
@@ -44267,6 +44888,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nara/yamazoe/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -44543,6 +45173,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/nara/soni/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nara/soni/kaigo/"
               }
             }
           },
@@ -44930,6 +45569,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/nara/kurotaki/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/nara/kurotaki/kaigo/"
               }
             }
           },
@@ -53131,6 +53779,15 @@ const registry = {
               }
             }
           },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kochi/otoyomachi/kaigo/"
+              }
+            }
+          },
           "kouki": {
             "name": "後期高齢者医療",
             "pages": {
@@ -53155,6 +53812,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/kochi/tosamachi/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/kochi/tosamachi/kaigo/"
               }
             }
           },
