@@ -64325,9 +64325,8 @@ function goPage() {
   const municipality = document.getElementById("municipality").value;
   const system       = document.getElementById("system").value;
 
-  // 社保(shaho)は別サイト shaho-keisan.jp。県別ページ準備中＝当面トップへ。
-  // 47県公開後に https://shaho-keisan.jp/(prefSlug)/ 形式へ差し替える。
-  if (system === "shaho") { window.location.href = "https://shaho-keisan.jp/"; return; }
+  // 社保(shaho)は別サイト shaho-keisan.jp。県別ページ /{pref}/ へ（47県公開済み・2026-07-12）。
+  if (system === "shaho") { window.location.href = "https://shaho-keisan.jp/" + prefecture + "/"; return; }
 
   const url =
     registry[prefecture]
