@@ -72,7 +72,7 @@
         "http://www.town.mihama.wakayama.jp/other-contents/reiki_int/reiki_honbun/k528RG00000102.html"
       ],
       "verifiedAt": "2026-07-30",
-      "sourceStatus": "ordinance_plus_phone",
+      "sourceStatus": "ordinance_after_revision",
       "r8Updated": true,
       "previousYearTemplate": false,
       "verificationLevel": "official_source_checked"
@@ -86,7 +86,7 @@
     "audit": {
       "verifiedBy": "civic-rule-lab",
       "verifiedAt": "2026-07-30",
-      "method": "phone+reiki"
+      "method": "municipal-ordinance-after-revision+phone"
     },
     "quality": {
       "confidenceScore": 0.9,
