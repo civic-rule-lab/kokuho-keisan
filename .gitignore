@@ -22,3 +22,7 @@ Thumbs.db
 # Claude Code アクセス制御設定・フック（リポジトリには含めない）
 .claudeignore
 .claude/
+
+.omc/
+.codex/
+.session/
