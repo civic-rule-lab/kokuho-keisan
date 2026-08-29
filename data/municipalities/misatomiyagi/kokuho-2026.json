@@ -73,7 +73,9 @@
       "r8Updated": true,
       "verifiedAt": "2026-08-09",
       "verificationLevel": "official_source_checked",
-      "watchUrls": []
+      "watchUrls": [
+        "https://www.town.misato.miyagi.jp/03zeikin/2010-0830-1346-5.html"
+      ]
     },
     "source": {
       "type": "official",
