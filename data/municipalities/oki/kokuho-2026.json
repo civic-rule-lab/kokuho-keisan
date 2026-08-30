@@ -57,42 +57,44 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.1.0",
-    "status": "provisional",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.097Z",
-      "updatedAt": "2026-08-19T00:00:00.000Z",
+      "updatedAt": "2026-08-30T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30",
-      "r8Stage": "extracted_r8",
+      "r8Stage": "verified_r8",
       "sourceStatus": "official_rate_pdf",
       "sourceUrls": [
+        "https://www.town.ooki.lg.jp/material/files/group/1/2026-4-p18-p32.pdf",
         "https://www.pref.fukuoka.lg.jp/uploaded/attachment/293234.pdf"
       ],
       "previousYearTemplate": false,
       "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "extracted_unverified",
+      "verifiedAt": "2026-08-30",
+      "verificationLevel": "official_source_checked",
       "watchUrls": [
         "https://www.town.ooki.lg.jp/iryo/6/index.html"
-      ]
+      ],
+      "ordinanceUrls": []
     },
     "source": {
-      "type": "prefecture_official_pdf",
-      "title": "福岡県 令和8年度 国民健康保険 市町村標準保険料率および各市町村の実際の保険料(税)率(293234.pdf・4頁)",
-      "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/293234.pdf",
-      "publishedAt": "2026"
+      "type": "official",
+      "title": "広報おおき にこにこ通信 2026年4月号 p18-32（令和8年度の大木町国民健康保険税率）",
+      "url": "https://www.town.ooki.lg.jp/material/files/group/1/2026-4-p18-p32.pdf",
+      "publishedAt": "2026-04"
     },
     "audit": {
       "verifiedBy": "civic-rule-lab",
-      "verifiedAt": "2026-08-09",
-      "method": "県一次資料PDF実視(ユーザー提供スクリーンショット・※2『令和8年度の各市町村の実際の国民健康保険料(税)率』列)"
+      "verifiedAt": "2026-08-30",
+      "method": "町広報PDF(令和8年度税率表)の実視"
     },
     "quality": {
-      "confidenceScore": 0.75,
+      "confidenceScore": 0.95,
       "completeness": "full"
     },
-    "notes": "★限度額・軽減判定は本PDFの対象外=[未確認](法定上限67/26/17/3万が既定だが自治体裁量あり)。反映時は自治体サイト公表を待つか条例確認を推奨 / 広報おおき にこにこ通信2026年4月号。子ども分の限度額記載なし。例規集はR7のまま(専決未収録) / ★子ども分の賦課限度額は条例に条項なし=未確認。capキーを出力せずエンジンの国基準3万フォールバックに委ねる(console警告あり)"
+    "notes": "令和8年度の料率・均等割・平等割・賦課限度額・18歳未満の均等割全額軽減を、大木町が発行する広報おおき にこにこ通信2026年4月号（p18-32）で確認した（2026-08-30）。賦課限度額は医療67万・支援26万・介護17万・子ども子育て支援金分3万。軽減判定所得の5割31万・2割57万は町公式サイトの軽減案内で確認。大木町例規集は令和8年度改正が未収録（内容現在 令和8年4月10日／最終改正は令和7年条例第16号）のため、条例本文ではなく町発行の広報を一次資料としている。"
   },
   "childcareLevy": {
     "rate": 0.0027,

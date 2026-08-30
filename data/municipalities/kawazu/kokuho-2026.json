@@ -1,105 +1,108 @@
 {
- "cityCode": "22302",
- "citySlug": "kawazu",
- "cityName": "河津町",
- "fiscalYear": 2026,
- "system": "kokuho",
- "basicDeduction": 430000,
- "rate": {
-  "medical": 0.067,
-  "support": 0.024,
-  "care": 0.018
- },
- "perCapita": {
-  "medical": 24500,
-  "support": 9800,
-  "care": 15000
- },
- "household": {
-  "medical": 20000,
-  "support": 7200,
-  "care": 0
- },
- "caps": {
-  "medical": 660000,
-  "support": 260000,
-  "care": 170000,
-  "childcare": 30000
- },
- "preschoolReduction": {
-  "enabled": true,
-  "medicalPerCapitaRate": 0.5,
-  "supportPerCapitaRate": 0.5
- },
- "reduction": {
-  "enabled": true,
-  "standards": {
-   "sevenTenths": {
-    "base": 430000,
-    "perPersonAdd": 0
-   },
-   "fiveTenths": {
-    "base": 430000,
-    "perPersonAdd": 310000
-   },
-   "twoTenths": {
-    "base": 430000,
-    "perPersonAdd": 570000
-   }
+  "cityCode": "22302",
+  "citySlug": "kawazu",
+  "cityName": "河津町",
+  "fiscalYear": 2026,
+  "system": "kokuho",
+  "basicDeduction": 430000,
+  "rate": {
+    "medical": 0.067,
+    "support": 0.024,
+    "care": 0.018
   },
-  "salaryPensionAdd": 100000,
-  "ratios": {
-   "sevenTenths": 0.7,
-   "fiveTenths": 0.5,
-   "twoTenths": 0.2
+  "perCapita": {
+    "medical": 24500,
+    "support": 9800,
+    "care": 15000
+  },
+  "household": {
+    "medical": 20000,
+    "support": 7200,
+    "care": 0
+  },
+  "caps": {
+    "medical": 660000,
+    "support": 260000,
+    "care": 170000,
+    "childcare": 30000
+  },
+  "preschoolReduction": {
+    "enabled": true,
+    "medicalPerCapitaRate": 0.5,
+    "supportPerCapitaRate": 0.5
+  },
+  "reduction": {
+    "enabled": true,
+    "standards": {
+      "sevenTenths": {
+        "base": 430000,
+        "perPersonAdd": 0
+      },
+      "fiveTenths": {
+        "base": 430000,
+        "perPersonAdd": 310000
+      },
+      "twoTenths": {
+        "base": 430000,
+        "perPersonAdd": 570000
+      }
+    },
+    "salaryPensionAdd": 100000,
+    "ratios": {
+      "sevenTenths": 0.7,
+      "fiveTenths": 0.5,
+      "twoTenths": 0.2
+    }
+  },
+  "meta": {
+    "schemaVersion": "2.0",
+    "dataVersion": "2.1.0",
+    "status": "verified",
+    "lifecycle": {
+      "createdAt": "2026-04-08T01:03:22.630Z",
+      "updatedAt": "2026-08-30T00:00:00.000Z",
+      "validFrom": "2026-04-01",
+      "validUntil": "2027-03-31",
+      "expiresAt": "2027-04-30",
+      "r8Stage": "verified_r8",
+      "sourceUrls": [
+        "https://www.town.kawazu.shizuoka.jp/choumin/life10/kokuminkenkohokenzei/"
+      ],
+      "verifiedAt": "2026-08-30",
+      "watchUrls": [
+        "https://www.town.kawazu.shizuoka.jp/choumin/life10/kokuminkenkohokenzei/"
+      ],
+      "sourceStatus": "ordinance_after_revision",
+      "r8Updated": true,
+      "previousYearTemplate": false,
+      "verificationLevel": "official_source_checked",
+      "ordinanceUrls": [
+        "https://en3-jg.d1-law.com/kawazu/d1w_reiki/H337901010016/H337901010016_j.html"
+      ]
+    },
+    "source": {
+      "type": "official",
+      "title": "河津町 国民健康保険税(令和8年度現在の税率)",
+      "url": "https://www.town.kawazu.shizuoka.jp/choumin/life10/kokuminkenkohokenzei/",
+      "publishedAt": "2026"
+    },
+    "audit": {
+      "verifiedBy": "civic-rule-lab",
+      "verifiedAt": "2026-08-30",
+      "method": "条例本文の全文照合(例規集インターネット版)"
+    },
+    "quality": {
+      "confidenceScore": 0.95,
+      "completeness": "full"
+    },
+    "notes": "令和8年度の料率・均等割・平等割・賦課限度額・軽減規定を、河津町国民健康保険税条例（令和8年3月31日条例第11号／令和8年4月1日施行・令和8年度以後の年度分に適用。例規集の内容現在 令和8年6月30日）の本文で確認した（2026-08-30）。子ども子育て支援金分の均等割は、条例上は被保険者均等割2,000円（第9条の3）と18歳以上被保険者均等割300円（第9条の4）に分かれており、町公式ページの「2,300円」はこの合計の表記である。データもこの分解に合わせた（18歳未満は第21条第4項により全額減額されるため、合計額表記のときと算定結果は同一）。介護分および子ども子育て支援金分の平等割は条文に定めがなく0。医療分の賦課限度額は66万円（第2条第2項ただし書）。"
+  },
+  "childcareLevy": {
+    "rate": 0.004,
+    "perCapita": 2000,
+    "perCapitaAdult": 300,
+    "perCapitaAdultScope": "all_ages",
+    "household": 0,
+    "cap": 30000
   }
- },
- "meta": {
-  "schemaVersion": "2.0",
-  "dataVersion": "2.1.0",
-  "status": "provisional",
-  "lifecycle": {
-   "createdAt": "2026-04-08T01:03:22.630Z",
-   "updatedAt": "2026-08-08T00:00:00.000Z",
-   "validFrom": "2026-04-01",
-   "validUntil": "2027-03-31",
-   "expiresAt": "2027-04-30",
-   "r8Stage": "extracted_r8",
-   "sourceUrls": [
-    "https://www.town.kawazu.shizuoka.jp/choumin/life10/kokuminkenkohokenzei/"
-   ],
-   "verifiedAt": "",
-   "watchUrls": [
-       "https://www.town.kawazu.shizuoka.jp/choumin/life10/kokuminkenkohokenzei/"
-   ],
-   "sourceStatus": "official_rate_page",
-   "r8Updated": true,
-   "previousYearTemplate": false,
-   "verificationLevel": "official_source_extracted"
-  },
-  "source": {
-   "type": "official",
-   "title": "河津町 国民健康保険税(令和8年度現在の税率)",
-   "url": "https://www.town.kawazu.shizuoka.jp/choumin/life10/kokuminkenkohokenzei/",
-   "publishedAt": "2026"
-  },
-  "audit": {
-   "verifiedBy": "civic-rule-lab",
-   "verifiedAt": "",
-   "method": "official-site"
-  },
-  "quality": {
-   "confidenceScore": 0.8,
-   "completeness": "full"
-  },
-  "notes": "R8公式ページ実視(claude-in-chrome DOM/画像実視)で全区分確認しextracted_r8として抽出(昇格保留)(2026-08-08取得・凍結中のためrepo外ステージング生成)。 子ども分: sanityフラグ: 所得割0.40%・均等割2,300円は県内他市町(0.2-0.3%/1,700-2,300円)より高め。u18全額免除の記載もページに見当たらない→昇格前に条例 or 町へ独立確認が必要 医療cap66万。子ども分の値は要独立verify。 【保留理由】子ども分0.40%/2,300円が県内レンジ外(sanity)。u18軽減記載もなし。条例突合か町へ確認要"
- },
- "childcareLevy": {
-  "rate": 0.004,
-  "perCapita": 2300,
-  "perCapitaAdult": 0,
-  "perCapitaAdultScope": "all_ages",
-  "household": 0,
-  "cap": 30000
- }
 }

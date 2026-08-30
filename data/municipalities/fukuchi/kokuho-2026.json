@@ -57,24 +57,27 @@
   "meta": {
     "schemaVersion": "2.0",
     "dataVersion": "2.1.0",
-    "status": "provisional",
+    "status": "verified",
     "lifecycle": {
       "createdAt": "2026-04-08T01:03:22.103Z",
-      "updatedAt": "2026-08-19T00:00:00.000Z",
+      "updatedAt": "2026-08-30T00:00:00.000Z",
       "validFrom": "2026-04-01",
       "validUntil": "2027-03-31",
       "expiresAt": "2027-04-30",
-      "r8Stage": "extracted_r8",
-      "sourceStatus": "official_rate_pdf",
+      "r8Stage": "verified_r8",
+      "sourceStatus": "ordinance_after_revision",
       "sourceUrls": [
         "https://www.pref.fukuoka.lg.jp/uploaded/attachment/293234.pdf"
       ],
       "previousYearTemplate": false,
       "r8Updated": true,
-      "verifiedAt": "",
-      "verificationLevel": "extracted_unverified",
+      "verifiedAt": "2026-08-30",
+      "verificationLevel": "official_source_checked",
       "watchUrls": [
         "https://www.town.fukuchi.lg.jp/soshiki/hokenkenkou/kokuhonenkin/hoken/kokuminnkennkouhokenntoha/1455.html"
+      ],
+      "ordinanceUrls": [
+        "https://www1.g-reiki.net/fukuchi/reiki_honbun/r318RG00000110.html"
       ]
     },
     "source": {
@@ -85,14 +88,14 @@
     },
     "audit": {
       "verifiedBy": "civic-rule-lab",
-      "verifiedAt": "2026-08-09",
-      "method": "県一次資料PDF実視(ユーザー提供スクリーンショット・※2『令和8年度の各市町村の実際の国民健康保険料(税)率』列)"
+      "verifiedAt": "2026-08-30",
+      "method": "条例本文の全文照合(例規集インターネット版)"
     },
     "quality": {
-      "confidenceScore": 0.75,
+      "confidenceScore": 0.95,
       "completeness": "full"
     },
-    "notes": "★限度額・軽減判定は本PDFの対象外=[未確認](法定上限67/26/17/3万が既定だが自治体裁量あり)。反映時は自治体サイト公表を待つか条例確認を推奨 / 福智町国民健康保険税条例(R8.3.13条例10号) g-reiki 条文確認"
+    "notes": "令和8年度の料率・均等割・平等割・賦課限度額・軽減規定を、福智町国民健康保険税条例（令和8年3月13日条例第10号／令和8年4月1日施行・令和8年度以後の年度分に適用）の本文で確認した（2026-08-30）。賦課限度額は第2条第2〜5項ただし書に医療67万・支援26万・介護17万・子ども子育て支援金分3万と定めがある。18歳未満の被保険者は第23条第4項により子ども子育て支援金分の均等割が全額減額、18歳以上には第9条の6により69円を加算する。軽減判定所得は基礎43万・5割+31万・2割+57万・給与年金者等+10万、未就学児軽減は法定軽減後の額に5割（第23条第2項）。"
   },
   "childcareLevy": {
     "rate": 0.0028,
