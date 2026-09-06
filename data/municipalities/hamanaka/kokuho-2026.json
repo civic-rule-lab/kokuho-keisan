@@ -73,7 +73,9 @@
       "r8Updated": true,
       "verifiedAt": "",
       "verificationLevel": "prefecture_standard_unverified",
-      "watchUrls": []
+      "watchUrls": [
+        "https://www.townhamanaka.jp/kurashi_kankyou/zei/chouzei/kokumin_hokenzei.html"
+      ]
     },
     "source": {
       "type": "prefecture_standard",
@@ -90,7 +92,7 @@
       "confidenceScore": 0.6,
       "completeness": "full"
     },
-    "notes": "北海道公表の令和8年度 市町村標準保険料率（市町村別一覧）を参考値として採用。法定外繰入ゼロ前提の理論値で、浜中町が実際に告示する料率とは異なる場合がある。3方式（所得割+均等割+平等割）・資産割なし。子ども・子育て支援金分は18歳以上均等割(=200円・合計1100円)を perCapitaAdult として計上（18歳以上=base+加算）・新スキーマ統一。市町村告示が出たら verified_r8 へ昇格。"
+    "notes": "北海道公表の令和8年度 市町村標準保険料率（市町村別一覧）を参考値として採用。法定外繰入ゼロ前提の理論値で、浜中町が実際に告示する料率とは異なる場合がある。3方式（所得割+均等割+平等割）・資産割なし。子ども・子育て支援金分は18歳以上均等割(=200円・合計1100円)を perCapitaAdult として計上（18歳以上=base+加算）・新スキーマ統一。市町村告示が出たら verified_r8 へ昇格。 / 2026-09-07 調査（値は据え置き・昇格保留）: 浜中町公式「国民健康保険税」ページ（https://www.townhamanaka.jp/kurashi_kankyou/zei/chouzei/kokumin_hokenzei.html ・Last-Modified 2026-07-16 ・見出し「令和8年度の税率」）に令和8年度の実税率が全項目掲載されていることを実取得で確認した。医療給付費分 所得割6.72%・均等割30,300円・平等割30,200円（特定世帯15,100円・特定継続世帯22,650円）・限度額670,000円、後期高齢者支援金分 1.70%・9,500円・9,200円（特定4,600円・特定継続6,900円）・260,000円、介護納付金分 1.31%・9,400円・7,400円・170,000円、子ども・子育て支援金分 0.29%・均等割900円・18歳以上均等割200円・平等割1,000円（特定500円・特定継続750円）・30,000円。表に資産割の行は無く3方式。子ども分の perCapita 900／perCapitaAdult 200／household 1,000／cap 30,000 と限度額4種は既存値と一致するが、医療・後期・介護の9値は県標準の理論値（医療8.93%/30,898/30,418、支援2.53%/9,354/9,209、介護2.03%/9,279/7,241）と全て相違する。**昇格しなかった理由は値の不足ではなくホスト。** 出典ホスト www.townhamanaka.jp は独自ドメインで、scripts/generate-official-pages.js の PROVENANCE_HOST_PATTERNS（.lg.jp / .go.jp / pref.*.jp / city|town|vill|village.*.jp）に当たらず PROVENANCE_HOST_EXTRA にも未登録のため、このURLを meta.source.url に置くと生成ページの来歴節が丸ごと消える。**要 PROVENANCE_HOST_EXTRA 追加（www.townhamanaka.jp／ページ末尾に「浜中町役場」「〒088-1592 北海道厚岸郡浜中町湯沸445番地」「Copyright © 2016 HAMANAKA Town Office.」を確認済み）。オーナーが許可ホストへ追加したのち上記9値へ差し替えて verified_r8 へ昇格できる状態。** 未確認: 軽減判定所得（5割31万円・2割57万円）は同ページに記載が無く、既存値のまま。"
   },
   "childcareLevy": {
     "rate": 0.0029,
