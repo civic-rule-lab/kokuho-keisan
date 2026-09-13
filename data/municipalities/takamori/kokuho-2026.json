@@ -6,19 +6,19 @@
   "system": "kokuho",
   "basicDeduction": 430000,
   "rate": {
-    "medical": 0.063,
-    "support": 0.0286,
-    "care": 0.0239
+    "medical": 0.069,
+    "support": 0.026,
+    "care": 0.0272
   },
   "perCapita": {
-    "medical": 22985,
-    "support": 10712,
-    "care": 9998
+    "medical": 16000,
+    "support": 9000,
+    "care": 9000
   },
   "household": {
-    "medical": 23454,
-    "support": 9630,
-    "care": 8027
+    "medical": 18000,
+    "support": 6000,
+    "care": 5500
   },
   "caps": {
     "medical": 670000,
@@ -94,10 +94,10 @@
   },
   "childcareLevy": {
     "rate": 0.003,
-    "perCapita": 1094,
-    "perCapitaAdult": 89,
+    "perCapita": 1000,
+    "perCapitaAdult": 100,
     "perCapitaAdultScope": "all_ages",
-    "household": 0,
+    "household": 1100,
     "cap": 30000
   }
 }
