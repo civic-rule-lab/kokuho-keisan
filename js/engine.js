@@ -80,6 +80,20 @@ function getCurrentCity() {
 
 // ─── DOM アダプター ──────────────────────────────────────────────
 
+// 「1人ずつ入力」欄を読む。所得が1人も入っていなければ null（従来の世帯合算で計算）。
+function readMembers() {
+  const rows = document.querySelectorAll(".member-row");
+  const list = [];
+  rows.forEach(row => {
+    const incEl = row.querySelector(".member-income");
+    const careEl = row.querySelector(".member-care");
+    const raw = incEl ? toHalfWidth(incEl.value || "").replace(/[^\d]/g, "") : "";
+    if (raw === "") return;
+    list.push({ income: Math.max(0, Number(raw) || 0), careTarget: !!(careEl && careEl.checked) });
+  });
+  return list.some(m => m.income > 0) ? list : null;
+}
+
 async function calc() {
   const result = document.getElementById("result");
 
@@ -93,6 +107,19 @@ async function calc() {
       salaryPensionCount: Math.max(1, Number(toHalfWidth(document.getElementById("salaryPensionCount")?.value || "1")) || 1),
       fixedAssetTax:      Math.max(0, Number(toHalfWidth(document.getElementById("fixedAssetTax")?.value || "0").replace(/[^\d]/g, "")) || 0),
     };
+
+    // 「1人ずつ入力」欄（所得ベース計算ページのみ・2026-10-04 追加・TASKS X170-12）。
+    // 1人でも所得が入っていれば、加入者ごとに基礎控除を引く members 経路で計算する
+    // （上の世帯合算の「前年所得」は使わない）。介護分は「40〜64歳」にチェックした人の所得だけに掛かる。
+    // チェックした人数が「介護保険人数」より多いときは、介護保険人数をそちらに合わせる。
+    const members = readMembers();
+    if (members) {
+      inputs.members = members;
+      const careChecked = members.filter(m => m.careTarget).length;
+      if (careChecked > inputs.care) inputs.care = careChecked;
+      // 入力した人数が世帯人数を超えていたら、世帯人数をそちらに合わせる（エンジンは care を family で頭打ちにするため）
+      if (members.length > inputs.family) inputs.family = members.length;
+    }
 
     const city = getCurrentCity();
     const data = await loadKokuhoData(city);
@@ -206,7 +233,8 @@ if (typeof window !== 'undefined') {
   window.calc = calc;
 
   (function() {
-    ['income', 'fixedAssetTax'].forEach(id => setupNumericInput(id, { withCommas: true }));
+    ['income', 'fixedAssetTax', 'memberIncome1', 'memberIncome2', 'memberIncome3', 'memberIncome4']
+      .forEach(id => setupNumericInput(id, { withCommas: true }));
     ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'].forEach(id => setupNumericInput(id));
     initOver75Link();
   })();

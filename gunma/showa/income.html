@@ -47,6 +47,21 @@
     </div>
   </details>
 
+  <details id="membersGroup" style="margin:0 0 14px;font-size:12.5px;color:#374151;">
+    <summary style="cursor:pointer;color:#2563eb;font-weight:600;list-style-position:inside;">所得のある方が2人以上いる世帯は、1人ずつ入力すると正確です</summary>
+    <div style="margin-top:8px;line-height:1.8;background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px 14px;">
+      国保の所得割は、加入者1人ずつ「所得 − 基礎控除43万円」を出して合計します。上の「前年所得」に世帯の合計を入れると基礎控除が1回分しか引かれず、高めに出ます。また介護分（40〜64歳）は、その年齢の方の所得にだけかかります。<br>
+      <span style="color:#b45309;">ここに1人でも入力すると、上の「前年所得」の欄は使わず、ここに入力した所得で計算します。</span>
+      <div class="member-rows" style="margin-top:8px;">
+        <div class="member-row" style="display:flex;gap:8px;align-items:center;margin:4px 0;"><input id="memberIncome1" class="member-income" type="text" inputmode="numeric" placeholder="1人目の所得" style="flex:1;margin:0;"><label style="white-space:nowrap;font-weight:400;margin:0;"><input id="memberCare1" class="member-care" type="checkbox" style="width:auto;margin:0 4px 0 0;">40〜64歳</label></div>
+        <div class="member-row" style="display:flex;gap:8px;align-items:center;margin:4px 0;"><input id="memberIncome2" class="member-income" type="text" inputmode="numeric" placeholder="2人目の所得" style="flex:1;margin:0;"><label style="white-space:nowrap;font-weight:400;margin:0;"><input id="memberCare2" class="member-care" type="checkbox" style="width:auto;margin:0 4px 0 0;">40〜64歳</label></div>
+        <div class="member-row" style="display:flex;gap:8px;align-items:center;margin:4px 0;"><input id="memberIncome3" class="member-income" type="text" inputmode="numeric" placeholder="3人目の所得" style="flex:1;margin:0;"><label style="white-space:nowrap;font-weight:400;margin:0;"><input id="memberCare3" class="member-care" type="checkbox" style="width:auto;margin:0 4px 0 0;">40〜64歳</label></div>
+        <div class="member-row" style="display:flex;gap:8px;align-items:center;margin:4px 0;"><input id="memberIncome4" class="member-income" type="text" inputmode="numeric" placeholder="4人目の所得" style="flex:1;margin:0;"><label style="white-space:nowrap;font-weight:400;margin:0;"><input id="memberCare4" class="member-care" type="checkbox" style="width:auto;margin:0 4px 0 0;">40〜64歳</label></div>
+      </div>
+      <span style="color:#6b7280;">所得の無い方は入力不要です。下の「世帯人数」「介護保険人数」には、所得の無い方も含めた人数を入れてください。</span>
+    </div>
+  </details>
+
   <label for="family">世帯人数</label>
   <input id="family" type="text" inputmode="numeric" placeholder="例：3">
 
@@ -105,7 +120,7 @@
   </p>
 
   <div class="note">
-    ※基礎控除43万円を差し引いた簡易計算です。<br>
+    ※基礎控除43万円を差し引いた計算です。所得のある方が2人以上の世帯は「1人ずつ入力」を使うと、1人ごとに差し引きます。<br>
     ※軽減判定は目安です。正式な判定ではありません。<br>
     ※実際の保険料は自治体の通知や公式案内でご確認ください。<br>
     ※会社を退職された方は、協会けんぽの<a href="https://shaho-keisan.jp/hikaku/" target="_blank" rel="noopener" style="color:#6b7280;">任意継続 vs 国保の比較 ↗</a>（社会保険の計算サイト）もご利用いただけます。
@@ -127,8 +142,8 @@
 </div>
 
 <script>const CITY_SLUG = "showa"; const PUBLISH_YEAR = 2026;</script>
-<script src="/js/core/kokuho.js?v=617f0ef4"></script>
-<script src="/js/engine.js?v=617f0ef4"></script>
+<script src="/js/core/kokuho.js?v=eefc3320"></script>
+<script src="/js/engine.js?v=eefc3320"></script>
 
 </body>
 </html>
