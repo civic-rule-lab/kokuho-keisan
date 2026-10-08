@@ -142,15 +142,20 @@ async function calc() {
       '<div class="result-row"><div class="result-label">介護分</div><div class="amount">' + r.careTotal.toLocaleString() + ' 円</div></div>' +
       (r.childcareTotal > 0 ? '<div class="result-row"><div class="result-label">子ども・子育て支援金分</div><div class="amount">' + r.childcareTotal.toLocaleString() + ' 円</div></div>' : '') +
       (r.assetLevyTotal > 0 ? '<div class="result-row"><div class="result-label">資産割（内訳）</div><div class="amount">' + r.assetLevyTotal.toLocaleString() + ' 円</div></div>' : '') +
-      '<div class="result-row"><div class="result-label">未就学児軽減</div><div class="amount">-' + r.preschoolReduction.toLocaleString() + ' 円</div></div>' +
+      // 2026-10-08（TASKS X173-11 / X173-22・オーナー決定＝注記で直す・計算は変えない）:
+      //   医療分・支援分・介護分・子ども分は、エンジンが軽減を差し引いた後の額（js/core/kokuho.js の medicalTotal 等）。
+      //   下の軽減の行はその内訳の再掲なのに「-○円」と並べていたため、上から足し引きすると合計と合わず、
+      //   さらに引かれるように見えた。見出しで「差し引き済み」と明示し、金額の「-」も外す。
+      '<div class="result-label" style="margin-top:10px;font-size:13px;color:#6b7280;">次の軽減は、上の医療分・支援分などからすでに差し引いてあります（もう一度引く額ではありません）</div>' +
+      '<div class="result-row"><div class="result-label">未就学児軽減（差し引き済み）</div><div class="amount">' + r.preschoolReduction.toLocaleString() + ' 円</div></div>' +
       // 学齢児軽減（未就学児を除く18歳未満の医療分・支援分 均等割に対する自治体独自の軽減）。
       // 2026-08-29 追加: エンジンは以前から r.schoolReduction を返していたが描画していなかったため、
       // 涌谷町で 24,000 円が引かれているのに画面の内訳は「未就学児軽減 -0円 / 法定軽減 -0円」
       // だけという状態になっていた（本番実測）。利用者は同ページの料率表から手計算した額と
       // 合わず、理由も分からない。
       // 0 円のときは行を出さない（schoolReduction を持たない自治体の表示を変えないため）。
-      (r.schoolReduction > 0 ? '<div class="result-row"><div class="result-label">学齢児軽減</div><div class="amount">-' + r.schoolReduction.toLocaleString() + ' 円</div></div>' : '') +
-      '<div class="result-row"><div class="result-label">法定軽減</div><div class="amount">-' + r.totalReduction.toLocaleString() + ' 円</div></div>' +
+      (r.schoolReduction > 0 ? '<div class="result-row"><div class="result-label">学齢児軽減（差し引き済み）</div><div class="amount">' + r.schoolReduction.toLocaleString() + ' 円</div></div>' : '') +
+      '<div class="result-row"><div class="result-label">法定軽減（差し引き済み）</div><div class="amount">' + r.totalReduction.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">軽減判定</div><div class="amount">' + r.reductionLabel + '</div></div>' +
       '<div class="result-row"><div class="result-label">年間保険料（概算）</div><div class="amount">約 ' + r.total.toLocaleString() + ' 円</div></div>' +
       '<div class="result-row"><div class="result-label">月額目安</div><div class="amount">約 ' + r.monthly.toLocaleString() + ' 円</div></div>';
