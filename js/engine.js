@@ -1,39 +1,5 @@
-function toHalfWidth(str) {
-  return String(str)
-    .replace(/[０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xFEE0))
-    .replace(/[，、,]/g, "");
-}
-
-function setupNumericInput(id, options) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const withCommas = !!(options && options.withCommas);
-  let isComposing = false;
-
-  function clean() {
-    if (isComposing) return;
-    el.value = toHalfWidth(el.value).replace(/[^\d]/g, "");
-  }
-
-  function commit() {
-    const raw = toHalfWidth(el.value).replace(/[^\d]/g, "");
-    if (!raw) { el.value = ""; return; }
-    el.value = withCommas ? Number(raw).toLocaleString("ja-JP") : raw;
-  }
-
-  el.addEventListener('compositionstart', () => { isComposing = true; });
-  el.addEventListener('compositionend', () => {
-    isComposing = false;
-    setTimeout(commit, 0);
-  });
-  el.addEventListener('input', clean);
-  el.addEventListener('blur', commit);
-  el.addEventListener('keydown', (e) => {
-    if (e.key === '-' || e.key === '+' || e.key === 'e' || e.key === 'E') {
-      e.preventDefault();
-    }
-  });
-}
+// toHalfWidth / setupNumericInput / setupEnterFlow は js/core/shared/ui-input.js（共通の正本）で定義。
+// このファイルより先に読み込むこと。ここに複製しない（UI 共通ルール §1）。
 
 // calculateKokuho は js/core/kokuho.js で定義（browser: グローバル、Node: require）
 

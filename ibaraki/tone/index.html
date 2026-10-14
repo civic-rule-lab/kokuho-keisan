@@ -35,7 +35,7 @@
   <div class="mode-title" style="font-size:22px;font-weight:700;color:#1d4ed8;text-align:center;margin-top:40px;margin-bottom:24px;">かんたん計算</div>
 
   <label for="income">前年所得</label>
-  <input id="income" type="text" inputmode="numeric" placeholder="例：3,000,000">
+  <input id="income" data-step="1" type="text" inputmode="numeric" placeholder="例：3,000,000">
   <details style="margin:6px 0 14px;font-size:12.5px;color:#6b7280;">
     <summary style="cursor:pointer;color:#2563eb;font-weight:600;list-style-position:inside;">入力する金額がわからない方へ（給与・年金・自営業）</summary>
     <div style="margin-top:8px;line-height:1.8;background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px 14px;">
@@ -49,7 +49,7 @@
   </details>
 
   <label for="family">世帯人数</label>
-  <input id="family" type="text" inputmode="numeric" placeholder="例：3">
+  <input id="family" data-step="2" data-step-end type="text" inputmode="numeric" placeholder="例：3">
 
   <button onclick="calc()">計算する</button>
 
@@ -165,8 +165,9 @@
 </div>
 
 <script>const CITY_SLUG = "tone"; const PUBLISH_YEAR = 2026;</script>
-<script src="/js/core/kokuho.js?v=97fb9e42"></script>
-<script src="/js/engine.js?v=97fb9e42"></script>
+<script src="/js/core/shared/ui-input.js?v=e102705e"></script>
+<script src="/js/core/kokuho.js?v=e102705e"></script>
+<script src="/js/engine.js?v=e102705e"></script>
 
 </body>
 </html>
