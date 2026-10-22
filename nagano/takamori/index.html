@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://kokuho-keisan.jp/nagano/takamori/">
 <meta property="og:site_name" content="国保計算.jp">
 <meta property="og:locale" content="ja_JP">
-<link rel="stylesheet" href="/css/common.css?v=0ed6c6d6">
+<link rel="stylesheet" href="/css/common.css?v=1a24fbbc">
 <title>高森町の国民健康保険料計算【令和8年度】</title>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"国保計算ポータル","item":"https://kokuho-keisan.jp/"},{"@type":"ListItem","position":2,"name":"長野県","item":"https://kokuho-keisan.jp/#nagano"},{"@type":"ListItem","position":3,"name":"高森町","item":"https://kokuho-keisan.jp/nagano/takamori/"}]},{"@type":"WebApplication","name":"高森町 国民健康保険料計算ツール（令和8年度）","description":"高森町（長野県）の令和8年度 国民健康保険料を無料で計算。医療分所得割6.9%・均等割16,000円。所得と世帯人数を入力するだけで年間保険料の目安がわかります。","url":"https://kokuho-keisan.jp/nagano/takamori/","applicationCategory":"FinanceApplication","operatingSystem":"Web","inLanguage":"ja","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@id":"https://seido-keisan.jp/about/#organization"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"高森町の国民健康保険料はいくらですか？","acceptedAnswer":{"@type":"Answer","text":"高森町の令和8年度の国民健康保険料は前年の所得と世帯人数で決まります。目安として、40代の単身・年収300万円なら年間約264,768円（月約22,064円）、40代の夫婦＋小中学生の子ども2人・年収600万円なら年間約642,836円です（介護分を含む）。このページの計算機で、ご自身の所得・世帯人数に応じた金額を無料で試算できます。"}},{"@type":"Question","name":"高森町の国保料は令和8年度に上がりましたか？","acceptedAnswer":{"@type":"Answer","text":"夫婦2人（40代・年収500万円）のモデル世帯で比較すると、令和7年度の約479,986円から令和8年度は約492,676円となり、上がりました。年間で約12,690円の増加（概算）です。所得割率の合計は12.22%→12.22%です。"}},{"@type":"Question","name":"高森町の国保料は近隣の自治体と比べて高いですか？","acceptedAnswer":{"@type":"Answer","text":"夫婦2人（40代・年収500万円）のモデル世帯では高森町は年間約492,676円で、近隣5自治体（松川町・阿南町・阿智村・平谷村・根羽村）と比べると高めの水準です。国民健康保険は自治体ごとに料率が異なるため、同じ収入でも金額に差が出ます。"}},{"@type":"Question","name":"高森町の国保料の上限（賦課限度額）はいくらですか？","acceptedAnswer":{"@type":"Answer","text":"令和8年度の高森町の賦課限度額は、医療分67万円・後期高齢者支援金分26万円・介護分17万円・子ども・子育て支援金分3万円で、合計113万円です。どれだけ所得が多くてもこの金額を超えることはありません。"}},{"@type":"Question","name":"40歳になると高森町の国保料は上がりますか？","acceptedAnswer":{"@type":"Answer","text":"はい。40〜64歳の加入者には介護分（介護納付金分）が加わります。高森町の令和8年度の介護分は所得割2.72%・均等割9,000円・平等割5,500円です。65歳になると介護分はなくなり、介護保険料として別に納めます。"}}]},{"@type":"Organization","@id":"https://seido-keisan.jp/about/#organization","name":"Civic Rule Lab","alternateName":"Civic Systems","url":"https://seido-keisan.jp/about/"}]}</script>
 <!-- Google tag (gtag.js) -->
@@ -32,19 +32,19 @@
 
   <p style="font-size:16px;color:#374151;line-height:1.7;margin:0 0 40px;">高森町（長野県）の令和8年度 国民健康保険料を無料でシミュレーションできます。医療分の所得割率は6.9%、均等割額は16,000円です。前年所得と世帯人数を入力するだけで年間保険料の目安を計算します。</p>
 
-  <div class="mode-title" style="font-size:22px;font-weight:700;color:#1d4ed8;text-align:center;margin-top:40px;margin-bottom:24px;">かんたん計算</div>
+  <div class="mode-title" style="font-size:22px;font-weight:700;color:var(--acc);text-align:center;margin-top:40px;margin-bottom:24px;">かんたん計算</div>
 
   <label for="income">前年所得</label>
   <input id="income" data-step="1" type="text" inputmode="numeric" placeholder="例：3,000,000">
   <details style="margin:6px 0 14px;font-size:12.5px;color:#6b7280;">
-    <summary style="cursor:pointer;color:#2563eb;font-weight:600;list-style-position:inside;">入力する金額がわからない方へ（給与・年金・自営業）</summary>
+    <summary style="cursor:pointer;color:var(--acc-soft);font-weight:600;list-style-position:inside;">入力する金額がわからない方へ（給与・年金・自営業）</summary>
     <div style="margin-top:8px;line-height:1.8;background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px 14px;">
       <strong style="color:#374151;">「前年の所得」を世帯で合算して入力してください。</strong><br>
       ・<strong>給与の方</strong>：源泉徴収票の「給与所得控除後の金額」<br>
       ・<strong>年金の方</strong>：年金収入から公的年金等控除を引いた金額<br>
       ・<strong>個人事業主の方</strong>：売上 − 必要経費 − 青色申告特別控除（確定申告書 第一表「所得金額等」の合計）<br>
       <span style="color:#b45309;">基礎控除（43万円）は自動で差し引くため、引かずに入力してください。社会保険料控除・小規模企業共済・扶養控除などの所得控除も引きません（国保の計算では使われないため）。</span><br>
-      <span style="color:#b45309;">所得のある方が2人以上いる世帯は、この計算では基礎控除が1回分しか引かれず高めに出ます。<a href="income.html" style="color:#2563eb;">所得ベース計算</a>で1人ずつ入力すると正確です。</span>
+      <span style="color:#b45309;">所得のある方が2人以上いる世帯は、この計算では基礎控除が1回分しか引かれず高めに出ます。<a href="income.html" style="color:var(--acc-soft);">所得ベース計算</a>で1人ずつ入力すると正確です。</span>
     </div>
   </details>
 
@@ -118,7 +118,7 @@
       <table style="width:100%;border-collapse:collapse;font-size:12px;">
         <thead><tr><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:left;border:1px solid #e5e7eb;white-space:nowrap;">自治体</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:left;border:1px solid #e5e7eb;white-space:nowrap;">年間保険料（概算）</th><th style="padding:6px 10px;background:#f3f4f6;font-size:12px;font-weight:600;text-align:left;border:1px solid #e5e7eb;white-space:nowrap;">高森町との差</th></tr></thead>
         <tbody>
-      <tr style="background:#eef2ff;"><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;font-weight:700;">高森町（このページ）</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:700;">約 492,676円</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">—</td></tr>
+      <tr style="background:var(--tint);"><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;font-weight:700;">高森町（このページ）</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:700;">約 492,676円</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">—</td></tr>
       <tr><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;">松川町</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">約 453,791円</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">−38,885円</td></tr>
       <tr><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;">阿南町</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">約 480,028円</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">−12,648円</td></tr>
       <tr><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;">阿智村</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">約 474,784円</td><td style="padding:6px 10px;font-size:12px;border:1px solid #e5e7eb;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;">−17,892円</td></tr>
@@ -176,7 +176,7 @@
   <p style="margin-top:28px;font-size:12px;color:#9ca3af;text-align:center;">制度ポータルへ戻る</p>
 
   <div style="text-align:center;margin-top:6px;">
-    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:#7fd4e6;">
+    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:var(--brand);">
       <div style="font-size:16px;font-weight:700;color:#ffffff;letter-spacing:0.02em;">Civic Rule Lab</div>
       <div style="font-size:11px;font-weight:500;color:#ffffff;margin-top:1px;">市民 ↔ 制度</div>
     </a>

@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://kokuho-keisan.jp/fukui/">
 <meta property="og:site_name" content="国保計算.jp">
 <meta property="og:locale" content="ja_JP">
-<link rel="stylesheet" href="/css/common.css?v=0ed6c6d6">
+<link rel="stylesheet" href="/css/common.css?v=1a24fbbc">
 <title>福井県の住民税・国保料計算【令和8年度】</title>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"国保計算ポータル","item":"https://kokuho-keisan.jp/"},{"@type":"ListItem","position":2,"name":"福井県","item":"https://kokuho-keisan.jp/fukui/"}]},{"@type":"WebPage","name":"福井県の住民税・国保料計算","description":"福井県の国民健康保険料を県内17市区町村別に計算。令和8年度（2026年度）公式データ確認済み。福井県では住民税の超過課税はありません。","url":"https://kokuho-keisan.jp/fukui/","inLanguage":"ja","publisher":{"@id":"https://seido-keisan.jp/about/#organization"}},{"@type":"Organization","@id":"https://seido-keisan.jp/about/#organization","name":"Civic Rule Lab","alternateName":"Civic Systems","url":"https://seido-keisan.jp/about/"}]}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H15R1TNWD2"></script>
@@ -33,9 +33,9 @@
 }
 .pref-standard-note{
   margin:0 0 20px;padding:14px 16px;
-  background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;
+  background:var(--acc-bg);border:1px solid var(--acc-line);border-radius:12px;
 }
-.pref-standard-note__title{ margin:0 0 6px;font-size:15px;font-weight:700;color:#1d4ed8; }
+.pref-standard-note__title{ margin:0 0 6px;font-size:15px;font-weight:700;color:var(--acc); }
 .pref-standard-note__body{ margin:0;font-size:13px;line-height:1.8;color:#374151; }
 .pref-jumin-box{
   margin:20px 0 28px;padding:18px 20px;
@@ -45,7 +45,7 @@
 }
 .pref-jumin-box__desc{ margin:0 0 10px; }
 .pref-jumin-box__link{
-  font-size:13px;color:#2563eb;text-decoration:none;
+  font-size:13px;color:var(--acc-soft);text-decoration:none;
 }
 .pref-jumin-box__link:hover{ text-decoration:underline; }
 .muni-section{ margin:24px 0; }
@@ -61,10 +61,10 @@
 .muni-link{
   display:block;padding:8px 10px;
   background:#fff;border:1px solid #e5e7eb;border-radius:8px;
-  font-size:13px;color:#1d4ed8;text-decoration:none;
+  font-size:13px;color:var(--acc);text-decoration:none;
   transition:background 0.15s;
 }
-.muni-link:hover{ background:#eff6ff;border-color:#bfdbfe; }
+.muni-link:hover{ background:var(--acc-bg);border-color:var(--acc-line); }
 .muni-link--designated{ border-left:3px solid #0ea5e9; }
 .faq-item{ margin:0 0 20px; }
 .faq-item summary{
@@ -92,7 +92,7 @@
 <div class="wrap">
 
   <nav style="font-size:12px;color:#6b7280;margin-bottom:16px;">
-    <a href="/" style="color:#2563eb;text-decoration:none;">ホーム</a>
+    <a href="/" style="color:var(--acc-soft);text-decoration:none;">ホーム</a>
     <span style="margin:0 6px;">›</span>
     <span>福井県</span>
   </nav>
@@ -174,7 +174,7 @@
   </details>
 
   <div style="text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #e5e7eb;">
-    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:#7fd4e6;">
+    <a href="/" style="display:inline-block;text-decoration:none;border-radius:10px;padding:6px 18px;background:var(--brand);">
       <div style="font-size:16px;font-weight:700;color:#ffffff;letter-spacing:0.02em;">Civic Rule Lab</div>
       <div style="font-size:11px;font-weight:500;color:#ffffff;margin-top:1px;">市民 ↔ 制度</div>
     </a>

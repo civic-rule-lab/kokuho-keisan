@@ -1,3 +1,21 @@
+/* ==== 制度色トークン（2026-10-22 X218・正本: 制度計算　総合管理/制度別カラー決定_2026-10-22.md）
+   既定は国保の青。制度ごとの上書きは html[data-system] で行う（次の PR）。
+   --brand（Civic Rule Lab の水色）は制度で変えない。 ==== */
+:root{
+  --acc:#1d4ed8;        /* ボタン・強調文字・見出し色 */
+  --acc-strong:#1e40af; /* hover */
+  --acc-soft:#2563eb;   /* フォーカス枠・リンク */
+  --acc-ring:rgba(37,99,235,0.15); /* フォーカスの輪 */
+  --acc-bg:#eff6ff;     /* 淡い塗り */
+  --tint:#eef2ff;       /* 背景グラデーションの上端 */
+  --acc-shadow:rgba(29,78,216,0.25); /* ボタンの影 */
+  --acc-ring-soft:rgba(37,99,235,0.10); /* hover の薄い影 */
+  --acc-bg-2:#dbeafe;   /* 淡い塗り（やや濃） */
+  --acc-line:#bfdbfe;   /* 淡い枠線 */
+  --acc-line-strong:#93c5fd; /* 枠線の hover */
+  --brand:#7fd4e6;
+}
+
 .article-wrap{
   max-width:800px;
 }
@@ -11,7 +29,7 @@
   align-items:center;
 }
 .breadcrumb a{
-  color:#2563eb;
+  color:var(--acc-soft);
   text-decoration:none;
 }
 .breadcrumb a:hover{ text-decoration:underline; }
@@ -127,7 +145,7 @@
 }
 .article-cta a{
   display:inline-block;
-  background:#1d4ed8;
+  background:var(--acc);
   color:#fff;
   font-size:16px;
   font-weight:700;
@@ -136,7 +154,7 @@
   text-decoration:none;
   box-shadow:0 4px 12px rgba(0,0,0,0.15);
 }
-.article-cta a:hover{ background:#1e40af; }
+.article-cta a:hover{ background:var(--acc-strong); }
 .article-cta-sub{
   margin-top:8px;
   font-size:12px;
