@@ -1,8 +1,26 @@
+/* ==== 制度色トークン（2026-10-22 X218・正本: 制度計算　総合管理/制度別カラー決定_2026-10-22.md）
+   既定は国保の青。制度ごとの上書きは html[data-system] で行う（次の PR）。
+   --brand（Civic Rule Lab の水色）は制度で変えない。 ==== */
+:root{
+  --acc:#1d4ed8;        /* ボタン・強調文字・見出し色 */
+  --acc-strong:#1e40af; /* hover */
+  --acc-soft:#2563eb;   /* フォーカス枠・リンク */
+  --acc-ring:rgba(37,99,235,0.15); /* フォーカスの輪 */
+  --acc-bg:#eff6ff;     /* 淡い塗り */
+  --tint:#eef2ff;       /* 背景グラデーションの上端 */
+  --acc-shadow:rgba(29,78,216,0.25); /* ボタンの影 */
+  --acc-ring-soft:rgba(37,99,235,0.10); /* hover の薄い影 */
+  --acc-bg-2:#dbeafe;   /* 淡い塗り（やや濃） */
+  --acc-line:#bfdbfe;   /* 淡い枠線 */
+  --acc-line-strong:#93c5fd; /* 枠線の hover */
+  --brand:#7fd4e6;
+}
+
 body{
 font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 margin:0;
 padding:20px;
-background:linear-gradient(180deg,#eef2ff 0%,#f8fafc 100%);
+background:linear-gradient(180deg,var(--tint) 0%,#f8fafc 100%);
 color:#222;
 }
 .quick-links-title{
@@ -31,7 +49,7 @@ box-sizing:border-box;
 .brand{
   font-size:36px;
   font-weight:700;
-  color:#7fd4e6;
+  color:var(--brand);
   margin-bottom:6px;
   text-align:center;
 }
@@ -84,7 +102,7 @@ gap:8px;
 .system-chip{
 border:1px solid #dbe3ee;
 background:#ffffff;
-color:#1d4ed8;
+color:var(--acc);
 font-size:13px;
 font-weight:700;
 padding:8px 12px;
@@ -94,17 +112,17 @@ line-height:1.2;
 }
 
 .system-chip.active{
-background:#1d4ed8;
+background:var(--acc);
 color:#ffffff;
-border-color:#1d4ed8;
+border-color:var(--acc);
 }
 
 .system-chip:hover{
-background:#eff6ff;
+background:var(--acc-bg);
 }
 
 .system-chip.active:hover{
-background:#1e40af;
+background:var(--acc-strong);
 }
 
 .quick-link{
@@ -114,7 +132,7 @@ padding:8px 10px;
 background:#ffffff;
 border:1px solid #dbe3ee;
 border-radius:10px;
-color:#1d4ed8;
+color:var(--acc);
 text-decoration:none;
 font-weight:600;
 font-size:13px;
@@ -122,7 +140,7 @@ line-height:1.4;
 }
 
 .quick-link:hover{
-background:#eff6ff;
+background:var(--acc-bg);
 }
 
 label{
@@ -149,8 +167,8 @@ margin-bottom:4px;
 
 select:focus{
 outline:none;
-border-color:#2563eb;
-box-shadow:0 0 0 3px rgba(37,99,235,0.15);
+border-color:var(--acc-soft);
+box-shadow:0 0 0 3px var(--acc-ring);
 }
 
 .current-select{
@@ -173,14 +191,14 @@ font-size:18px;
 font-weight:700;
 border:none;
 border-radius:999px;
-background:#1d4ed8;
+background:var(--acc);
 color:#ffffff;
 cursor:pointer;
 box-shadow:0 6px 16px rgba(0,0,0,0.15);
 }
 
 button:hover{
-background:#1e40af;
+background:var(--acc-strong);
 }
 
 button:active{
@@ -208,14 +226,14 @@ color:#6b7280;
 .brand{
   font-size:16px;
   font-weight:600;
-  color:#7fd4e6;  /* 水色🩵 */
+  color:var(--brand);  /* 水色🩵 */
   margin-bottom:2px;
 }
 
 .tagline{
   font-size:16px;
   font-weight:600;
-  color:#7fd4e6;  /* 水色🩵 */
+  color:var(--brand);  /* 水色🩵 */
 }
 
 .header{
@@ -223,23 +241,35 @@ color:#6b7280;
   margin-bottom:40px;
 }
 
+/* ポータルの見出し（2026-10-22 X218 段階2・オーナー決定 B2）:
+   ブランド → 標語 → 題（h1）の順。題は制度色 --acc、下に余白と区切り線。 */
 .subtitle{
   font-size:30px;
-  font-weight:600;
-  color:#1e2a38;
-  margin-bottom:14px;
+  font-weight:700;
+  line-height:1.35;
+  color:var(--acc);
+  text-align:center;
+  text-wrap:balance;
+  margin:0 0 44px;
+  padding-bottom:28px;
+  border-bottom:1px solid #e5e7eb;
+}
+@media (max-width:480px){
+  .subtitle{ font-size:26px; }
 }
 
 .brand{
-  font-size:48px;
+  font-size:18px;
   font-weight:700;
-  color:#7fd4e6;
-  margin-bottom:6px;
+  letter-spacing:.04em;
+  color:var(--brand);
+  margin:0 0 2px;
 }
 .tagline{
-  font-size:16px;
+  font-size:12px;
   font-weight:500;
-  color:#7fd4e6;
+  color:var(--brand);
+  margin:0 0 24px;
 }
 .prefecture-group{
   display:block;
