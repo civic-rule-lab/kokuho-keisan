@@ -259,7 +259,7 @@ color:#6b7280;
 }
 
 .brand{
-  font-size:18px;
+  font-size:16px; /* 2026-10-22 オーナー決定: 題との差を付けるため 18px → 16px */
   font-weight:700;
   letter-spacing:.04em;
   color:var(--brand);
