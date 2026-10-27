@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-10-04
+// 最終生成: 2026-10-27
 
 const registry = {
   "hokkaido": {
@@ -41327,6 +41327,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/osaka/kouki/"
+              }
+            }
+          },
+          "hoiku": {
+            "name": "保育料",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/osaka/osaka/hoiku/"
               }
             }
           },
