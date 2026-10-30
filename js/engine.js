@@ -87,6 +87,15 @@ async function calc() {
       if (members.length > inputs.family) inputs.family = members.length;
     }
 
+    // 65歳以上で公的年金をもらっている人の人数（2026-10-30・全方向試算 C002）。軽減の判定所得だけから1人15万円を引く
+    // （国民健康保険法施行令 附則第5条。本来はその人の年金所得が上限＝人数だけでは分からないので、合計所得から人数×15万円を引く近似）。
+    // 所得割の所得には引かない。欄が無いページ・空欄は 0 人で従来どおり
+    const pension65 = Math.max(0, Math.floor(Number(toHalfWidth(document.getElementById("pension65Count")?.value || "0").replace(/[^\d]/g, "")) || 0));
+    if (pension65 > 0) {
+      const judgeBase = inputs.members ? inputs.members.reduce((s, m) => s + m.income, 0) : inputs.income;
+      inputs.reductionJudgmentIncome = Math.max(0, judgeBase - pension65 * 150000);
+    }
+
     const city = getCurrentCity();
     const data = await loadKokuhoData(city);
 
@@ -206,7 +215,7 @@ if (typeof window !== 'undefined') {
   (function() {
     ['income', 'fixedAssetTax', 'memberIncome1', 'memberIncome2', 'memberIncome3', 'memberIncome4']
       .forEach(id => setupNumericInput(id, { withCommas: true }));
-    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18'].forEach(id => setupNumericInput(id));
+    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18', 'pension65Count'].forEach(id => setupNumericInput(id));
     initOver75Link();
   })();
 

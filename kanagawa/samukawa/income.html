@@ -73,6 +73,9 @@
 
   <label for="salaryPensionCount">給与・年金所得者数</label>
   <input id="salaryPensionCount" data-step="9" type="text" inputmode="numeric" placeholder="例：1">
+  <label for="pension65Count">65歳以上で公的年金をもらっている人の人数</label>
+  <input id="pension65Count" data-step="9a" type="text" inputmode="numeric" placeholder="例：0">
+  <p style="font-size:12px;color:#6b7280;margin:4px 0 0;line-height:1.6;">軽減の判定で1人15万円まで差し引きます（年金の所得が15万円未満の人がいると、引きすぎになります）。</p>
 
   <div id="under18Group" style="display:none">
     <label for="under18">18歳未満人数（子ども・子育て支援金分の均等割計算に使用）</label>
@@ -148,9 +151,9 @@
 </div>
 
 <script>const CITY_SLUG = "samukawa"; const PUBLISH_YEAR = 2026;</script>
-<script src="/js/core/shared/ui-input.js?v=fc728a91"></script>
-<script src="/js/core/kokuho.js?v=fc728a91"></script>
-<script src="/js/engine.js?v=fc728a91"></script>
+<script src="/js/core/shared/ui-input.js?v=a0fecd2e"></script>
+<script src="/js/core/kokuho.js?v=a0fecd2e"></script>
+<script src="/js/engine.js?v=a0fecd2e"></script>
 
 </body>
 </html>
