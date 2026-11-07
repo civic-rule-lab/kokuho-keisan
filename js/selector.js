@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-10-27
+// 最終生成: 2026-11-06
 
 const registry = {
   "hokkaido": {
@@ -21024,6 +21024,15 @@ const registry = {
               "income": {
                 "name": "所得ベース計算",
                 "url": "/chiba/tateyama/income.html"
+              }
+            }
+          },
+          "kaigo": {
+            "name": "介護保険（第1号）",
+            "pages": {
+              "simple": {
+                "name": "かんたん計算",
+                "url": "https://seido-keisan.jp/chiba/tateyama/kaigo/"
               }
             }
           },
