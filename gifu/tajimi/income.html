@@ -94,6 +94,7 @@
   <div id="result"><span class="result-placeholder">ここに結果が表示されます</span></div>
 
 
+
   <p class="result-note"><span class="result-note__text">実際の保険料は各自治体の窓口でご確認ください。</span><span class="result-note__badge result-note__badge--verified">✓ 令和8年度（2026年度） 公式データ確認済み</span></p>
 
 
@@ -112,7 +113,7 @@
       </table>
     </div>
   </section>
-  <section class="provenance" style="margin-top:36px;padding:14px 16px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
+  <section class="provenance" data-prov-pos="after_table" data-prov-state="verified" style="margin-top:36px;padding:14px 16px;background:#f9fafb;border-radius:10px;border:1px solid #e5e7eb;">
     <h2>この数値の根拠</h2>
     <p style="margin:0 0 4px;font-size:12px;line-height:1.9;color:#4b5563;">出典: <a href="https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/hoken_nenkin/1005278/1005290/1005291.html" target="_blank" rel="noopener">国民健康保険料について｜多治見市公式ホームページ ↗</a>（公表: 2026年）</p>
     <p style="margin:0;font-size:12px;line-height:1.9;color:#4b5563;">最終確認: 2026年9月15日 — Civic Rule Lab が上記の一次資料と照合しました。</p>
@@ -154,6 +155,51 @@
 <script src="/js/core/shared/ui-input.js?v=0044ec0c"></script>
 <script src="/js/core/kokuho.js?v=0044ec0c"></script>
 <script src="/js/engine.js?v=0044ec0c"></script>
+
+<!-- M6: 根拠節の到達・出典クリックの計測（入力値・金額は送らない。gtag が無ければ何もしない） -->
+<script>
+(function () {
+  if (typeof window.gtag !== "function") return;
+  var sec = document.querySelector("section.provenance");
+  if (!sec) return;
+  var base = {
+    calc_type:  "income",
+    prov_pos:   sec.getAttribute("data-prov-pos")   || "",
+    prov_state: sec.getAttribute("data-prov-state") || ""
+  };
+  function ev(name, extra) {
+    var p = {}, k;
+    for (k in base) p[k] = base[k];
+    if (extra) for (k in extra) p[k] = extra[k];
+    gtag("event", name, p);
+  }
+  var res = document.getElementById("result");
+  if (res && typeof MutationObserver === "function") {
+    var shown = false;
+    var mo = new MutationObserver(function () {
+      if (shown || !res.querySelector(".result-row")) return;
+      shown = true; mo.disconnect(); ev("result_shown");
+    });
+    mo.observe(res, { childList: true, subtree: true });
+  }
+  if (typeof IntersectionObserver === "function") {
+    var seen = false;
+    var io = new IntersectionObserver(function (entries) {
+      for (var i = 0; i < entries.length; i++) {
+        if (!seen && entries[i].intersectionRatio >= 0.5) { seen = true; io.disconnect(); ev("provenance_view"); }
+      }
+    }, { threshold: [0.5] });
+    io.observe(sec);
+  }
+  sec.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+    if (!a) return;
+    var host = "";
+    try { host = new URL(a.href).hostname; } catch (_) {}
+    ev("provenance_click", { host: host });
+  });
+})();
+</script>
 
 </body>
 </html>
