@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kokuho-keisan.jp/data/schema/index.schema.json",
+  "title": "kokuho-keisan.jp 自治体制度データ カタログ",
+  "description": "data/index.json の形。配信している自治体ごとの制度データ（JSON）の所在・年度・検証状態の索引。scripts/generate-data-index.js が registry/index.json と data/municipalities/ から生成する。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "title", "generatedAt", "catalogSchemaVersion", "canonical", "baseUrl", "license", "documentation", "schemas", "systems", "counts", "municipalities", "warnings"],
+  "properties": {
+    "$schema": { "const": "/data/schema/index.schema.json" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "generatedAt": { "$ref": "#/$defs/date", "description": "索引の中身が最後に変わった日" },
+    "catalogSchemaVersion": { "type": "string" },
+    "canonical": { "$ref": "#/$defs/url" },
+    "baseUrl": { "$ref": "#/$defs/url", "description": "相対 URL（/data/... /<pref>/<slug>/）の基準" },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url"],
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "$ref": "#/$defs/url" },
+        "summary": { "type": "string" }
+      }
+    },
+    "documentation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dataStructure", "repository"],
+      "properties": {
+        "dataStructure": { "$ref": "#/$defs/url" },
+        "repository": { "$ref": "#/$defs/url" }
+      }
+    },
+    "publisher": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url"],
+      "properties": { "name": { "type": "string" }, "url": { "$ref": "#/$defs/url" } }
+    },
+    "schemas": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kokuho", "jumin", "kaigo", "kouki", "hoiku"],
+      "properties": {
+        "kokuho": { "$ref": "#/$defs/relPath" },
+        "jumin": { "$ref": "#/$defs/relPath" },
+        "kaigo": { "$ref": "#/$defs/relPath" },
+        "kouki": { "$ref": "#/$defs/relPath" },
+        "hoiku": { "$ref": "#/$defs/relPath" }
+      }
+    },
+    "systems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["system", "label", "fiscalYears", "fileCount", "statusCount"],
+        "properties": {
+          "system": { "$ref": "#/$defs/system" },
+          "label": { "type": "string" },
+          "fiscalYears": { "type": "array", "items": { "type": "integer" } },
+          "fileCount": { "type": "integer", "minimum": 0 },
+          "statusCount": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["municipalities", "files", "warnings", "warningsByKind"],
+      "properties": {
+        "municipalities": { "type": "integer", "minimum": 0 },
+        "files": { "type": "integer", "minimum": 0 },
+        "warnings": { "type": "integer", "minimum": 0 },
+        "warningsByKind": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+      }
+    },
+    "municipalities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["cityCode", "citySlug", "cityName", "prefecture", "prefectureSlug", "page", "systems", "files"],
+        "properties": {
+          "cityCode": { "type": "string", "pattern": "^[0-9]{5}$" },
+          "citySlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "cityName": { "type": "string", "minLength": 1 },
+          "prefecture": { "type": ["string", "null"] },
+          "prefectureSlug": { "type": ["string", "null"] },
+          "page": { "$ref": "#/$defs/relPath", "description": "人向けの計算ページ（baseUrl からの相対）" },
+          "systems": { "type": "array", "items": { "$ref": "#/$defs/system" }, "description": "台帳（registry）で公開対象とされている制度" },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["system", "fiscalYear", "url", "listed", "schemaVersion", "status", "verifiedAt", "validFrom", "validUntil", "updatedAt"],
+              "properties": {
+                "system": { "$ref": "#/$defs/system" },
+                "fiscalYear": { "type": "integer" },
+                "url": { "$ref": "#/$defs/relPath", "description": "JSON の所在（baseUrl からの相対）" },
+                "listed": { "type": "boolean", "description": "台帳の systems に含まれ、計算ページで使われているか" },
+                "schemaVersion": { "type": ["string", "null"] },
+                "status": { "type": ["string", "null"], "description": "meta.status（kokuho）または status" },
+                "verifiedAt": { "type": ["string", "null"], "description": "meta.lifecycle.verifiedAt（無ければ meta.audit.verifiedAt）。kokuho 以外は null" },
+                "validFrom": { "type": ["string", "null"] },
+                "validUntil": { "type": ["string", "null"] },
+                "updatedAt": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["duplicate_slug_in_registry", "directory_not_in_registry", "registry_entry_without_directory", "registry_system_without_file", "file_not_in_registry_systems", "unreadable_json", "citycode_mismatch", "cityslug_mismatch", "fiscalyear_mismatch"]
+          },
+          "citySlug": { "type": "string" },
+          "cityCode": { "type": "string" },
+          "file": { "type": "string" },
+          "system": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "relPath": { "type": "string", "pattern": "^/" },
+    "system": { "type": "string", "enum": ["kokuho", "jumin", "kaigo", "kouki", "hoiku"] }
+  }
+}

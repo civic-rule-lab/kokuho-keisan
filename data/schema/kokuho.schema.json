@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kokuho-keisan.jp/data/schema/kokuho.schema.json",
+  "title": "国民健康保険料（税）自治体データ",
+  "description": "data/municipalities/<citySlug>/kokuho-<fiscalYear>.json の形。料率は小数（0.0708 = 7.08%）、金額は円の整数。値の来歴は meta（出典 URL・検証日・検証方法）にある。人向けの説明は docs/data-structure.md。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cityCode", "citySlug", "cityName", "fiscalYear", "system", "basicDeduction", "rate", "perCapita", "caps", "preschoolReduction", "reduction", "meta"],
+  "properties": {
+    "cityCode": { "$ref": "#/$defs/cityCode" },
+    "citySlug": { "$ref": "#/$defs/citySlug" },
+    "cityName": { "type": "string", "minLength": 1 },
+    "fiscalYear": { "$ref": "#/$defs/fiscalYear" },
+    "system": { "const": "kokuho" },
+    "basicDeduction": { "$ref": "#/$defs/yen", "description": "基礎控除額（所得割の算定基礎から引く額）" },
+    "rate": {
+      "description": "所得割の料率（医療分・後期高齢者支援金分・介護納付金分）",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical", "support", "care"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/rate" },
+        "support": { "$ref": "#/$defs/rate" },
+        "care": { "$ref": "#/$defs/rate" }
+      }
+    },
+    "perCapita": {
+      "description": "均等割（被保険者 1 人あたり・円）",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical", "support", "care"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/yen" },
+        "support": { "$ref": "#/$defs/yen" },
+        "care": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "household": {
+      "description": "平等割（1 世帯あたり・円）。無い自治体は 0",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical", "support", "care"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/yen" },
+        "support": { "$ref": "#/$defs/yen" },
+        "care": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "assetLevy": {
+      "description": "資産割（固定資産税額に乗じる率）。当年度の税率表に行がある自治体のみ",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "medical": { "$ref": "#/$defs/rate" },
+        "support": { "$ref": "#/$defs/rate" },
+        "care": { "$ref": "#/$defs/rate" },
+        "childcare": { "$ref": "#/$defs/rate" }
+      }
+    },
+    "caps": {
+      "description": "課税（賦課）限度額（円）",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical", "support", "care"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/yen" },
+        "support": { "$ref": "#/$defs/yen" },
+        "care": { "$ref": "#/$defs/yen" },
+        "childcare": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "childcareLevy": {
+      "description": "子ども・子育て支援金分（令和8年度〜）",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rate", "perCapita", "household"],
+      "properties": {
+        "rate": { "$ref": "#/$defs/rate" },
+        "perCapita": { "$ref": "#/$defs/yen", "description": "均等割（18歳未満を含む全員に掛かる部分）" },
+        "perCapitaAdult": { "$ref": "#/$defs/yen", "description": "18歳以上に加算する均等割" },
+        "perCapitaAdultScope": {
+          "type": "string",
+          "enum": ["all_ages", "adults_only"],
+          "description": "perCapita の対象。all_ages=全員に perCapita、18歳以上に perCapitaAdult を加算 / adults_only=18歳以上のみ"
+        },
+        "household": { "$ref": "#/$defs/yen" },
+        "cap": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "childcare": {
+      "description": "子ども・子育て支援金分の旧形式（childcareLevy へ移行中）",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rate": { "$ref": "#/$defs/rate" },
+        "perCapita": { "$ref": "#/$defs/yen" },
+        "household": { "$ref": "#/$defs/yen" },
+        "cap": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "preschoolReduction": { "$ref": "#/$defs/perCapitaReduction", "description": "未就学児の均等割軽減（法定 5 割）" },
+    "schoolReduction": { "$ref": "#/$defs/perCapitaReduction", "description": "自治体独自の就学児等の均等割軽減" },
+    "reduction": {
+      "description": "低所得世帯の法定軽減（7割・5割・2割）の判定基準と軽減率",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled", "standards", "salaryPensionAdd", "ratios"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "standards": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sevenTenths", "fiveTenths", "twoTenths"],
+          "properties": {
+            "sevenTenths": { "$ref": "#/$defs/reductionStandard" },
+            "fiveTenths": { "$ref": "#/$defs/reductionStandard" },
+            "twoTenths": { "$ref": "#/$defs/reductionStandard" }
+          }
+        },
+        "salaryPensionAdd": { "$ref": "#/$defs/yen", "description": "給与所得者等が 2 人以上の世帯で 1 人あたり加算する額（10万円）" },
+        "ratios": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sevenTenths", "fiveTenths", "twoTenths"],
+          "properties": {
+            "sevenTenths": { "$ref": "#/$defs/rate" },
+            "fiveTenths": { "$ref": "#/$defs/rate" },
+            "twoTenths": { "$ref": "#/$defs/rate" }
+          }
+        }
+      }
+    },
+    "note": { "type": "string" },
+    "notes": { "type": "string" },
+    "_source": { "type": "string", "description": "旧形式の出典メモ（2025 年度ファイルのみ）" },
+    "meta": {
+      "description": "来歴。status が表示上の信頼度、lifecycle が R8 検証の段階と出典、audit が誰がいつどう確かめたか",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "status", "lifecycle", "source"],
+      "properties": {
+        "schemaVersion": { "type": "string" },
+        "dataVersion": { "type": "string" },
+        "status": { "type": "string", "enum": ["verified", "unverified", "provisional", "needs_update"] },
+        "lifecycle": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["updatedAt", "validFrom", "validUntil", "expiresAt"],
+          "properties": {
+            "createdAt": { "$ref": "#/$defs/dateTime" },
+            "updatedAt": { "$ref": "#/$defs/dateTime" },
+            "validFrom": { "$ref": "#/$defs/date" },
+            "validUntil": { "$ref": "#/$defs/date" },
+            "expiresAt": { "$ref": "#/$defs/date" },
+            "r8Stage": {
+              "type": "string",
+              "enum": ["template_r7", "source_found_r8", "extracted_r8", "standard_r8", "verified_r8"],
+              "description": "R8（令和8年度）検証の段階。verified_r8 のみ公式値と照合済み"
+            },
+            "sourceStatus": {
+              "type": "string",
+              "enum": ["official_rate_page", "official_rate_pdf", "ordinance_after_revision", "prefecture_standard_municipal_list", "prefecture_standard_p3", "previous_year_carryover"]
+            },
+            "sourceUrls": { "type": "array", "items": { "$ref": "#/$defs/url" } },
+            "ordinanceUrls": { "type": "array", "items": { "$ref": "#/$defs/url" } },
+            "watchUrls": { "type": "array", "items": { "$ref": "#/$defs/url" } },
+            "previousYearTemplate": { "type": "boolean" },
+            "r8Updated": { "type": "boolean" },
+            "verifiedAt": { "$ref": "#/$defs/dateOrEmpty" },
+            "verificationLevel": {
+              "type": "string",
+              "enum": ["municipal_verified", "official_source_checked", "official_source_extracted", "prefecture_standard_unverified", "primary_source_checked_partial"]
+            },
+            "primarySourceVerified": { "type": "boolean" },
+            "primarySourceVerifiedAt": { "$ref": "#/$defs/date" },
+            "reflectionPending": { "type": "string" },
+            "reflectionPendingNote": { "type": "string" }
+          }
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "title", "url"],
+          "properties": {
+            "type": { "type": "string" },
+            "title": { "type": "string" },
+            "url": { "type": "string" },
+            "publishedAt": { "type": "string", "pattern": "^(\\d{4}(-\\d{2}(-\\d{2})?)?)?$", "description": "年・年月・年月日のいずれか。不明なら空文字" }
+          }
+        },
+        "audit": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["verifiedBy", "verifiedAt", "method"],
+          "properties": {
+            "verifiedBy": { "type": "string" },
+            "verifiedAt": { "type": "string", "pattern": "^(\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?)?$" },
+            "method": { "type": "string" }
+          }
+        },
+        "quality": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "confidenceScore": { "type": "number", "minimum": 0, "maximum": 1 },
+            "completeness": { "type": "string", "enum": ["full", "partial"] }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "cityCode": { "type": "string", "pattern": "^[0-9]{5}$", "description": "総務省 全国地方公共団体コードの先頭 5 桁（検査数字を除く）" },
+    "citySlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "fiscalYear": { "type": "integer", "minimum": 2020, "maximum": 2100, "description": "年度（西暦）。2026 = 令和8年度" },
+    "rate": { "type": "number", "minimum": 0, "maximum": 1, "description": "率。0.0708 = 7.08%" },
+    "yen": { "type": "integer", "minimum": 0, "description": "円" },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "dateOrEmpty": { "type": "string", "pattern": "^(\\d{4}-\\d{2}-\\d{2})?$", "description": "年月日。未記入は空文字" },
+    "dateTime": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$" },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "reductionStandard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["base", "perPersonAdd"],
+      "properties": {
+        "base": { "$ref": "#/$defs/yen" },
+        "perPersonAdd": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "perCapitaReduction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "medicalPerCapitaRate": { "$ref": "#/$defs/rate" },
+        "supportPerCapitaRate": { "$ref": "#/$defs/rate" }
+      }
+    }
+  }
+}

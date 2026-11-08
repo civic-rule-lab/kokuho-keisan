@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kokuho-keisan.jp/data/schema/kaigo.schema.json",
+  "title": "介護保険料（第1号被保険者）自治体データ",
+  "description": "data/municipalities/<citySlug>/kaigo-<fiscalYear>.json の形。baseAmount が基準額（年額・円）、brackets が所得段階ごとの乗率と年額。criteria は段階判定の条件で、項目は自治体により異なる。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cityCode", "citySlug", "cityName", "prefSlug", "prefecture", "fiscalYear", "system", "schemaVersion", "planPeriod", "status", "baseAmount", "brackets", "fallbackLevel", "source"],
+  "properties": {
+    "cityCode": { "type": "string", "pattern": "^[0-9]{5}$" },
+    "citySlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "cityName": { "type": "string", "minLength": 1 },
+    "prefSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "prefecture": { "type": "string", "minLength": 1 },
+    "fiscalYear": { "type": "integer", "minimum": 2020, "maximum": 2100 },
+    "system": { "const": "kaigo" },
+    "schemaVersion": { "type": "string" },
+    "planPeriod": { "type": "string", "description": "介護保険事業計画の期（例: 第9期（2024-2026））" },
+    "status": { "type": "string", "enum": ["verified", "inferred", "unverified", "needs_update"] },
+    "baseAmount": { "type": "integer", "minimum": 0, "description": "基準額（年額・円）" },
+    "brackets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "label", "rate", "criteria", "condition"],
+        "properties": {
+          "level": { "type": "string", "description": "段階番号（文字列）" },
+          "label": { "type": "string" },
+          "rate": { "type": "number", "minimum": 0, "description": "基準額に対する乗率（第5段階＝1.0）" },
+          "annual": { "type": "integer", "minimum": 0, "description": "年額（円）" },
+          "criteria": { "type": "object", "description": "判定条件（householdAllNonTaxable / selfTaxable / sumIncomeMin / sumIncomeMax 等。自治体により異なる）" },
+          "condition": { "type": "string", "description": "判定条件の人向け説明" }
+        }
+      }
+    },
+    "fallbackLevel": { "type": "string", "description": "判定できないときに使う段階番号" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "pageTitle", "retrievedAt"],
+      "properties": {
+        "url": { "type": "string", "pattern": "^https?://" },
+        "pageTitle": { "type": "string" },
+        "pdfUrl": { "type": ["string", "null"] },
+        "retrievedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "insurer": { "type": "string", "description": "保険者が広域連合のときの名称" }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

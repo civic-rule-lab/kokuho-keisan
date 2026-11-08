@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kokuho-keisan.jp/data/schema/kouki.schema.json",
+  "title": "後期高齢者医療保険料 自治体データ",
+  "description": "data/municipalities/<citySlug>/kouki-<fiscalYear>.json の形。保険料率は都道府県の広域連合ごとに同一だが、ファイルは自治体ごとに置く。率は小数、金額は円の整数。来歴は source（料率の出典・寛所＝軽減判定の出典）と rounding.source にある。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cityCode", "citySlug", "cityName", "prefSlug", "prefecture", "fiscalYear", "system", "schemaVersion", "status", "basicDeduction", "perCapita", "rate", "caps", "reduction", "source"],
+  "properties": {
+    "cityCode": { "$ref": "#/$defs/cityCode" },
+    "citySlug": { "$ref": "#/$defs/citySlug" },
+    "cityName": { "type": "string", "minLength": 1 },
+    "prefSlug": { "$ref": "#/$defs/citySlug" },
+    "prefecture": { "type": "string", "minLength": 1 },
+    "fiscalYear": { "$ref": "#/$defs/fiscalYear" },
+    "system": { "const": "kouki" },
+    "schemaVersion": { "type": "string" },
+    "status": { "type": "string", "enum": ["verified", "unverified", "provisional", "needs_update", "inferred"] },
+    "basicDeduction": { "$ref": "#/$defs/yen" },
+    "perCapita": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/yen" },
+        "childcare": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "rate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/rate" },
+        "childcare": { "$ref": "#/$defs/rate" }
+      }
+    },
+    "caps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/yen" },
+        "childcare": { "$ref": "#/$defs/yen" }
+      }
+    },
+    "reduction": {
+      "description": "均等割の法定軽減（7割・5割・2割）の判定基準と軽減率。ratios.seven.medical が 0.72 等になるのは広域連合独自の上乗せ",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["base", "perEarnerAdd", "fivePerInsured", "twoPerInsured", "ratios"],
+      "properties": {
+        "base": { "$ref": "#/$defs/yen" },
+        "perEarnerAdd": { "$ref": "#/$defs/yen" },
+        "fivePerInsured": { "$ref": "#/$defs/yen" },
+        "twoPerInsured": { "$ref": "#/$defs/yen" },
+        "ratios": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["seven", "five", "two"],
+          "properties": {
+            "seven": { "$ref": "#/$defs/ratioPair" },
+            "five": { "$ref": "#/$defs/ratioPair" },
+            "two": { "$ref": "#/$defs/ratioPair" }
+          }
+        }
+      }
+    },
+    "incomeReduction": {
+      "description": "所得割の独自軽減（所得しきい値ごとの軽減率）。無ければ null",
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["threshold", "rate"],
+        "properties": {
+          "threshold": { "$ref": "#/$defs/yen" },
+          "rate": { "$ref": "#/$defs/rate" }
+        }
+      }
+    },
+    "rounding": {
+      "description": "端数処理の規定。income は区分ごとのオブジェクトか、全区分共通の文字列",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "income": {
+          "anyOf": [
+            { "$ref": "#/$defs/roundingMode" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "medical": { "$ref": "#/$defs/roundingMode" },
+                "childcare": { "$ref": "#/$defs/roundingMode" }
+              }
+            }
+          ]
+        },
+        "incomeUnit": { "type": "integer", "minimum": 1 },
+        "incomeReductionAmount": { "$ref": "#/$defs/roundingMode" },
+        "reducedPerCapita": { "$ref": "#/$defs/roundingMode" },
+        "reducedDependent": { "$ref": "#/$defs/roundingMode" },
+        "reducedUnit": { "type": "integer", "minimum": 1 },
+        "levyUnit": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "medical": { "type": "integer", "minimum": 1 },
+            "childcare": { "type": "integer", "minimum": 1 },
+            "total": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "title", "retrievedAt", "confidence"],
+          "properties": {
+            "url": { "$ref": "#/$defs/url" },
+            "title": { "type": "string" },
+            "retrievedAt": { "$ref": "#/$defs/date" },
+            "confidence": { "type": "string" },
+            "example": { "type": "string" },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rates", "kansho"],
+      "properties": {
+        "rates": {
+          "description": "保険料率・均等割・限度額の出典",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "title", "retrievedAt"],
+          "properties": {
+            "url": { "$ref": "#/$defs/url" },
+            "title": { "type": "string" },
+            "retrievedAt": { "$ref": "#/$defs/date" }
+          }
+        },
+        "kansho": {
+          "description": "軽減判定の基準額（寛所）の出典",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "retrievedAt", "confidence", "note"],
+          "properties": {
+            "url": { "$ref": "#/$defs/url" },
+            "retrievedAt": { "$ref": "#/$defs/date" },
+            "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+    "publicNote": { "type": ["string", "null"], "description": "計算ページに出す注記" },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "cityCode": { "type": "string", "pattern": "^[0-9]{5}$" },
+    "citySlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "fiscalYear": { "type": "integer", "minimum": 2020, "maximum": 2100 },
+    "rate": { "type": "number", "minimum": 0, "maximum": 1 },
+    "yen": { "type": "integer", "minimum": 0 },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "roundingMode": { "type": "string", "enum": ["floor", "round", "ceil", "none"] },
+    "ratioPair": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medical"],
+      "properties": {
+        "medical": { "$ref": "#/$defs/rate" },
+        "childcare": { "$ref": "#/$defs/rate" }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kokuho-keisan.jp/data/schema/hoiku.schema.json",
+  "title": "保育料（利用者負担額）自治体データ",
+  "description": "data/municipalities/<citySlug>/hoiku-<fiscalYear>.json の形。自治体ごとに階層表の構造が大きく異なるため、ここでは共通の識別項目と来歴だけを定める（階層表 brackets / baseTable の中身は自治体ごとの形を許す）。status が free の自治体は保育料無償化で表を持たない。",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["cityCode", "citySlug", "cityName", "system", "status"],
+  "properties": {
+    "cityCode": { "type": "string", "pattern": "^[0-9]{5}$" },
+    "citySlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "cityName": { "type": "string", "minLength": 1 },
+    "prefSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "fiscalYear": { "type": "integer", "minimum": 2020, "maximum": 2100 },
+    "system": { "const": "hoiku" },
+    "schemaVersion": { "type": "string" },
+    "status": { "type": "string", "enum": ["verified", "free", "inferred", "unverified", "needs_update"] },
+    "confidence": { "type": "string" },
+    "fiscalSwitch": { "type": "integer", "minimum": 1, "maximum": 12, "description": "算定に使う市民税が前年度分から当年度分に切り替わる月" },
+    "asOf": { "type": "string" },
+    "source": {
+      "description": "出典 URL の配列、または URL・取得日を持つオブジェクト",
+      "anyOf": [
+        { "type": "array", "items": { "type": "string", "pattern": "^https?://" } },
+        { "type": "object" },
+        { "type": "string" }
+      ]
+    },
+    "brackets": { "type": "array" },
+    "baseTable": { "type": "object" }
+  }
+}

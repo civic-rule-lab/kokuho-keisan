@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kokuho-keisan.jp/data/schema/jumin.schema.json",
+  "title": "個人住民税 自治体データ",
+  "description": "data/municipalities/<citySlug>/jumin-<fiscalYear>.json の形。prefRate / prefPerCapita は都道府県民税、cityRate / cityPerCapita は市区町村民税の独自分（標準税率と同じなら省略）。status が inferred のファイルは県の標準値を当てたもので、自治体ページの確認を経ていない。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cityCode", "citySlug", "cityName", "prefSlug", "fiscalYear", "system", "schemaVersion", "status", "prefRate", "prefPerCapita", "source"],
+  "properties": {
+    "cityCode": { "type": "string", "pattern": "^[0-9]{5}$" },
+    "citySlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "cityName": { "type": "string", "minLength": 1 },
+    "prefSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "fiscalYear": { "type": "integer", "minimum": 2020, "maximum": 2100 },
+    "system": { "const": "jumin" },
+    "schemaVersion": { "type": "string" },
+    "status": { "type": "string", "enum": ["verified", "inferred", "unverified", "needs_update"] },
+    "prefRate": { "type": "number", "minimum": 0, "maximum": 1, "description": "都道府県民税 所得割の税率（0.04 = 4%。政令市は 0.02025）" },
+    "prefPerCapita": { "type": "integer", "minimum": 0, "description": "都道府県民税 均等割（円・超過課税を含む）" },
+    "cityRate": { "type": "number", "minimum": 0, "maximum": 1, "description": "市区町村民税 所得割の税率（標準 0.06、政令市 0.08）" },
+    "cityPerCapita": { "type": "integer", "minimum": 0, "description": "市区町村民税 均等割（円・超過課税を含む）" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "retrievedAt"],
+      "properties": {
+        "url": { "type": "string", "pattern": "^https?://" },
+        "pageTitle": { "type": "string" },
+        "retrievedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "scope": { "type": "string", "description": "出典が県の標準値か自治体の値か" }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}
