@@ -1,7 +1,7 @@
 // このファイルは自動生成されます。
 // 編集: scripts/generate-selector.js を実行してください。
 // 生成元: registry/index.json
-// 最終生成: 2026-11-06
+// 最終生成: 2026-11-09
 
 const registry = {
   "hokkaido": {
@@ -107,6 +107,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/hakodate/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hakodate/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -141,6 +150,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/otaru/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/otaru/kakeibo/"
               }
             }
           }
@@ -179,6 +197,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/asahikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/asahikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -213,6 +240,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/muroran/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/muroran/kakeibo/"
               }
             }
           }
@@ -251,6 +287,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kushiro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kushiro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -285,6 +330,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/obihiro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/obihiro/kakeibo/"
               }
             }
           }
@@ -323,6 +377,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kitami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kitami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -357,6 +420,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/yubari/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/yubari/kakeibo/"
               }
             }
           }
@@ -395,6 +467,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/iwamizawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/iwamizawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -429,6 +510,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/abashiri/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/abashiri/kakeibo/"
               }
             }
           }
@@ -467,6 +557,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/rumoi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rumoi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -501,6 +600,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/tomakomai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tomakomai/kakeibo/"
               }
             }
           }
@@ -539,6 +647,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/wakkanai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/wakkanai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -573,6 +690,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/bibai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/bibai/kakeibo/"
               }
             }
           }
@@ -611,6 +737,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/ashibetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/ashibetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -645,6 +780,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/ebetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/ebetsu/kakeibo/"
               }
             }
           }
@@ -683,6 +827,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/akabira/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/akabira/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -717,6 +870,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/monbetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/monbetsu/kakeibo/"
               }
             }
           }
@@ -755,6 +917,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shibetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shibetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -789,6 +960,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/nayoro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nayoro/kakeibo/"
               }
             }
           }
@@ -827,6 +1007,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/mikasa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/mikasa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -861,6 +1050,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/nemuro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nemuro/kakeibo/"
               }
             }
           }
@@ -899,6 +1097,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/chitose/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/chitose/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -933,6 +1140,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/takikawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/takikawa/kakeibo/"
               }
             }
           }
@@ -971,6 +1187,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/sunagawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/sunagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1005,6 +1230,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/utashinai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/utashinai/kakeibo/"
               }
             }
           }
@@ -1043,6 +1277,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/fukagawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/fukagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1077,6 +1320,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/furano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/furano/kakeibo/"
               }
             }
           }
@@ -1115,6 +1367,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/noboribetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/noboribetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1149,6 +1410,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/eniwa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/eniwa/kakeibo/"
               }
             }
           }
@@ -1187,6 +1457,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/date/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/date/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1221,6 +1500,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kitahiroshima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kitahiroshima/kakeibo/"
               }
             }
           }
@@ -1259,6 +1547,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/ishikari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/ishikari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1293,6 +1590,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/hokuto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hokuto/kakeibo/"
               }
             }
           }
@@ -1331,6 +1637,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/tobetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tobetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1365,6 +1680,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shinshinotsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shinshinotsu/kakeibo/"
               }
             }
           }
@@ -1403,6 +1727,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/matsumae/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/matsumae/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1437,6 +1770,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/fukushima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/fukushima/kakeibo/"
               }
             }
           }
@@ -1475,6 +1817,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shiriuchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shiriuchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1509,6 +1860,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kikonai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kikonai/kakeibo/"
               }
             }
           }
@@ -1547,6 +1907,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/nanae/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nanae/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1581,6 +1950,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shikabe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shikabe/kakeibo/"
               }
             }
           }
@@ -1619,6 +1997,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/mori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/mori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1653,6 +2040,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/yakumo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/yakumo/kakeibo/"
               }
             }
           }
@@ -1691,6 +2087,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/oshamanbe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/oshamanbe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1725,6 +2130,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/esashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/esashi/kakeibo/"
               }
             }
           }
@@ -1763,6 +2177,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kaminokuni/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kaminokuni/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1797,6 +2220,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/assabu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/assabu/kakeibo/"
               }
             }
           }
@@ -1835,6 +2267,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/otobe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/otobe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1869,6 +2310,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/okushiri/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/okushiri/kakeibo/"
               }
             }
           }
@@ -1907,6 +2357,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/imakane/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/imakane/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -1941,6 +2400,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/setana/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/setana/kakeibo/"
               }
             }
           }
@@ -1979,6 +2447,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shimamaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shimamaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2013,6 +2490,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/suttsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/suttsu/kakeibo/"
               }
             }
           }
@@ -2051,6 +2537,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kuromatsunai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kuromatsunai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2085,6 +2580,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/rankoshi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rankoshi/kakeibo/"
               }
             }
           }
@@ -2123,6 +2627,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/niseko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/niseko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2157,6 +2670,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/makkari/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/makkari/kakeibo/"
               }
             }
           }
@@ -2195,6 +2717,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/rusutsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rusutsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2229,6 +2760,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kimobetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kimobetsu/kakeibo/"
               }
             }
           }
@@ -2267,6 +2807,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kyogoku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kyogoku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2301,6 +2850,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kutchan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kutchan/kakeibo/"
               }
             }
           }
@@ -2339,6 +2897,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kyowa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kyowa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2373,6 +2940,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/iwanai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/iwanai/kakeibo/"
               }
             }
           }
@@ -2411,6 +2987,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/tomari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tomari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2445,6 +3030,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kamoenai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kamoenai/kakeibo/"
               }
             }
           }
@@ -2483,6 +3077,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shakotan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shakotan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2517,6 +3120,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/furubira/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/furubira/kakeibo/"
               }
             }
           }
@@ -2555,6 +3167,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/niki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/niki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2589,6 +3210,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/yoichi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/yoichi/kakeibo/"
               }
             }
           }
@@ -2627,6 +3257,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/akaiwa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/akaiwa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2661,6 +3300,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/nanporo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nanporo/kakeibo/"
               }
             }
           }
@@ -2699,6 +3347,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/naie/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/naie/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2733,6 +3390,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kamisunagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kamisunagawa/kakeibo/"
               }
             }
           }
@@ -2771,6 +3437,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/yuni/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/yuni/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2805,6 +3480,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/naganuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/naganuma/kakeibo/"
               }
             }
           }
@@ -2843,6 +3527,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kuriyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kuriyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2877,6 +3570,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/tsukigata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tsukigata/kakeibo/"
               }
             }
           }
@@ -2915,6 +3617,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/urausu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/urausu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -2949,6 +3660,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shintotsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shintotsu/kakeibo/"
               }
             }
           }
@@ -2987,6 +3707,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/moseushi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/moseushi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3021,6 +3750,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/chippubetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/chippubetsu/kakeibo/"
               }
             }
           }
@@ -3059,6 +3797,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/uryu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/uryu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3093,6 +3840,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/hokuryu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hokuryu/kakeibo/"
               }
             }
           }
@@ -3131,6 +3887,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/numata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/numata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3165,6 +3930,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/takasu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/takasu/kakeibo/"
               }
             }
           }
@@ -3203,6 +3977,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/higashikagura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/higashikagura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3237,6 +4020,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/toma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/toma/kakeibo/"
               }
             }
           }
@@ -3275,6 +4067,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/pippu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/pippu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3309,6 +4110,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/aibetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/aibetsu/kakeibo/"
               }
             }
           }
@@ -3347,6 +4157,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kamikawa-hokkaido/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kamikawa-hokkaido/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3381,6 +4200,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/higashikawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/higashikawa/kakeibo/"
               }
             }
           }
@@ -3419,6 +4247,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/biei/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/biei/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3453,6 +4290,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kamifurano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kamifurano/kakeibo/"
               }
             }
           }
@@ -3491,6 +4337,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/nakafurano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nakafurano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3525,6 +4380,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/minamifurano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/minamifurano/kakeibo/"
               }
             }
           }
@@ -3563,6 +4427,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shimukappu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shimukappu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3597,6 +4470,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/wassamu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/wassamu/kakeibo/"
               }
             }
           }
@@ -3635,6 +4517,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/kembuchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kembuchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3669,6 +4560,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shimokawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shimokawa/kakeibo/"
               }
             }
           }
@@ -3707,6 +4607,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/bifuka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/bifuka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3741,6 +4650,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/otoineppu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/otoineppu/kakeibo/"
               }
             }
           }
@@ -3779,6 +4697,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/nakagawa-hokkaido/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nakagawa-hokkaido/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3813,6 +4740,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/horokanai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/horokanai/kakeibo/"
               }
             }
           }
@@ -3851,6 +4787,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/mashike/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/mashike/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3885,6 +4830,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/obira/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/obira/kakeibo/"
               }
             }
           }
@@ -3923,6 +4877,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/tomamae/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tomamae/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -3957,6 +4920,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/haboro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/haboro/kakeibo/"
               }
             }
           }
@@ -3995,6 +4967,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shosanbetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shosanbetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4029,6 +5010,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/embetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/embetsu/kakeibo/"
               }
             }
           }
@@ -4067,6 +5057,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/teshio/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/teshio/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4101,6 +5100,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/sarobetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/sarobetsu/kakeibo/"
               }
             }
           }
@@ -4139,6 +5147,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/hamatonbetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hamatonbetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4173,6 +5190,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/nakatonbetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nakatonbetsu/kakeibo/"
               }
             }
           }
@@ -4211,6 +5237,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/esashi-hokkaido/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/esashi-hokkaido/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4245,6 +5280,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/toyotomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/toyotomi/kakeibo/"
               }
             }
           }
@@ -4283,6 +5327,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/rebun/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rebun/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4317,6 +5370,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/rishiri/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rishiri/kakeibo/"
               }
             }
           }
@@ -4355,6 +5417,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/rishirifuji/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rishirifuji/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4389,6 +5460,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/horonobe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/horonobe/kakeibo/"
               }
             }
           }
@@ -4427,6 +5507,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/bihoro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/bihoro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4461,6 +5550,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/tsubetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tsubetsu/kakeibo/"
               }
             }
           }
@@ -4499,6 +5597,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4533,6 +5640,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kiyosato/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kiyosato/kakeibo/"
               }
             }
           }
@@ -4571,6 +5687,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/koshimizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/koshimizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4605,6 +5730,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kunneppu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kunneppu/kakeibo/"
               }
             }
           }
@@ -4643,6 +5777,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/oketo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/oketo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4677,6 +5820,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/saroma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/saroma/kakeibo/"
               }
             }
           }
@@ -4715,6 +5867,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/engaru/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/engaru/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4749,6 +5910,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/yubetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/yubetsu/kakeibo/"
               }
             }
           }
@@ -4787,6 +5957,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/takinoue/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/takinoue/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4821,6 +6000,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/okoppe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/okoppe/kakeibo/"
               }
             }
           }
@@ -4859,6 +6047,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/nishiokoppe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nishiokoppe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4893,6 +6090,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/omu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/omu/kakeibo/"
               }
             }
           }
@@ -4931,6 +6137,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/ozora/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/ozora/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -4965,6 +6180,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/toyoura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/toyoura/kakeibo/"
               }
             }
           }
@@ -5003,6 +6227,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/sobetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/sobetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5037,6 +6270,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shiraoi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shiraoi/kakeibo/"
               }
             }
           }
@@ -5075,6 +6317,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/atsuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/atsuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5109,6 +6360,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/toyako/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/toyako/kakeibo/"
               }
             }
           }
@@ -5147,6 +6407,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/abira/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/abira/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5181,6 +6450,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/mukawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/mukawa/kakeibo/"
               }
             }
           }
@@ -5219,6 +6497,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/hidaka-hokkaido/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hidaka-hokkaido/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5253,6 +6540,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/biratori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/biratori/kakeibo/"
               }
             }
           }
@@ -5291,6 +6587,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/niikappu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/niikappu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5325,6 +6630,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/urakawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/urakawa/kakeibo/"
               }
             }
           }
@@ -5363,6 +6677,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/samani/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/samani/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5397,6 +6720,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/erimo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/erimo/kakeibo/"
               }
             }
           }
@@ -5435,6 +6767,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shinhidaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shinhidaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5469,6 +6810,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/otofuke/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/otofuke/kakeibo/"
               }
             }
           }
@@ -5507,6 +6857,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shihoro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shihoro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5541,6 +6900,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kamishihoro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kamishihoro/kakeibo/"
               }
             }
           }
@@ -5579,6 +6947,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shikaoibetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shikaoibetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5613,6 +6990,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shintoku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shintoku/kakeibo/"
               }
             }
           }
@@ -5651,6 +7037,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shimizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shimizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5685,6 +7080,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/memuro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/memuro/kakeibo/"
               }
             }
           }
@@ -5723,6 +7127,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/nakasatsunai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nakasatsunai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5757,6 +7170,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/sarabetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/sarabetsu/kakeibo/"
               }
             }
           }
@@ -5795,6 +7217,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/taiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/taiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5829,6 +7260,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/hiroo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hiroo/kakeibo/"
               }
             }
           }
@@ -5867,6 +7307,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/makubetsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/makubetsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5901,6 +7350,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/ikeda-hokkaido/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/ikeda-hokkaido/kakeibo/"
               }
             }
           }
@@ -5939,6 +7397,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/toyokoro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/toyokoro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -5973,6 +7440,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/honbetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/honbetsu/kakeibo/"
               }
             }
           }
@@ -6011,6 +7487,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/ashoro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/ashoro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6045,6 +7530,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/rikubetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rikubetsu/kakeibo/"
               }
             }
           }
@@ -6083,6 +7577,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/urahoro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/urahoro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6117,6 +7620,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/kushiro-town/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/kushiro-town/kakeibo/"
               }
             }
           }
@@ -6155,6 +7667,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/akkeshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/akkeshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6189,6 +7710,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/hamanaka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/hamanaka/kakeibo/"
               }
             }
           }
@@ -6227,6 +7757,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shibecha/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shibecha/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6261,6 +7800,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/teshikaga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/teshikaga/kakeibo/"
               }
             }
           }
@@ -6299,6 +7847,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/tsurui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/tsurui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6333,6 +7890,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/shiranuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shiranuka/kakeibo/"
               }
             }
           }
@@ -6371,6 +7937,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/betsukai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/betsukai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6405,6 +7980,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/nakashibetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/nakashibetsu/kakeibo/"
               }
             }
           }
@@ -6443,6 +8027,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hokkaido/shibetsu-hokkaido/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/shibetsu-hokkaido/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6477,6 +8070,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hokkaido/rausu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hokkaido/rausu/kakeibo/"
               }
             }
           }
@@ -6534,6 +8136,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/aomori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/aomori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6568,6 +8179,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/hirosaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/hirosaki/kakeibo/"
               }
             }
           }
@@ -6606,6 +8226,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/hachinohe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/hachinohe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6640,6 +8269,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/kuroishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/kuroishi/kakeibo/"
               }
             }
           }
@@ -6678,6 +8316,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/goshogawara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/goshogawara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6712,6 +8359,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/towada/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/towada/kakeibo/"
               }
             }
           }
@@ -6750,6 +8406,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/misawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/misawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6784,6 +8449,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/mutsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/mutsu/kakeibo/"
               }
             }
           }
@@ -6822,6 +8496,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/tsugaru/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/tsugaru/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6856,6 +8539,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/hirakawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/hirakawa/kakeibo/"
               }
             }
           }
@@ -6894,6 +8586,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/hiranai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/hiranai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -6928,6 +8629,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/imabetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/imabetsu/kakeibo/"
               }
             }
           }
@@ -6966,6 +8676,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/yomogita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/yomogita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7000,6 +8719,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/sotogahama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/sotogahama/kakeibo/"
               }
             }
           }
@@ -7038,6 +8766,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/ajigasawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/ajigasawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7072,6 +8809,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/fukaura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/fukaura/kakeibo/"
               }
             }
           }
@@ -7110,6 +8856,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/nishimeya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/nishimeya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7144,6 +8899,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/fujisaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/fujisaki/kakeibo/"
               }
             }
           }
@@ -7182,6 +8946,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/owani/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/owani/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7216,6 +8989,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/inakadate/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/inakadate/kakeibo/"
               }
             }
           }
@@ -7254,6 +9036,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/itayanagi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/itayanagi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7288,6 +9079,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/tsuruta/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/tsuruta/kakeibo/"
               }
             }
           }
@@ -7326,6 +9126,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/nakadomari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/nakadomari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7360,6 +9169,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/noheji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/noheji/kakeibo/"
               }
             }
           }
@@ -7398,6 +9216,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/shichinohe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/shichinohe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7432,6 +9259,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/rokunohe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/rokunohe/kakeibo/"
               }
             }
           }
@@ -7470,6 +9306,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/yokohamacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/yokohamacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7504,6 +9349,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/tohokucho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/tohokucho/kakeibo/"
               }
             }
           }
@@ -7542,6 +9396,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/rokkasho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/rokkasho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7576,6 +9439,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/oirase/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/oirase/kakeibo/"
               }
             }
           }
@@ -7614,6 +9486,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/oma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/oma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7648,6 +9529,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/higashidori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/higashidori/kakeibo/"
               }
             }
           }
@@ -7686,6 +9576,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/kazamaura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/kazamaura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7720,6 +9619,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/sai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/sai/kakeibo/"
               }
             }
           }
@@ -7758,6 +9666,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/sannohe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/sannohe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7792,6 +9709,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/gonohe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/gonohe/kakeibo/"
               }
             }
           }
@@ -7830,6 +9756,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/takko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/takko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7864,6 +9799,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/nanbu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/nanbu/kakeibo/"
               }
             }
           }
@@ -7902,6 +9846,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aomori/hashikami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/hashikami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -7936,6 +9889,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aomori/shingo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aomori/shingo/kakeibo/"
               }
             }
           }
@@ -7979,6 +9941,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/morioka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/morioka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8013,6 +9984,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/miyakoshi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/miyakoshi/kakeibo/"
               }
             }
           }
@@ -8051,6 +10031,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/ofunato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/ofunato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8085,6 +10074,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/hanamaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/hanamaki/kakeibo/"
               }
             }
           }
@@ -8123,6 +10121,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/kitakami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/kitakami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8157,6 +10164,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/kuji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/kuji/kakeibo/"
               }
             }
           }
@@ -8195,6 +10211,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/tono/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/tono/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8229,6 +10254,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/ichinoseki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/ichinoseki/kakeibo/"
               }
             }
           }
@@ -8267,6 +10301,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/rikuzentakata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/rikuzentakata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8301,6 +10344,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/kamaishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/kamaishi/kakeibo/"
               }
             }
           }
@@ -8339,6 +10391,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/ninohe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/ninohe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8373,6 +10434,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/hachimantai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/hachimantai/kakeibo/"
               }
             }
           }
@@ -8411,6 +10481,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/oshu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/oshu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8445,6 +10524,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/takizawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/takizawa/kakeibo/"
               }
             }
           }
@@ -8483,6 +10571,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/shizukuishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/shizukuishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8517,6 +10614,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/kuzumaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/kuzumaki/kakeibo/"
               }
             }
           }
@@ -8555,6 +10661,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/iwatemachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/iwatemachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8589,6 +10704,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/shiwa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/shiwa/kakeibo/"
               }
             }
           }
@@ -8627,6 +10751,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/yahaba/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/yahaba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8661,6 +10794,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/nishiwaga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/nishiwaga/kakeibo/"
               }
             }
           }
@@ -8699,6 +10841,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/kanegasaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/kanegasaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8733,6 +10884,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/hiraizumi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/hiraizumi/kakeibo/"
               }
             }
           }
@@ -8771,6 +10931,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/sumita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/sumita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8805,6 +10974,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/otsuchi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/otsuchi/kakeibo/"
               }
             }
           }
@@ -8843,6 +11021,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/yamada/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/yamada/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8877,6 +11064,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/iwaizumi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/iwaizumi/kakeibo/"
               }
             }
           }
@@ -8915,6 +11111,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/tanohata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/tanohata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -8949,6 +11154,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/fudai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/fudai/kakeibo/"
               }
             }
           }
@@ -8987,6 +11201,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/karumai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/karumai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9021,6 +11244,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/nodamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/nodamura/kakeibo/"
               }
             }
           }
@@ -9059,6 +11291,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/kunohe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/kunohe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9095,6 +11336,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/iwate/hironocho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/hironocho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9129,6 +11379,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/iwate/ichinohe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/iwate/ichinohe/kakeibo/"
               }
             }
           }
@@ -9230,6 +11489,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/ishinomaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/ishinomaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9264,6 +11532,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/shiogama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/shiogama/kakeibo/"
               }
             }
           }
@@ -9302,6 +11579,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/kesennuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/kesennuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9336,6 +11622,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/shiroishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/shiroishi/kakeibo/"
               }
             }
           }
@@ -9374,6 +11669,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/natori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/natori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9408,6 +11712,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/kakuda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/kakuda/kakeibo/"
               }
             }
           }
@@ -9446,6 +11759,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/tagajo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/tagajo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9480,6 +11802,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/iwanuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/iwanuma/kakeibo/"
               }
             }
           }
@@ -9518,6 +11849,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/tome/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/tome/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9552,6 +11892,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/kurihara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/kurihara/kakeibo/"
               }
             }
           }
@@ -9590,6 +11939,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/higashimatsushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/higashimatsushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9624,6 +11982,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/osakishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/osakishi/kakeibo/"
               }
             }
           }
@@ -9662,6 +12029,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/tomiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/tomiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9696,6 +12072,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/zao/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/zao/kakeibo/"
               }
             }
           }
@@ -9734,6 +12119,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/shichigashuku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/shichigashuku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9768,6 +12162,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/ogawara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/ogawara/kakeibo/"
               }
             }
           }
@@ -9806,6 +12209,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/murata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/murata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9840,6 +12252,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/shibatacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/shibatacho/kakeibo/"
               }
             }
           }
@@ -9878,6 +12299,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/kawasakimiyagi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/kawasakimiyagi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9912,6 +12342,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/marumori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/marumori/kakeibo/"
               }
             }
           }
@@ -9950,6 +12389,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/watari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/watari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -9984,6 +12432,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/yamamoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/yamamoto/kakeibo/"
               }
             }
           }
@@ -10022,6 +12479,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/matsushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/matsushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10056,6 +12522,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/shichigahama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/shichigahama/kakeibo/"
               }
             }
           }
@@ -10094,6 +12569,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/rifu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/rifu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10128,6 +12612,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/taiwa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/taiwa/kakeibo/"
               }
             }
           }
@@ -10166,6 +12659,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/osato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/osato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10200,6 +12702,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/ohira/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/ohira/kakeibo/"
               }
             }
           }
@@ -10238,6 +12749,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/shikama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/shikama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10272,6 +12792,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/kami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/kami/kakeibo/"
               }
             }
           }
@@ -10310,6 +12839,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/wakuya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/wakuya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10344,6 +12882,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/misatomiyagi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/misatomiyagi/kakeibo/"
               }
             }
           }
@@ -10382,6 +12929,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyagi/onagawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/onagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10416,6 +12972,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyagi/minamisanriku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyagi/minamisanriku/kakeibo/"
               }
             }
           }
@@ -10459,6 +13024,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/akita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/akita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10493,6 +13067,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/noshiro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/noshiro/kakeibo/"
               }
             }
           }
@@ -10531,6 +13114,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/yokote/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/yokote/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10565,6 +13157,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/odate/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/odate/kakeibo/"
               }
             }
           }
@@ -10603,6 +13204,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/oga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/oga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10637,6 +13247,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/yuzawacity/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/yuzawacity/kakeibo/"
               }
             }
           }
@@ -10675,6 +13294,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/kazuno/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/kazuno/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10709,6 +13337,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/yurihonjo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/yurihonjo/kakeibo/"
               }
             }
           }
@@ -10747,6 +13384,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/katagami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/katagami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10781,6 +13427,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/daisencity/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/daisencity/kakeibo/"
               }
             }
           }
@@ -10819,6 +13474,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/kitaakita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/kitaakita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10853,6 +13517,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/nikaho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/nikaho/kakeibo/"
               }
             }
           }
@@ -10891,6 +13564,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/semboku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/semboku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10925,6 +13607,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/kosakacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/kosakacho/kakeibo/"
               }
             }
           }
@@ -10963,6 +13654,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/kamikoanicho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/kamikoanicho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -10997,6 +13697,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/fujisatomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/fujisatomachi/kakeibo/"
               }
             }
           }
@@ -11035,6 +13744,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/mitane/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/mitane/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11069,6 +13787,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/happocho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/happocho/kakeibo/"
               }
             }
           }
@@ -11107,6 +13834,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/gojomecho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/gojomecho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11141,6 +13877,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/hachirogatacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/hachirogatacho/kakeibo/"
               }
             }
           }
@@ -11179,6 +13924,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/ikawacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/ikawacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11213,6 +13967,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/ogatacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/ogatacho/kakeibo/"
               }
             }
           }
@@ -11251,6 +14014,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/misatocho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/misatocho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11287,6 +14059,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/akita/ugocho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/ugocho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11321,6 +14102,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/akita/higashinarusemura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/akita/higashinarusemura/kakeibo/"
               }
             }
           }
@@ -11364,6 +14154,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/yamagatacity/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/yamagatacity/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11398,6 +14197,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/yonezawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/yonezawa/kakeibo/"
               }
             }
           }
@@ -11436,6 +14244,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/tsuruoka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/tsuruoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11470,6 +14287,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/sakata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/sakata/kakeibo/"
               }
             }
           }
@@ -11508,6 +14334,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/shinjocity/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/shinjocity/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11542,6 +14377,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/sagae/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/sagae/kakeibo/"
               }
             }
           }
@@ -11580,6 +14424,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/kaminoyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/kaminoyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11614,6 +14467,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/murayama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/murayama/kakeibo/"
               }
             }
           }
@@ -11652,6 +14514,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/nagai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/nagai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11686,6 +14557,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/tendo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/tendo/kakeibo/"
               }
             }
           }
@@ -11724,6 +14604,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/higashine/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/higashine/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11758,6 +14647,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/obanazawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/obanazawa/kakeibo/"
               }
             }
           }
@@ -11796,6 +14694,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/nanyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/nanyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11830,6 +14737,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/yamabecho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/yamabecho/kakeibo/"
               }
             }
           }
@@ -11868,6 +14784,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/nakayamacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/nakayamacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11902,6 +14827,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/kawakitacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/kawakitacho/kakeibo/"
               }
             }
           }
@@ -11940,6 +14874,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/nishikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/nishikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -11974,6 +14917,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/asahimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/asahimachi/kakeibo/"
               }
             }
           }
@@ -12012,6 +14964,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/oe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/oe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12046,6 +15007,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/oishida/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/oishida/kakeibo/"
               }
             }
           }
@@ -12084,6 +15054,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/kaneyamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/kaneyamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12118,6 +15097,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/mogami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/mogami/kakeibo/"
               }
             }
           }
@@ -12156,6 +15144,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/funagata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/funagata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12190,6 +15187,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/mamurogawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/mamurogawa/kakeibo/"
               }
             }
           }
@@ -12228,6 +15234,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/okuramura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/okuramura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12262,6 +15277,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/sakegawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/sakegawa/kakeibo/"
               }
             }
           }
@@ -12300,6 +15324,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/tozawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/tozawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12334,6 +15367,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/takahata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/takahata/kakeibo/"
               }
             }
           }
@@ -12372,6 +15414,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/kawanishicho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/kawanishicho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12406,6 +15457,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/ogunicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/ogunicho/kakeibo/"
               }
             }
           }
@@ -12444,6 +15504,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/shirataka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/shirataka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12478,6 +15547,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/iide/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/iide/kakeibo/"
               }
             }
           }
@@ -12516,6 +15594,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/mikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/mikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12552,6 +15639,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamagata/shonai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/shonai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12586,6 +15682,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamagata/yuza/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamagata/yuza/kakeibo/"
               }
             }
           }
@@ -12629,6 +15734,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/fukushimashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/fukushimashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12663,6 +15777,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/aizuwakamatsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/aizuwakamatsu/kakeibo/"
               }
             }
           }
@@ -12701,6 +15824,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/koriyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/koriyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12735,6 +15867,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/iwaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/iwaki/kakeibo/"
               }
             }
           }
@@ -12773,6 +15914,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/shirakawashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/shirakawashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12807,6 +15957,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/sukagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/sukagawa/kakeibo/"
               }
             }
           }
@@ -12845,6 +16004,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/kitakatashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kitakatashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12879,6 +16047,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/soma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/soma/kakeibo/"
               }
             }
           }
@@ -12917,6 +16094,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/nihonmatsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/nihonmatsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -12951,6 +16137,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/tamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/tamura/kakeibo/"
               }
             }
           }
@@ -12989,6 +16184,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/minamisoma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/minamisoma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13023,6 +16227,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/dateshi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/dateshi/kakeibo/"
               }
             }
           }
@@ -13061,6 +16274,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/motomiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/motomiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13095,6 +16317,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/koori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/koori/kakeibo/"
               }
             }
           }
@@ -13133,6 +16364,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/kunimi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kunimi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13167,6 +16407,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/kawamata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kawamata/kakeibo/"
               }
             }
           }
@@ -13205,6 +16454,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/otama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/otama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13239,6 +16497,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/kagamiishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kagamiishi/kakeibo/"
               }
             }
           }
@@ -13277,6 +16544,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/tenei/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/tenei/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13311,6 +16587,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/shimogo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/shimogo/kakeibo/"
               }
             }
           }
@@ -13349,6 +16634,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/hinoemata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/hinoemata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13383,6 +16677,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/tadami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/tadami/kakeibo/"
               }
             }
           }
@@ -13421,6 +16724,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/minamiaizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/minamiaizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13455,6 +16767,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/kitashiobara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kitashiobara/kakeibo/"
               }
             }
           }
@@ -13493,6 +16814,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/nishiaizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/nishiaizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13527,6 +16857,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/bandai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/bandai/kakeibo/"
               }
             }
           }
@@ -13565,6 +16904,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/inawashiro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/inawashiro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13599,6 +16947,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/aizubange/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/aizubange/kakeibo/"
               }
             }
           }
@@ -13637,6 +16994,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/yugawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/yugawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13671,6 +17037,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/yanaitsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/yanaitsu/kakeibo/"
               }
             }
           }
@@ -13709,6 +17084,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/mishimacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/mishimacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13743,6 +17127,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/kaneyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kaneyama/kakeibo/"
               }
             }
           }
@@ -13781,6 +17174,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/showamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/showamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13815,6 +17217,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/aizumisato/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/aizumisato/kakeibo/"
               }
             }
           }
@@ -13853,6 +17264,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/nishigo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/nishigo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13887,6 +17307,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/izumizaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/izumizaki/kakeibo/"
               }
             }
           }
@@ -13925,6 +17354,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/nakajima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/nakajima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -13959,6 +17397,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/yabuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/yabuki/kakeibo/"
               }
             }
           }
@@ -13997,6 +17444,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/tanagura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/tanagura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14031,6 +17487,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/yamatsuri/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/yamatsuri/kakeibo/"
               }
             }
           }
@@ -14069,6 +17534,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/hanawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/hanawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14103,6 +17577,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/samegawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/samegawa/kakeibo/"
               }
             }
           }
@@ -14141,6 +17624,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/ishikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/ishikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14175,6 +17667,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/tamakawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/tamakawa/kakeibo/"
               }
             }
           }
@@ -14213,6 +17714,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/hirata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/hirata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14247,6 +17757,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/asakawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/asakawa/kakeibo/"
               }
             }
           }
@@ -14285,6 +17804,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/furudono/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/furudono/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14319,6 +17847,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/miharu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/miharu/kakeibo/"
               }
             }
           }
@@ -14357,6 +17894,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/onomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/onomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14391,6 +17937,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/hirono/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/hirono/kakeibo/"
               }
             }
           }
@@ -14429,6 +17984,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/naraha/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/naraha/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14463,6 +18027,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/tomiokacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/tomiokacho/kakeibo/"
               }
             }
           }
@@ -14501,6 +18074,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/kawauchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/kawauchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14535,6 +18117,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/okuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/okuma/kakeibo/"
               }
             }
           }
@@ -14573,6 +18164,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/futaba/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/futaba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14607,6 +18207,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/namie/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/namie/kakeibo/"
               }
             }
           }
@@ -14645,6 +18254,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/katsurao/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/katsurao/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14681,6 +18299,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukushima/shinchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/shinchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14715,6 +18342,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukushima/iitate/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukushima/iitate/kakeibo/"
               }
             }
           }
@@ -14758,6 +18394,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/mito/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/mito/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14792,6 +18437,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/hitachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/hitachi/kakeibo/"
               }
             }
           }
@@ -14830,6 +18484,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/tsuchiura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/tsuchiura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14864,6 +18527,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/koga-ibaraki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/koga-ibaraki/kakeibo/"
               }
             }
           }
@@ -14902,6 +18574,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/ishioka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/ishioka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -14936,6 +18617,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/yuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/yuki/kakeibo/"
               }
             }
           }
@@ -14974,6 +18664,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/ryugasaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/ryugasaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15008,6 +18707,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/shimotsuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/shimotsuma/kakeibo/"
               }
             }
           }
@@ -15046,6 +18754,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/joso/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/joso/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15080,6 +18797,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/hitachiota/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/hitachiota/kakeibo/"
               }
             }
           }
@@ -15118,6 +18844,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/takahagi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/takahagi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15152,6 +18887,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/kitaibaraki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/kitaibaraki/kakeibo/"
               }
             }
           }
@@ -15190,6 +18934,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/kasama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/kasama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15224,6 +18977,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/toride/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/toride/kakeibo/"
               }
             }
           }
@@ -15262,6 +19024,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/ushiku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/ushiku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15296,6 +19067,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/tsukuba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/tsukuba/kakeibo/"
               }
             }
           }
@@ -15334,6 +19114,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/hitachinaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/hitachinaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15368,6 +19157,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/kashima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/kashima/kakeibo/"
               }
             }
           }
@@ -15406,6 +19204,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/itako/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/itako/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15440,6 +19247,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/moriya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/moriya/kakeibo/"
               }
             }
           }
@@ -15478,6 +19294,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/hitachiomiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/hitachiomiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15512,6 +19337,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/naka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/naka/kakeibo/"
               }
             }
           }
@@ -15550,6 +19384,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/chikusei/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/chikusei/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15584,6 +19427,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/bando/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/bando/kakeibo/"
               }
             }
           }
@@ -15622,6 +19474,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/inashiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/inashiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15656,6 +19517,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/kasumigaura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/kasumigaura/kakeibo/"
               }
             }
           }
@@ -15694,6 +19564,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/sakuragawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/sakuragawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15728,6 +19607,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/kamisu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/kamisu/kakeibo/"
               }
             }
           }
@@ -15766,6 +19654,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/namegata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/namegata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15800,6 +19697,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/hokota/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/hokota/kakeibo/"
               }
             }
           }
@@ -15838,6 +19744,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/tsukubamirai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/tsukubamirai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15872,6 +19787,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/omitama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/omitama/kakeibo/"
               }
             }
           }
@@ -15910,6 +19834,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/ibarakimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/ibarakimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -15944,6 +19877,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/oarai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/oarai/kakeibo/"
               }
             }
           }
@@ -15982,6 +19924,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/shirosato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/shirosato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16016,6 +19967,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/tokaimura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/tokaimura/kakeibo/"
               }
             }
           }
@@ -16054,6 +20014,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/daigo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/daigo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16088,6 +20057,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/miho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/miho/kakeibo/"
               }
             }
           }
@@ -16126,6 +20104,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/ami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/ami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16160,6 +20147,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/kawachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/kawachi/kakeibo/"
               }
             }
           }
@@ -16198,6 +20194,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/yachiyomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/yachiyomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16232,6 +20237,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/goka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/goka/kakeibo/"
               }
             }
           }
@@ -16270,6 +20284,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ibaraki/sakaimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/sakaimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16304,6 +20327,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ibaraki/tone/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ibaraki/tone/kakeibo/"
               }
             }
           }
@@ -16405,6 +20437,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/ashikaga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/ashikaga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16439,6 +20480,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/tochigi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/tochigi/kakeibo/"
               }
             }
           }
@@ -16477,6 +20527,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/sano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/sano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16511,6 +20570,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/kanuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/kanuma/kakeibo/"
               }
             }
           }
@@ -16549,6 +20617,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/nikko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/nikko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16583,6 +20660,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/oyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/oyama/kakeibo/"
               }
             }
           }
@@ -16621,6 +20707,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/moka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/moka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16655,6 +20750,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/otawara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/otawara/kakeibo/"
               }
             }
           }
@@ -16693,6 +20797,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/yaita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/yaita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16727,6 +20840,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/nasushiobara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/nasushiobara/kakeibo/"
               }
             }
           }
@@ -16765,6 +20887,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/sakurashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/sakurashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16799,6 +20930,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/nasukarasuyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/nasukarasuyama/kakeibo/"
               }
             }
           }
@@ -16837,6 +20977,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/shimotsuke/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/shimotsuke/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16871,6 +21020,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/kaminokawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/kaminokawa/kakeibo/"
               }
             }
           }
@@ -16909,6 +21067,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/mashiko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/mashiko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -16943,6 +21110,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/motegi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/motegi/kakeibo/"
               }
             }
           }
@@ -16981,6 +21157,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/ichikai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/ichikai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17015,6 +21200,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/haga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/haga/kakeibo/"
               }
             }
           }
@@ -17053,6 +21247,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/mibu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/mibu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17087,6 +21290,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/nogi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/nogi/kakeibo/"
               }
             }
           }
@@ -17125,6 +21337,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/shioya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/shioya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17159,6 +21380,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/takanezawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/takanezawa/kakeibo/"
               }
             }
           }
@@ -17197,6 +21427,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tochigi/nasu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/nasu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17231,6 +21470,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tochigi/nakagawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tochigi/nakagawamachi/kakeibo/"
               }
             }
           }
@@ -17274,6 +21522,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/maebashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/maebashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17308,6 +21565,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/takasaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/takasaki/kakeibo/"
               }
             }
           }
@@ -17346,6 +21612,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/kiryu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/kiryu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17380,6 +21655,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/isesaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/isesaki/kakeibo/"
               }
             }
           }
@@ -17418,6 +21702,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/ota-gunma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/ota-gunma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17452,6 +21745,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/numatashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/numatashi/kakeibo/"
               }
             }
           }
@@ -17490,6 +21792,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/tatebayashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/tatebayashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17524,6 +21835,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/shibukawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/shibukawa/kakeibo/"
               }
             }
           }
@@ -17562,6 +21882,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/fujioka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/fujioka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17596,6 +21925,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/tomioka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/tomioka/kakeibo/"
               }
             }
           }
@@ -17634,6 +21972,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/annaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/annaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17668,6 +22015,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/midori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/midori/kakeibo/"
               }
             }
           }
@@ -17706,6 +22062,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/shinto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/shinto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17740,6 +22105,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/yoshioka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/yoshioka/kakeibo/"
               }
             }
           }
@@ -17778,6 +22152,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/ueno/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/ueno/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17812,6 +22195,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/kanna/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/kanna/kakeibo/"
               }
             }
           }
@@ -17850,6 +22242,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/shimonita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/shimonita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17884,6 +22285,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/namoku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/namoku/kakeibo/"
               }
             }
           }
@@ -17922,6 +22332,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/kanra/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/kanra/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -17956,6 +22375,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/nakanojo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/nakanojo/kakeibo/"
               }
             }
           }
@@ -17994,6 +22422,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/naganohara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/naganohara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18028,6 +22465,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/tsumagoi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/tsumagoi/kakeibo/"
               }
             }
           }
@@ -18066,6 +22512,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/kusatsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/kusatsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18100,6 +22555,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/takayamamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/takayamamura/kakeibo/"
               }
             }
           }
@@ -18138,6 +22602,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/higashiagatsuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/higashiagatsuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18172,6 +22645,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/katashina/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/katashina/kakeibo/"
               }
             }
           }
@@ -18210,6 +22692,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/kawaba/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/kawaba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18244,6 +22735,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/showa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/showa/kakeibo/"
               }
             }
           }
@@ -18282,6 +22782,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/minakami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/minakami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18316,6 +22825,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/tamamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/tamamura/kakeibo/"
               }
             }
           }
@@ -18354,6 +22872,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/itakura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/itakura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18388,6 +22915,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/meiwa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/meiwa/kakeibo/"
               }
             }
           }
@@ -18426,6 +22962,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/chiyodamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/chiyodamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18462,6 +23007,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gunma/oizumi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/oizumi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18496,6 +23050,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gunma/ora/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gunma/ora/kakeibo/"
               }
             }
           }
@@ -18597,6 +23160,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/kawagoe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kawagoe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18631,6 +23203,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/kumagaya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kumagaya/kakeibo/"
               }
             }
           }
@@ -18727,6 +23308,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/gyoda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/gyoda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18761,6 +23351,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/chichibu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/chichibu/kakeibo/"
               }
             }
           }
@@ -18799,6 +23398,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/tokorozawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/tokorozawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18833,6 +23441,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/hanno/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/hanno/kakeibo/"
               }
             }
           }
@@ -18871,6 +23488,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/kazo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kazo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18905,6 +23531,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/honjo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/honjo/kakeibo/"
               }
             }
           }
@@ -18943,6 +23578,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/higashimatsuyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/higashimatsuyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -18977,6 +23621,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/kasukabe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kasukabe/kakeibo/"
               }
             }
           }
@@ -19015,6 +23668,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/sayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/sayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19049,6 +23711,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/hanyu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/hanyu/kakeibo/"
               }
             }
           }
@@ -19087,6 +23758,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/konosu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/konosu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19121,6 +23801,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/fukaya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/fukaya/kakeibo/"
               }
             }
           }
@@ -19159,6 +23848,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/ageo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/ageo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19193,6 +23891,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/soka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/soka/kakeibo/"
               }
             }
           }
@@ -19231,6 +23938,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/koshigaya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/koshigaya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19265,6 +23981,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/warabi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/warabi/kakeibo/"
               }
             }
           }
@@ -19303,6 +24028,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/toda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/toda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19337,6 +24071,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/iruma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/iruma/kakeibo/"
               }
             }
           }
@@ -19375,6 +24118,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/asaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/asaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19409,6 +24161,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/shiki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/shiki/kakeibo/"
               }
             }
           }
@@ -19447,6 +24208,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/wako/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/wako/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19481,6 +24251,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/niiza/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/niiza/kakeibo/"
               }
             }
           }
@@ -19519,6 +24298,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/okegawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/okegawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19553,6 +24341,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/kuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kuki/kakeibo/"
               }
             }
           }
@@ -19591,6 +24388,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/kitamoto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kitamoto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19625,6 +24431,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/yashio/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/yashio/kakeibo/"
               }
             }
           }
@@ -19663,6 +24478,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/fujimishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/fujimishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19697,6 +24521,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/misato/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/misato/kakeibo/"
               }
             }
           }
@@ -19735,6 +24568,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/hasuda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/hasuda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19769,6 +24611,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/sakado/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/sakado/kakeibo/"
               }
             }
           }
@@ -19807,6 +24658,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/satte/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/satte/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19841,6 +24701,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/tsurugashima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/tsurugashima/kakeibo/"
               }
             }
           }
@@ -19879,6 +24748,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/hidaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/hidaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19913,6 +24791,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/yoshikawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/yoshikawa/kakeibo/"
               }
             }
           }
@@ -19951,6 +24838,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/fujimino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/fujimino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -19985,6 +24881,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/shiraoka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/shiraoka/kakeibo/"
               }
             }
           }
@@ -20023,6 +24928,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/inacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/inacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20057,6 +24971,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/miyoshicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/miyoshicho/kakeibo/"
               }
             }
           }
@@ -20095,6 +25018,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/moroyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/moroyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20129,6 +25061,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/ogose/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/ogose/kakeibo/"
               }
             }
           }
@@ -20167,6 +25108,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/namegawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/namegawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20201,6 +25151,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/ranzan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/ranzan/kakeibo/"
               }
             }
           }
@@ -20239,6 +25198,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/ogawacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/ogawacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20273,6 +25241,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/kawajima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kawajima/kakeibo/"
               }
             }
           }
@@ -20311,6 +25288,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/yoshimi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/yoshimi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20345,6 +25331,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/hatoyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/hatoyama/kakeibo/"
               }
             }
           }
@@ -20383,6 +25378,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/tokigawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/tokigawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20417,6 +25421,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/yokoze/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/yokoze/kakeibo/"
               }
             }
           }
@@ -20455,6 +25468,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/minano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/minano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20489,6 +25511,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/nagatoro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/nagatoro/kakeibo/"
               }
             }
           }
@@ -20527,6 +25558,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/ogano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/ogano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20561,6 +25601,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/higashichichibu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/higashichichibu/kakeibo/"
               }
             }
           }
@@ -20599,6 +25648,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/misatomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/misatomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20633,6 +25691,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/kamikawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kamikawa/kakeibo/"
               }
             }
           }
@@ -20671,6 +25738,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/kamisato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/kamisato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20705,6 +25781,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/yorii/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/yorii/kakeibo/"
               }
             }
           }
@@ -20743,6 +25828,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/miyashiro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/miyashiro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20779,6 +25873,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saitama/sugito/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/sugito/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20813,6 +25916,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saitama/matsubushi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saitama/matsubushi/kakeibo/"
               }
             }
           }
@@ -20914,6 +26026,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/choshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/choshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -20948,6 +26069,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/ichikawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/ichikawa/kakeibo/"
               }
             }
           }
@@ -21044,6 +26174,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/tateyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/tateyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21078,6 +26217,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/kisarazu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kisarazu/kakeibo/"
               }
             }
           }
@@ -21116,6 +26264,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/matsudo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/matsudo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21150,6 +26307,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/noda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/noda/kakeibo/"
               }
             }
           }
@@ -21188,6 +26354,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/mobara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/mobara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21222,6 +26397,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/narita/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/narita/kakeibo/"
               }
             }
           }
@@ -21260,6 +26444,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/sakura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/sakura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21294,6 +26487,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/togane/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/togane/kakeibo/"
               }
             }
           }
@@ -21332,6 +26534,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/asahishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/asahishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21366,6 +26577,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/narashino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/narashino/kakeibo/"
               }
             }
           }
@@ -21404,6 +26624,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/kashiwa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kashiwa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21438,6 +26667,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/katsuura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/katsuura/kakeibo/"
               }
             }
           }
@@ -21476,6 +26714,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/ichihara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/ichihara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21510,6 +26757,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/nagareyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/nagareyama/kakeibo/"
               }
             }
           }
@@ -21548,6 +26804,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/yachiyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/yachiyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21582,6 +26847,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/abiko/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/abiko/kakeibo/"
               }
             }
           }
@@ -21620,6 +26894,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/kamogawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kamogawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21654,6 +26937,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/kamagaya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kamagaya/kakeibo/"
               }
             }
           }
@@ -21692,6 +26984,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/kimitsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kimitsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21726,6 +27027,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/futtsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/futtsu/kakeibo/"
               }
             }
           }
@@ -21764,6 +27074,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/urayasu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/urayasu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21798,6 +27117,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/yotsukaido/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/yotsukaido/kakeibo/"
               }
             }
           }
@@ -21836,6 +27164,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/sodegaura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/sodegaura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21870,6 +27207,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/yachimata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/yachimata/kakeibo/"
               }
             }
           }
@@ -21908,6 +27254,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/inzai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/inzai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -21942,6 +27297,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/shiroi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/shiroi/kakeibo/"
               }
             }
           }
@@ -21980,6 +27344,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/tomisato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/tomisato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22014,6 +27387,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/minamiboso/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/minamiboso/kakeibo/"
               }
             }
           }
@@ -22052,6 +27434,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/sosa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/sosa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22086,6 +27477,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/katori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/katori/kakeibo/"
               }
             }
           }
@@ -22124,6 +27524,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/sammu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/sammu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22158,6 +27567,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/isumi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/isumi/kakeibo/"
               }
             }
           }
@@ -22196,6 +27614,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/oamishirasato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/oamishirasato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22230,6 +27657,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/shisui/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/shisui/kakeibo/"
               }
             }
           }
@@ -22268,6 +27704,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/sakaecho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/sakaecho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22302,6 +27747,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/kozaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kozaki/kakeibo/"
               }
             }
           }
@@ -22340,6 +27794,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/tako/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/tako/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22374,6 +27837,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/tohnosho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/tohnosho/kakeibo/"
               }
             }
           }
@@ -22412,6 +27884,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/kujukuri/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kujukuri/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22446,6 +27927,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/shibayama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/shibayama/kakeibo/"
               }
             }
           }
@@ -22484,6 +27974,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/yokoshibahikari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/yokoshibahikari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22518,6 +28017,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/ichinomiya-chiba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/ichinomiya-chiba/kakeibo/"
               }
             }
           }
@@ -22556,6 +28064,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/mutsuzawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/mutsuzawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22590,6 +28107,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/chosei/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/chosei/kakeibo/"
               }
             }
           }
@@ -22628,6 +28154,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/shirako/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/shirako/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22662,6 +28197,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/nagara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/nagara/kakeibo/"
               }
             }
           }
@@ -22700,6 +28244,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/chonan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/chonan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22734,6 +28287,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/otakicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/otakicho/kakeibo/"
               }
             }
           }
@@ -22772,6 +28334,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/chiba/onjuku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/onjuku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -22806,6 +28377,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/chiba/kyonan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/chiba/kyonan/kakeibo/"
               }
             }
           }
@@ -24466,6 +30046,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/tachikawa/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/tachikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24509,6 +30098,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/musashino/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/musashino/kakeibo/"
               }
             }
           }
@@ -24556,6 +30154,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/mitaka/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/mitaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24599,6 +30206,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/ome/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/ome/kakeibo/"
               }
             }
           }
@@ -24646,6 +30262,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/fuchu/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/fuchu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24689,6 +30314,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/akishima/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/akishima/kakeibo/"
               }
             }
           }
@@ -24736,6 +30370,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/chofu/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/chofu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24779,6 +30422,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/machida/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/machida/kakeibo/"
               }
             }
           }
@@ -24826,6 +30478,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/koganei/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/koganei/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24869,6 +30530,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/kodaira/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/kodaira/kakeibo/"
               }
             }
           }
@@ -24916,6 +30586,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/hino/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/hino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -24959,6 +30638,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/higashimurayama/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/higashimurayama/kakeibo/"
               }
             }
           }
@@ -25006,6 +30694,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/kokubunji/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/kokubunji/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25049,6 +30746,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/kunitachi/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/kunitachi/kakeibo/"
               }
             }
           }
@@ -25096,6 +30802,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/fussa/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/fussa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25139,6 +30854,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/komae/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/komae/kakeibo/"
               }
             }
           }
@@ -25186,6 +30910,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/higashiyamato/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/higashiyamato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25229,6 +30962,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/kiyose/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/kiyose/kakeibo/"
               }
             }
           }
@@ -25276,6 +31018,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/higashikurume/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/higashikurume/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25319,6 +31070,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/musashimurayama/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/musashimurayama/kakeibo/"
               }
             }
           }
@@ -25366,6 +31126,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/tama/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/tama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25409,6 +31178,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/inagi/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/inagi/kakeibo/"
               }
             }
           }
@@ -25456,6 +31234,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/hamura/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/hamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25499,6 +31286,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/akiruno/hoiku/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/akiruno/kakeibo/"
               }
             }
           }
@@ -25546,6 +31342,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/nishitokyo/hoiku/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/nishitokyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25580,6 +31385,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/mizuho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/mizuho/kakeibo/"
               }
             }
           }
@@ -25618,6 +31432,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/hinode/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/hinode/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25652,6 +31475,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/hinohara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/hinohara/kakeibo/"
               }
             }
           }
@@ -25690,6 +31522,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokyo/okutama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/okutama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25724,6 +31565,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokyo/ogasawara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokyo/ogasawara/kakeibo/"
               }
             }
           }
@@ -25950,6 +31800,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/yokosuka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/yokosuka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -25984,6 +31843,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/hiratsuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/hiratsuka/kakeibo/"
               }
             }
           }
@@ -26022,6 +31890,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/kamakura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/kamakura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26056,6 +31933,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/fujisawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/fujisawa/kakeibo/"
               }
             }
           }
@@ -26094,6 +31980,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/odawara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/odawara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26128,6 +32023,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/chigasaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/chigasaki/kakeibo/"
               }
             }
           }
@@ -26166,6 +32070,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/zushi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/zushi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26200,6 +32113,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/miura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/miura/kakeibo/"
               }
             }
           }
@@ -26238,6 +32160,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/hadano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/hadano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26272,6 +32203,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/atsugi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/atsugi/kakeibo/"
               }
             }
           }
@@ -26310,6 +32250,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/yamato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/yamato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26344,6 +32293,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/isehara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/isehara/kakeibo/"
               }
             }
           }
@@ -26382,6 +32340,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/ebina/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/ebina/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26416,6 +32383,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/zama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/zama/kakeibo/"
               }
             }
           }
@@ -26454,6 +32430,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/minamiashigara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/minamiashigara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26488,6 +32473,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/ayase/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/ayase/kakeibo/"
               }
             }
           }
@@ -26526,6 +32520,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/hayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/hayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26560,6 +32563,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/samukawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/samukawa/kakeibo/"
               }
             }
           }
@@ -26598,6 +32610,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/oiso/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/oiso/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26632,6 +32653,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/ninomiya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/ninomiya/kakeibo/"
               }
             }
           }
@@ -26670,6 +32700,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/nakai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/nakai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26704,6 +32743,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/oi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/oi/kakeibo/"
               }
             }
           }
@@ -26742,6 +32790,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/matsuda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/matsuda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26776,6 +32833,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/yamakita/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/yamakita/kakeibo/"
               }
             }
           }
@@ -26814,6 +32880,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/kaisei/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/kaisei/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26848,6 +32923,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/hakone/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/hakone/kakeibo/"
               }
             }
           }
@@ -26886,6 +32970,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/manazuru/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/manazuru/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26920,6 +33013,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/yugawara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/yugawara/kakeibo/"
               }
             }
           }
@@ -26958,6 +33060,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kanagawa/aikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/aikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -26992,6 +33103,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kanagawa/kiyokawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kanagawa/kiyokawa/kakeibo/"
               }
             }
           }
@@ -27102,6 +33222,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/nagaoka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/nagaoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27136,6 +33265,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/sanjo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/sanjo/kakeibo/"
               }
             }
           }
@@ -27174,6 +33312,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/kashiwazaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/kashiwazaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27208,6 +33355,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/shibata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/shibata/kakeibo/"
               }
             }
           }
@@ -27246,6 +33402,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/ojiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/ojiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27280,6 +33445,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/kamo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/kamo/kakeibo/"
               }
             }
           }
@@ -27318,6 +33492,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/tokamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/tokamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27352,6 +33535,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/mitsuke/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/mitsuke/kakeibo/"
               }
             }
           }
@@ -27390,6 +33582,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/murakami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/murakami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27424,6 +33625,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/tsubame/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/tsubame/kakeibo/"
               }
             }
           }
@@ -27462,6 +33672,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/itoigawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/itoigawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27496,6 +33715,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/myoko/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/myoko/kakeibo/"
               }
             }
           }
@@ -27534,6 +33762,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/gosen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/gosen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27568,6 +33805,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/joetsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/joetsu/kakeibo/"
               }
             }
           }
@@ -27606,6 +33852,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/agano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/agano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27640,6 +33895,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/sado/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/sado/kakeibo/"
               }
             }
           }
@@ -27678,6 +33942,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/uonuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/uonuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27712,6 +33985,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/minamiuonuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/minamiuonuma/kakeibo/"
               }
             }
           }
@@ -27750,6 +34032,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/tainai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/tainai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27784,6 +34075,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/seiro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/seiro/kakeibo/"
               }
             }
           }
@@ -27822,6 +34122,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/yahiko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/yahiko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27856,6 +34165,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/tagami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/tagami/kakeibo/"
               }
             }
           }
@@ -27894,6 +34212,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/aga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/aga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -27928,6 +34255,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/izumozaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/izumozaki/kakeibo/"
               }
             }
           }
@@ -27966,6 +34302,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/yuzawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/yuzawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28000,6 +34345,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/tsunan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/tsunan/kakeibo/"
               }
             }
           }
@@ -28038,6 +34392,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/kariwa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/kariwa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28074,6 +34437,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/niigata/sekikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/sekikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28108,6 +34480,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/niigata/awashimaura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/niigata/awashimaura/kakeibo/"
               }
             }
           }
@@ -28151,6 +34532,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/toyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/toyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28185,6 +34575,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/takaoka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/takaoka/kakeibo/"
               }
             }
           }
@@ -28223,6 +34622,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/uozu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/uozu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28257,6 +34665,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/himi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/himi/kakeibo/"
               }
             }
           }
@@ -28295,6 +34712,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/namerikawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/namerikawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28329,6 +34755,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/kurobe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/kurobe/kakeibo/"
               }
             }
           }
@@ -28367,6 +34802,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/tonami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/tonami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28401,6 +34845,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/oyabe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/oyabe/kakeibo/"
               }
             }
           }
@@ -28439,6 +34892,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/nanto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/nanto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28473,6 +34935,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/imizu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/imizu/kakeibo/"
               }
             }
           }
@@ -28511,6 +34982,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/funahashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/funahashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28545,6 +35025,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/kamiichi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/kamiichi/kakeibo/"
               }
             }
           }
@@ -28583,6 +35072,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/tateyama-toyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/tateyama-toyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28619,6 +35117,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/toyama/nyuzen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/nyuzen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28653,6 +35160,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/toyama/asahitoyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/toyama/asahitoyama/kakeibo/"
               }
             }
           }
@@ -28754,6 +35270,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/nanao/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/nanao/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28788,6 +35313,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/komatsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/komatsu/kakeibo/"
               }
             }
           }
@@ -28826,6 +35360,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/wajima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/wajima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28860,6 +35403,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/suzu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/suzu/kakeibo/"
               }
             }
           }
@@ -28898,6 +35450,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/kaga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/kaga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -28932,6 +35493,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/hakui/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/hakui/kakeibo/"
               }
             }
           }
@@ -28970,6 +35540,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/kahoku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/kahoku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29004,6 +35583,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/hakusan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/hakusan/kakeibo/"
               }
             }
           }
@@ -29042,6 +35630,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/nomi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/nomi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29076,6 +35673,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/nonoichi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/nonoichi/kakeibo/"
               }
             }
           }
@@ -29114,6 +35720,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/kawakita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/kawakita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29148,6 +35763,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/tsubata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/tsubata/kakeibo/"
               }
             }
           }
@@ -29186,6 +35810,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/uchinada/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/uchinada/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29220,6 +35853,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/shika/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/shika/kakeibo/"
               }
             }
           }
@@ -29258,6 +35900,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/hodatsushimizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/hodatsushimizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29292,6 +35943,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/nakanoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/nakanoto/kakeibo/"
               }
             }
           }
@@ -29330,6 +35990,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ishikawa/anamizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/anamizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29364,6 +36033,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ishikawa/notocho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ishikawa/notocho/kakeibo/"
               }
             }
           }
@@ -29407,6 +36085,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/fukui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/fukui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29441,6 +36128,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/tsuruga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/tsuruga/kakeibo/"
               }
             }
           }
@@ -29479,6 +36175,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/obama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/obama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29513,6 +36218,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/onofukui/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/onofukui/kakeibo/"
               }
             }
           }
@@ -29551,6 +36265,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/katsuyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/katsuyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29585,6 +36308,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/sabae/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/sabae/kakeibo/"
               }
             }
           }
@@ -29623,6 +36355,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/awara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/awara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29657,6 +36398,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/echizen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/echizen/kakeibo/"
               }
             }
           }
@@ -29695,6 +36445,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/sakaifukui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/sakaifukui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29729,6 +36488,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/eiheiji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/eiheiji/kakeibo/"
               }
             }
           }
@@ -29767,6 +36535,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/ikedafukui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/ikedafukui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29801,6 +36578,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/minamiechizen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/minamiechizen/kakeibo/"
               }
             }
           }
@@ -29839,6 +36625,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/echizencho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/echizencho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29873,6 +36668,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/mihamafukui/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/mihamafukui/kakeibo/"
               }
             }
           }
@@ -29911,6 +36715,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/takahamafukui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/takahamafukui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29947,6 +36760,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukui/ooi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/ooi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -29981,6 +36803,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukui/wakasa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukui/wakasa/kakeibo/"
               }
             }
           }
@@ -30024,6 +36855,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/kofu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/kofu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30058,6 +36898,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/fujiyoshida/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/fujiyoshida/kakeibo/"
               }
             }
           }
@@ -30096,6 +36945,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/tsuru/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/tsuru/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30130,6 +36988,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/yamanashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/yamanashi/kakeibo/"
               }
             }
           }
@@ -30168,6 +37035,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/otsuki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/otsuki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30202,6 +37078,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/nirasaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/nirasaki/kakeibo/"
               }
             }
           }
@@ -30240,6 +37125,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/minami-alps/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/minami-alps/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30274,6 +37168,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/hokuto-yamanashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/hokuto-yamanashi/kakeibo/"
               }
             }
           }
@@ -30312,6 +37215,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/kai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/kai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30346,6 +37258,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/fuefuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/fuefuki/kakeibo/"
               }
             }
           }
@@ -30384,6 +37305,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/uenohara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/uenohara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30418,6 +37348,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/koshu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/koshu/kakeibo/"
               }
             }
           }
@@ -30456,6 +37395,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/chuo-yamanashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/chuo-yamanashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30490,6 +37438,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/ichikawamisatomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/ichikawamisatomachi/kakeibo/"
               }
             }
           }
@@ -30528,6 +37485,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/hayakawamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/hayakawamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30562,6 +37528,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/minobu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/minobu/kakeibo/"
               }
             }
           }
@@ -30600,6 +37575,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/nanbumachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/nanbumachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30634,6 +37618,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/fujikawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/fujikawamachi/kakeibo/"
               }
             }
           }
@@ -30672,6 +37665,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/showamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/showamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30706,6 +37708,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/doshimura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/doshimura/kakeibo/"
               }
             }
           }
@@ -30744,6 +37755,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/nishikatsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/nishikatsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30778,6 +37798,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/oshinomura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/oshinomura/kakeibo/"
               }
             }
           }
@@ -30816,6 +37845,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/yamanakako/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/yamanakako/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30850,6 +37888,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/narusawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/narusawa/kakeibo/"
               }
             }
           }
@@ -30888,6 +37935,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/fujikawaguchiko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/fujikawaguchiko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30924,6 +37980,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamanashi/kosugemura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/kosugemura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -30958,6 +38023,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamanashi/tabayamamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamanashi/tabayamamura/kakeibo/"
               }
             }
           }
@@ -31001,6 +38075,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/nagano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/nagano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31035,6 +38118,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/matsumoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/matsumoto/kakeibo/"
               }
             }
           }
@@ -31073,6 +38165,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/ueda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/ueda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31107,6 +38208,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/okaya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/okaya/kakeibo/"
               }
             }
           }
@@ -31145,6 +38255,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/iida/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/iida/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31179,6 +38298,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/suwa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/suwa/kakeibo/"
               }
             }
           }
@@ -31217,6 +38345,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/suzaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/suzaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31251,6 +38388,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/komoro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/komoro/kakeibo/"
               }
             }
           }
@@ -31289,6 +38435,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/ina/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/ina/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31323,6 +38478,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/komagane/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/komagane/kakeibo/"
               }
             }
           }
@@ -31361,6 +38525,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/nakano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/nakano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31395,6 +38568,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/omachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/omachi/kakeibo/"
               }
             }
           }
@@ -31433,6 +38615,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/iiyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/iiyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31467,6 +38658,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/chino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/chino/kakeibo/"
               }
             }
           }
@@ -31505,6 +38705,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/shiojiri/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/shiojiri/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31539,6 +38748,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/saku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/saku/kakeibo/"
               }
             }
           }
@@ -31577,6 +38795,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/chikuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/chikuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31611,6 +38838,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/tomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/tomi/kakeibo/"
               }
             }
           }
@@ -31649,6 +38885,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/azumino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/azumino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31683,6 +38928,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/koumi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/koumi/kakeibo/"
               }
             }
           }
@@ -31721,6 +38975,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/kawakami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/kawakami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31755,6 +39018,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/minamimaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/minamimaki/kakeibo/"
               }
             }
           }
@@ -31793,6 +39065,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/minamiaiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/minamiaiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31827,6 +39108,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/kitaaiki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/kitaaiki/kakeibo/"
               }
             }
           }
@@ -31865,6 +39155,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/sakuho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/sakuho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31899,6 +39198,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/karuizawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/karuizawa/kakeibo/"
               }
             }
           }
@@ -31937,6 +39245,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/miyota/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/miyota/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -31971,6 +39288,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/tateshina/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/tateshina/kakeibo/"
               }
             }
           }
@@ -32009,6 +39335,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/aoki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/aoki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32043,6 +39378,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/nagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/nagawa/kakeibo/"
               }
             }
           }
@@ -32081,6 +39425,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/shimosuwa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/shimosuwa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32115,6 +39468,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/fujimi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/fujimi/kakeibo/"
               }
             }
           }
@@ -32153,6 +39515,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/hara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/hara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32187,6 +39558,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/tatsuno/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/tatsuno/kakeibo/"
               }
             }
           }
@@ -32225,6 +39605,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/minowa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/minowa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32259,6 +39648,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/iijima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/iijima/kakeibo/"
               }
             }
           }
@@ -32297,6 +39695,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/minamimino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/minamimino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32331,6 +39738,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/nakagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/nakagawa/kakeibo/"
               }
             }
           }
@@ -32369,6 +39785,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/miyada/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/miyada/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32403,6 +39828,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/matsukawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/matsukawa/kakeibo/"
               }
             }
           }
@@ -32441,6 +39875,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/takamori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/takamori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32475,6 +39918,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/anan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/anan/kakeibo/"
               }
             }
           }
@@ -32513,6 +39965,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/achi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/achi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32547,6 +40008,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/hiraya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/hiraya/kakeibo/"
               }
             }
           }
@@ -32585,6 +40055,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/neba/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/neba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32619,6 +40098,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/shimojo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/shimojo/kakeibo/"
               }
             }
           }
@@ -32657,6 +40145,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/uruki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/uruki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32691,6 +40188,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/tenryu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/tenryu/kakeibo/"
               }
             }
           }
@@ -32729,6 +40235,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/yasuoka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/yasuoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32763,6 +40278,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/takagi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/takagi/kakeibo/"
               }
             }
           }
@@ -32801,6 +40325,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/toyooka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/toyooka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32835,6 +40368,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/oshika/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/oshika/kakeibo/"
               }
             }
           }
@@ -32873,6 +40415,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/agematsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/agematsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32907,6 +40458,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/nagiso/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/nagiso/kakeibo/"
               }
             }
           }
@@ -32945,6 +40505,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/kiso/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/kiso/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -32979,6 +40548,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/otaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/otaki/kakeibo/"
               }
             }
           }
@@ -33017,6 +40595,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/okuwamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/okuwamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33051,6 +40638,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/kisomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/kisomachi/kakeibo/"
               }
             }
           }
@@ -33089,6 +40685,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/omi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/omi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33123,6 +40728,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/ikusaka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/ikusaka/kakeibo/"
               }
             }
           }
@@ -33161,6 +40775,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/yamagata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/yamagata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33195,6 +40818,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/asahi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/asahi/kakeibo/"
               }
             }
           }
@@ -33233,6 +40865,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/chikuhoku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/chikuhoku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33267,6 +40908,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/ikeda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/ikeda/kakeibo/"
               }
             }
           }
@@ -33305,6 +40955,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/matsukawamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/matsukawamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33339,6 +40998,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/hakuba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/hakuba/kakeibo/"
               }
             }
           }
@@ -33377,6 +41045,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/otari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/otari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33411,6 +41088,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/sakaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/sakaki/kakeibo/"
               }
             }
           }
@@ -33449,6 +41135,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/obuse/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/obuse/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33483,6 +41178,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/takayama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/takayama/kakeibo/"
               }
             }
           }
@@ -33521,6 +41225,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/yamanouchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/yamanouchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33555,6 +41268,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/kijimadaira/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/kijimadaira/kakeibo/"
               }
             }
           }
@@ -33593,6 +41315,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/nozawaonsen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/nozawaonsen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33627,6 +41358,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/shinano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/shinano/kakeibo/"
               }
             }
           }
@@ -33665,6 +41405,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/ogawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/ogawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33701,6 +41450,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagano/iizuna/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/iizuna/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33735,6 +41493,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagano/sakae/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagano/sakae/kakeibo/"
               }
             }
           }
@@ -33836,6 +41603,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/ogaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/ogaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33870,6 +41646,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/takayamashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/takayamashi/kakeibo/"
               }
             }
           }
@@ -33908,6 +41693,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/tajimi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/tajimi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -33942,6 +41736,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/seki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/seki/kakeibo/"
               }
             }
           }
@@ -33980,6 +41783,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/nakatsugawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/nakatsugawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34014,6 +41826,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/mino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/mino/kakeibo/"
               }
             }
           }
@@ -34052,6 +41873,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/mizunami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/mizunami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34086,6 +41916,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/hashima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/hashima/kakeibo/"
               }
             }
           }
@@ -34124,6 +41963,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/ena/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/ena/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34158,6 +42006,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/minokamo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/minokamo/kakeibo/"
               }
             }
           }
@@ -34196,6 +42053,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/toki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/toki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34230,6 +42096,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/kakamigahara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/kakamigahara/kakeibo/"
               }
             }
           }
@@ -34268,6 +42143,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/kani/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/kani/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34302,6 +42186,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/yamagatashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/yamagatashi/kakeibo/"
               }
             }
           }
@@ -34340,6 +42233,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/mizuhoshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/mizuhoshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34374,6 +42276,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/hida/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/hida/kakeibo/"
               }
             }
           }
@@ -34412,6 +42323,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/motosu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/motosu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34446,6 +42366,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/gujo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/gujo/kakeibo/"
               }
             }
           }
@@ -34484,6 +42413,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/gero/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/gero/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34518,6 +42456,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/kaizu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/kaizu/kakeibo/"
               }
             }
           }
@@ -34556,6 +42503,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/ginancho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/ginancho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34590,6 +42546,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/kasamatsucho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/kasamatsucho/kakeibo/"
               }
             }
           }
@@ -34628,6 +42593,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/yorocho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/yorocho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34662,6 +42636,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/taruicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/taruicho/kakeibo/"
               }
             }
           }
@@ -34700,6 +42683,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/sekigaharacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/sekigaharacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34734,6 +42726,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/godocho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/godocho/kakeibo/"
               }
             }
           }
@@ -34772,6 +42773,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/wanouchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/wanouchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34806,6 +42816,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/anpachicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/anpachicho/kakeibo/"
               }
             }
           }
@@ -34844,6 +42863,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/ibicho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/ibicho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34878,6 +42906,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/onocho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/onocho/kakeibo/"
               }
             }
           }
@@ -34916,6 +42953,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/ikedacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/ikedacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -34950,6 +42996,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/kitakata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/kitakata/kakeibo/"
               }
             }
           }
@@ -34988,6 +43043,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/sakahogi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/sakahogi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35022,6 +43086,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/tomika/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/tomika/kakeibo/"
               }
             }
           }
@@ -35060,6 +43133,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/kawabe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/kawabe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35094,6 +43176,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/shichiso/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/shichiso/kakeibo/"
               }
             }
           }
@@ -35132,6 +43223,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/yaotsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/yaotsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35166,6 +43266,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/shirakawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/shirakawa/kakeibo/"
               }
             }
           }
@@ -35204,6 +43313,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/higashishirakawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/higashishirakawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35240,6 +43358,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/gifu/mitake/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/mitake/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35274,6 +43401,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/gifu/shirakawamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/gifu/shirakawamura/kakeibo/"
               }
             }
           }
@@ -35442,6 +43578,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/numazu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/numazu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35476,6 +43621,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/atami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/atami/kakeibo/"
               }
             }
           }
@@ -35514,6 +43668,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/mishima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/mishima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35548,6 +43711,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/fujinomiya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/fujinomiya/kakeibo/"
               }
             }
           }
@@ -35586,6 +43758,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/ito/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/ito/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35620,6 +43801,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/shimada/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/shimada/kakeibo/"
               }
             }
           }
@@ -35658,6 +43848,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/fuji/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/fuji/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35692,6 +43891,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/iwata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/iwata/kakeibo/"
               }
             }
           }
@@ -35730,6 +43938,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/yaizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/yaizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35764,6 +43981,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/kakegawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/kakegawa/kakeibo/"
               }
             }
           }
@@ -35802,6 +44028,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/fujieda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/fujieda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35836,6 +44071,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/gotemba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/gotemba/kakeibo/"
               }
             }
           }
@@ -35874,6 +44118,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/fukuroi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/fukuroi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35908,6 +44161,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/shimoda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/shimoda/kakeibo/"
               }
             }
           }
@@ -35946,6 +44208,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/susono/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/susono/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -35980,6 +44251,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/kosai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/kosai/kakeibo/"
               }
             }
           }
@@ -36018,6 +44298,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/izu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/izu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36052,6 +44341,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/omaezaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/omaezaki/kakeibo/"
               }
             }
           }
@@ -36090,6 +44388,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/kikugawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/kikugawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36124,6 +44431,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/izunokuni/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/izunokuni/kakeibo/"
               }
             }
           }
@@ -36162,6 +44478,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/makinohara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/makinohara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36196,6 +44521,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/higashiizu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/higashiizu/kakeibo/"
               }
             }
           }
@@ -36234,6 +44568,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/kawazu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/kawazu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36268,6 +44611,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/minamiizu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/minamiizu/kakeibo/"
               }
             }
           }
@@ -36306,6 +44658,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/matsuzaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/matsuzaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36340,6 +44701,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/nishiizu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/nishiizu/kakeibo/"
               }
             }
           }
@@ -36378,6 +44748,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/kannami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/kannami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36412,6 +44791,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/shimizumachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/shimizumachi/kakeibo/"
               }
             }
           }
@@ -36450,6 +44838,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/nagaizumi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/nagaizumi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36484,6 +44881,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/oyamamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/oyamamachi/kakeibo/"
               }
             }
           }
@@ -36522,6 +44928,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/yoshida/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/yoshida/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36558,6 +44973,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shizuoka/kawanehon/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/kawanehon/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36592,6 +45016,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shizuoka/morimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shizuoka/morimachi/kakeibo/"
               }
             }
           }
@@ -36702,6 +45135,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/toyohashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toyohashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36736,6 +45178,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/okazaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/okazaki/kakeibo/"
               }
             }
           }
@@ -36774,6 +45225,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/ichinomiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/ichinomiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36808,6 +45268,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/seto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/seto/kakeibo/"
               }
             }
           }
@@ -36846,6 +45315,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/handa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/handa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36880,6 +45358,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/kasugai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/kasugai/kakeibo/"
               }
             }
           }
@@ -36918,6 +45405,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/toyokawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toyokawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -36952,6 +45448,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/tsushima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/tsushima/kakeibo/"
               }
             }
           }
@@ -36990,6 +45495,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/hekinan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/hekinan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37024,6 +45538,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/kariya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/kariya/kakeibo/"
               }
             }
           }
@@ -37062,6 +45585,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/toyota/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toyota/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37096,6 +45628,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/anjo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/anjo/kakeibo/"
               }
             }
           }
@@ -37134,6 +45675,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/nishio/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/nishio/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37168,6 +45718,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/gamagori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/gamagori/kakeibo/"
               }
             }
           }
@@ -37206,6 +45765,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/inuyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/inuyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37240,6 +45808,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/tokoname/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/tokoname/kakeibo/"
               }
             }
           }
@@ -37278,6 +45855,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/konan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/konan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37312,6 +45898,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/komaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/komaki/kakeibo/"
               }
             }
           }
@@ -37350,6 +45945,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/inazawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/inazawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37384,6 +45988,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/shinshiro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/shinshiro/kakeibo/"
               }
             }
           }
@@ -37422,6 +46035,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/tokai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/tokai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37456,6 +46078,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/obu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/obu/kakeibo/"
               }
             }
           }
@@ -37494,6 +46125,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/chita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/chita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37528,6 +46168,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/chiryu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/chiryu/kakeibo/"
               }
             }
           }
@@ -37566,6 +46215,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/owariasahi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/owariasahi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37600,6 +46258,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/takahama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/takahama/kakeibo/"
               }
             }
           }
@@ -37638,6 +46305,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/iwakura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/iwakura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37672,6 +46348,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/toyoake/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toyoake/kakeibo/"
               }
             }
           }
@@ -37710,6 +46395,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/nisshin/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/nisshin/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37744,6 +46438,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/tahara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/tahara/kakeibo/"
               }
             }
           }
@@ -37782,6 +46485,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/aisai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/aisai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37816,6 +46528,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/kiyosu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/kiyosu/kakeibo/"
               }
             }
           }
@@ -37854,6 +46575,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/kitanagoya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/kitanagoya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37888,6 +46618,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/yatomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/yatomi/kakeibo/"
               }
             }
           }
@@ -37926,6 +46665,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/miyoshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/miyoshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -37960,6 +46708,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/ama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/ama/kakeibo/"
               }
             }
           }
@@ -37998,6 +46755,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/nagakute/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/nagakute/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38032,6 +46798,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/togo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/togo/kakeibo/"
               }
             }
           }
@@ -38070,6 +46845,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/toyoyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toyoyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38104,6 +46888,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/oguchi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/oguchi/kakeibo/"
               }
             }
           }
@@ -38142,6 +46935,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/fuso/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/fuso/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38176,6 +46978,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/oharu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/oharu/kakeibo/"
               }
             }
           }
@@ -38214,6 +47025,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/kanie/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/kanie/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38248,6 +47068,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/tobishima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/tobishima/kakeibo/"
               }
             }
           }
@@ -38286,6 +47115,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/agui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/agui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38320,6 +47158,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/higashiura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/higashiura/kakeibo/"
               }
             }
           }
@@ -38358,6 +47205,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/minamichita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/minamichita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38392,6 +47248,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/mihama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/mihama/kakeibo/"
               }
             }
           }
@@ -38430,6 +47295,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/taketoyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/taketoyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38464,6 +47338,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/kota/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/kota/kakeibo/"
               }
             }
           }
@@ -38502,6 +47385,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/shitara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/shitara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38538,6 +47430,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/aichi/toei/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toei/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38572,6 +47473,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/aichi/toyne/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/aichi/toyne/kakeibo/"
               }
             }
           }
@@ -38615,6 +47525,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/tsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/tsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38649,6 +47568,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/yokkaichi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/yokkaichi/kakeibo/"
               }
             }
           }
@@ -38687,6 +47615,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/ise/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/ise/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38721,6 +47658,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/matsusaka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/matsusaka/kakeibo/"
               }
             }
           }
@@ -38759,6 +47705,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/kuwana/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kuwana/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38793,6 +47748,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/suzuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/suzuka/kakeibo/"
               }
             }
           }
@@ -38831,6 +47795,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/nabari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/nabari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38865,6 +47838,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/owase/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/owase/kakeibo/"
               }
             }
           }
@@ -38903,6 +47885,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/kameyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kameyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -38937,6 +47928,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/toba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/toba/kakeibo/"
               }
             }
           }
@@ -38975,6 +47975,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/kumanoshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kumanoshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39009,6 +48018,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/inabe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/inabe/kakeibo/"
               }
             }
           }
@@ -39047,6 +48065,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/shima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/shima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39081,6 +48108,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/iga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/iga/kakeibo/"
               }
             }
           }
@@ -39119,6 +48155,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/kisosaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kisosaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39153,6 +48198,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/toin/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/toin/kakeibo/"
               }
             }
           }
@@ -39191,6 +48245,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/komono/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/komono/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39225,6 +48288,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/asahicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/asahicho/kakeibo/"
               }
             }
           }
@@ -39263,6 +48335,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/kawagoemachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kawagoemachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39297,6 +48378,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/taki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/taki/kakeibo/"
               }
             }
           }
@@ -39335,6 +48425,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/meiwamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/meiwamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39369,6 +48468,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/odai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/odai/kakeibo/"
               }
             }
           }
@@ -39407,6 +48515,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/tamaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/tamaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39441,6 +48558,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/watarai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/watarai/kakeibo/"
               }
             }
           }
@@ -39479,6 +48605,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/taikimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/taikimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39513,6 +48648,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/minamiise/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/minamiise/kakeibo/"
               }
             }
           }
@@ -39551,6 +48695,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/kihoku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kihoku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39587,6 +48740,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/mie/mihamachomie/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/mihamachomie/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39621,6 +48783,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/mie/kiho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/mie/kiho/kakeibo/"
               }
             }
           }
@@ -39664,6 +48835,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/otsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/otsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39698,6 +48878,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/hikone/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/hikone/kakeibo/"
               }
             }
           }
@@ -39736,6 +48925,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/nagahama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/nagahama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39770,6 +48968,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/omihachiman/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/omihachiman/kakeibo/"
               }
             }
           }
@@ -39808,6 +49015,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/kusatsushi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/kusatsushi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39842,6 +49058,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/moriyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/moriyama/kakeibo/"
               }
             }
           }
@@ -39880,6 +49105,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/ritto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/ritto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39914,6 +49148,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/koka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/koka/kakeibo/"
               }
             }
           }
@@ -39952,6 +49195,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/yasu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/yasu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -39986,6 +49238,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/konanshi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/konanshi/kakeibo/"
               }
             }
           }
@@ -40024,6 +49285,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/takashima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/takashima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40058,6 +49328,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/higashiomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/higashiomi/kakeibo/"
               }
             }
           }
@@ -40096,6 +49375,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/maibara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/maibara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40130,6 +49418,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/hinocho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/hinocho/kakeibo/"
               }
             }
           }
@@ -40168,6 +49465,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/ryuo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/ryuo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40202,6 +49508,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/aisho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/aisho/kakeibo/"
               }
             }
           }
@@ -40240,6 +49555,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/toyosato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/toyosato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40276,6 +49600,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shiga/kora/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/kora/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40310,6 +49643,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shiga/taga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shiga/taga/kakeibo/"
               }
             }
           }
@@ -40420,6 +49762,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/fukuchiyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/fukuchiyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40454,6 +49805,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/maizuru/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/maizuru/kakeibo/"
               }
             }
           }
@@ -40492,6 +49852,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/ayabe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/ayabe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40526,6 +49895,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/uji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/uji/kakeibo/"
               }
             }
           }
@@ -40564,6 +49942,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/miyazu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/miyazu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40598,6 +49985,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/kameoka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kameoka/kakeibo/"
               }
             }
           }
@@ -40636,6 +50032,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/joyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/joyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40670,6 +50075,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/muko/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/muko/kakeibo/"
               }
             }
           }
@@ -40708,6 +50122,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/nagaokakyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/nagaokakyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40742,6 +50165,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/yawata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/yawata/kakeibo/"
               }
             }
           }
@@ -40780,6 +50212,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/kyotanabe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kyotanabe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40814,6 +50255,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/kyotango/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kyotango/kakeibo/"
               }
             }
           }
@@ -40852,6 +50302,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/nantan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/nantan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40886,6 +50345,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/kizugawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kizugawa/kakeibo/"
               }
             }
           }
@@ -40924,6 +50392,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/oyamazaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/oyamazaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -40958,6 +50435,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/kumiyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kumiyama/kakeibo/"
               }
             }
           }
@@ -40996,6 +50482,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/ide/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/ide/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41030,6 +50525,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/ujitawara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/ujitawara/kakeibo/"
               }
             }
           }
@@ -41068,6 +50572,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/kasagi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kasagi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41102,6 +50615,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/wazuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/wazuka/kakeibo/"
               }
             }
           }
@@ -41140,6 +50662,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/seika/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/seika/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41174,6 +50705,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/minamiyamashiro/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/minamiyamashiro/kakeibo/"
               }
             }
           }
@@ -41212,6 +50752,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/kyotamba/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/kyotamba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41248,6 +50797,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kyoto/ine/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/ine/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41282,6 +50840,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kyoto/yosano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kyoto/yosano/kakeibo/"
               }
             }
           }
@@ -41450,6 +51017,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/kishiwada/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kishiwada/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41484,6 +51060,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/toyonaka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/toyonaka/kakeibo/"
               }
             }
           }
@@ -41522,6 +51107,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/ikedashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/ikedashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41556,6 +51150,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/suita/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/suita/kakeibo/"
               }
             }
           }
@@ -41594,6 +51197,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/izumiotsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/izumiotsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41628,6 +51240,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/takatsuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/takatsuki/kakeibo/"
               }
             }
           }
@@ -41666,6 +51287,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/kaizuka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kaizuka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41700,6 +51330,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/moriguchi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/moriguchi/kakeibo/"
               }
             }
           }
@@ -41738,6 +51377,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/hirakata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/hirakata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41772,6 +51420,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/ibaraki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/ibaraki/kakeibo/"
               }
             }
           }
@@ -41810,6 +51467,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/yao/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/yao/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41844,6 +51510,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/izumisano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/izumisano/kakeibo/"
               }
             }
           }
@@ -41882,6 +51557,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/tondabayashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/tondabayashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41916,6 +51600,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/neyagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/neyagawa/kakeibo/"
               }
             }
           }
@@ -41954,6 +51647,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/kawachinagano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kawachinagano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -41988,6 +51690,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/matsubara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/matsubara/kakeibo/"
               }
             }
           }
@@ -42026,6 +51737,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/daito/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/daito/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42060,6 +51780,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/izumi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/izumi/kakeibo/"
               }
             }
           }
@@ -42098,6 +51827,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/minoh/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/minoh/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42132,6 +51870,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/kashiwara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kashiwara/kakeibo/"
               }
             }
           }
@@ -42170,6 +51917,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/habikino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/habikino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42204,6 +51960,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/kadoma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kadoma/kakeibo/"
               }
             }
           }
@@ -42242,6 +52007,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/settsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/settsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42278,6 +52052,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/takaishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/takaishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42312,6 +52095,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/fujiidera/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/fujiidera/kakeibo/"
               }
             }
           }
@@ -42408,6 +52200,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/sennan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/sennan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42442,6 +52243,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/shijonawate/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/shijonawate/kakeibo/"
               }
             }
           }
@@ -42480,6 +52290,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/katano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/katano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42514,6 +52333,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/osakasayama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/osakasayama/kakeibo/"
               }
             }
           }
@@ -42552,6 +52380,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/hannan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/hannan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42586,6 +52423,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/shimamoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/shimamoto/kakeibo/"
               }
             }
           }
@@ -42624,6 +52470,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/toyono/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/toyono/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42658,6 +52513,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/nose/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/nose/kakeibo/"
               }
             }
           }
@@ -42696,6 +52560,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/tadaoka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/tadaoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42730,6 +52603,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/kumatori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kumatori/kakeibo/"
               }
             }
           }
@@ -42768,6 +52650,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/tajiri/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/tajiri/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42802,6 +52693,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/misaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/misaki/kakeibo/"
               }
             }
           }
@@ -42840,6 +52740,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/taishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/taishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42876,6 +52785,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/osaka/kanan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/kanan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -42910,6 +52828,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/osaka/chihayaakasaka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/osaka/chihayaakasaka/kakeibo/"
               }
             }
           }
@@ -43078,6 +53005,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/amagasaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/amagasaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43112,6 +53048,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/akashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/akashi/kakeibo/"
               }
             }
           }
@@ -43150,6 +53095,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/nishinomiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/nishinomiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43184,6 +53138,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/sumoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/sumoto/kakeibo/"
               }
             }
           }
@@ -43222,6 +53185,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/ashiyashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/ashiyashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43258,6 +53230,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/itami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/itami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43292,6 +53273,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/aioi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/aioi/kakeibo/"
               }
             }
           }
@@ -43388,6 +53378,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/kakogawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kakogawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43422,6 +53421,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/ako/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/ako/kakeibo/"
               }
             }
           }
@@ -43460,6 +53468,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/nishiwaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/nishiwaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43494,6 +53511,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/takarazuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/takarazuka/kakeibo/"
               }
             }
           }
@@ -43532,6 +53558,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/miki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/miki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43566,6 +53601,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/takasago/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/takasago/kakeibo/"
               }
             }
           }
@@ -43604,6 +53648,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/kawanishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kawanishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43638,6 +53691,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/ono/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/ono/kakeibo/"
               }
             }
           }
@@ -43676,6 +53738,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/sanda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/sanda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43710,6 +53781,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/kasai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kasai/kakeibo/"
               }
             }
           }
@@ -43748,6 +53828,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/tanbasasayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/tanbasasayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43782,6 +53871,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/yabu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/yabu/kakeibo/"
               }
             }
           }
@@ -43820,6 +53918,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/tamba/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/tamba/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43854,6 +53961,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/minamiawaji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/minamiawaji/kakeibo/"
               }
             }
           }
@@ -43892,6 +54008,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/asago/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/asago/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43926,6 +54051,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/awaji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/awaji/kakeibo/"
               }
             }
           }
@@ -43964,6 +54098,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/shiso/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/shiso/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -43998,6 +54141,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/kato/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kato/kakeibo/"
               }
             }
           }
@@ -44036,6 +54188,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/tatsunoshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/tatsunoshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44070,6 +54231,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/inagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/inagawa/kakeibo/"
               }
             }
           }
@@ -44108,6 +54278,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/taka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/taka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44142,6 +54321,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/inami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/inami/kakeibo/"
               }
             }
           }
@@ -44180,6 +54368,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/harima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/harima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44214,6 +54411,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/ichikawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/ichikawamachi/kakeibo/"
               }
             }
           }
@@ -44252,6 +54458,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/fukusaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/fukusaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44286,6 +54501,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/kamikawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kamikawamachi/kakeibo/"
               }
             }
           }
@@ -44324,6 +54548,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/taishimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/taishimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44358,6 +54591,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/kamigori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/kamigori/kakeibo/"
               }
             }
           }
@@ -44396,6 +54638,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/sayo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/sayo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44432,6 +54683,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hyogo/mihamacho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/mihamacho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44466,6 +54726,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hyogo/shinonsen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hyogo/shinonsen/kakeibo/"
               }
             }
           }
@@ -44509,6 +54778,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/nara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/nara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44543,6 +54821,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/yamatotakada/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/yamatotakada/kakeibo/"
               }
             }
           }
@@ -44581,6 +54868,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/yamatokoriyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/yamatokoriyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44615,6 +54911,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/tenri/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/tenri/kakeibo/"
               }
             }
           }
@@ -44653,6 +54958,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/kashihara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kashihara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44687,6 +55001,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/sakurai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/sakurai/kakeibo/"
               }
             }
           }
@@ -44725,6 +55048,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/gojo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/gojo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44759,6 +55091,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/gose/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/gose/kakeibo/"
               }
             }
           }
@@ -44797,6 +55138,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/ikoma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/ikoma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44831,6 +55181,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/kashiba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kashiba/kakeibo/"
               }
             }
           }
@@ -44869,6 +55228,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/katsuragi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/katsuragi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44903,6 +55271,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/uda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/uda/kakeibo/"
               }
             }
           }
@@ -44941,6 +55318,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/yamazoe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/yamazoe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -44975,6 +55361,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/heguri/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/heguri/kakeibo/"
               }
             }
           }
@@ -45013,6 +55408,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/sango/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/sango/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45047,6 +55451,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/ikaruga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/ikaruga/kakeibo/"
               }
             }
           }
@@ -45085,6 +55498,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/ando/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/ando/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45119,6 +55541,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/kawanishimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kawanishimachi/kakeibo/"
               }
             }
           }
@@ -45157,6 +55588,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/miyake/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/miyake/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45191,6 +55631,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/tawaramoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/tawaramoto/kakeibo/"
               }
             }
           }
@@ -45229,6 +55678,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/soni/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/soni/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45263,6 +55721,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/mitsue/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/mitsue/kakeibo/"
               }
             }
           }
@@ -45301,6 +55768,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/takatori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/takatori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45335,6 +55811,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/asuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/asuka/kakeibo/"
               }
             }
           }
@@ -45373,6 +55858,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/kamimaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kamimaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45407,6 +55901,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/oji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/oji/kakeibo/"
               }
             }
           }
@@ -45445,6 +55948,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/koryo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/koryo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45479,6 +55991,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/kawai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kawai/kakeibo/"
               }
             }
           }
@@ -45517,6 +56038,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/yoshino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/yoshino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45551,6 +56081,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/oyodo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/oyodo/kakeibo/"
               }
             }
           }
@@ -45589,6 +56128,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/shimoichi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/shimoichi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45623,6 +56171,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/kurotaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kurotaki/kakeibo/"
               }
             }
           }
@@ -45661,6 +56218,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/tenkawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/tenkawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45695,6 +56261,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/nosegawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/nosegawa/kakeibo/"
               }
             }
           }
@@ -45733,6 +56308,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/totsukawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/totsukawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45767,6 +56351,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/shimokitayama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/shimokitayama/kakeibo/"
               }
             }
           }
@@ -45805,6 +56398,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/kamikitayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kamikitayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45841,6 +56443,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nara/kawakamimura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/kawakamimura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45875,6 +56486,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nara/higashiyoshino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nara/higashiyoshino/kakeibo/"
               }
             }
           }
@@ -45918,6 +56538,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/wakayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/wakayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -45952,6 +56581,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/kainan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kainan/kakeibo/"
               }
             }
           }
@@ -45990,6 +56628,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/hashimoto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/hashimoto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46024,6 +56671,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/arida/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/arida/kakeibo/"
               }
             }
           }
@@ -46062,6 +56718,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/gobo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/gobo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46096,6 +56761,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/tanabe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/tanabe/kakeibo/"
               }
             }
           }
@@ -46134,6 +56808,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/shingushi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/shingushi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46168,6 +56851,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/kinokawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kinokawa/kakeibo/"
               }
             }
           }
@@ -46206,6 +56898,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/iwade/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/iwade/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46240,6 +56941,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/kimino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kimino/kakeibo/"
               }
             }
           }
@@ -46278,6 +56988,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/katsuragimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/katsuragimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46312,6 +57031,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/kudoyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kudoyama/kakeibo/"
               }
             }
           }
@@ -46350,6 +57078,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/koya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/koya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46384,6 +57121,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/yuasa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/yuasa/kakeibo/"
               }
             }
           }
@@ -46422,6 +57168,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/hirogawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/hirogawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46456,6 +57211,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/aridagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/aridagawa/kakeibo/"
               }
             }
           }
@@ -46494,6 +57258,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/mihamawakayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/mihamawakayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46528,6 +57301,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/hidakacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/hidakacho/kakeibo/"
               }
             }
           }
@@ -46566,6 +57348,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/yura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/yura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46600,6 +57391,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/inamicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/inamicho/kakeibo/"
               }
             }
           }
@@ -46638,6 +57438,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/minabe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/minabe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46672,6 +57481,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/hidakagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/hidakagawa/kakeibo/"
               }
             }
           }
@@ -46710,6 +57528,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/shirahama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/shirahama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46744,6 +57571,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/kamitonda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kamitonda/kakeibo/"
               }
             }
           }
@@ -46782,6 +57618,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/susami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/susami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46816,6 +57661,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/nachikatsuura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/nachikatsuura/kakeibo/"
               }
             }
           }
@@ -46881,6 +57735,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/kozagawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kozagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46917,6 +57780,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/wakayama/kitayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kitayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -46951,6 +57823,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/wakayama/kushimoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/wakayama/kushimoto/kakeibo/"
               }
             }
           }
@@ -46994,6 +57875,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/tottori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/tottori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47028,6 +57918,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/yonago/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/yonago/kakeibo/"
               }
             }
           }
@@ -47066,6 +57965,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/kurayoshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/kurayoshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47100,6 +58008,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/sakaiminato/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/sakaiminato/kakeibo/"
               }
             }
           }
@@ -47138,6 +58055,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/iwamimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/iwamimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47172,6 +58098,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/wakasacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/wakasacho/kakeibo/"
               }
             }
           }
@@ -47210,6 +58145,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/chizucho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/chizucho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47244,6 +58188,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/yazu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/yazu/kakeibo/"
               }
             }
           }
@@ -47282,6 +58235,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/misasa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/misasa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47316,6 +58278,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/yurihama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/yurihama/kakeibo/"
               }
             }
           }
@@ -47354,6 +58325,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/kotoura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/kotoura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47388,6 +58368,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/hokuei/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/hokuei/kakeibo/"
               }
             }
           }
@@ -47426,6 +58415,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/hichisomura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/hichisomura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47460,6 +58458,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/daisen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/daisen/kakeibo/"
               }
             }
           }
@@ -47498,6 +58505,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/nanbumachi-tottori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/nanbumachi-tottori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47532,6 +58548,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/hoki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/hoki/kakeibo/"
               }
             }
           }
@@ -47570,6 +58595,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/nichinanmachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/nichinanmachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47606,6 +58640,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tottori/hinomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/hinomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47640,6 +58683,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tottori/kofu-tottori/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tottori/kofu-tottori/kakeibo/"
               }
             }
           }
@@ -47683,6 +58735,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/matsue/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/matsue/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47717,6 +58778,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/hamada/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/hamada/kakeibo/"
               }
             }
           }
@@ -47755,6 +58825,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/izumo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/izumo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47789,6 +58868,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/masuda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/masuda/kakeibo/"
               }
             }
           }
@@ -47827,6 +58915,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/oda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/oda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47861,6 +58958,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/yasugi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/yasugi/kakeibo/"
               }
             }
           }
@@ -47899,6 +59005,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/gotsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/gotsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -47933,6 +59048,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/unnan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/unnan/kakeibo/"
               }
             }
           }
@@ -47971,6 +59095,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/okuizumo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/okuizumo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48005,6 +59138,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/iinan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/iinan/kakeibo/"
               }
             }
           }
@@ -48043,6 +59185,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/kawamoto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/kawamoto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48077,6 +59228,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/misato-shimane/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/misato-shimane/kakeibo/"
               }
             }
           }
@@ -48115,6 +59275,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/ohnan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/ohnan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48149,6 +59318,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/tsuwano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/tsuwano/kakeibo/"
               }
             }
           }
@@ -48187,6 +59365,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/yoshika/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/yoshika/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48221,6 +59408,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/amamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/amamachi/kakeibo/"
               }
             }
           }
@@ -48259,6 +59455,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/nishinoshima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/nishinoshima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48295,6 +59500,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/shimane/chibumura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/chibumura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48329,6 +59543,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/shimane/okinoshima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/shimane/okinoshima/kakeibo/"
               }
             }
           }
@@ -48430,6 +59653,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/kurashiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/kurashiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48464,6 +59696,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/tsuyama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/tsuyama/kakeibo/"
               }
             }
           }
@@ -48502,6 +59743,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/tamano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/tamano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48536,6 +59786,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/kasaoka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/kasaoka/kakeibo/"
               }
             }
           }
@@ -48574,6 +59833,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/ibara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/ibara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48608,6 +59876,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/soja/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/soja/kakeibo/"
               }
             }
           }
@@ -48646,6 +59923,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/takahashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/takahashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48680,6 +59966,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/niimi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/niimi/kakeibo/"
               }
             }
           }
@@ -48718,6 +60013,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/bizen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/bizen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48752,6 +60056,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/setouchi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/setouchi/kakeibo/"
               }
             }
           }
@@ -48790,6 +60103,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/akaiwashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/akaiwashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48824,6 +60146,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/maniwa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/maniwa/kakeibo/"
               }
             }
           }
@@ -48862,6 +60193,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/mimasaka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/mimasaka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48896,6 +60236,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/asakuchi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/asakuchi/kakeibo/"
               }
             }
           }
@@ -48934,6 +60283,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/wake/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/wake/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -48968,6 +60326,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/hayashima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/hayashima/kakeibo/"
               }
             }
           }
@@ -49006,6 +60373,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/satosho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/satosho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49040,6 +60416,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/yakage/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/yakage/kakeibo/"
               }
             }
           }
@@ -49078,6 +60463,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/shinjo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/shinjo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49112,6 +60506,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/kagamino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/kagamino/kakeibo/"
               }
             }
           }
@@ -49150,6 +60553,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/shoo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/shoo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49184,6 +60596,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/nagi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/nagi/kakeibo/"
               }
             }
           }
@@ -49222,6 +60643,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/nishiawakura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/nishiawakura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49256,6 +60686,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/kumenan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/kumenan/kakeibo/"
               }
             }
           }
@@ -49294,6 +60733,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okayama/misakicho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/misakicho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49328,6 +60776,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okayama/kibichuo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okayama/kibichuo/kakeibo/"
               }
             }
           }
@@ -49429,6 +60886,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/kure/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/kure/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49463,6 +60929,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/takehara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/takehara/kakeibo/"
               }
             }
           }
@@ -49501,6 +60976,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/mihara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/mihara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49535,6 +61019,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/onomichi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/onomichi/kakeibo/"
               }
             }
           }
@@ -49573,6 +61066,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/fukuyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/fukuyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49607,6 +61109,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/fuchushi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/fuchushi/kakeibo/"
               }
             }
           }
@@ -49645,6 +61156,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/miyoshishi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/miyoshishi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49679,6 +61199,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/shobara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/shobara/kakeibo/"
               }
             }
           }
@@ -49717,6 +61246,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/otake/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/otake/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49751,6 +61289,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/higashihiroshima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/higashihiroshima/kakeibo/"
               }
             }
           }
@@ -49789,6 +61336,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/hatsukaichi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/hatsukaichi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49823,6 +61379,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/akitakata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/akitakata/kakeibo/"
               }
             }
           }
@@ -49861,6 +61426,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/etajima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/etajima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49895,6 +61469,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/fuchucho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/fuchucho/kakeibo/"
               }
             }
           }
@@ -49933,6 +61516,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/kaita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/kaita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -49967,6 +61559,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/kumano/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/kumano/kakeibo/"
               }
             }
           }
@@ -50005,6 +61606,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/saka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/saka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50039,6 +61649,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/akiota/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/akiota/kakeibo/"
               }
             }
           }
@@ -50077,6 +61696,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/kitahiroshimamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/kitahiroshimamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50111,6 +61739,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/osakikamijima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/osakikamijima/kakeibo/"
               }
             }
           }
@@ -50149,6 +61786,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/hiroshima/sera/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/sera/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50183,6 +61829,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/hiroshima/jinsekikogen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/hiroshima/jinsekikogen/kakeibo/"
               }
             }
           }
@@ -50226,6 +61881,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/shimonoseki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/shimonoseki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50260,6 +61924,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/ube/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/ube/kakeibo/"
               }
             }
           }
@@ -50298,6 +61971,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/yamaguchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/yamaguchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50332,6 +62014,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/hagi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/hagi/kakeibo/"
               }
             }
           }
@@ -50370,6 +62061,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/hofu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/hofu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50404,6 +62104,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/kudamatsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/kudamatsu/kakeibo/"
               }
             }
           }
@@ -50442,6 +62151,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/iwakuni/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/iwakuni/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50476,6 +62194,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/hikari/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/hikari/kakeibo/"
               }
             }
           }
@@ -50514,6 +62241,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/nagato/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/nagato/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50548,6 +62284,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/yanai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/yanai/kakeibo/"
               }
             }
           }
@@ -50586,6 +62331,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/mine/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/mine/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50620,6 +62374,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/shunan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/shunan/kakeibo/"
               }
             }
           }
@@ -50658,6 +62421,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/sanyoonoda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/sanyoonoda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50692,6 +62464,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/suooshima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/suooshima/kakeibo/"
               }
             }
           }
@@ -50730,6 +62511,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/waki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/waki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50764,6 +62554,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/kaminoseki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/kaminoseki/kakeibo/"
               }
             }
           }
@@ -50802,6 +62601,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/tabuse/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/tabuse/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50838,6 +62646,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/yamaguchi/hirao/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/hirao/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50872,6 +62689,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/yamaguchi/abu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/yamaguchi/abu/kakeibo/"
               }
             }
           }
@@ -50915,6 +62741,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/tokushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/tokushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -50949,6 +62784,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/naruto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/naruto/kakeibo/"
               }
             }
           }
@@ -50987,6 +62831,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/komatsushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/komatsushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51021,6 +62874,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/anantokushima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/anantokushima/kakeibo/"
               }
             }
           }
@@ -51059,6 +62921,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/yoshinogawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/yoshinogawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51093,6 +62964,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/awa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/awa/kakeibo/"
               }
             }
           }
@@ -51131,6 +63011,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/mima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/mima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51165,6 +63054,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/miyoshitokushima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/miyoshitokushima/kakeibo/"
               }
             }
           }
@@ -51203,6 +63101,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/katsuuratokushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/katsuuratokushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51237,6 +63144,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/kamikatsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/kamikatsu/kakeibo/"
               }
             }
           }
@@ -51275,6 +63191,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/sanagochi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/sanagochi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51309,6 +63234,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/ishii/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/ishii/kakeibo/"
               }
             }
           }
@@ -51347,6 +63281,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/kamiyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/kamiyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51381,6 +63324,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/nakatokushima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/nakatokushima/kakeibo/"
               }
             }
           }
@@ -51419,6 +63371,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/mugi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/mugi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51453,6 +63414,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/minami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/minami/kakeibo/"
               }
             }
           }
@@ -51491,6 +63461,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/kaiyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/kaiyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51525,6 +63504,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/matsushige/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/matsushige/kakeibo/"
               }
             }
           }
@@ -51563,6 +63551,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/kitajima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/kitajima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51597,6 +63594,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/aizumi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/aizumi/kakeibo/"
               }
             }
           }
@@ -51635,6 +63641,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/itano/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/itano/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51669,6 +63684,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/kamiita/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/kamiita/kakeibo/"
               }
             }
           }
@@ -51707,6 +63731,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/tokushima/tsurugi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/tsurugi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51741,6 +63774,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/tokushima/higashimiyoshi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/tokushima/higashimiyoshi/kakeibo/"
               }
             }
           }
@@ -51784,6 +63826,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/takamatsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/takamatsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51818,6 +63869,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/marugame/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/marugame/kakeibo/"
               }
             }
           }
@@ -51856,6 +63916,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/sakaide/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/sakaide/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51890,6 +63959,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/zentsuji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/zentsuji/kakeibo/"
               }
             }
           }
@@ -51928,6 +64006,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/kanonji/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/kanonji/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -51962,6 +64049,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/sanuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/sanuki/kakeibo/"
               }
             }
           }
@@ -52000,6 +64096,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/higashikagawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/higashikagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52034,6 +64139,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/mitoyo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/mitoyo/kakeibo/"
               }
             }
           }
@@ -52072,6 +64186,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/tonoshomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/tonoshomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52106,6 +64229,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/shodoshimamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/shodoshimamachi/kakeibo/"
               }
             }
           }
@@ -52144,6 +64276,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/mikimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/mikimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52178,6 +64319,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/naoshimamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/naoshimamachi/kakeibo/"
               }
             }
           }
@@ -52216,6 +64366,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/utazumachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/utazumachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52250,6 +64409,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/ayagawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/ayagawamachi/kakeibo/"
               }
             }
           }
@@ -52288,6 +64456,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/kotohiramachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/kotohiramachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52324,6 +64501,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagawa/tadotsumachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/tadotsumachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52358,6 +64544,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagawa/mannomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagawa/mannomachi/kakeibo/"
               }
             }
           }
@@ -52459,6 +64654,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/imabari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/imabari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52493,6 +64697,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/uwajima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/uwajima/kakeibo/"
               }
             }
           }
@@ -52531,6 +64744,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/yawatahama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/yawatahama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52565,6 +64787,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/niihama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/niihama/kakeibo/"
               }
             }
           }
@@ -52603,6 +64834,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/saijo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/saijo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52637,6 +64877,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/ozu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/ozu/kakeibo/"
               }
             }
           }
@@ -52675,6 +64924,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/iyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/iyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52709,6 +64967,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/shikokuchuo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/shikokuchuo/kakeibo/"
               }
             }
           }
@@ -52747,6 +65014,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/seiyo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/seiyo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52781,6 +65057,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/toon/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/toon/kakeibo/"
               }
             }
           }
@@ -52819,6 +65104,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/kamijima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/kamijima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52853,6 +65147,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/kumakogen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/kumakogen/kakeibo/"
               }
             }
           }
@@ -52891,6 +65194,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/masaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/masaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52925,6 +65237,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/tobe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/tobe/kakeibo/"
               }
             }
           }
@@ -52963,6 +65284,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/uchiko/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/uchiko/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -52997,6 +65327,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/ikata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/ikata/kakeibo/"
               }
             }
           }
@@ -53035,6 +65374,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/matsuno/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/matsuno/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53071,6 +65419,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/ehime/kihokucho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/kihokucho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53105,6 +65462,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/ehime/ainan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/ehime/ainan/kakeibo/"
               }
             }
           }
@@ -53148,6 +65514,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/kochi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/kochi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53182,6 +65557,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/muroto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/muroto/kakeibo/"
               }
             }
           }
@@ -53220,6 +65604,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/aki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/aki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53254,6 +65647,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/nankoku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/nankoku/kakeibo/"
               }
             }
           }
@@ -53292,6 +65694,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/tosa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/tosa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53326,6 +65737,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/susaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/susaki/kakeibo/"
               }
             }
           }
@@ -53364,6 +65784,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/sukumo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/sukumo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53398,6 +65827,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/tosashimizu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/tosashimizu/kakeibo/"
               }
             }
           }
@@ -53436,6 +65874,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/shimanto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/shimanto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53470,6 +65917,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/konan-kochi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/konan-kochi/kakeibo/"
               }
             }
           }
@@ -53508,6 +65964,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/kami-kochi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/kami-kochi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53542,6 +66007,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/toyomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/toyomachi/kakeibo/"
               }
             }
           }
@@ -53580,6 +66054,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/naharimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/naharimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53614,6 +66097,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/tanomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/tanomachi/kakeibo/"
               }
             }
           }
@@ -53652,6 +66144,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/yasudamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/yasudamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53686,6 +66187,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/kitagawamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/kitagawamura/kakeibo/"
               }
             }
           }
@@ -53724,6 +66234,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/umajimura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/umajimura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53758,6 +66277,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/geisenimura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/geisenimura/kakeibo/"
               }
             }
           }
@@ -53796,6 +66324,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/motoyamamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/motoyamamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53832,6 +66369,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/otoyomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/otoyomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53866,6 +66412,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/tosamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/tosamachi/kakeibo/"
               }
             }
           }
@@ -53931,6 +66486,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/inomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/inomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -53965,6 +66529,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/niyodogawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/niyodogawamachi/kakeibo/"
               }
             }
           }
@@ -54003,6 +66576,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/nakatosamachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/nakatosamachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54037,6 +66619,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/sakawamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/sakawamachi/kakeibo/"
               }
             }
           }
@@ -54075,6 +66666,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/ochimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/ochimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54109,6 +66709,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/yusuharamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/yusuharamachi/kakeibo/"
               }
             }
           }
@@ -54147,6 +66756,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/hidakamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/hidakamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54181,6 +66799,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/tsunomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/tsunomachi/kakeibo/"
               }
             }
           }
@@ -54219,6 +66846,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/shimantomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/shimantomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54253,6 +66889,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/otsukimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/otsukimachi/kakeibo/"
               }
             }
           }
@@ -54291,6 +66936,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kochi/miharamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/miharamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54325,6 +66979,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kochi/kuroshiomachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kochi/kuroshiomachi/kakeibo/"
               }
             }
           }
@@ -54484,6 +67147,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/omuta/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/omuta/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54518,6 +67190,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/kurume/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kurume/kakeibo/"
               }
             }
           }
@@ -54556,6 +67237,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/nogata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/nogata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54590,6 +67280,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/iizuka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/iizuka/kakeibo/"
               }
             }
           }
@@ -54628,6 +67327,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/tagawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/tagawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54662,6 +67370,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/yanagawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/yanagawa/kakeibo/"
               }
             }
           }
@@ -54700,6 +67417,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/yame/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/yame/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54734,6 +67460,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/chikugo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/chikugo/kakeibo/"
               }
             }
           }
@@ -54772,6 +67507,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/okawa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/okawa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54806,6 +67550,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/yukuhashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/yukuhashi/kakeibo/"
               }
             }
           }
@@ -54844,6 +67597,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/buzen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/buzen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54878,6 +67640,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/nakama/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/nakama/kakeibo/"
               }
             }
           }
@@ -54916,6 +67687,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/ogori/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/ogori/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -54950,6 +67730,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/chikushino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/chikushino/kakeibo/"
               }
             }
           }
@@ -54988,6 +67777,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/kasuga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kasuga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55022,6 +67820,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/onojo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/onojo/kakeibo/"
               }
             }
           }
@@ -55060,6 +67867,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/munakata/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/munakata/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55094,6 +67910,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/dazaifu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/dazaifu/kakeibo/"
               }
             }
           }
@@ -55132,6 +67957,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/koga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/koga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55166,6 +68000,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/fukutsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/fukutsu/kakeibo/"
               }
             }
           }
@@ -55204,6 +68047,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/ukiha/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/ukiha/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55238,6 +68090,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/miyawaka/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/miyawaka/kakeibo/"
               }
             }
           }
@@ -55276,6 +68137,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/kama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55310,6 +68180,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/asakura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/asakura/kakeibo/"
               }
             }
           }
@@ -55348,6 +68227,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/miyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/miyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55382,6 +68270,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/itoshima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/itoshima/kakeibo/"
               }
             }
           }
@@ -55420,6 +68317,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/nakagawashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/nakagawashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55454,6 +68360,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/umi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/umi/kakeibo/"
               }
             }
           }
@@ -55492,6 +68407,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/sasaguri/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/sasaguri/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55526,6 +68450,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/shime/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/shime/kakeibo/"
               }
             }
           }
@@ -55564,6 +68497,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/sue/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/sue/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55598,6 +68540,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/shingu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/shingu/kakeibo/"
               }
             }
           }
@@ -55636,6 +68587,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/hisayama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/hisayama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55670,6 +68630,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/kasuya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kasuya/kakeibo/"
               }
             }
           }
@@ -55708,6 +68677,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/ashiya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/ashiya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55742,6 +68720,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/mizumaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/mizumaki/kakeibo/"
               }
             }
           }
@@ -55780,6 +68767,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/okagaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/okagaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55814,6 +68810,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/onga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/onga/kakeibo/"
               }
             }
           }
@@ -55852,6 +68857,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/kotake/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kotake/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55886,6 +68900,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/kurate/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kurate/kakeibo/"
               }
             }
           }
@@ -55924,6 +68947,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/keisen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/keisen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -55958,6 +68990,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/chikuzen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/chikuzen/kakeibo/"
               }
             }
           }
@@ -55996,6 +69037,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/toho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/toho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56030,6 +69080,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/tachiarai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/tachiarai/kakeibo/"
               }
             }
           }
@@ -56068,6 +69127,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/oki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/oki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56102,6 +69170,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/hirokawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/hirokawa/kakeibo/"
               }
             }
           }
@@ -56140,6 +69217,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/kawara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kawara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56174,6 +69260,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/soeda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/soeda/kakeibo/"
               }
             }
           }
@@ -56212,6 +69307,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/itoda/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/itoda/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56246,6 +69350,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/kawasakimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kawasakimachi/kakeibo/"
               }
             }
           }
@@ -56284,6 +69397,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/oto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/oto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56318,6 +69440,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/akamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/akamura/kakeibo/"
               }
             }
           }
@@ -56356,6 +69487,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/fukuchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/fukuchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56390,6 +69530,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/kanda/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/kanda/kakeibo/"
               }
             }
           }
@@ -56428,6 +69577,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/miyako/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/miyako/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56462,6 +69620,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/yoshitomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/yoshitomi/kakeibo/"
               }
             }
           }
@@ -56500,6 +69667,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/fukuoka/koge/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/koge/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56534,6 +69710,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/fukuoka/chikujo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/fukuoka/chikujo/kakeibo/"
               }
             }
           }
@@ -56577,6 +69762,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/saga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/saga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56611,6 +69805,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/karatsu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/karatsu/kakeibo/"
               }
             }
           }
@@ -56649,6 +69852,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/tosu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/tosu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56683,6 +69895,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/taku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/taku/kakeibo/"
               }
             }
           }
@@ -56721,6 +69942,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/imari/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/imari/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56755,6 +69985,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/takeo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/takeo/kakeibo/"
               }
             }
           }
@@ -56793,6 +70032,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/kashima-saga/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/kashima-saga/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56827,6 +70075,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/ogi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/ogi/kakeibo/"
               }
             }
           }
@@ -56865,6 +70122,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/ureshino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/ureshino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56899,6 +70165,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/kanzaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/kanzaki/kakeibo/"
               }
             }
           }
@@ -56937,6 +70212,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/yoshinogaricho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/yoshinogaricho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -56971,6 +70255,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/kiyamamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/kiyamamachi/kakeibo/"
               }
             }
           }
@@ -57009,6 +70302,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/kamiminememachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/kamiminememachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57043,6 +70345,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/miyakimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/miyakimachi/kakeibo/"
               }
             }
           }
@@ -57081,6 +70392,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/genkaimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/genkaimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57115,6 +70435,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/aritamachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/aritamachi/kakeibo/"
               }
             }
           }
@@ -57153,6 +70482,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/omachimachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/omachimachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57187,6 +70525,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/kohokumachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/kohokumachi/kakeibo/"
               }
             }
           }
@@ -57225,6 +70572,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/saga/shiroishicho/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/shiroishicho/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57259,6 +70615,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/saga/tararacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/saga/tararacho/kakeibo/"
               }
             }
           }
@@ -57302,6 +70667,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/nagasaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/nagasaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57336,6 +70710,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/sasebo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/sasebo/kakeibo/"
               }
             }
           }
@@ -57374,6 +70757,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/shimabara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/shimabara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57408,6 +70800,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/isahaya/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/isahaya/kakeibo/"
               }
             }
           }
@@ -57446,6 +70847,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/omura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/omura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57480,6 +70890,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/hirado/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/hirado/kakeibo/"
               }
             }
           }
@@ -57518,6 +70937,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/matsuura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/matsuura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57552,6 +70980,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/tsushimashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/tsushimashi/kakeibo/"
               }
             }
           }
@@ -57590,6 +71027,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/iki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/iki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57624,6 +71070,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/goto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/goto/kakeibo/"
               }
             }
           }
@@ -57662,6 +71117,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/saikai/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/saikai/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57696,6 +71160,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/unzen/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/unzen/kakeibo/"
               }
             }
           }
@@ -57734,6 +71207,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/minamishimabara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/minamishimabara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57768,6 +71250,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/nagayo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/nagayo/kakeibo/"
               }
             }
           }
@@ -57806,6 +71297,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/togitsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/togitsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57840,6 +71340,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/higashisonogi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/higashisonogi/kakeibo/"
               }
             }
           }
@@ -57878,6 +71387,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/kawatana/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/kawatana/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57912,6 +71430,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/hasami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/hasami/kakeibo/"
               }
             }
           }
@@ -57950,6 +71477,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/ojika/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/ojika/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -57986,6 +71522,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/nagasaki/saza/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/saza/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58020,6 +71565,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/nagasaki/shinkamigoto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/nagasaki/shinkamigoto/kakeibo/"
               }
             }
           }
@@ -58121,6 +71675,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/yatsushiro/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/yatsushiro/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58155,6 +71718,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/hitoyoshi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/hitoyoshi/kakeibo/"
               }
             }
           }
@@ -58193,6 +71765,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/arao/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/arao/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58227,6 +71808,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/minamata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/minamata/kakeibo/"
               }
             }
           }
@@ -58265,6 +71855,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/tamana/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/tamana/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58299,6 +71898,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/yamaga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/yamaga/kakeibo/"
               }
             }
           }
@@ -58337,6 +71945,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/kikuchi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kikuchi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58371,6 +71988,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/uto/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/uto/kakeibo/"
               }
             }
           }
@@ -58409,6 +72035,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/kamiamakusa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kamiamakusa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58443,6 +72078,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/ukishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/ukishi/kakeibo/"
               }
             }
           }
@@ -58481,6 +72125,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/aso/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/aso/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58515,6 +72168,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/amakusa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/amakusa/kakeibo/"
               }
             }
           }
@@ -58553,6 +72215,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/koshi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/koshi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58587,6 +72258,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/misatokuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/misatokuma/kakeibo/"
               }
             }
           }
@@ -58625,6 +72305,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/gyokuto/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/gyokuto/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58659,6 +72348,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/nankan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/nankan/kakeibo/"
               }
             }
           }
@@ -58697,6 +72395,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/nagasu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/nagasu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58731,6 +72438,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/nagomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/nagomi/kakeibo/"
               }
             }
           }
@@ -58769,6 +72485,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/otsumachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/otsumachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58803,6 +72528,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/kikuyo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kikuyo/kakeibo/"
               }
             }
           }
@@ -58841,6 +72575,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/minamioguni/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/minamioguni/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58875,6 +72618,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/oguni/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/oguni/kakeibo/"
               }
             }
           }
@@ -58913,6 +72665,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/ubuyama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/ubuyama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -58947,6 +72708,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/takamorimachi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/takamorimachi/kakeibo/"
               }
             }
           }
@@ -58985,6 +72755,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/nishiharamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/nishiharamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59019,6 +72798,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/minamiaso/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/minamiaso/kakeibo/"
               }
             }
           }
@@ -59057,6 +72845,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/mifune/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/mifune/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59091,6 +72888,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/kashimacho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kashimacho/kakeibo/"
               }
             }
           }
@@ -59129,6 +72935,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/mashiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/mashiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59163,6 +72978,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/kosa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kosa/kakeibo/"
               }
             }
           }
@@ -59201,6 +73025,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/yamatomachi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/yamatomachi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59235,6 +73068,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/hikawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/hikawa/kakeibo/"
               }
             }
           }
@@ -59273,6 +73115,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/ashikita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/ashikita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59307,6 +73158,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/tsunagi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/tsunagi/kakeibo/"
               }
             }
           }
@@ -59345,6 +73205,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/nishiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/nishiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59379,6 +73248,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/taragi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/taragi/kakeibo/"
               }
             }
           }
@@ -59417,6 +73295,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/yunomae/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/yunomae/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59451,6 +73338,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/mizukami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/mizukami/kakeibo/"
               }
             }
           }
@@ -59489,6 +73385,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/sagara/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/sagara/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59523,6 +73428,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/itsuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/itsuki/kakeibo/"
               }
             }
           }
@@ -59561,6 +73475,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/yamae/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/yamae/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59595,6 +73518,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/kuma/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/kuma/kakeibo/"
               }
             }
           }
@@ -59633,6 +73565,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kumamoto/asagiri/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/asagiri/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59667,6 +73608,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kumamoto/reihoku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kumamoto/reihoku/kakeibo/"
               }
             }
           }
@@ -59710,6 +73660,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/oita/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/oita/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59744,6 +73703,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/beppu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/beppu/kakeibo/"
               }
             }
           }
@@ -59782,6 +73750,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/nakatsu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/nakatsu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59816,6 +73793,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/hita/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/hita/kakeibo/"
               }
             }
           }
@@ -59854,6 +73840,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/saiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/saiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59888,6 +73883,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/usuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/usuki/kakeibo/"
               }
             }
           }
@@ -59926,6 +73930,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/tsukumi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/tsukumi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -59960,6 +73973,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/taketa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/taketa/kakeibo/"
               }
             }
           }
@@ -59998,6 +74020,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/bungotakada/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/bungotakada/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60032,6 +74063,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/kitsuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/kitsuki/kakeibo/"
               }
             }
           }
@@ -60070,6 +74110,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/usa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/usa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60104,6 +74153,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/bungoono/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/bungoono/kakeibo/"
               }
             }
           }
@@ -60142,6 +74200,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/yufu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/yufu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60176,6 +74243,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/kunisaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/kunisaki/kakeibo/"
               }
             }
           }
@@ -60214,6 +74290,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/himeshima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/himeshima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60248,6 +74333,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/hiji/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/hiji/kakeibo/"
               }
             }
           }
@@ -60286,6 +74380,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/oita/kokonoe/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/kokonoe/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60320,6 +74423,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/oita/kusu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/oita/kusu/kakeibo/"
               }
             }
           }
@@ -60363,6 +74475,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/miyazaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/miyazaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60397,6 +74518,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/miyakonojo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/miyakonojo/kakeibo/"
               }
             }
           }
@@ -60435,6 +74565,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/nobeoka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/nobeoka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60469,6 +74608,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/nichinan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/nichinan/kakeibo/"
               }
             }
           }
@@ -60507,6 +74655,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/kobayashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/kobayashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60541,6 +74698,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/hyuga/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/hyuga/kakeibo/"
               }
             }
           }
@@ -60579,6 +74745,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/kushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/kushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60613,6 +74788,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/saito/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/saito/kakeibo/"
               }
             }
           }
@@ -60651,6 +74835,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/ebino/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/ebino/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60685,6 +74878,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/mimata/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/mimata/kakeibo/"
               }
             }
           }
@@ -60723,6 +74925,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/takaharu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/takaharu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60757,6 +74968,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/kunitomi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/kunitomi/kakeibo/"
               }
             }
           }
@@ -60795,6 +75015,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/aya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/aya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60829,6 +75058,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/takanabe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/takanabe/kakeibo/"
               }
             }
           }
@@ -60867,6 +75105,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/shintomi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/shintomi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60901,6 +75148,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/nishimera/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/nishimera/kakeibo/"
               }
             }
           }
@@ -60939,6 +75195,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/kijo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/kijo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -60973,6 +75238,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/kawaminami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/kawaminami/kakeibo/"
               }
             }
           }
@@ -61011,6 +75285,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/tsuno/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/tsuno/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61045,6 +75328,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/kadogawa/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/kadogawa/kakeibo/"
               }
             }
           }
@@ -61083,6 +75375,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/morotsuka/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/morotsuka/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61117,6 +75418,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/shiiba/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/shiiba/kakeibo/"
               }
             }
           }
@@ -61155,6 +75465,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/misatomiyazaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/misatomiyazaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61189,6 +75508,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/takachiho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/takachiho/kakeibo/"
               }
             }
           }
@@ -61227,6 +75555,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/miyazaki/hinokage/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/hinokage/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61261,6 +75598,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/miyazaki/gokase/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/miyazaki/gokase/kakeibo/"
               }
             }
           }
@@ -61362,6 +75708,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/kanoya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/kanoya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61396,6 +75751,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/makurazaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/makurazaki/kakeibo/"
               }
             }
           }
@@ -61434,6 +75798,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/akune/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/akune/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61468,6 +75841,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/izumishi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/izumishi/kakeibo/"
               }
             }
           }
@@ -61506,6 +75888,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/ibusuki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/ibusuki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61540,6 +75931,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/nishinoomote/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/nishinoomote/kakeibo/"
               }
             }
           }
@@ -61578,6 +75978,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/tarumizu/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/tarumizu/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61612,6 +76021,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/satsumasendai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/satsumasendai/kakeibo/"
               }
             }
           }
@@ -61650,6 +76068,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/hioki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/hioki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61684,6 +76111,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/soo/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/soo/kakeibo/"
               }
             }
           }
@@ -61722,6 +76158,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/kirishima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/kirishima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61756,6 +76201,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/ichikushikino/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/ichikushikino/kakeibo/"
               }
             }
           }
@@ -61794,6 +76248,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/minamisatsuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/minamisatsuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61828,6 +76291,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/shibushi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/shibushi/kakeibo/"
               }
             }
           }
@@ -61866,6 +76338,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/amami/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/amami/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61900,6 +76381,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/minamikyshu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/minamikyshu/kakeibo/"
               }
             }
           }
@@ -61938,6 +76428,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/isa/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/isa/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -61972,6 +76471,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/aira/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/aira/kakeibo/"
               }
             }
           }
@@ -62010,6 +76518,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/mishimamura/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/mishimamura/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62044,6 +76561,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/toshimamura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/toshimamura/kakeibo/"
               }
             }
           }
@@ -62082,6 +76608,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/satsuma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/satsuma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62116,6 +76651,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/nagashima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/nagashima/kakeibo/"
               }
             }
           }
@@ -62154,6 +76698,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/yusui/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/yusui/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62188,6 +76741,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/osaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/osaki/kakeibo/"
               }
             }
           }
@@ -62226,6 +76788,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/higashikushira/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/higashikushira/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62260,6 +76831,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/kinko/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/kinko/kakeibo/"
               }
             }
           }
@@ -62298,6 +76878,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/minamiosumi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/minamiosumi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62332,6 +76921,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/kimotsuki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/kimotsuki/kakeibo/"
               }
             }
           }
@@ -62370,6 +76968,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/nakatane/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/nakatane/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62404,6 +77011,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/minamitane/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/minamitane/kakeibo/"
               }
             }
           }
@@ -62442,6 +77058,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/yakushima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/yakushima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62476,6 +77101,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/yamatomura/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/yamatomura/kakeibo/"
               }
             }
           }
@@ -62514,6 +77148,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/uken/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/uken/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62548,6 +77191,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/setouchicho/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/setouchicho/kakeibo/"
               }
             }
           }
@@ -62586,6 +77238,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/tatsugou/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/tatsugou/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62620,6 +77281,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/kikai/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/kikai/kakeibo/"
               }
             }
           }
@@ -62658,6 +77328,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/tokunoshima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/tokunoshima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62692,6 +77371,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/amagi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/amagi/kakeibo/"
               }
             }
           }
@@ -62730,6 +77418,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/isen/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/isen/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62764,6 +77461,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/wadomari/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/wadomari/kakeibo/"
               }
             }
           }
@@ -62802,6 +77508,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/kagoshima/china/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/china/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62836,6 +77551,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/kagoshima/yoron/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/kagoshima/yoron/kakeibo/"
               }
             }
           }
@@ -62879,6 +77603,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/naha/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/naha/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62913,6 +77646,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/ginowan/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/ginowan/kakeibo/"
               }
             }
           }
@@ -62951,6 +77693,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/ishigaki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/ishigaki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -62985,6 +77736,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/urasoe/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/urasoe/kakeibo/"
               }
             }
           }
@@ -63023,6 +77783,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/nago/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/nago/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63057,6 +77826,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/itoman/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/itoman/kakeibo/"
               }
             }
           }
@@ -63095,6 +77873,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/okinawashi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/okinawashi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63129,6 +77916,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/tomigusuku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/tomigusuku/kakeibo/"
               }
             }
           }
@@ -63167,6 +77963,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/uruma/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/uruma/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63201,6 +78006,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/miyakojima/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/miyakojima/kakeibo/"
               }
             }
           }
@@ -63239,6 +78053,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/nanjo/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/nanjo/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63273,6 +78096,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/kunigami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/kunigami/kakeibo/"
               }
             }
           }
@@ -63311,6 +78143,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/ogimi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/ogimi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63345,6 +78186,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/higashi/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/higashi/kakeibo/"
               }
             }
           }
@@ -63383,6 +78233,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/nakijin/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/nakijin/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63417,6 +78276,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/motobu/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/motobu/kakeibo/"
               }
             }
           }
@@ -63455,6 +78323,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/onna/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/onna/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63489,6 +78366,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/ginoza/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/ginoza/kakeibo/"
               }
             }
           }
@@ -63527,6 +78413,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/kin/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/kin/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63561,6 +78456,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/ie/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/ie/kakeibo/"
               }
             }
           }
@@ -63599,6 +78503,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/yomitan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/yomitan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63633,6 +78546,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/kadena/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/kadena/kakeibo/"
               }
             }
           }
@@ -63671,6 +78593,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/chatan/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/chatan/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63705,6 +78636,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/kitanakagusuku/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/kitanakagusuku/kakeibo/"
               }
             }
           }
@@ -63743,6 +78683,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/nakagusuku/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/nakagusuku/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63777,6 +78726,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/nishihara/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/nishihara/kakeibo/"
               }
             }
           }
@@ -63815,6 +78773,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/yonabaru/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/yonabaru/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63849,6 +78816,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/haebaru/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/haebaru/kakeibo/"
               }
             }
           }
@@ -63887,6 +78863,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/tokashiki/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/tokashiki/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63921,6 +78906,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/zamami/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/zamami/kakeibo/"
               }
             }
           }
@@ -63959,6 +78953,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/aguni/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/aguni/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -63993,6 +78996,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/tonaki/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/tonaki/kakeibo/"
               }
             }
           }
@@ -64031,6 +79043,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/minamidaito/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/minamidaito/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -64065,6 +79086,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/kitadaito/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/kitadaito/kakeibo/"
               }
             }
           }
@@ -64103,6 +79133,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/iheya/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/iheya/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -64137,6 +79176,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/izena/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/izena/kakeibo/"
               }
             }
           }
@@ -64175,6 +79223,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/kumejima/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/kumejima/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -64209,6 +79266,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/yaese/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/yaese/kakeibo/"
               }
             }
           }
@@ -64247,6 +79313,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/tarama/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/tarama/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -64283,6 +79358,15 @@ const registry = {
                 "url": "https://seido-keisan.jp/okinawa/taketomi/kouki/"
               }
             }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/taketomi/kakeibo/"
+              }
+            }
           }
         }
       },
@@ -64317,6 +79401,15 @@ const registry = {
               "simple": {
                 "name": "かんたん計算",
                 "url": "https://seido-keisan.jp/okinawa/yonaguni/kouki/"
+              }
+            }
+          },
+          "kakeibo": {
+            "name": "まとめて試算（家計簿）",
+            "pages": {
+              "simple": {
+                "name": "家計簿シミュレーター",
+                "url": "https://seido-keisan.jp/okinawa/yonaguni/kakeibo/"
               }
             }
           }

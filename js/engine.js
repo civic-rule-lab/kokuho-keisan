@@ -64,9 +64,22 @@ async function calc() {
   const result = document.getElementById("result");
 
   try {
+    // 未入力なら結果を出さない（ui-rules R4-③）。旧実装は全欄空でも「7割軽減 19,440 円」を表示していた（2026-11-09・S1-1 W2C-01）。
+    //   「0」と明記した所得は入力として扱う。世帯人数は空欄なら 1 人、「0」は加入者がいないので案内文で止める（旧実装は 0 を 1 に丸めていた・W2C-06）。
+    const incomeRaw = toHalfWidth(document.getElementById("income").value || "").replace(/[^\d]/g, "");
+    const familyRaw = toHalfWidth(document.getElementById("family").value || "").replace(/[^\d]/g, "");
+    const membersEarly = readMembers();
+    if (incomeRaw === "" && !membersEarly) {
+      result.innerHTML = "<span class='result-placeholder'>前年の所得（世帯の合計）を入力してください。所得が無い場合は 0 と入力してください</span>";
+      return;
+    }
+    if (familyRaw !== "" && Number(familyRaw) === 0) {
+      result.innerHTML = "<span class='result-placeholder'>国保に加入する人数を 1 人以上入力してください</span>";
+      return;
+    }
     const inputs = {
-      income:             Math.max(0, Number(toHalfWidth(document.getElementById("income").value || "").replace(/[^\d]/g, "")) || 0),
-      family:             Math.max(1, Number(toHalfWidth(document.getElementById("family").value || "1")) || 1),
+      income:             Math.max(0, Number(incomeRaw) || 0),
+      family:             Math.max(1, Number(familyRaw || "1") || 1),
       preschool:          Math.max(0, Number(toHalfWidth(document.getElementById("preschool")?.value || "0")) || 0),
       under18:            Math.max(0, Number(toHalfWidth(document.getElementById("under18")?.value || "0")) || 0),
       care:               Math.max(0, Number(toHalfWidth(document.getElementById("care")?.value || "0")) || 0),
@@ -78,7 +91,7 @@ async function calc() {
     // 1人でも所得が入っていれば、加入者ごとに基礎控除を引く members 経路で計算する
     // （上の世帯合算の「前年所得」は使わない）。介護分は「40〜64歳」にチェックした人の所得だけに掛かる。
     // チェックした人数が「介護保険人数」より多いときは、介護保険人数をそちらに合わせる。
-    const members = readMembers();
+    const members = membersEarly;
     if (members) {
       inputs.members = members;
       const careChecked = members.filter(m => m.careTarget).length;
@@ -223,10 +236,9 @@ if (typeof window !== 'undefined') {
   (async function() {
     try {
       const data = await loadKokuhoData(getCurrentCity());
-      if (data.childcareLevy && (data.childcareLevy.under18Reduction || data.childcareLevy.perCapitaAdult !== undefined)) {
-        const g = document.getElementById("under18Group");
-        if (g) g.style.display = "";
-      }
+      // 「18歳未満の人数」欄は常時表示（テンプレ側で display を外した・2026-11-09 オーナー決定・S1-2 F1）。
+      //   旧実装は childcareLevy の under18Reduction / perCapitaAdult がある自治体だけ表示し、旧形式の 14 自治体では
+      //   利用者が 18 歳未満を入力できず、未就学児にも支援金分の均等割が課されていた。
       if (data.assetLevy) {
         const group = document.getElementById("assetLevyGroup");
         if (group) group.style.display = "";
