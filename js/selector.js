@@ -79430,7 +79430,7 @@ function updateMunicipalities() {
 }
 
 // 選択中の自治体で利用できる制度だけ選択可能にする
-// （住民税・家計簿は制度ポータル公開済み自治体のみ）
+// （住民税・保育料・家計簿は制度ポータル公開済み自治体のみ。保育料は S1-1 FG-04 で追加）
 function updateSystems() {
   const prefecture   = document.getElementById("prefecture").value;
   const municipality = document.getElementById("municipality").value;
@@ -79443,8 +79443,12 @@ function updateSystems() {
     opt.disabled = !ok;
     opt.textContent = opt.dataset.label + (ok ? "" : "（この自治体は準備中）");
   }
+  // 選択中の制度がこの自治体に無いときは、最初の有効な制度へ切り替える。
+  // 旧実装は "kokuho" 固定で、国保の無い自治体（tomari-kunashir＝kouki のみ）では
+  // disabled の国保のまま「計算ページを開く」が alert になっていた（S1-1 FG-05）。
   if (sysSel.selectedOptions[0] && sysSel.selectedOptions[0].disabled) {
-    sysSel.value = "kokuho";
+    const firstEnabled = Array.from(sysSel.options).find(function(o) { return !o.disabled; });
+    if (firstEnabled) sysSel.value = firstEnabled.value;
   }
 }
 document.addEventListener("DOMContentLoaded", updateSystems);
