@@ -100,6 +100,28 @@
     },
     "preschoolReduction": { "$ref": "#/$defs/perCapitaReduction", "description": "未就学児の均等割軽減（法定 5 割）" },
     "schoolReduction": { "$ref": "#/$defs/perCapitaReduction", "description": "自治体独自の就学児等の均等割軽減" },
+    "rounding": {
+      "description": "賦課額の端数。無ければ区分（医療・支援・介護・子ども分）ごとに 100 円未満切捨て（保険税は地方税法 第20条の4の2 第3項）。既定と違う自治体だけ持つ",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "componentUnit": {
+          "description": "区分ごとの切捨て単位。1＝切り捨てない。区分で違うときは区分ごとに書く（書かない区分は 100）",
+          "anyOf": [
+            { "enum": [1, 10, 100] },
+            { "type": "object", "additionalProperties": false, "properties": {
+                "medical": { "enum": [1, 10, 100] }, "support": { "enum": [1, 10, 100] },
+                "care": { "enum": [1, 10, 100] }, "childcare": { "enum": [1, 10, 100] } } }
+          ]
+        },
+        "incomeUnit": { "type": "object", "additionalProperties": false, "description": "区分ごとの所得割の切捨て単位（書いた区分だけ。無ければ 1 円未満四捨五入）", "properties": {
+            "medical": { "enum": [1, 10, 100] }, "support": { "enum": [1, 10, 100] },
+            "care": { "enum": [1, 10, 100] }, "childcare": { "enum": [1, 10, 100] } } },
+        "componentDropBelow": { "type": "number", "minimum": 0, "description": "単位で切り捨てる区分の額がこれ未満なら全額切捨て（千葉市 100）" },
+        "totalUnit": { "enum": [1, 10, 100], "description": "区分の和（保険料の額）にだけ掛ける切捨て単位。既定 1" },
+        "note": { "type": "string", "description": "根拠（条例の条・公表例）" }
+      }
+    },
     "reduction": {
       "description": "低所得世帯の法定軽減（7割・5割・2割）の判定基準と軽減率",
       "type": "object",
