@@ -46,6 +46,18 @@ function getCurrentCity() {
 
 // ─── DOM アダプター ──────────────────────────────────────────────
 
+// かんたん計算の「年齢ごとの人数」欄を読む。欄が無いページ（所得ベース計算など）は null。
+function readAgeBands() {
+  // 区切りは年度末（国民健康保険法施行令 第29条の7。e-Gov 法令API で 2026-11-12 確認）:
+  //   小学校入学前＝6歳に達する日以後の最初の3月31日以前（第6項第6号・未就学児の均等割軽減）
+  //   小学生〜高校生＝18歳に達する日以後の最初の3月31日以前（第5項第3号・子ども分の均等割は18歳以上だけに掛かる）
+  if (!document.getElementById("agePreschool")) return null;
+  const n = id => Math.max(0, Math.floor(Number(toHalfWidth(document.getElementById(id)?.value || "").replace(/[^\d]/g, "")) || 0));
+  const b = { preschool: n("agePreschool"), school: n("ageSchool"), a18_39: n("age18_39"), a40_64: n("age40_64"), a65_74: n("age65_74") };
+  b.total = b.preschool + b.school + b.a18_39 + b.a40_64 + b.a65_74;
+  return b;
+}
+
 // 「1人ずつ入力」欄を読む。所得が1人も入っていなければ null（従来の世帯合算で計算）。
 function readMembers() {
   const rows = document.querySelectorAll(".member-row");
@@ -67,7 +79,14 @@ async function calc() {
     // 未入力なら結果を出さない（ui-rules R4-③）。旧実装は全欄空でも「7割軽減 19,440 円」を表示していた（2026-11-09・S1-1 W2C-01）。
     //   「0」と明記した所得は入力として扱う。世帯人数は空欄なら 1 人、「0」は加入者がいないので案内文で止める（旧実装は 0 を 1 に丸めていた・W2C-06）。
     const incomeRaw = toHalfWidth(document.getElementById("income").value || "").replace(/[^\d]/g, "");
-    const familyRaw = toHalfWidth(document.getElementById("family").value || "").replace(/[^\d]/g, "");
+    const ageBands = readAgeBands();
+    if (ageBands && ageBands.total === 0) {
+      result.innerHTML = "<span class='result-placeholder'>国保に入る人の人数を、年齢ごとに 1 人以上入力してください</span>";
+      return;
+    }
+    const familyRaw = ageBands
+      ? String(ageBands.total)
+      : toHalfWidth(document.getElementById("family")?.value || "").replace(/[^\d]/g, "");
     const membersEarly = readMembers();
     if (incomeRaw === "" && !membersEarly) {
       result.innerHTML = "<span class='result-placeholder'>前年の所得（世帯の合計）を入力してください。所得が無い場合は 0 と入力してください</span>";
@@ -86,6 +105,14 @@ async function calc() {
       salaryPensionCount: Math.max(1, Number(toHalfWidth(document.getElementById("salaryPensionCount")?.value || "1")) || 1),
       fixedAssetTax:      Math.max(0, Number(toHalfWidth(document.getElementById("fixedAssetTax")?.value || "0").replace(/[^\d]/g, "")) || 0),
     };
+    // かんたん計算の「年齢ごとの人数」欄（2026-11-12）。人数を別々に数えさせず、年齢帯から
+    // 未就学児・18歳未満・介護分の対象を決める。旧かんたん計算は介護分・18歳未満を入力できず、
+    // 40〜64歳の世帯でも介護分 0 円・18歳未満にも子ども分の均等割を表示していた（画面下の注記には明記）。
+    if (ageBands) {
+      inputs.preschool = ageBands.preschool;
+      inputs.under18   = ageBands.preschool + ageBands.school;
+      inputs.care      = ageBands.a40_64;
+    }
 
     // 「1人ずつ入力」欄（所得ベース計算ページのみ・2026-10-04 追加・TASKS X170-12）。
     // 1人でも所得が入っていれば、加入者ごとに基礎控除を引く members 経路で計算する
@@ -103,7 +130,10 @@ async function calc() {
     // 65歳以上で公的年金をもらっている人の人数（2026-10-30・全方向試算 C002）。軽減の判定所得だけから1人15万円を引く
     // （国民健康保険法施行令 附則第5条。本来はその人の年金所得が上限＝人数だけでは分からないので、合計所得から人数×15万円を引く近似）。
     // 所得割の所得には引かない。欄が無いページ・空欄は 0 人で従来どおり
-    const pension65 = Math.max(0, Math.floor(Number(toHalfWidth(document.getElementById("pension65Count")?.value || "0").replace(/[^\d]/g, "")) || 0));
+    //   かんたん計算では 65〜74歳の人数をそのまま使う（全員が公的年金を受け取っているとみなす・画面に注記）。
+    const pension65 = ageBands
+      ? ageBands.a65_74
+      : Math.max(0, Math.floor(Number(toHalfWidth(document.getElementById("pension65Count")?.value || "0").replace(/[^\d]/g, "")) || 0));
     if (pension65 > 0) {
       const judgeBase = inputs.members ? inputs.members.reduce((s, m) => s + m.income, 0) : inputs.income;
       inputs.reductionJudgmentIncome = Math.max(0, judgeBase - pension65 * 150000);
@@ -228,7 +258,8 @@ if (typeof window !== 'undefined') {
   (function() {
     ['income', 'fixedAssetTax', 'memberIncome1', 'memberIncome2', 'memberIncome3', 'memberIncome4']
       .forEach(id => setupNumericInput(id, { withCommas: true }));
-    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18', 'pension65Count'].forEach(id => setupNumericInput(id));
+    ['family', 'preschool', 'care', 'salaryPensionCount', 'under18', 'pension65Count',
+     'agePreschool', 'ageSchool', 'age18_39', 'age40_64', 'age65_74'].forEach(id => setupNumericInput(id));
     initOver75Link();
   })();
 
