@@ -22,6 +22,9 @@
   .cta-ext{font-size:13px;margin-left:2px;}
   .cta-desc{font-size:13px;color:#374151;line-height:1.5;}
   @media (max-width:480px){ .cta-list{grid-template-columns:1fr;gap:4px 0;} .cta-item a{margin-bottom:8px;} }
+  /* 「他の制度」節: 説明の列を縮め、ボタンは 1 行のまま（ボタンが折り返さないように） */
+  .other-systems .cta-list{grid-template-columns:minmax(0,max-content) max-content;}
+  @media (max-width:480px){ .other-systems .cta-list{grid-template-columns:1fr;} }
   .note ul{margin:6px 0 0;padding-left:1.4em;}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
 </style>
@@ -150,13 +153,6 @@
     <a href="./" style="color:#6b7280;text-decoration:none;">← 藤枝市 かんたん計算に戻る</a>
   </p>
 
-  <section class="related-links" style="margin-top:28px;">
-    <h2>あわせて使う</h2>
-    <div class="cta-list">
-      <div class="cta-item"><span class="cta-desc">国保加入者のふるさと納税 上限額（国保料を自動計算）</span><a href="https://seido-keisan.jp/furusato/jieigyo/" target="_blank" rel="noopener">上限額の計算 <span class="cta-ext">↗</span></a></div>
-    </div>
-  </section>
-
   <div class="note">
     <h2>計算の前提</h2>
     <ul>
@@ -169,14 +165,15 @@
 
   <p class="note-pref"><span class="note-pref__label">静岡県の住民税：</span><br>藤枝市は静岡県の住民税が適用されています。静岡県では「静岡県森林づくり県民税」として、個人県民税の均等割に400円が上乗せされています。2007年度から実施されており、人工林の間伐・再造林と水源かん養機能の維持向上に充てられています。 <a class="note-pref__link" href="https://www.city.hamamatsu.shizuoka.jp/shiminze/zei/siminze/kintou.html" target="_blank" rel="noopener">静岡県の住民税（公式）↗</a></p>
 
-  <section class="other-systems" style="margin-top:28px;">
-    <h2 style="font-size:16px;margin:0 0 10px;">藤枝市の他の制度</h2>
-    <p style="font-size:13px;color:#4b5563;margin:0 0 10px;">制度計算（seido-keisan.jp）の藤枝市のページへ移動します。</p>
-    <ul style="list-style:none;padding:0;margin:0;">
-    <li style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:0 0 8px;"><a href="https://seido-keisan.jp/shizuoka/fujieda/kakeibo/" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#f3f4f6;border:1px solid #d1d5db;color:#1f2937;text-decoration:none;font-weight:700;font-size:14px;line-height:1.4;">藤枝市のまとめて試算（家計簿） <span style="font-size:13px;">↗</span></a><span style="font-size:13px;color:#4b5563;">住民税・保険料・手取りをまとめて</span></li>
-    <li style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:0 0 8px;"><a href="https://seido-keisan.jp/shizuoka/fujieda/kaigo/" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#f3f4f6;border:1px solid #d1d5db;color:#1f2937;text-decoration:none;font-weight:700;font-size:14px;line-height:1.4;">藤枝市の介護保険（第1号） <span style="font-size:13px;">↗</span></a><span style="font-size:13px;color:#4b5563;">65歳以上の介護保険料</span></li>
-    <li style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:0 0 8px;"><a href="https://seido-keisan.jp/shizuoka/fujieda/kouki/" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#f3f4f6;border:1px solid #d1d5db;color:#1f2937;text-decoration:none;font-weight:700;font-size:14px;line-height:1.4;">藤枝市の後期高齢者医療 <span style="font-size:13px;">↗</span></a><span style="font-size:13px;color:#4b5563;">75歳以上の保険料</span></li>
-    </ul>
+  <section class="other-systems related-links" style="margin-top:28px;">
+    <h2>藤枝市の他の制度</h2>
+    <p style="font-size:13px;color:#4b5563;margin:0 0 10px;">制度計算（seido-keisan.jp）のページへ移動します。</p>
+    <div class="cta-list">
+      <div class="cta-item"><span class="cta-desc">住民税・保険料・手取りをまとめて</span><a href="https://seido-keisan.jp/shizuoka/fujieda/kakeibo/" target="_blank" rel="noopener" style="white-space:normal;">藤枝市のまとめて試算（家計簿） <span class="cta-ext">↗</span></a></div>
+      <div class="cta-item"><span class="cta-desc">65歳以上の介護保険料</span><a href="https://seido-keisan.jp/shizuoka/fujieda/kaigo/" target="_blank" rel="noopener" style="white-space:normal;">藤枝市の介護保険（第1号） <span class="cta-ext">↗</span></a></div>
+      <div class="cta-item"><span class="cta-desc">75歳以上の保険料</span><a href="https://seido-keisan.jp/shizuoka/fujieda/kouki/" target="_blank" rel="noopener" style="white-space:normal;">藤枝市の後期高齢者医療 <span class="cta-ext">↗</span></a></div>
+      <div class="cta-item"><span class="cta-desc">国保加入者のふるさと納税 上限額（国保料を自動計算・全国共通）</span><a href="https://seido-keisan.jp/furusato/jieigyo/" target="_blank" rel="noopener">上限額の計算 <span class="cta-ext">↗</span></a></div>
+    </div>
   </section>
   <p class="over75-note">75歳以上の方が世帯にいる場合は後期高齢者医療制度の対象のため、国民健康保険の対象外です。<br><a id="over75Link" href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/koukikourei/index.html" target="_blank" rel="noopener">お住まいの広域連合 ↗</a></p>
 

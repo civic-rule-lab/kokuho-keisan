@@ -22,6 +22,9 @@
   .cta-ext{font-size:13px;margin-left:2px;}
   .cta-desc{font-size:13px;color:#374151;line-height:1.5;}
   @media (max-width:480px){ .cta-list{grid-template-columns:1fr;gap:4px 0;} .cta-item a{margin-bottom:8px;} }
+  /* 「他の制度」節: 説明の列を縮め、ボタンは 1 行のまま（ボタンが折り返さないように） */
+  .other-systems .cta-list{grid-template-columns:minmax(0,max-content) max-content;}
+  @media (max-width:480px){ .other-systems .cta-list{grid-template-columns:1fr;} }
   .note ul{margin:6px 0 0;padding-left:1.4em;}
   .age-bands{border:0;padding:0;margin:14px 0 0;min-width:0;}
   .age-bands legend{font-weight:600;padding:0;margin-bottom:6px;}
@@ -189,13 +192,6 @@
     <a href="./income.html" style="color:#6b7280;text-decoration:none;">所得ベース計算（より詳しく）→</a>
   </p>
 
-  <section class="related-links" style="margin-top:28px;">
-    <h2>あわせて使う</h2>
-    <div class="cta-list">
-      <div class="cta-item"><span class="cta-desc">国保加入者のふるさと納税 上限額（国保料を自動計算）</span><a href="https://seido-keisan.jp/furusato/jieigyo/" target="_blank" rel="noopener">上限額の計算 <span class="cta-ext">↗</span></a></div>
-    </div>
-  </section>
-
   <div class="note">
     <h2>計算の前提</h2>
     <ul>
@@ -210,14 +206,15 @@
 
   <p class="note-pref"><span class="note-pref__label">茨城県の住民税：</span><br>常陸大宮市は茨城県の住民税が適用されています。茨城県では「森林湖沼環境税」として、個人県民税の均等割に1,000円が上乗せされています。2006年度から実施されており、森林整備と霞ヶ浦をはじめとする湖沼の水質保全に充てられています。 <a class="note-pref__link" href="https://www.pref.ibaraki.jp/nourinsuisan/rinsei/shinkozei/tax/gaiyou/index.html" target="_blank" rel="noopener">茨城県の住民税（公式）↗</a></p>
 
-  <section class="other-systems" style="margin-top:28px;">
-    <h2 style="font-size:16px;margin:0 0 10px;">常陸大宮市の他の制度</h2>
-    <p style="font-size:13px;color:#4b5563;margin:0 0 10px;">制度計算（seido-keisan.jp）の常陸大宮市のページへ移動します。</p>
-    <ul style="list-style:none;padding:0;margin:0;">
-    <li style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:0 0 8px;"><a href="https://seido-keisan.jp/ibaraki/hitachiomiya/kakeibo/" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#f3f4f6;border:1px solid #d1d5db;color:#1f2937;text-decoration:none;font-weight:700;font-size:14px;line-height:1.4;">常陸大宮市のまとめて試算（家計簿） <span style="font-size:13px;">↗</span></a><span style="font-size:13px;color:#4b5563;">住民税・保険料・手取りをまとめて</span></li>
-    <li style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:0 0 8px;"><a href="https://seido-keisan.jp/ibaraki/hitachiomiya/kaigo/" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#f3f4f6;border:1px solid #d1d5db;color:#1f2937;text-decoration:none;font-weight:700;font-size:14px;line-height:1.4;">常陸大宮市の介護保険（第1号） <span style="font-size:13px;">↗</span></a><span style="font-size:13px;color:#4b5563;">65歳以上の介護保険料</span></li>
-    <li style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:0 0 8px;"><a href="https://seido-keisan.jp/ibaraki/hitachiomiya/kouki/" style="display:inline-block;padding:8px 14px;border-radius:999px;background:#f3f4f6;border:1px solid #d1d5db;color:#1f2937;text-decoration:none;font-weight:700;font-size:14px;line-height:1.4;">常陸大宮市の後期高齢者医療 <span style="font-size:13px;">↗</span></a><span style="font-size:13px;color:#4b5563;">75歳以上の保険料</span></li>
-    </ul>
+  <section class="other-systems related-links" style="margin-top:28px;">
+    <h2>常陸大宮市の他の制度</h2>
+    <p style="font-size:13px;color:#4b5563;margin:0 0 10px;">制度計算（seido-keisan.jp）のページへ移動します。</p>
+    <div class="cta-list">
+      <div class="cta-item"><span class="cta-desc">住民税・保険料・手取りをまとめて</span><a href="https://seido-keisan.jp/ibaraki/hitachiomiya/kakeibo/" target="_blank" rel="noopener" style="white-space:normal;">常陸大宮市のまとめて試算（家計簿） <span class="cta-ext">↗</span></a></div>
+      <div class="cta-item"><span class="cta-desc">65歳以上の介護保険料</span><a href="https://seido-keisan.jp/ibaraki/hitachiomiya/kaigo/" target="_blank" rel="noopener" style="white-space:normal;">常陸大宮市の介護保険（第1号） <span class="cta-ext">↗</span></a></div>
+      <div class="cta-item"><span class="cta-desc">75歳以上の保険料</span><a href="https://seido-keisan.jp/ibaraki/hitachiomiya/kouki/" target="_blank" rel="noopener" style="white-space:normal;">常陸大宮市の後期高齢者医療 <span class="cta-ext">↗</span></a></div>
+      <div class="cta-item"><span class="cta-desc">国保加入者のふるさと納税 上限額（国保料を自動計算・全国共通）</span><a href="https://seido-keisan.jp/furusato/jieigyo/" target="_blank" rel="noopener">上限額の計算 <span class="cta-ext">↗</span></a></div>
+    </div>
   </section>
   <p class="over75-note">75歳以上の方が世帯にいる場合は後期高齢者医療制度の対象のため、国民健康保険の対象外です。<br><a id="over75Link" href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/koukikourei/index.html" target="_blank" rel="noopener">お住まいの広域連合 ↗</a></p>
 
