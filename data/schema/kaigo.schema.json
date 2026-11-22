@@ -48,6 +48,16 @@
         "insurer": { "type": "string", "description": "保険者が広域連合のときの名称" }
       }
     },
+    "rounding": {
+      "description": "年額の端数処理。条例・公表資料が年額の端数を切り捨てると定める自治体だけ持つ。brackets[].annual には公表されている額（切り捨てる前）を入れ、エンジンが annualUnit で切り捨てる。無ければ切り捨てない。月割りの条（賦課期日後の資格取得・喪失）だけにある端数処理は入れない",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["annualUnit", "note"],
+      "properties": {
+        "annualUnit": { "enum": [10, 100], "description": "年額を切り捨てる単位（円）" },
+        "note": { "type": "string", "minLength": 1, "description": "根拠（条例の条・自治体のページの注記の原文）" }
+      }
+    },
     "notes": { "type": "string" }
   }
 }
